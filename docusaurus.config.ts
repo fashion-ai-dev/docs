@@ -21,8 +21,25 @@ const config: Config = {
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en','pt','es'],
+    defaultLocale: 'pt',
+    locales: ['en', 'pt', 'es'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr',
+        htmlLang: 'en',
+      },
+      pt: {
+        label: 'Português',
+        direction: 'ltr',
+        htmlLang: 'pt-BR',
+      },
+      es: {
+        label: 'Español',
+        direction: 'ltr',
+        htmlLang: 'es',
+      },
+    },
   },
 
 
@@ -55,17 +72,15 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'right',
-          label: 'Documentação',
+          label: 'components.NavigationBar.documentation',
         },
         {
           href: 'https://app.generativecrm.com',
-          label: 'Plataforma',
+          label: 'components.NavigationBar.platform',
           position: 'right',
         },
         {
-          href: '#',
-          className: 'custom-locale-icon',
-          'aria-label': 'Language selector',
+          type: 'localeDropdown',
           position: 'right',
         },
         {
@@ -80,37 +95,37 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Documentação',
+          title: 'footer.sections.documentation',
           items: [
             {
-              label: 'API Endpoints',
+              label: 'footer.links.apiEndpoints',
               to: '/docs/api-endpoints',
             },
             {
-              label: 'Integração UI',
+              label: 'footer.links.uiIntegration',
               to: '/docs/ui-integration',
             },
             {
-              label: 'Google Analytics',
+              label: 'footer.links.googleAnalytics',
               to: '/docs/google-analytics',
             },
             {
-              label: 'Google Tag Manager',
+              label: 'footer.links.googleTagManager',
               to: '/docs/google-tag-manager',
             },
           ],
         },
         {
-          title: 'Desenvolvimento',
+          title: 'footer.sections.development',
           items: [
             {
-              label: 'GitHub',
+              label: 'footer.links.github',
               href: 'https://github.com/fashion-ai-dev/docs',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Fashionai. Todos os direitos reservados.`,
+      copyright: 'footer.copyright',
     },
     prism: {
       theme: prismThemes.github,

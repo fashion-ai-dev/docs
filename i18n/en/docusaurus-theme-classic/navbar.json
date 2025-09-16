@@ -1,0 +1,14 @@
+{
+  "logo.alt": {
+    "message": "Fashionai Logo",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.components.NavigationBar.documentation": {
+    "message": "Documentation",
+    "description": "Navbar item with label components.NavigationBar.documentation"
+  },
+  "item.label.components.NavigationBar.platform": {
+    "message": "Platform",
+    "description": "Navbar item with label components.NavigationBar.platform"
+  }
+}

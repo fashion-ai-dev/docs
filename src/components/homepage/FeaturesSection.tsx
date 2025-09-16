@@ -1,41 +1,42 @@
 import React from 'react';
+import Translate from '@docusaurus/Translate';
 import { Sparkles, Search, TrendingUp } from 'lucide-react';
 import FeatureCard from './FeatureCard';
 
-const features = [
-  {
-    icon: <Sparkles style={{width: '1.5rem', height: '1.5rem'}} />,
-    iconType: 'primary' as const,
-    title: 'Recomendações Inteligentes',
-    description: 'Sistema de recomendação baseado em IA que analisa preferências, histórico de compras e tendências para sugerir produtos personalizados para cada cliente.',
-    linkColor: 'var(--ifm-color-primary)'
-  },
-  {
-    icon: <Search style={{width: '1.5rem', height: '1.5rem'}} />,
-    iconType: 'secondary' as const,
-    title: 'Busca Semântica Avançada',
-    description: 'Busca inteligente que entende descrições naturais como "vestido azul para casamento" e encontra produtos usando processamento de linguagem natural e análise de imagens.',
-    linkColor: '#059669'
-  },
-  {
-    icon: <TrendingUp style={{width: '1.5rem', height: '1.5rem'}} />,
-    iconType: 'accent' as const,
-    title: 'SEO e Analytics de Moda',
-    description: 'Otimização automática para mecanismos de busca com tags especializadas em moda, análise de tendências e relatórios detalhados de performance do catálogo.',
-    linkColor: '#d97706'
-  }
-];
-
 export default function FeaturesSection() {
+  const features = [
+    {
+      icon: <Sparkles style={{width: '1.5rem', height: '1.5rem'}} />,
+      iconType: 'primary' as const,
+      title: <Translate>Smart Recommendations</Translate>,
+      description: <Translate>AI-powered recommendation system that analyzes preferences, purchase history, and trends to suggest personalized products for each customer.</Translate>,
+      linkColor: 'var(--ifm-color-primary)'
+    },
+    {
+      icon: <Search style={{width: '1.5rem', height: '1.5rem'}} />,
+      iconType: 'secondary' as const,
+      title: <Translate>Advanced Semantic Search</Translate>,
+      description: <Translate>Intelligent search that understands natural descriptions like "blue dress for wedding" and finds products using natural language processing and image analysis.</Translate>,
+      linkColor: '#059669'
+    },
+    {
+      icon: <TrendingUp style={{width: '1.5rem', height: '1.5rem'}} />,
+      iconType: 'accent' as const,
+      title: <Translate>Fashion SEO & Analytics</Translate>,
+      description: <Translate>Automatic search engine optimization with specialized fashion tags, trend analysis, and detailed catalog performance reports.</Translate>,
+      linkColor: '#d97706'
+    }
+  ];
+
   return (
     <section className="homepage-section">
       <div className="homepage-container">
         <div style={{textAlign: 'center', marginBottom: '4rem'}}>
           <h2 style={{fontSize: 'clamp(2rem, 4vw, 2.5rem)', fontWeight: 'bold', marginBottom: '1rem'}}>
-            Recursos Principais
+            <Translate>Key Features</Translate>
           </h2>
           <p style={{fontSize: '1.25rem', maxWidth: '42rem', margin: '0 auto', opacity: 0.8}}>
-            Tudo que você precisa para criar experiências de compra personalizadas e inteligentes
+            <Translate>Everything you need to create personalized and intelligent shopping experiences</Translate>
           </p>
         </div>
 

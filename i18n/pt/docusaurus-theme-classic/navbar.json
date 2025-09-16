@@ -1,0 +1,14 @@
+{
+  "logo.alt": {
+    "message": "Logo Fashionai",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.components.NavigationBar.documentation": {
+    "message": "Documentação",
+    "description": "Navbar item with label components.NavigationBar.documentation"
+  },
+  "item.label.components.NavigationBar.platform": {
+    "message": "Plataforma",
+    "description": "Navbar item with label components.NavigationBar.platform"
+  }
+}
