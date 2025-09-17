@@ -23,10 +23,10 @@ export default function HeroSection() {
               <BookOpen style={{width: '1rem', height: '1rem'}} />
               <Translate>Documentation</Translate>
             </Link>
-            <Link to="https://www.generativecrm.com/" className="homepage-button">
+            <a href="https://www.generativecrm.com/" className="homepage-button" target="_blank" rel="noopener noreferrer">
               <Sparkles style={{width: '1rem', height: '1rem'}} />
               <Translate>See More About Fashion AI</Translate>
-            </Link>
+            </a>
           </div>
           <div style={{marginTop: '2rem', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1.5rem', fontSize: '0.875rem', flexWrap: 'wrap'}}>
             <div className="homepage-status-indicator">

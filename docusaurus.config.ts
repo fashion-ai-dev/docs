@@ -4,6 +4,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'FashionAI',
+  tagline: 'AI-powered fashion recommendations and intelligent search for e-commerce',
   favicon: 'img/favicon.png',
 
   future: {
@@ -50,17 +51,35 @@ const config: Config = {
         docs: {
           sidebarPath: './sidebars.ts',
           routeBasePath: 'docs',
+          editUrl: 'https://github.com/fashion-ai-dev/docs/edit/main/',
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: true,
+          breadcrumbs: true,
         },
         blog: false,
         theme: {
           customCss: './src/css/custom.css',
+        },
+        sitemap: {
+          changefreq: 'weekly',
+          priority: 0.8,
+          ignorePatterns: ['/docs/tags/**'],
+          filename: 'sitemap.xml',
         },
       } satisfies Preset.Options,
     ],
   ],
 
   themeConfig: {
-    image: 'img/favicon.png',
+    image: 'img/fashionai-og.png', // Better OpenGraph image
+    metadata: [
+      {name: 'keywords', content: 'fashion AI, e-commerce API, product recommendations, semantic search, machine learning'},
+      {name: 'description', content: 'Complete documentation for FashionAI - AI-powered fashion recommendations and intelligent search API for e-commerce platforms'},
+      {property: 'og:type', content: 'website'},
+      {property: 'og:site_name', content: 'FashionAI Documentation'},
+      {name: 'twitter:card', content: 'summary_large_image'},
+      {name: 'twitter:site', content: '@fashion_ai'},
+    ],
     algolia: {
       appId: 'PMZUYBQDAK',
       apiKey: '24b09689d5b4223813d9b8e48563c8f6',

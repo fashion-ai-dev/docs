@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://docs.generativecrm.com/sitemap.xml
+
+# Block search and admin paths
+Disallow: /search*
+Disallow: /_*
