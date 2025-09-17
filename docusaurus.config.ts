@@ -60,6 +60,25 @@ const config: Config = {
 
   themeConfig: {
     image: 'img/logo.svg',
+    algolia: {
+      appId: 'PMZUYBQDAK',
+
+      apiKey: '24b09689d5b4223813d9b8e48563c8f6',
+
+      indexName: 'docsearch',
+
+      contextualSearch: true,
+
+      // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+      externalUrlRegex: 'external\\.com|domain\\.com',
+      replaceSearchResultPathname: {
+        from: '/docs/',
+        to: '/',
+      },
+      searchParameters: {},
+      searchPagePath: 'search',
+      insights: false,
+    },
     navbar: {
       title: '',
       logo: {
@@ -131,6 +150,15 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
+    ...(process.env.ALGOLIA_APP_ID && process.env.ALGOLIA_API_KEY && process.env.ALGOLIA_INDEX_NAME && {
+      algolia: {
+        appId: process.env.ALGOLIA_APP_ID,
+        apiKey: process.env.ALGOLIA_API_KEY,
+        indexName: process.env.ALGOLIA_INDEX_NAME,
+        contextualSearch: true,
+        searchPagePath: 'search',
+      },
+    }),
   } satisfies Preset.ThemeConfig,
 };
 

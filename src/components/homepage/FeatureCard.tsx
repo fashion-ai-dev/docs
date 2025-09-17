@@ -4,8 +4,8 @@ import { ArrowRight } from 'lucide-react';
 interface FeatureCardProps {
   icon: React.ReactNode;
   iconType: 'primary' | 'secondary' | 'accent';
-  title: string;
-  description: string;
+  title: React.ReactNode;
+  description: React.ReactNode;
   linkColor: string;
 }
 
