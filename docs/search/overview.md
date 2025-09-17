@@ -52,6 +52,5 @@ The API returns a consistent response structure:
 
 ## Next Steps
 
-- [Authentication](./authentication) - Learn how to authenticate your requests
+- [Authentication](../authentication) - Learn how to authenticate your requests
 - [Implementation Examples](./examples) - See code examples in different languages
-- [Best Practices](./best-practices) - Optimize your search implementation

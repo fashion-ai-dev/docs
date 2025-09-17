@@ -2,21 +2,21 @@
 sidebar_position: 3
 ---
 
-# Google Analytics 4 Integration
+# Integração com Google Analytics 4
 
-This section describes how to configure Fashion.AI event tracking in Google Analytics 4 for comprehensive analytics and conversion monitoring.
+Esta seção descreve como configurar o rastreamento de eventos da Fashion.AI no Google Analytics 4 para análises abrangentes e monitoramento de conversão.
 
-## Required Events
+## Eventos Obrigatórios
 
-| Event                             | When it occurs                                |
-|-----------------------------------|-----------------------------------------------|
-| `fashionai_view_shopthelook`      | When "shop the look" button is displayed     |
-| `fashionai_click_shopthelook`     | When "shop the look" button is clicked       |
-| `fashionai_addtocart_shopthelook` | When "I want it" button in modal is clicked  |
+| Evento                            | Quando ocorre                                     |
+|-----------------------------------|---------------------------------------------------|
+| `fashionai_view_shopthelook`      | Quando o botão "compre o look" é exibido          |
+| `fashionai_click_shopthelook`     | Quando o botão "compre o look" é clicado          |
+| `fashionai_addtocart_shopthelook` | Quando o botão "Eu quero" no modal é clicado     |
 
-## DataLayer Implementation
+## Implementação do DataLayer
 
-### "Shop the Look" Button View
+### Visualização do Botão "Compre o Look"
 
 ```javascript
 window.dataLayer = window.dataLayer || [];
@@ -28,7 +28,7 @@ window.dataLayer.push({
 });
 ```
 
-### "Shop the Look" Button Click
+### Clique no Botão "Compre o Look"
 
 ```javascript
 window.dataLayer.push({
@@ -39,7 +39,7 @@ window.dataLayer.push({
 });
 ```
 
-### "I Want It" Click Inside Modal
+### Clique "Eu Quero" Dentro do Modal
 
 ```javascript
 window.dataLayer.push({
@@ -50,13 +50,13 @@ window.dataLayer.push({
 });
 ```
 
-## Event Verification
+## Verificação de Eventos
 
-To verify if events are being triggered correctly:
+Para verificar se os eventos estão sendo disparados corretamente:
 
-1. Open browser Developer Tools (F12)
-2. Go to the Console tab
-3. Type `dataLayer` and press Enter
-4. Check if events appear in the dataLayer array
+1. Abra as Ferramentas do Desenvolvedor do navegador (F12)
+2. Vá para a aba Console
+3. Digite `dataLayer` e pressione Enter
+4. Verifique se os eventos aparecem no array dataLayer
 
-Alternatively, you can use the "Google Analytics Debugger" extension or "GA4 Debug View" in Google Analytics to monitor events in real-time.
+Alternativamente, você pode usar a extensão "Google Analytics Debugger" ou "GA4 Debug View" no Google Analytics para monitorar eventos em tempo real.

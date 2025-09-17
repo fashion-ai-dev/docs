@@ -6,7 +6,7 @@ sidebar_position: 4
 
 Learn how to authenticate your requests to all Fashion.AI APIs using secure app tokens.
 
-## Overview
+## Resumen
 
 All FashionAI APIs (Search, Personalization, Analytics) use the same authentication method with app tokens. This unified approach simplifies integration and allows you to use a single token across all services.
 

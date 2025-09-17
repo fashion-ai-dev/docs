@@ -1,8 +1,8 @@
-# Search Implementation Guide
+# Guía de Implementación de Búsqueda
 
-Step-by-step implementation examples for the Product Search API using JavaScript and React.
+Ejemplos de implementación paso a paso para la API de Búsqueda de Productos usando JavaScript y React.
 
-## Basic Search Function
+## Función de Búsqueda Básica
 
 ```javascript
 async function searchProducts(page, limit, query, token, userId, sessionId) {
@@ -33,20 +33,20 @@ async function searchProducts(page, limit, query, token, userId, sessionId) {
   }
 }
 
-// Usage
+// Uso
 const results = await searchProducts(
-  1,           // page
-  10,          // limit
-  "black shirts", // query
-  "your_token_here", // token
-  "user123",   // userId (optional)
+  1,           // página
+  10,          // límite
+  "camisas negras", // consulta
+  "tu_token_aqui", // token
+  "user123",   // userId (opcional)
   "sess456"    // sessionId
 );
 
-console.log(`Found ${results.totalItems} products`);
+console.log(`Encontrados ${results.totalItems} productos`);
 ```
 
-## Next Steps
+## Próximos Pasos
 
-- [Authentication](./authentication) - Quick auth reference
-- [Overview](./overview) - Search API overview
+- [Autenticación](../authentication) - Referencia rápida de autenticación
+- [Resumen](./overview) - Resumen de la API de Búsqueda

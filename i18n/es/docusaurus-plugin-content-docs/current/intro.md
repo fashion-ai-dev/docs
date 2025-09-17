@@ -2,17 +2,17 @@
 sidebar_position: 1
 ---
 
-# FashionAI Documentation
+# Documentación de FashionAI
 
-Welcome to FashionAI's comprehensive documentation. Learn how to integrate intelligent personalization and recommendation features into your fashion e-commerce platform.
+Bienvenido a la documentación completa de FashionAI. Aprende cómo integrar características inteligentes de personalización y recomendación en tu plataforma de e-commerce de moda.
 
-## Quick Start
+## Inicio Rápido
 
-1. **[Recommendations Overview](./getting-started)** - Learn about our AI-powered recommendation system
-2. **[API Reference](./api-endpoints)** - Technical implementation guide
-3. **[Authentication](./authentication)** - Set up your API access
-4. **[UI Integration](./ui-integration)** - Frontend implementation examples
+1. **[Resumen de Recomendaciones](./getting-started)** - Aprende sobre nuestro sistema de recomendación impulsado por IA
+2. **[Referencia de API](./api-endpoints)** - Guía de implementación técnica
+3. **[Autenticación](./authentication)** - Configura tu acceso a la API
+4. **[Integración de UI](./ui-integration)** - Ejemplos de implementación frontend
 
-## Support
+## Soporte
 
-For technical questions or domain release requests for CORS, contact FashionAI technical support.
+Para preguntas técnicas o solicitudes de liberación de dominio para CORS, contacta el soporte técnico de FashionAI.

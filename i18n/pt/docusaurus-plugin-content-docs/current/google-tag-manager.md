@@ -2,93 +2,93 @@
 sidebar_position: 4
 ---
 
-# Google Tag Manager Setup Guide
+# Guia de Configuração do Google Tag Manager
 
-This comprehensive guide details how to configure Google Tag Manager to capture and send Fashion.AI events to Google Analytics 4.
+Este guia abrangente detalha como configurar o Google Tag Manager para capturar e enviar eventos da Fashion.AI para o Google Analytics 4.
 
-## Variable Configuration
+## Configuração de Variáveis
 
-### Create Variables in GTM
+### Criar Variáveis no GTM
 
-1. In the sidebar menu, click **Variables > New**
-2. **Type**: Data Layer Variable
+1. No menu lateral, clique em **Variáveis > Nova**
+2. **Tipo**: Variável da Camada de Dados
 
-Create the following variables:
+Crie as seguintes variáveis:
 - `event_category`
 - `event_label`
 - `value`
 
-## Trigger Configuration
+## Configuração de Acionadores
 
-### Trigger: Recommendation View
+### Acionador: Visualização de Recomendação
 
-1. **Triggers > New**
-2. **Type**: Custom Event
-3. **Event Name**: `fashionai_view_shopthelook`
+1. **Acionadores > Novo**
+2. **Tipo**: Evento Personalizado
+3. **Nome do Evento**: `fashionai_view_shopthelook`
 
-### Trigger: Recommendation Click
+### Acionador: Clique de Recomendação
 
-1. **Triggers > New**
-2. **Type**: Custom Event
-3. **Event Name**: `fashionai_click_shopthelook`
+1. **Acionadores > Novo**
+2. **Tipo**: Evento Personalizado
+3. **Nome do Evento**: `fashionai_click_shopthelook`
 
-### Trigger: Add to Cart
+### Acionador: Adicionar ao Carrinho
 
-1. **Triggers > New**
-2. **Type**: Custom Event
-3. **Event Name**: `fashionai_addtocart_shopthelook`
+1. **Acionadores > Novo**
+2. **Tipo**: Evento Personalizado
+3. **Nome do Evento**: `fashionai_addtocart_shopthelook`
 
-## GA4 Tag Configuration
+## Configuração de Tags GA4
 
-### GA4 - Recommendation View
+### GA4 - Visualização de Recomendação
 
-1. **Tags > New**
-2. **Type**: Google Analytics: GA4 Event
-3. **Measurement ID**: your Measurement ID (G-XXXXXXX)
-4. **Event Name**: `fashionai_view_shopthelook`
-5. **Parameters**:
+1. **Tags > Nova**
+2. **Tipo**: Google Analytics: Evento GA4
+3. **ID de Medição**: seu ID de Medição (G-XXXXXXX)
+4. **Nome do Evento**: `fashionai_view_shopthelook`
+5. **Parâmetros**:
    - `event_category`: `{{event_category}}`
    - `event_label`: `{{event_label}}`
    - `value`: `{{value}}`
-6. **Triggering**: trigger `fashionai_view_shopthelook`
+6. **Acionamento**: acionador `fashionai_view_shopthelook`
 
-### GA4 - Recommendation Click
+### GA4 - Clique de Recomendação
 
-1. **Tags > New**
-2. **Type**: Google Analytics: GA4 Event
-3. **Measurement ID**: your Measurement ID (G-XXXXXXX)
-4. **Event Name**: `fashionai_click_shopthelook`
-5. **Parameters**:
+1. **Tags > Nova**
+2. **Tipo**: Google Analytics: Evento GA4
+3. **ID de Medição**: seu ID de Medição (G-XXXXXXX)
+4. **Nome do Evento**: `fashionai_click_shopthelook`
+5. **Parâmetros**:
    - `event_category`: `{{event_category}}`
    - `event_label`: `{{event_label}}`
    - `value`: `{{value}}`
-6. **Triggering**: trigger `fashionai_click_shopthelook`
+6. **Acionamento**: acionador `fashionai_click_shopthelook`
 
-### GA4 - Add to Cart
+### GA4 - Adicionar ao Carrinho
 
-1. **Tags > New**
-2. **Type**: Google Analytics: GA4 Event
-3. **Measurement ID**: your Measurement ID (G-XXXXXXX)
-4. **Event Name**: `fashionai_addtocart_shopthelook`
-5. **Parameters**:
+1. **Tags > Nova**
+2. **Tipo**: Google Analytics: Evento GA4
+3. **ID de Medição**: seu ID de Medição (G-XXXXXXX)
+4. **Nome do Evento**: `fashionai_addtocart_shopthelook`
+5. **Parâmetros**:
    - `event_category`: `{{event_category}}`
    - `event_label`: `{{event_label}}`
    - `value`: `{{value}}`
-6. **Triggering**: trigger `fashionai_addtocart_shopthelook`
+6. **Acionamento**: acionador `fashionai_addtocart_shopthelook`
 
-## Testing and Validation
+## Teste e Validação
 
-### Test with Preview Mode
+### Testar com Modo de Visualização
 
-1. Click **Preview** in GTM
-2. Access the website, trigger events and verify that tags appear in Tag Assistant
-3. Validate that parameters were sent correctly
+1. Clique em **Visualizar** no GTM
+2. Acesse o site, dispare eventos e verifique se as tags aparecem no Assistente de Tags
+3. Valide se os parâmetros foram enviados corretamente
 
-### Validation Checklist
+### Lista de Verificação de Validação
 
-- [ ] Variables created correctly
-- [ ] Triggers configured for the correct events
-- [ ] GA4 tags with correct Measurement ID
-- [ ] Parameters mapped to variables
-- [ ] Preview mode test executed successfully
-- [ ] Events appearing in GA4 Debug View
+- [ ] Variáveis criadas corretamente
+- [ ] Acionadores configurados para os eventos corretos
+- [ ] Tags GA4 com ID de Medição correto
+- [ ] Parâmetros mapeados para variáveis
+- [ ] Teste em modo de visualização executado com sucesso
+- [ ] Eventos aparecendo na Visualização de Debug do GA4

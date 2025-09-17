@@ -2,81 +2,81 @@
 sidebar_position: 2
 ---
 
-# Recommendations Overview
+# Resumen de Recomendaciones
 
-Learn about Fashion.AI's intelligent recommendation system and how it enhances customer experience through personalized product suggestions powered by advanced AI.
+Aprende sobre el sistema inteligente de recomendaciones de Fashion.AI y cómo mejora la experiencia del cliente a través de sugerencias de productos personalizadas impulsadas por IA avanzada.
 
-## Recommendation Types
+## Tipos de Recomendación
 
-### 🎯 Similar Products
-Deliver personalized product suggestions based on user navigation history. Powered by 4,500+ product attributes, this API helps increase conversion by showing items that match the shopper's style and intent.
+### 🎯 Productos Similares
+Entrega sugerencias de productos personalizadas basadas en el historial de navegación del usuario. Impulsado por más de 4,500 atributos de productos, esta API ayuda a aumentar la conversión mostrando artículos que coinciden con el estilo e intención del comprador.
 
-**Use Cases:**
-- Product page recommendations
-- Category browsing enhancement
-- Cross-selling opportunities
+**Casos de Uso:**
+- Recomendaciones en página de producto
+- Mejora de navegación por categorías
+- Oportunidades de venta cruzada
 
-[Learn more about Similar Products →](./api-endpoints#category-view-event)
+[Aprende más sobre Productos Similares →](./api-endpoints#category-view-event)
 
-### 👗 Shop the Look
-Automatically identify and recommend additional products featured in the same image. Turn every look into a complete outfit—just like a personal stylist would.
+### 👗 Compra el Look
+Identifica automáticamente y recomienda productos adicionales destacados en la misma imagen. Convierte cada look en un conjunto completo—tal como lo haría un estilista personal.
 
-**Use Cases:**
-- Complete outfit suggestions
-- Style inspiration
-- Upselling complementary items
+**Casos de Uso:**
+- Sugerencias de conjuntos completos
+- Inspiración de estilo
+- Venta adicional de artículos complementarios
 
-[Learn more about Shop the Look →](./api-endpoints#shop-the-look-event)
+[Aprende más sobre Compra el Look →](./api-endpoints#shop-the-look-event)
 
 ### 📋 Visual Merchandising
-Reorganize product listings dynamically based on what the user is really looking for. Create high-performing, personalized category displays that feel like a custom storefront.
+Reorganiza las listas de productos dinámicamente basado en lo que el usuario realmente está buscando. Crea displays de categoría personalizados y de alto rendimiento que se sienten como una tienda personalizada.
 
-**Use Cases:**
-- Dynamic category organization
-- Personalized homepage layouts
-- Seasonal trend highlighting
+**Casos de Uso:**
+- Organización dinámica de categorías
+- Diseños personalizados de página de inicio
+- Destacado de tendencias estacionales
 
-[Learn more about Visual Merchandising →](./api-endpoints#category-view-event)
+[Aprende más sobre Visual Merchandising →](./api-endpoints#category-view-event)
 
-## How Our AI Works
+## Cómo Funciona Nuestra IA
 
-### Intent Mapping Process
+### Proceso de Mapeo de Intención
 
-1. **Product Navigation**: Tracks products users have navigated during the session
-2. **Category Elements**: Analyzes visual elements like silhouettes, patterns, and styling details
-3. **Pattern Insights**: Identifies textures, fabrics, and structural elements
-4. **Styling Intent**: Understands occasion, style preferences, and versatility needs
-5. **User Behavior**: Cross-references searches, products, and past purchases for logged-in users
-6. **Intent Prediction**: Relates products from different categories based on style mapping
+1. **Navegación de Productos**: Rastrea productos que los usuarios han navegado durante la sesión
+2. **Elementos de Categoría**: Analiza elementos visuales como siluetas, patrones y detalles de estilo
+3. **Insights de Patrones**: Identifica texturas, telas y elementos estructurales
+4. **Intención de Estilo**: Entiende la ocasión, preferencias de estilo y necesidades de versatilidad
+5. **Comportamiento del Usuario**: Cruza referencias de búsquedas, productos y compras pasadas para usuarios con sesión iniciada
+6. **Predicción de Intención**: Relaciona productos de diferentes categorías basado en el mapeo de estilo
 
-### Example: Dress Navigation Analysis
+### Ejemplo: Análisis de Navegación de Vestidos
 
-When a user navigates dresses, our AI identifies:
+Cuando un usuario navega vestidos, nuestra IA identifica:
 
-**Category Elements:**
-- V-neck silhouette
-- Spaghetti straps
-- Defined waistline
-- A-line or flared skirt
+**Elementos de Categoría:**
+- Silueta de escote en V
+- Tirantes finos
+- Cintura definida
+- Falda en A o acuñada
 
-**Pattern Insights:**
-- Vertical pleating
-- Botanical or minimalist textures
-- Lightweight, airy fabrics
-- Subtle structured tailoring
+**Insights de Patrones:**
+- Plisado vertical
+- Texturas botánicas o minimalistas
+- Telas ligeras y aireadas
+- Sastrería estructurada sutil
 
-**Styling Intent:**
-- Feminine yet contemporary
-- Suggests confidence, delicacy, and movement
-- Day-to-night versatility
-- Ideal for spring/summer social occasions
+**Intención de Estilo:**
+- Femenino pero contemporáneo
+- Sugiere confianza, delicadeza y movimiento
+- Versatilidad día-noche
+- Ideal para ocasiones sociales primavera/verano
 
-## Next Steps
+## Próximos Pasos
 
-🚀 **Ready to implement recommendations?** Choose your integration path:
+🚀 **¿Listo para implementar recomendaciones?** Elige tu ruta de integración:
 
-- **[API Reference](./api-endpoints)** - Technical implementation guide
-- **[Authentication](./authentication)** - Set up your API access
-- **[UI Integration](./ui-integration)** - Frontend implementation examples
-- **[Search API](./search/overview)** - Intelligent product search
-- **[Analytics Setup](./google-analytics)** - Track performance
+- **[Referencia de API](./api-endpoints)** - Guía de implementación técnica
+- **[Autenticación](./authentication)** - Configura tu acceso a la API
+- **[Integración de UI](./ui-integration)** - Ejemplos de implementación frontend
+- **[API de Búsqueda](./search/overview)** - Búsqueda inteligente de productos
+- **[Configuración de Analytics](./google-analytics)** - Rastrea el rendimiento

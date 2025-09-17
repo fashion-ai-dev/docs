@@ -2,18 +2,18 @@
 sidebar_position: 3
 ---
 
-# Personalization Reference
+# Referência de Personalização
 
-Technical reference for Fashion.AI's Personalization API endpoints. For an overview of recommendation types and how our AI works, see [Getting Started with Recommendations](./getting-started).
+Referência técnica para os endpoints da API de Personalização da Fashion.AI. Para uma visão geral dos tipos de recomendação e como nossa IA funciona, veja [Introdução às Recomendações](./getting-started).
 
-## Base Configuration
+## Configuração Base
 
-### Base Endpoint
+### Endpoint Base
 ```
 https://catalog.api.fashionaiale.com/api/v1/products/protected/recommendation
 ```
 
-### Required Headers
+### Cabeçalhos Obrigatórios
 ```json
 {
   "Content-Type": "application/json",
@@ -21,13 +21,13 @@ https://catalog.api.fashionaiale.com/api/v1/products/protected/recommendation
 }
 ```
 
-> Generate your token at: https://app.generativecrm.com/settings?tab=app-tokens
+> Gere seu token em: https://app.generativecrm.com/settings?tab=app-tokens
 
-## How Our AI Works
+## Como Nossa IA Funciona
 
-### Intent Mapping Process
+### Processo de Mapeamento de Intenção
 
-1. **Product Navigation**: Tracks products users have navigated during the session
+1. **Navegação de Produtos**: Rastreia produtos que os usuários navegaram durante a sessão
 2. **Category Elements**: Analyzes visual elements like silhouettes, patterns, and styling details
 3. **Pattern Insights**: Identifies textures, fabrics, and structural elements
 4. **Styling Intent**: Understands occasion, style preferences, and versatility needs
