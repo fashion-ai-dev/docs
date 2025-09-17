@@ -7,9 +7,6 @@ const config: Config = {
   tagline: 'AI-powered fashion recommendations and intelligent search for e-commerce',
   favicon: 'img/favicon.png',
 
-  future: {
-    v4: true, // Improve compatibility with the upcoming Docusaurus v4
-  },
 
   url: 'https://docs.generativecrm.com',
   baseUrl: '/',
@@ -71,7 +68,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/fashionai-og.png', // Better OpenGraph image
+    image: 'img/logo.svg',
     metadata: [
       {name: 'keywords', content: 'fashion AI, e-commerce API, product recommendations, semantic search, machine learning'},
       {name: 'description', content: 'Complete documentation for FashionAI - AI-powered fashion recommendations and intelligent search API for e-commerce platforms'},
@@ -111,6 +108,7 @@ const config: Config = {
           href: 'https://app.generativecrm.com',
           label: 'components.NavigationBar.platform',
           position: 'right',
+          rel: 'noopener noreferrer',
         },
         {
           type: 'localeDropdown',
@@ -121,6 +119,7 @@ const config: Config = {
           className: 'header-github-link',
           'aria-label': 'GitHub repository',
           position: 'right',
+          rel: 'noopener noreferrer',
         },
       ],
     },
@@ -131,9 +130,26 @@ const config: Config = {
           title: 'footer.sections.documentation',
           items: [
             {
+              label: 'footer.links.gettingStarted',
+              to: '/docs/getting-started',
+            },
+            {
               label: 'footer.links.apiEndpoints',
               to: '/docs/api-endpoints',
             },
+            {
+              label: 'footer.links.authentication',
+              to: '/docs/authentication',
+            },
+            {
+              label: 'footer.links.search',
+              to: '/docs/search/overview',
+            },
+          ],
+        },
+        {
+          title: 'footer.sections.integration',
+          items: [
             {
               label: 'footer.links.uiIntegration',
               to: '/docs/ui-integration',
@@ -149,11 +165,21 @@ const config: Config = {
           ],
         },
         {
-          title: 'footer.sections.development',
+          title: 'footer.sections.platform',
           items: [
             {
-              label: 'footer.links.github',
-              href: 'https://github.com/fashion-ai-dev/docs',
+              label: 'footer.links.dashboard',
+              href: 'https://app.generativecrm.com',
+              rel: 'noopener noreferrer',
+            },
+            {
+              label: 'footer.links.website',
+              href: 'https://www.generativecrm.com',
+              rel: 'noopener noreferrer',
+            },
+            {
+              label: 'footer.links.support',
+              href: 'mailto:support@generativecrm.com',
             },
           ],
         },
@@ -164,15 +190,6 @@ const config: Config = {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
     },
-    ...(process.env.ALGOLIA_APP_ID && process.env.ALGOLIA_API_KEY && process.env.ALGOLIA_INDEX_NAME && {
-      algolia: {
-        appId: process.env.ALGOLIA_APP_ID,
-        apiKey: process.env.ALGOLIA_API_KEY,
-        indexName: process.env.ALGOLIA_INDEX_NAME,
-        contextualSearch: true,
-        searchPagePath: 'search',
-      },
-    }),
   } satisfies Preset.ThemeConfig,
 };
 

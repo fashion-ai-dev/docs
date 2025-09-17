@@ -1,6 +1,7 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
 import Link from '@docusaurus/Link';
+import Translate from '@docusaurus/Translate';
 
 interface FeatureCardProps {
   icon: React.ReactNode;
@@ -23,14 +24,14 @@ export default function FeatureCard({ icon, iconType, title, description, linkCo
       </p>
       {linkUrl ? (
         <Link to={linkUrl} style={{textDecoration: 'none'}}>
-          <div style={{display: 'flex', alignItems: 'center', fontSize: '0.875rem', color: linkColor, fontWeight: 500}}>
-            Saiba mais
+          <div className="feature-card-link" style={{display: 'flex', alignItems: 'center', fontSize: '0.875rem', color: linkColor, fontWeight: 500}}>
+            <Translate>Learn More</Translate>
             <ArrowRight style={{width: '0.75rem', height: '0.75rem', marginLeft: '0.25rem', transition: 'transform 0.3s ease'}} />
           </div>
         </Link>
       ) : (
-        <div style={{display: 'flex', alignItems: 'center', fontSize: '0.875rem', color: linkColor, fontWeight: 500}}>
-          Saiba mais
+        <div className="feature-card-link" style={{display: 'flex', alignItems: 'center', fontSize: '0.875rem', color: linkColor, fontWeight: 500}}>
+          <Translate>Learn More</Translate>
           <ArrowRight style={{width: '0.75rem', height: '0.75rem', marginLeft: '0.25rem', transition: 'transform 0.3s ease'}} />
         </div>
       )}
