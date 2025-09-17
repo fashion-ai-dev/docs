@@ -177,10 +177,6 @@ const config: Config = {
               href: 'https://www.generativecrm.com',
               rel: 'noopener noreferrer',
             },
-            {
-              label: 'footer.links.support',
-              href: 'mailto:support@generativecrm.com',
-            },
           ],
         },
       ],

@@ -25,7 +25,7 @@ All APIs use **Bearer Token Authentication** via custom headers.
 
 ### Step 1: Access Dashboard
 
-1. Log into your [FashionAI Dashboard](https://dashboard.fashionaiale.com)
+1. Log into your [FashionAI Dashboard](https://app.generativecrm.com)
 2. Navigate to **API Settings** in the sidebar
 3. Click on **API Tokens** section
 
