@@ -1,10 +1,10 @@
 ---
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 # Personalization Reference
 
-Complete reference guide for Fashion.AI's Personalization API endpoints. Learn how to integrate real-time product recommendations and category personalization.
+Technical reference for Fashion.AI's Personalization API endpoints. For an overview of recommendation types and how our AI works, see [Getting Started with Recommendations](./getting-started).
 
 ## Base Configuration
 
@@ -23,7 +23,20 @@ https://catalog.api.fashionaiale.com/api/v1/products/protected/recommendation
 
 > Generate your token at: https://app.generativecrm.com/settings?tab=app-tokens
 
-## Category View Event
+## How Our AI Works
+
+### Intent Mapping Process
+
+1. **Product Navigation**: Tracks products users have navigated during the session
+2. **Category Elements**: Analyzes visual elements like silhouettes, patterns, and styling details
+3. **Pattern Insights**: Identifies textures, fabrics, and structural elements
+4. **Styling Intent**: Understands occasion, style preferences, and versatility needs
+5. **User Behavior**: Cross-references searches, products, and past purchases for logged-in users
+6. **Intent Prediction**: Relates products from different categories based on style mapping
+
+## API Endpoints
+
+### Category View Event
 
 When a user visits a category page (e.g., "Pants"), a category view event should be triggered to Fashion.AI.
 

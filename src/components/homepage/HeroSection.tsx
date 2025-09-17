@@ -25,7 +25,7 @@ export default function HeroSection() {
             </Link>
             <Link to="https://www.generativecrm.com/" className="homepage-button">
               <Sparkles style={{width: '1rem', height: '1rem'}} />
-              <Translate>Learn More About Fashion AI</Translate>
+              <Translate>See More About Fashion AI</Translate>
             </Link>
           </div>
           <div style={{marginTop: '2rem', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1.5rem', fontSize: '0.875rem', flexWrap: 'wrap'}}>

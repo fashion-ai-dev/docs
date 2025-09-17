@@ -16,8 +16,9 @@ const sidebars: SidebarsConfig = {
   // Manual sidebar configuration for Fashion.AI API Documentation
   tutorialSidebar: [
     'intro',
-    'authentication',
+    'getting-started',
     'api-endpoints',
+    'authentication',
     {
       type: 'category',
       label: 'Search API',
