@@ -3,9 +3,8 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Fashionai',
-  tagline: 'Data with Style',
-  favicon: 'img/logo.svg',
+  title: 'FashionAI',
+  favicon: 'img/favicon.png',
 
   future: {
     v4: true, // Improve compatibility with the upcoming Docusaurus v4
@@ -61,7 +60,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: 'img/logo.svg',
+    image: 'img/favicon.png',
     algolia: {
       appId: 'PMZUYBQDAK',
       apiKey: '24b09689d5b4223813d9b8e48563c8f6',
@@ -78,7 +77,7 @@ const config: Config = {
     navbar: {
       title: '',
       logo: {
-        alt: 'Fashionai Logo',
+        alt: 'FashionAI Logo',
         src: 'img/logo.svg',
         srcDark: 'img/logo-dark.svg',
       },

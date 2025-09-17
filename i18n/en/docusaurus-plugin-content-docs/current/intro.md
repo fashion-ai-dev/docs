@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# Fashion.AI Documentation
+# FashionAI Documentation
 
-Welcome to Fashion.AI's comprehensive documentation. Learn how to integrate intelligent personalization and recommendation features into your fashion e-commerce platform.
+Welcome to FashionAI's comprehensive documentation. Learn how to integrate intelligent personalization and recommendation features into your fashion e-commerce platform.
 
 ## Quick Start
 
