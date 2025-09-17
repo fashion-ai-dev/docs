@@ -2,38 +2,17 @@
 sidebar_position: 1
 ---
 
-# Primeiros Passos com Fashion.AI
+# Fashion.AI Documentation
 
-Bem-vindo à documentação da API de Personalização da Fashion.AI. Este guia abrangente ajudará você a integrar recursos avançados de personalização e recomendação em sua plataforma de e-commerce de moda.
+Welcome to Fashion.AI's comprehensive documentation. Learn how to integrate intelligent personalization and recommendation features into your fashion e-commerce platform.
 
-## Objetivo
+## Quick Start
 
-Estabelecer a integração entre a API de Personalização da Fashion.AI e as propriedades digitais do cliente (site, e-commerce, aplicativo), permitindo a captura em tempo real de eventos de navegação e interação do usuário.
+1. **[Recommendations Overview](./getting-started)** - Learn about our AI-powered recommendation system
+2. **[API Reference](./api-endpoints)** - Technical implementation guide
+3. **[Authentication](./authentication)** - Set up your API access
+4. **[UI Integration](./ui-integration)** - Frontend implementation examples
 
-## Funcionalidades Principais
+## Support
 
-### 🎯 Personalização por Categoria
-Reorganize automaticamente produtos em categorias baseado no perfil e comportamento do usuário.
-
-### 👗 Shop the Look
-Permita que usuários visualizem e comprem looks completos relacionados a um produto específico.
-
-### 📊 Analytics Integrado
-Tracking completo com Google Analytics 4 e Google Tag Manager para acompanhar engajamento e conversões.
-
-## Propósitos da Integração
-
-1. **Enriquecimento de perfis** – Atualizar e aprofundar continuamente o perfil de CRM do usuário (ou da sessão, quando anônimo) com base no comportamento registrado.
-
-2. **Personalização imediata** – Fornecer, em tempo real, sugestões e reorganizações personalizadas no front-end, como recomendações de produtos relevantes e priorização de itens mais adequados dentro de categorias específicas.
-
-## Primeiros Passos
-
-1. **[API Endpoints](./api-endpoints)** - Configure os endpoints para capturar eventos e receber recomendações
-2. **[Integração UI](./ui-integration)** - Implemente os componentes visuais em seu front-end
-3. **[Google Analytics](./google-analytics)** - Configure o tracking de eventos
-4. **[Google Tag Manager](./google-tag-manager)** - Configure as tags e triggers necessários
-
-## Suporte
-
-Para dúvidas técnicas ou solicitação de liberação de domínios para CORS, entre em contato com o suporte técnico da FashionAI.
+For technical questions or domain release requests for CORS, contact FashionAI technical support.

@@ -10,7 +10,7 @@ export default function CTASection() {
             <Translate>Ready to revolutionize your e-commerce?</Translate>
           </h2>
           <p style={{fontSize: '1.25rem', marginBottom: '2rem', opacity: 0.8}}>
-            <Translate>Start using FashionAI today and see conversion increases in minutes.</Translate>
+            <Translate>Start using FashionAI today and see conversion increases.</Translate>
           </p>
           <div style={{display: 'flex', flexDirection: 'column', gap: '1rem', justifyContent: 'center', alignItems: 'center', flexWrap: 'wrap'}}>
             <button className="homepage-button">
