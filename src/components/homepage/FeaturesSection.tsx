@@ -10,21 +10,24 @@ export default function FeaturesSection() {
       iconType: 'primary' as const,
       title: <Translate>Smart Recommendations</Translate>,
       description: <Translate>AI-powered recommendation system that analyzes preferences, purchase history, and trends to suggest personalized products for each customer.</Translate>,
-      linkColor: 'var(--ifm-color-primary)'
+      linkColor: 'var(--ifm-color-primary)',
+      linkUrl: '/docs/api-endpoints'
     },
     {
       icon: <Search style={{width: '1.5rem', height: '1.5rem'}} />,
       iconType: 'secondary' as const,
       title: <Translate>Advanced Semantic Search</Translate>,
       description: <Translate>Intelligent search that understands natural descriptions like "blue dress for wedding" and finds products using natural language processing and image analysis.</Translate>,
-      linkColor: '#059669'
+      linkColor: '#059669',
+      linkUrl: '/docs/search/overview'
     },
     {
       icon: <TrendingUp style={{width: '1.5rem', height: '1.5rem'}} />,
       iconType: 'accent' as const,
       title: <Translate>Fashion SEO & Analytics</Translate>,
       description: <Translate>Automatic search engine optimization with specialized fashion tags, trend analysis, and detailed catalog performance reports.</Translate>,
-      linkColor: '#d97706'
+      linkColor: '#d97706',
+      linkUrl: '/docs/google-analytics'
     }
   ];
 
@@ -49,6 +52,7 @@ export default function FeaturesSection() {
               title={feature.title}
               description={feature.description}
               linkColor={feature.linkColor}
+              linkUrl={feature.linkUrl}
             />
           ))}
         </div>

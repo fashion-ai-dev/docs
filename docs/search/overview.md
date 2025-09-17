@@ -1,4 +1,4 @@
-# Product Search API Overview
+# Product Search Overview
 
 Integrate the Product Search API to deliver intelligent, relevant results from your catalog. This guide provides a comprehensive overview of search functionality and available endpoints.
 

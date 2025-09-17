@@ -3,9 +3,9 @@ import Translate from '@docusaurus/Translate';
 
 export default function CTASection() {
   return (
-    <section style={{padding: '6rem 0', backgroundColor: 'var(--ifm-background-color-secondary)'}}>
+    <section style={{padding: '4rem 0', backgroundColor: 'var(--ifm-background-color-secondary)'}}>
       <div className="homepage-container">
-        <div style={{maxWidth: '48rem', margin: '0 auto', textAlign: 'center'}}>
+        <div style={{maxWidth: '52rem', margin: '0 auto', textAlign: 'center'}}>
           <h2 style={{fontSize: 'clamp(2rem, 4vw, 2.5rem)', fontWeight: 'bold', marginBottom: '1.5rem'}}>
             <Translate>Ready to revolutionize your e-commerce?</Translate>
           </h2>

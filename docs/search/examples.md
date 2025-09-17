@@ -1,4 +1,4 @@
-# Search API Implementation Guide
+# Search Implementation Guide
 
 Step-by-step implementation examples for the Product Search API using JavaScript and React.
 

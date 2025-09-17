@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
+import Link from '@docusaurus/Link';
 
 interface FeatureCardProps {
   icon: React.ReactNode;
@@ -7,9 +8,10 @@ interface FeatureCardProps {
   title: React.ReactNode;
   description: React.ReactNode;
   linkColor: string;
+  linkUrl?: string;
 }
 
-export default function FeatureCard({ icon, iconType, title, description, linkColor }: FeatureCardProps) {
+export default function FeatureCard({ icon, iconType, title, description, linkColor, linkUrl }: FeatureCardProps) {
   return (
     <div className="homepage-card">
       <div className={`homepage-card-icon ${iconType}`}>
@@ -19,10 +21,19 @@ export default function FeatureCard({ icon, iconType, title, description, linkCo
       <p style={{marginBottom: '1.5rem', lineHeight: '1.6', opacity: 0.8}}>
         {description}
       </p>
-      <div style={{display: 'flex', alignItems: 'center', fontSize: '0.875rem', color: linkColor, fontWeight: 500}}>
-        Saiba mais
-        <ArrowRight style={{width: '0.75rem', height: '0.75rem', marginLeft: '0.25rem', transition: 'transform 0.3s ease'}} />
-      </div>
+      {linkUrl ? (
+        <Link to={linkUrl} style={{textDecoration: 'none'}}>
+          <div style={{display: 'flex', alignItems: 'center', fontSize: '0.875rem', color: linkColor, fontWeight: 500}}>
+            Saiba mais
+            <ArrowRight style={{width: '0.75rem', height: '0.75rem', marginLeft: '0.25rem', transition: 'transform 0.3s ease'}} />
+          </div>
+        </Link>
+      ) : (
+        <div style={{display: 'flex', alignItems: 'center', fontSize: '0.875rem', color: linkColor, fontWeight: 500}}>
+          Saiba mais
+          <ArrowRight style={{width: '0.75rem', height: '0.75rem', marginLeft: '0.25rem', transition: 'transform 0.3s ease'}} />
+        </div>
+      )}
     </div>
   );
 }

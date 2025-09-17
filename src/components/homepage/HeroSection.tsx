@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from '@docusaurus/Link';
 import Translate from '@docusaurus/Translate';
-import { BookOpen, Code, Zap } from 'lucide-react';
+import { BookOpen, Code, Sparkles, Zap } from 'lucide-react';
 
 export default function HeroSection() {
   return (
@@ -24,8 +24,8 @@ export default function HeroSection() {
               <Translate>Documentation</Translate>
             </Link>
             <Link to="https://www.generativecrm.com/" className="homepage-button">
-              <BookOpen style={{width: '1rem', height: '1rem'}} />
-              <Translate>Learn More</Translate>
+              <Sparkles style={{width: '1rem', height: '1rem'}} />
+              <Translate>Learn More About Fashion AI</Translate>
             </Link>
           </div>
           <div style={{marginTop: '2rem', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1.5rem', fontSize: '0.875rem', flexWrap: 'wrap'}}>

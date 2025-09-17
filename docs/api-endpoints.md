@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Personalization API Reference
+# Personalization Reference
 
 Complete reference guide for Fashion.AI's Personalization API endpoints. Learn how to integrate real-time product recommendations and category personalization.
 
