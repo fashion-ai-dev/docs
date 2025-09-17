@@ -21,8 +21,9 @@ const config: Config = {
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
-    defaultLocale: 'pt',
+    defaultLocale: 'en',
     locales: ['en', 'pt', 'es'],
+    path: 'i18n',
     localeConfigs: {
       en: {
         label: 'English',
@@ -49,6 +50,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: './sidebars.ts',
+          routeBasePath: 'docs',
         },
         blog: false,
         theme: {
@@ -62,15 +64,9 @@ const config: Config = {
     image: 'img/logo.svg',
     algolia: {
       appId: 'PMZUYBQDAK',
-
       apiKey: '24b09689d5b4223813d9b8e48563c8f6',
-
       indexName: 'docsearch',
-
       contextualSearch: true,
-
-      // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-      externalUrlRegex: 'external\\.com|domain\\.com',
       replaceSearchResultPathname: {
         from: '/docs/',
         to: '/',
