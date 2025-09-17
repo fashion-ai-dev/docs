@@ -2,18 +2,18 @@
 sidebar_position: 2
 ---
 
-# API Endpoints
+# Referencia de la API de Personalización
 
-Esta seção descreve os endpoints disponíveis na API de Personalização da Fashion.AI.
+Guía de referencia completa para los endpoints de la API de Personalización de Fashion.AI. Aprende cómo integrar recomendaciones de productos en tiempo real y personalización de categorías.
 
-## Configuração Base
+## Configuración Base
 
 ### Endpoint Base
 ```
 https://catalog.api.fashionaiale.com/api/v1/products/protected/recommendation
 ```
 
-### Headers Obrigatórios
+### Encabezados Requeridos
 ```json
 {
   "Content-Type": "application/json",
@@ -21,70 +21,70 @@ https://catalog.api.fashionaiale.com/api/v1/products/protected/recommendation
 }
 ```
 
-> Gere seu token acessando: https://app.generativecrm.com/settings?tab=app-tokens
+> Genera tu token accediendo a: https://app.generativecrm.com/settings?tab=app-tokens
 
 ## Evento "Category View"
 
-Em uma sessão, quando o usuário acessar a página de uma categoria (ex: Calças) será disparado um evento para fashionAI.
+Cuando un usuario visita una página de categoría (ej.: "Pantalones"), se debe disparar un evento de vista de categoría a Fashion.AI.
 
-Este evento é um sinal forte de intenção do usuário e ajudará a IA a mapear a intenção do usuário, servindo como base para organização da VM, recomendação de produtos e enriquecimento do perfil de CRM.
-
-### Request Body
-
-```json
-{
-  "userId": 90,              // optional - user identifier if authenticated
-  "sessionId": "sess456",    // required
-  "eventType": "categoryView", // required
-  "data": {
-    "id": "category789"      // required - ID da categoria
-  }
-}
-```
-
-### Response Esperado
-
-```json
-{
-  "products": ["id-do-produto-1", "id-do-produto-2", "id-do-produto-3"]
-}
-```
-
-> ⚠️ **Nota 1**: Este retorno incluirá todos os produtos da categoria rankeados por relevância da sessão e usuário podendo ser usados como organização da vitrine.
-
-> ⚠️ **Nota 2**: Este retorno será vazio enquanto a IA não tiver dados suficientes sobre o usuário e/ou sessão. Nestes casos organizar a vitrine de acordo com a solução nativa da plataforma.
-
-## Evento "shopTheLook"
-
-Permitir que o botão "compre o look" exiba, via modal ou drawer, os demais produtos que compõem o visual de uma peça principal.
+Este evento es una señal fuerte de intención del usuario y ayuda a la IA a mapear la intención del usuario, sirviendo como base para organización de escaparate, recomendación de productos y enriquecimiento del perfil de CRM.
 
 ### Request Body
 
 ```json
 {
-  "userId": 90,              // optional - user identifier if authenticated
-  "sessionId": "sess456",    // required
-  "eventType": "shopTheLook", // required
+  "userId": 90,              // opcional - identificador de usuario si está autenticado
+  "sessionId": "sess456",    // requerido
+  "eventType": "categoryView", // requerido
   "data": {
-    "id": "product789"       // required - ID of product viewed
+    "id": "category789"      // requerido - ID de la categoría
   }
 }
 ```
 
-### Response Esperado
+### Respuesta Esperada
 
 ```json
 {
-  "products": ["id-do-produto-1", "id-do-produto-2", "id-do-produto-3"]
+  "products": ["id-del-producto-1", "id-del-producto-2", "id-del-producto-3"]
 }
 ```
 
-> ⚠️ **Nota**: Embora a API filtre produtos fora de estoque, a validação de estoque deve ser feita localmente antes de renderizar no frontend.
+> ⚠️ **Nota 1**: Esta respuesta incluirá todos los productos de la categoría clasificados por relevancia de sesión y usuario, que pueden ser usados para organización del escaparate.
 
-## Segurança e CORS
+> ⚠️ **Nota 2**: Esta respuesta estará vacía mientras la IA no tenga datos suficientes sobre el usuario y/o sesión. En estos casos, organizar el escaparate según la solución nativa de la plataforma.
 
-Para proteger o token de autenticação (X-FashionAI-APP-Token), bloqueamos requisições diretas do navegador. Se uma chamada à API for feita diretamente do frontend, o navegador bloqueará essa requisição com um erro de CORS.
+## Evento "Shop The Look"
 
-Essa medida evita que o token fique exposto no código-fonte do site, o que poderia comprometer a segurança da API e permitir uso indevido.
+Permitir que el botón "shop the look" muestre, vía modal o drawer, productos adicionales que componen el look completo de una pieza principal.
 
-Se, ainda assim, a sua equipe optar por realizar chamadas diretamente do front, basta solicitar liberação do domínio junto ao suporte técnico da FashionAI.
+### Request Body
+
+```json
+{
+  "userId": 90,              // opcional - identificador de usuario si está autenticado
+  "sessionId": "sess456",    // requerido
+  "eventType": "shopTheLook", // requerido
+  "data": {
+    "id": "product789"       // requerido - ID del producto
+  }
+}
+```
+
+### Respuesta Esperada
+
+```json
+{
+  "products": ["id-del-producto-1", "id-del-producto-2", "id-del-producto-3"]
+}
+```
+
+> ⚠️ **Nota**: Aunque la API filtra productos fuera de stock, la validación de stock debe hacerse localmente antes de renderizar en el frontend.
+
+## Seguridad y CORS
+
+Para proteger el token de autenticación (X-FashionAI-APP-Token), bloqueamos solicitudes directas del navegador. Si se hace una llamada a la API directamente desde el frontend, el navegador bloqueará esta solicitud con un error de CORS.
+
+Esta medida evita que el token quede expuesto en el código fuente del sitio, lo que podría comprometer la seguridad de la API y permitir uso indebido.
+
+Si aún así tu equipo opta por realizar llamadas directamente desde el front, simplemente solicita la liberación del dominio al soporte técnico de FashionAI.

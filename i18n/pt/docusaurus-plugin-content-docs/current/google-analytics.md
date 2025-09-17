@@ -2,9 +2,9 @@
 sidebar_position: 3
 ---
 
-# Google Analytics 4 (GA4)
+# Integração com Google Analytics 4
 
-Esta seção descreve como configurar o tracking dos eventos da Fashion.AI no Google Analytics 4.
+Esta seção descreve como configurar o rastreamento de eventos da Fashion.AI no Google Analytics 4 para monitoramento abrangente de analytics e conversões.
 
 ## Eventos Obrigatórios
 

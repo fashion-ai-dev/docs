@@ -2,9 +2,9 @@
 sidebar_position: 1
 ---
 
-# API de Personalización
+# Primeros Pasos con Fashion.AI
 
-Bienvenido a la documentación de la API de Personalización de Fashion.AI. Esta API te permite integrar funciones avanzadas de personalización y recomendación en tu e-commerce de moda.
+Bienvenido a la documentación de la API de Personalización de Fashion.AI. Esta guía integral te ayudará a integrar funciones avanzadas de personalización y recomendación en tu plataforma de e-commerce de moda.
 
 ## Objetivo
 

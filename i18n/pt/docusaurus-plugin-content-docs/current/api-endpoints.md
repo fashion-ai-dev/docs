@@ -2,9 +2,9 @@
 sidebar_position: 2
 ---
 
-# API Endpoints
+# Referência da API de Personalização
 
-Esta seção descreve os endpoints disponíveis na API de Personalização da Fashion.AI.
+Guia de referência completo para os endpoints da API de Personalização da Fashion.AI. Aprenda como integrar recomendações de produtos em tempo real e personalização de categorias.
 
 ## Configuração Base
 

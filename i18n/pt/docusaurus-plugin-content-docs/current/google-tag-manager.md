@@ -2,9 +2,9 @@
 sidebar_position: 4
 ---
 
-# Google Tag Manager (GTM)
+# Guia de Configuração do Google Tag Manager
 
-Esta seção detalha como configurar o Google Tag Manager para capturar e enviar os eventos da Fashion.AI para o Google Analytics 4.
+Este guia abrangente detalha como configurar o Google Tag Manager para capturar e enviar eventos da Fashion.AI para o Google Analytics 4.
 
 ## Configuração das Variáveis
 

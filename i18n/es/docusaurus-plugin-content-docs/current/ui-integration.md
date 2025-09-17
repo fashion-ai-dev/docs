@@ -2,59 +2,59 @@
 sidebar_position: 5
 ---
 
-# Integração com a UI
+# Guía de Integración Frontend
 
-Esta seção descreve como implementar a interface do usuário para os recursos da Fashion.AI.
+Esta guía integral describe cómo implementar componentes de interfaz de usuario para características de Fashion.AI en tu aplicación frontend.
 
-## Referência Visual
+## Referencia Visual
 
-A sugestão visual para o bloco "compre o look" está disponível no Figma de exemplo.
+Las sugerencias visuales para el componente "shop the look" están disponibles en nuestro diseño de ejemplo en Figma.
 
-## Componentes da Interface
+## Componentes de Interfaz
 
-### Botão "Compre o Look"
+### Botón "Shop The Look"
 
-- Posicionado sobre a imagem principal do produto
-- Exibido apenas quando há recomendações disponíveis
-- Trigger para abrir o modal/drawer de produtos relacionados
+- Posicionado sobre la imagen principal del producto
+- Mostrado solo cuando hay recomendaciones disponibles
+- Dispara la apertura del modal/drawer de productos relacionados
 
-### Modal de Produtos Relacionados
+### Modal de Productos Relacionados
 
-O modal deve exibir:
+El modal debe mostrar:
 
-- **Produtos retornados pela API** com botão "eu quero" para adicionar ao carrinho
-- **Informações de produto**: nome, preço, tamanhos disponíveis
-- **Validação de estoque** local antes da renderização
-- **Botão de fechamento** do modal
+- **Productos devueltos por la API** con botón "Lo quiero" para agregar al carrito
+- **Información del producto**: nombre, precio, tallas disponibles
+- **Validación de stock local** antes del renderizado
+- **Botón de cierre** del modal
 
-### Comportamento
+### Comportamiento
 
-1. **Exibição do botão**: Só mostrar se houver produtos recomendados com estoque válido
-2. **Abertura do modal**: Ao clicar no botão "compre o look"
-3. **Adição ao carrinho**: Através do botão "eu quero" de cada produto
-4. **Fechamento**: Botão X ou clique fora do modal
+1. **Visualización del botón**: Solo mostrar si hay productos recomendados con stock válido
+2. **Apertura del modal**: Al hacer clic en el botón "shop the look"
+3. **Agregar al carrito**: A través del botón "Lo quiero" para cada producto
+4. **Cierre**: Botón X o clic fuera del modal
 
-## Validações Importantes
+## Validaciones Importantes
 
-- ✅ Verificar estoque localmente antes de renderizar
-- ✅ Validar se há produtos retornados pela API
-- ✅ Implementar loading states durante chamadas da API
-- ✅ Tratar erros de conectividade ou API indisponível
+- ✅ Verificar stock localmente antes de renderizar
+- ✅ Validar si hay productos devueltos por la API
+- ✅ Implementar estados de carga durante las llamadas a la API
+- ✅ Manejar errores de conectividad o API no disponible
 
-## Exemplo de Implementação
+## Ejemplo de Implementación
 
 ```javascript
-// Pseudo-código para abertura do modal
+// Pseudo-código para apertura del modal
 function openShopTheLookModal(productId) {
-  // 1. Fazer chamada para API
+  // 1. Hacer llamada a la API
   const recommendations = await fetchShopTheLook(productId);
-  
-  // 2. Validar estoque localmente
-  const validProducts = recommendations.filter(product => 
+
+  // 2. Validar stock localmente
+  const validProducts = recommendations.filter(product =>
     hasStock(product.id)
   );
-  
-  // 3. Só abrir modal se houver produtos válidos
+
+  // 3. Solo abrir modal si hay productos válidos
   if (validProducts.length > 0) {
     renderModal(validProducts);
   }

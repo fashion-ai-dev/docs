@@ -2,9 +2,9 @@
 sidebar_position: 5
 ---
 
-# Integração com a UI
+# Guia de Integração Frontend
 
-Esta seção descreve como implementar a interface do usuário para os recursos da Fashion.AI.
+Este guia abrangente descreve como implementar componentes de interface do usuário para recursos da Fashion.AI em sua aplicação frontend.
 
 ## Referência Visual
 
