@@ -168,13 +168,13 @@
 }
 
 :root {
-  --ifm-color-primary: #44a08d;
-  --ifm-color-primary-dark: #3d9180;
-  --ifm-color-primary-darker: #3a8978;
-  --ifm-color-primary-darkest: #307163;
-  --ifm-color-primary-light: #4bb09a;
-  --ifm-color-primary-lighter: #4eb8a2;
-  --ifm-color-primary-lightest: #5cc7b1;
+  --ifm-color-primary: #F28585;
+  --ifm-color-primary-dark: #eb7474;
+  --ifm-color-primary-darker: #e86565;
+  --ifm-color-primary-darkest: #e04747;
+  --ifm-color-primary-light: #f49696;
+  --ifm-color-primary-lighter: #f5a5a5;
+  --ifm-color-primary-lightest: #F2E8DF;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
@@ -185,7 +185,7 @@
   --custom-card-border: rgba(214, 219, 234, 0.4);
   --custom-card-gradient: rgba(68, 160, 141, 0.05);
   --custom-badge-bg: rgba(134, 239, 172, 0.1);
-  --custom-button-border: rgba(68, 160, 141, 0.2);
+  --custom-button-border: rgba(206, 99, 122, 0.2);
   --custom-icon-secondary: #059669;
   --custom-icon-accent: #d97706;
   --custom-status-dot: #10b981;
@@ -212,7 +212,7 @@
 }
 
 [data-theme='dark'] .homepage-button {
-  color: var(--ifm-color-primary-light);
+  color: var(--ifm-color-primary-lightest);
 }
 
 [data-theme='dark'] .homepage-button:hover {
@@ -226,23 +226,23 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #4ecdc4;
-  --ifm-color-primary-dark: #31c4ba;
-  --ifm-color-primary-darker: #26beb4;
-  --ifm-color-primary-darkest: #1e9d95;
-  --ifm-color-primary-light: #6bd3cb;
-  --ifm-color-primary-lighter: #7dd6cf;
-  --ifm-color-primary-lightest: #a1e0da;
+  --ifm-color-primary: #F28585;
+  --ifm-color-primary-dark: #eb7474;
+  --ifm-color-primary-darker: #e86565;
+  --ifm-color-primary-darkest: #e04747;
+  --ifm-color-primary-light: #f49696;
+  --ifm-color-primary-lighter: #f5a5a5;
+  --ifm-color-primary-lightest: #ffffff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 
   /* Dark mode custom variables */
-  --custom-hero-bg-start: rgba(78, 205, 196, 0.05);
-  --custom-hero-bg-end: rgba(34, 37, 42, 1);
-  --custom-card-bg: rgba(47, 51, 56, 0.5);
-  --custom-card-border: rgba(68, 73, 80, 0.4);
-  --custom-card-gradient: rgba(78, 205, 196, 0.05);
-  --custom-badge-bg: rgba(78, 205, 196, 0.1);
-  --custom-button-border: rgba(78, 205, 196, 0.3);
+  --custom-hero-bg-start: rgba(26, 25, 25, 0.75);
+  --custom-hero-bg-end: rgb(34, 34, 34);
+  --custom-card-bg: rgba(31, 29, 29, 0.6);
+  --custom-card-border: rgba(255, 255, 255, 0.15);
+  --custom-card-gradient: rgba(255, 255, 255, 0.06);
+  --custom-badge-bg: rgba(255, 255, 255, 0.12);
+  --custom-button-border: rgba(248, 223, 231, 0.25);
 
   /* Footer dark mode variables */
   --custom-footer-text: var(--ifm-color-emphasis-700);

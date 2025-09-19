@@ -13,25 +13,52 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
  Create as many sidebars as you want.
  */
 const sidebars: SidebarsConfig = {
-  // Manual sidebar configuration for Fashion.AI API Documentation
   tutorialSidebar: [
     'intro',
-    'getting-started',
-    'api-endpoints',
-    'authentication',
+
+    // Seção para usuários não técnicos
     {
       type: 'category',
-      label: 'Search API',
+      label: '📚 User Guide',
       items: [
-        'search/overview',
-        'search/examples'
+        'getting-started',
+        'platform-overview',
+        'catalog-management',
+        'seo-recommendations',
+        'analytics-reports'
       ],
     },
-    'ui-integration',
+
+    // Seção para desenvolvedores
     {
       type: 'category',
-      label: 'Tracking & Analytics',
-      items: ['google-analytics', 'google-tag-manager'],
+      label: '🛠️ Developer Guide',
+      items: [
+        'api-endpoints',
+        'authentication',
+        {
+          type: 'category',
+          label: 'Search API',
+          items: [
+            'search/overview',
+            'search/examples'
+          ],
+        },
+        'ui-integration',
+        'webhooks',
+        'sdks'
+      ],
+    },
+
+    // Seção para integração/analytics (ponte)
+    {
+      type: 'category',
+      label: '📊 Integration & Analytics',
+      items: [
+        'google-analytics',
+        'google-tag-manager',
+        'integration-examples'
+      ],
     },
   ],
 };

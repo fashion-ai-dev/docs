@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from '@docusaurus/Link';
 import Translate from '@docusaurus/Translate';
-import { BookOpen, Code, Sparkles, Zap } from 'lucide-react';
+import { BookOpen, Code, ExternalLink, Zap } from 'lucide-react';
 
 export default function HeroSection() {
   return (
@@ -19,12 +19,12 @@ export default function HeroSection() {
             <Translate>Complete guide to integrate Fashion AI into your applications. Learn how to use our RESTful API and GraphQL endpoints.</Translate>
           </p>
           <div style={{display: 'flex', flexDirection: 'row', gap: '1rem', justifyContent: 'center', alignItems: 'center'}}>
-            <Link to="/docs/intro" className="homepage-button">
+            <Link to="/docs/intro" className="homepage-button primary">
               <BookOpen style={{width: '1rem', height: '1rem'}} />
-              <Translate>Documentation</Translate>
+              <Translate>Start Documentation</Translate>
             </Link>
             <a href="https://www.generativecrm.com/" className="homepage-button" target="_blank" rel="noopener noreferrer">
-              <Sparkles style={{width: '1rem', height: '1rem'}} />
+              <ExternalLink style={{width: '1rem', height: '1rem'}} />
               <Translate>See More About Fashion AI</Translate>
             </a>
           </div>
