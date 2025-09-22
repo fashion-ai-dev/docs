@@ -8,7 +8,7 @@ export default function HeroSection() {
     <section className="homepage-hero">
       <div className="homepage-container homepage-section" style={{paddingTop: '4rem', paddingBottom: '4rem'}}>
         <div style={{maxWidth: '64rem', margin: '0 auto', textAlign: 'center'}}>
-          <div className="homepage-badge">
+          <div className="homepage-badge ai-platform-badge">
             <Zap style={{width: '0.75rem', height: '0.75rem', marginRight: '0.25rem'}} />
             <Translate>API Platform</Translate>
           </div>
