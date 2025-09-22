@@ -34,6 +34,7 @@ const sidebars: SidebarsConfig = {
     },
     'ui-integration',
     'vtex-integration',
+    'shopify-integration',
     'integration-examples'
   ],
 

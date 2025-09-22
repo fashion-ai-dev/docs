@@ -118,13 +118,17 @@ const config: Config = {
           label: 'components.NavigationBar.tracking',
         },
         {
+          type: 'localeDropdown',
+          position: 'right',
+        },
+        {
           href: 'https://app.generativecrm.com',
           label: 'components.NavigationBar.platform',
           position: 'right',
           rel: 'noopener noreferrer',
         },
         {
-          type: 'localeDropdown',
+          type: 'search',
           position: 'right',
         },
         {
