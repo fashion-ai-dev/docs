@@ -3,9 +3,17 @@
     "message": "Logo Fashionai",
     "description": "The alt text of navbar logo"
   },
-  "item.label.components.NavigationBar.documentation": {
-    "message": "Documentação",
-    "description": "Navbar item with label components.NavigationBar.documentation"
+  "item.label.components.NavigationBar.userGuide": {
+    "message": "Guia do Usuário",
+    "description": "Navbar item with label components.NavigationBar.userGuide"
+  },
+  "item.label.components.NavigationBar.developerGuide": {
+    "message": "Guia do Desenvolvedor",
+    "description": "Navbar item with label components.NavigationBar.developerGuide"
+  },
+  "item.label.components.NavigationBar.tracking": {
+    "message": "Acompanhamento",
+    "description": "Navbar item with label components.NavigationBar.tracking"
   },
   "item.label.components.NavigationBar.platform": {
     "message": "Plataforma",

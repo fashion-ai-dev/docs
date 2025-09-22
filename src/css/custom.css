@@ -114,7 +114,7 @@
   border: 1px solid var(--custom-button-border);
   background: transparent;
   color: var(--ifm-color-primary);
-  border-radius: 0.375rem;
+  border-radius: 3rem;
   font-weight: 500;
   text-decoration: none !important;
   transition: all 0.2s ease;
@@ -131,14 +131,15 @@
 }
 
 .homepage-button.primary {
-  background: var(--ifm-color-primary);
+  background: var(--ifm-color-primary-dark);
+  border-radius: 3rem;
   color: white;
-  border-color: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary-dark);
 }
 
 .homepage-button.primary:hover {
-  background: var(--ifm-color-primary-dark);
-  border-color: var(--ifm-color-primary-dark);
+  background: var(--ifm-color-primary);
+  border-color: var(--ifm-color-primary);
 }
 
 .homepage-grid {
@@ -181,11 +182,11 @@
   /* Custom theme variables that adapt automatically */
   --custom-hero-bg-start: rgba(68, 160, 141, 0.05);
   --custom-hero-bg-end: rgba(255, 255, 255, 1);
-  --custom-card-bg: rgba(255, 255, 255, 0.5);
-  --custom-card-border: rgba(214, 219, 234, 0.4);
-  --custom-card-gradient: rgba(68, 160, 141, 0.05);
-  --custom-badge-bg: rgba(134, 239, 172, 0.1);
-  --custom-button-border: rgba(206, 99, 122, 0.2);
+  --custom-card-bg: rgba(221, 250, 248, 0.5);
+  --custom-card-border: rgba(76, 249, 255, 0.4);
+  --custom-card-gradient: rgba(194, 218, 213, 0.05);
+  --custom-badge-bg: rgba(255, 255, 255, 0.897);
+  --custom-button-border: rgba(209, 77, 106, 0.2);
   --custom-icon-secondary: #059669;
   --custom-icon-accent: #d97706;
   --custom-status-dot: #10b981;
@@ -360,6 +361,23 @@ html {
 .homepage-card:focus {
   outline: 2px solid var(--ifm-color-primary);
   outline-offset: 2px;
+}
+
+/* Documentation gradient effect */
+.documentation-gradient {
+  background: linear-gradient(135deg, #F28585 0%, #eb7474 50%, #e04747 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  color: transparent !important;
+}
+
+[data-theme='dark'] .documentation-gradient {
+  background: linear-gradient(135deg, #f49696 0%, #F28585 50%, #fab8b8 100%) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+  background-clip: text !important;
+  color: transparent !important;
 }
 
 /* Improved responsive typography */

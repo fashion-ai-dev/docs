@@ -26,7 +26,7 @@ Automatically add and standardize:
 ## Catalog Organization
 
 ### Smart Categorization
-- **Automatic taxonomy** creation based on your inventory
+- **Automatic taxonomy** creation based on your inventory (see [Taxonomies](/docs/taxonomies) for detailed guide)
 - **Custom category rules** for your brand's unique structure
 - **Seasonal collections** management
 - **Brand and designer** organization

@@ -13,13 +13,13 @@ export default function HeroSection() {
             <Translate>API Platform</Translate>
           </div>
           <h1 style={{fontSize: 'clamp(2.5rem, 5vw, 4rem)', fontWeight: 'bold', marginBottom: '1.5rem', lineHeight: '1.2'}}>
-            Fashion AI <span style={{color: 'var(--ifm-color-primary)'}}><Translate>Documentation</Translate></span>
+            Fashion AI <span className="documentation-gradient"><Translate>Documentation</Translate></span>
           </h1>
           <p style={{fontSize: '1.25rem', marginBottom: '2rem', maxWidth: '42rem', margin: '0 auto 2rem auto', lineHeight: '1.6', opacity: 0.8}}>
-            <Translate>Complete guide to integrate Fashion AI into your applications. Learn how to use our RESTful API and GraphQL endpoints.</Translate>
+            <Translate>Complete guide to integrate Fashion AI into your applications. Learn how to use our RESTful API endpoint.</Translate>
           </p>
           <div style={{display: 'flex', flexDirection: 'row', gap: '1rem', justifyContent: 'center', alignItems: 'center'}}>
-            <Link to="/docs/intro" className="homepage-button primary">
+            <Link to="/docs/getting-started" className="homepage-button primary">
               <BookOpen style={{width: '1rem', height: '1rem'}} />
               <Translate>Start Documentation</Translate>
             </Link>
@@ -35,7 +35,7 @@ export default function HeroSection() {
             </div>
             <div className="homepage-status-indicator">
               <Code style={{width: '0.75rem', height: '0.75rem'}} />
-              <Translate>RESTful & GraphQL</Translate>
+              <Translate>RESTful</Translate>
             </div>
             <div className="homepage-status-indicator">
               <Zap style={{width: '0.75rem', height: '0.75rem'}} />

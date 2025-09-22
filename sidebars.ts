@@ -13,53 +13,38 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
  Create as many sidebars as you want.
  */
 const sidebars: SidebarsConfig = {
-  tutorialSidebar: [
-    'intro',
+  // User Guide Sidebar
+  userGuideSidebar: [
+    'getting-started',
+    'platform-overview',
+    'catalog-management',
+    'taxonomies',
+  ],
 
-    // Seção para usuários não técnicos
+  // Developer Guide Sidebar
+  developerGuideSidebar: [
+    'api-endpoints',
+    'authentication',
     {
       type: 'category',
-      label: '📚 User Guide',
+      label: 'Search API',
       items: [
-        'getting-started',
-        'platform-overview',
-        'catalog-management',
-        'seo-recommendations',
-        'analytics-reports'
+        'search/overview',
+        'search/examples'
       ],
     },
+    'ui-integration',
+    'webhooks',
+    'sdks',
+    'integration-examples'
+  ],
 
-    // Seção para desenvolvedores
-    {
-      type: 'category',
-      label: '🛠️ Developer Guide',
-      items: [
-        'api-endpoints',
-        'authentication',
-        {
-          type: 'category',
-          label: 'Search API',
-          items: [
-            'search/overview',
-            'search/examples'
-          ],
-        },
-        'ui-integration',
-        'webhooks',
-        'sdks'
-      ],
-    },
-
-    // Seção para integração/analytics (ponte)
-    {
-      type: 'category',
-      label: '📊 Integration & Analytics',
-      items: [
-        'google-analytics',
-        'google-tag-manager',
-        'integration-examples'
-      ],
-    },
+  // Tracking Sidebar
+  trackingSidebar: [
+    'analytics-reports',
+    'seo-recommendations',
+    'google-analytics',
+    'google-tag-manager'
   ],
 };
 

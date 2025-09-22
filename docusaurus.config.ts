@@ -100,9 +100,21 @@ const config: Config = {
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'tutorialSidebar',
+          sidebarId: 'userGuideSidebar',
           position: 'right',
-          label: 'components.NavigationBar.documentation',
+          label: 'components.NavigationBar.userGuide',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'developerGuideSidebar',
+          position: 'right',
+          label: 'components.NavigationBar.developerGuide',
+        },
+        {
+          type: 'docSidebar',
+          sidebarId: 'trackingSidebar',
+          position: 'right',
+          label: 'components.NavigationBar.tracking',
         },
         {
           href: 'https://app.generativecrm.com',
