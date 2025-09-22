@@ -11,12 +11,12 @@ To integrate your Shopify store with our platform, you'll need to create a custo
 1. Log in to Shopify as an administrator
 2. In the side menu, click on **Settings**
 3. Go to **Apps and sales channels**
+3. Give the app a name, e.g., **FashionAI API Integration*
 
 ### Step 2: Create a Custom App
 
 1. Click on **Develop apps**
-2. Click on **Create an app**
-3. Give the app a name, e.g., **FashionAI API Integration**
+2. Click on **Create an app***
 4. Click **Create app**
 
 ### Step 3: Configure API Permissions
