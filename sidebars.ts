@@ -15,9 +15,8 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 const sidebars: SidebarsConfig = {
   // User Guide Sidebar
   userGuideSidebar: [
-    'getting-started',
     'platform-overview',
-    'catalog-management',
+    'getting-started',
     'taxonomies',
   ],
 
@@ -34,8 +33,7 @@ const sidebars: SidebarsConfig = {
       ],
     },
     'ui-integration',
-    'webhooks',
-    'sdks',
+    'vtex-integration',
     'integration-examples'
   ],
 

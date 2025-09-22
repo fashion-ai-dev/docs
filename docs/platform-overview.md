@@ -55,4 +55,4 @@ Boost your online visibility with:
 
 ## Getting Started
 
-Ready to transform your fashion catalog? Check out our [Getting Started](./getting-started.md) guide to begin your journey.
+Ready to transform your fashion catalog? Check out our [Getting Started](/docs/getting-started) guide to begin your journey.
