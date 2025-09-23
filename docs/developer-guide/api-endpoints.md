@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Personalization Reference
 
-Technical reference for Fashion.AI's Personalization API endpoints. For an overview of recommendation types and how our AI works, see [Getting Started with Recommendations](./getting-started).
+Technical reference for Fashion.AI's Personalization API endpoints. For an overview of recommendation types and how our AI works, see [Getting Started with Recommendations](../user-guide/getting-started).
 
 ## Base Configuration
 

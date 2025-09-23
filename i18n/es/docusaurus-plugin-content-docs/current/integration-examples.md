@@ -1,6 +1,5 @@
 # Ejemplos de Integración
 
-*Lorem ipsum - este es un texto genérico placeholder*
 
 ## Ejemplos de Integración del Mundo Real
 

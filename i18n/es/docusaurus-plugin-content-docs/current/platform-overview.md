@@ -1,6 +1,5 @@
 # Visión General de la Plataforma
 
-*Lorem ipsum - este es un texto genérico placeholder*
 
 ## ¿Qué es Nuestra Plataforma de Catálogo de Moda?
 

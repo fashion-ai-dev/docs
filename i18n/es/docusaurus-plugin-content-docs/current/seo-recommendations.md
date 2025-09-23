@@ -1,6 +1,5 @@
 # SEO & Recomendaciones
 
-*Lorem ipsum - este es un texto genérico placeholder*
 
 ## Optimización de SEO Enfocada en Moda
 

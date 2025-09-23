@@ -112,12 +112,6 @@ const config: Config = {
           label: 'components.NavigationBar.developerGuide',
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'trackingSidebar',
-          position: 'right',
-          label: 'components.NavigationBar.tracking',
-        },
-        {
           type: 'localeDropdown',
           position: 'right',
         },
@@ -148,19 +142,19 @@ const config: Config = {
           items: [
             {
               label: 'footer.links.gettingStarted',
-              to: '/docs/getting-started',
+              to: '/docs/developer-guide/getting-started',
             },
             {
               label: 'footer.links.apiEndpoints',
-              to: '/docs/api-endpoints',
+              to: '/docs/developer-guide/api-endpoints',
             },
             {
               label: 'footer.links.authentication',
-              to: '/docs/authentication',
+              to: '/docs/developer-guide/authentication',
             },
             {
               label: 'footer.links.search',
-              to: '/docs/search/overview',
+              to: '/docs/developer-guide/search/overview',
             },
           ],
         },
@@ -169,15 +163,15 @@ const config: Config = {
           items: [
             {
               label: 'footer.links.uiIntegration',
-              to: '/docs/ui-integration',
+              to: '/docs/developer-guide/ui-integration',
             },
             {
               label: 'footer.links.googleAnalytics',
-              to: '/docs/google-analytics',
+              to: '/docs/developer-guide/analytics/google-analytics',
             },
             {
-              label: 'footer.links.googleTagManager',
-              to: '/docs/google-tag-manager',
+              label: 'footer.links.integrations',
+              to: '/docs/developer-guide/integrations',
             },
           ],
         },

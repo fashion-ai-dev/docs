@@ -19,7 +19,7 @@ export default function HeroSection() {
             <Translate>Complete guide to integrate Fashion AI into your applications. Learn how to use our RESTful API endpoint.</Translate>
           </p>
           <div style={{display: 'flex', flexDirection: 'row', gap: '1rem', justifyContent: 'center', alignItems: 'center'}}>
-            <Link to="/docs/getting-started" className="homepage-button primary">
+            <Link to="/docs/user-guide/getting-started" className="homepage-button primary">
               <BookOpen style={{width: '1rem', height: '1rem'}} />
               <Translate>Start Documentation</Translate>
             </Link>

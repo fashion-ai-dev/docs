@@ -11,7 +11,7 @@ export default function FeaturesSection() {
       title: <Translate>Smart Recommendations</Translate>,
       description: <Translate>AI-powered recommendation system that analyzes preferences, purchase history, and trends to suggest personalized products for each customer.</Translate>,
       linkColor: 'var(--ifm-color-primary)',
-      linkUrl: '/docs/api-endpoints'
+      linkUrl: '/docs/developer-guide/api-endpoints'
     },
     {
       icon: <Search style={{width: '1.5rem', height: '1.5rem'}} />,
@@ -19,7 +19,7 @@ export default function FeaturesSection() {
       title: <Translate>Advanced Semantic Search</Translate>,
       description: <Translate>Intelligent search that understands natural descriptions like "blue dress for wedding" and finds products using natural language processing and image analysis.</Translate>,
       linkColor: '#059669',
-      linkUrl: '/docs/search/overview'
+      linkUrl: '/docs/developer-guide/search/overview'
     },
     {
       icon: <TrendingUp style={{width: '1.5rem', height: '1.5rem'}} />,
@@ -27,7 +27,7 @@ export default function FeaturesSection() {
       title: <Translate>Fashion SEO & Analytics</Translate>,
       description: <Translate>Automatic search engine optimization with specialized fashion tags, trend analysis, and detailed catalog performance reports.</Translate>,
       linkColor: '#d97706',
-      linkUrl: '/docs/google-analytics'
+      linkUrl: '/docs/user-guide/google-analytics'
     }
   ];
 

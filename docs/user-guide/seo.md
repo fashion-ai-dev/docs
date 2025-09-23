@@ -1,6 +1,35 @@
-# SEO & Recommendations
+---
+sidebar_position: 4
+---
 
-*Lorem ipsum - este é um texto genérico placeholder*
+# SEO
+
+## Getting Started with SEO
+
+Para ativar as funcionalidades de SEO na sua integração, você precisa habilitar a sincronização de dados específicos do produto. A imagem abaixo mostra as opções disponíveis para integração com e-commerce:
+
+![SEO Activation](/img/seo-activation.png)
+
+A configuração inclui:
+- **Nome do Produto**: Campo não recomendado pela FashionAI
+- **Descrição do Produto**: Conteúdo principal para otimização
+- **Descrição SEO do Produto**: Meta descrição otimizada
+- **Etiquetas do Produto**: Tags e categorias
+- **Descrições Alternativas de Imagens**: Alt text para todas as imagens do produto (1-10)
+
+Selecione quais campos deseja sincronizar e habilite
+
+## SEO Format Optimization
+
+### Before and After Comparison
+
+O sistema permite gerar dados SEO otimizados em diferentes formatos e idiomas. Veja como:
+
+![SEO Format Before](/img/seo-format-before.png)
+
+Inicialmente é necessário escolher o idioma e o seletor de formato aparecerá
+
+![SEO Format After](/img/seo-format-after.png)
 
 ## Fashion-Focused SEO Optimization
 
@@ -10,41 +39,14 @@ Boost your fashion store's visibility with our AI-powered SEO tools specifically
 
 ### Product Page Optimization
 - **Fashion-specific meta descriptions** that highlight style, fit, and occasion
-- **Keyword-rich titles** incorporating trending fashion terms
+- **Keyword-rich tags** incorporating trending fashion terms
 - **Alt text generation** for product images with style descriptions
-- **Schema markup** for products, reviews, and fashion-specific attributes
 
 ### Content Enhancement
 - **Seasonal keyword integration** (summer dresses, winter coats, etc.)
 - **Style trend optimization** based on current fashion movements
 - **Size and fit SEO** to capture sizing-related searches
 - **Brand and designer SEO** for luxury and designer items
-
-## Smart Recommendations Engine
-
-### Personalized Product Suggestions
-Our recommendation system considers:
-- **Style preferences** based on browsing and purchase history
-- **Size consistency** across brands and product types
-- **Color coordination** and outfit building
-- **Seasonal appropriateness** for current weather and trends
-
-### Recommendation Types
-
-#### Style-Based Recommendations
-- **Similar style items** for customers who like specific aesthetics
-- **Complete the look** suggestions for outfit building
-- **Cross-category recommendations** (accessories for dresses, shoes for outfits)
-
-#### Behavioral Recommendations
-- **Recently viewed** items with style variations
-- **Trending items** in customer's preferred categories
-- **Personalized collections** based on individual style profiles
-
-#### Contextual Recommendations
-- **Seasonal suggestions** aligned with current weather and trends
-- **Occasion-based** recommendations (work, party, casual)
-- **Size-aware suggestions** showing available sizes first
 
 ## SEO Strategy Tools
 
@@ -87,20 +89,6 @@ Our recommendation system considers:
 - **Size recommendation engine** based on customer data
 - **Fit guide integration** in product recommendations
 - **Return rate optimization** through better fit suggestions
-
-## Best Practices
-
-### SEO Guidelines
-1. **Focus on long-tail keywords** that include style descriptors
-2. **Optimize for visual search** with detailed image descriptions
-3. **Create seasonal content clusters** around fashion themes
-4. **Monitor fashion trend cycles** for keyword timing
-
-### Recommendation Optimization
-1. **Test different recommendation placements** throughout the customer journey
-2. **A/B test recommendation algorithms** for different customer segments
-3. **Monitor recommendation click-through rates** and conversions
-4. **Regularly update style profiles** based on customer behavior
 
 ## Measuring Success
 

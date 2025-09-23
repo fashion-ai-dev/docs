@@ -1,6 +1,9 @@
+---
+sidebar_position: 2
+---
+
 # Platform Overview
 
-*Lorem ipsum - este é um texto genérico placeholder*
 
 ## What is Our Fashion Catalog Platform?
 
@@ -55,4 +58,4 @@ Boost your online visibility with:
 
 ## Getting Started
 
-Ready to transform your fashion catalog? Check out our [Getting Started](/docs/getting-started) guide to begin your journey.
+Ready to transform your fashion catalog? Check out our [Getting Started](/docs/user-guide/getting-started) guide to begin your journey.

@@ -1,6 +1,5 @@
 # Analytics & Reports
 
-*Lorem ipsum - este é um texto genérico placeholder*
 
 ## Dashboard de Analytics de Moda
 

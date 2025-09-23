@@ -1,6 +1,5 @@
 # Integration Examples
 
-*Lorem ipsum - este é um texto genérico placeholder*
 
 ## Real-World Integration Examples
 

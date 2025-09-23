@@ -62,8 +62,8 @@ Some groups automatically apply to all product categories:
 1. **Access** your taxonomies on the platform
 2. **Select** the category you want to customize
 3. **Add examples** specific to your business
-5. **Save** as new custom version
-6. **Set as main version** to activate for product processing
+4. **Save** as new custom version
+5. **Set as main version** to activate for product processing
 
 ## 🎯 Activating a Taxonomy Version
 
@@ -90,3 +90,17 @@ To make a taxonomy version active for processing your products:
 - Remain saved for reference
 - Can be activated later
 - Don't affect product processing
+
+### Version Management Tips
+
+- **Test thoroughly** before setting as main
+- **Keep backup** of working versions
+- **Document changes** you make to custom versions
+- **Update main version** seasonally for best results
+
+### Customization Tips
+
+- Use language consistent with your brand
+- Add terms specific to your niche
+- Test with different product types
+- Keep examples updated seasonally
