@@ -1,8 +1,8 @@
 ---
-sidebar_position: 4
+sidebar_position: 3
 ---
 
-# API Authentication Guide
+# API Authentication - App Token
 
 Learn how to authenticate your requests to all Fashion.AI APIs using secure app tokens.
 

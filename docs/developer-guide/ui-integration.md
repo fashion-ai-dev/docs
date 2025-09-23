@@ -1,8 +1,8 @@
 ---
-sidebar_position: 5
+sidebar_position: 4
 ---
 
-# Frontend Integration Guide
+# Frontend Integration
 
 This comprehensive guide describes how to implement user interface components for Fashion.AI features in your frontend application.
 

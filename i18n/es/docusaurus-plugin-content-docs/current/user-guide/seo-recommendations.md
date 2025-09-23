@@ -1,5 +1,35 @@
-# SEO & Recomendaciones
+---
+sidebar_position: 4
+---
 
+# Recomendaciones SEO
+
+## Comenzando con SEO
+
+Para activar las funcionalidades de SEO en tu integración, necesitas habilitar la sincronización de datos específicos del producto. La imagen a continuación muestra las opciones disponibles para integración con e-commerce:
+
+![Activación SEO](/img/seo-activation.png)
+
+La configuración incluye:
+- **Nombre del Producto**: Campo no recomendado por FashionAI
+- **Descripción del Producto**: Contenido principal para optimización
+- **Descripción SEO del Producto**: Meta descripción optimizada
+- **Etiquetas del Producto**: Tags y categorías
+- **Descripciones Alternativas de Imágenes**: Alt text para todas las imágenes del producto (1-10)
+
+Selecciona qué campos deseas sincronizar y habilita la integración.
+
+## Optimización de Formato SEO
+
+### Comparación Antes y Después
+
+El sistema permite generar datos SEO optimizados en diferentes formatos e idiomas. Vea cómo:
+
+![Formato SEO Antes](/img/seo-format-before.png)
+
+Inicialmente es necesario elegir el idioma y aparecerá el selector de formato.
+
+![Formato SEO Después](/img/seo-format-after.png)
 
 ## Optimización de SEO Enfocada en Moda
 

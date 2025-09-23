@@ -6,28 +6,28 @@ sidebar_position: 4
 
 ## Getting Started with SEO
 
-Para ativar as funcionalidades de SEO na sua integração, você precisa habilitar a sincronização de dados específicos do produto. A imagem abaixo mostra as opções disponíveis para integração com e-commerce:
+To activate SEO features in your integration, you need to enable synchronization of specific product data. The image below shows the available options for e-commerce integration:
 
 ![SEO Activation](/img/seo-activation.png)
 
-A configuração inclui:
-- **Nome do Produto**: Campo não recomendado pela FashionAI
-- **Descrição do Produto**: Conteúdo principal para otimização
-- **Descrição SEO do Produto**: Meta descrição otimizada
-- **Etiquetas do Produto**: Tags e categorias
-- **Descrições Alternativas de Imagens**: Alt text para todas as imagens do produto (1-10)
+The configuration includes:
+- **Product Name**: Field not recommended by FashionAI
+- **Product Description**: Main content for optimization
+- **Product SEO Description**: Optimized meta description
+- **Product Tags**: Tags and categories
+- **Alternative Image Descriptions**: Alt text for all product images (1-10)
 
-Selecione quais campos deseja sincronizar e habilite
+Select which fields you want to synchronize and enable them
 
 ## SEO Format Optimization
 
 ### Before and After Comparison
 
-O sistema permite gerar dados SEO otimizados em diferentes formatos e idiomas. Veja como:
+The system allows generating optimized SEO data in different formats and languages. Here's how:
 
 ![SEO Format Before](/img/seo-format-before.png)
 
-Inicialmente é necessário escolher o idioma e o seletor de formato aparecerá
+Initially you need to choose the language and the format selector will appear
 
 ![SEO Format After](/img/seo-format-after.png)
 
