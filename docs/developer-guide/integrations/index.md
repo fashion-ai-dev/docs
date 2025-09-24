@@ -17,7 +17,3 @@ Custom components and API integration for VTEX IO and Legacy CMS.
 - Review our [API Endpoints](../api-endpoints) documentation
 - Check our [Authentication](../authentication) guide
 - Explore [UI Integration](../ui-integration) patterns
-
----
-
-**Ready to integrate?** Choose your platform above or start with our [Integration Examples](./integration-examples).
