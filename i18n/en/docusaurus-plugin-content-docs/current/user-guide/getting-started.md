@@ -1,10 +1,10 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
-# Getting Started
+# Recommendations Overview
 
-Learn about Fashion.AI's intelligent system and how it enhances customer experience through personalized product suggestions powered by advanced AI.
+Learn about Fashion.AI's intelligent recommendation system and how it enhances customer experience through personalized product suggestions powered by advanced AI.
 
 ## Recommendation Types
 
@@ -16,7 +16,7 @@ Deliver personalized product suggestions based on user navigation history. Power
 - Category browsing enhancement
 - Cross-selling opportunities
 
-[Learn more about Similar Products →](../developer-guide/api-endpoints#category-view-event)
+[Learn more about Similar Products →](./api-endpoints#category-view-event)
 
 ### 👗 Shop the Look
 Automatically identify and recommend additional products featured in the same image. Turn every look into a complete outfit—just like a personal stylist would.
@@ -26,7 +26,7 @@ Automatically identify and recommend additional products featured in the same im
 - Style inspiration
 - Upselling complementary items
 
-[Learn more about Shop the Look →](../developer-guide/api-endpoints#shop-the-look-event)
+[Learn more about Shop the Look →](./api-endpoints#shop-the-look-event)
 
 ### 📋 Visual Merchandising
 Reorganize product listings dynamically based on what the user is really looking for. Create high-performing, personalized category displays that feel like a custom storefront.
@@ -36,7 +36,7 @@ Reorganize product listings dynamically based on what the user is really looking
 - Personalized homepage layouts
 - Seasonal trend highlighting
 
-[Learn more about Visual Merchandising →](../developer-guide/api-endpoints#category-view-event)
+[Learn more about Visual Merchandising →](./api-endpoints#category-view-event)
 
 ## How Our AI Works
 
@@ -75,8 +75,8 @@ When a user navigates dresses, our AI identifies:
 
 🚀 **Ready to implement recommendations?** Choose your integration path:
 
-- **[API Reference](../developer-guide/api-endpoints)** - Technical implementation guide
-- **[Authentication](../developer-guide/authentication)** - Set up your API access
-- **[UI Integration](../developer-guide/ui-integration)** - Frontend implementation examples
-- **[Search API](../developer-guide/Search/overview)** - Intelligent product search
-- **[Analytics Setup](../developer-guide/Analytics/google-analytics)** - Track performance
+- **[API Reference](./api-endpoints)** - Technical implementation guide
+- **[Authentication](./authentication)** - Set up your API access
+- **[UI Integration](./ui-integration)** - Frontend implementation examples
+- **[Search API](./Search/overview)** - Intelligent product search
+- **[Analytics Setup](./Analytics/google-analytics)** - Track performance

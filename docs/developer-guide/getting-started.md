@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Developer Getting Started
+# Getting Started
 
 Quick start guide for developers integrating FashionAI into their applications.
 
@@ -54,7 +54,7 @@ Quick setup for popular e-commerce platforms:
 - **VTEX** - Custom components
 - **Custom implementations** - Real-world examples
 
-[→ All Platform Integrations](./integrations/)
+[→ All Platform Integrations](./Integrations/)
 
 ## 📊 Analytics & Tracking
 
@@ -68,7 +68,7 @@ gtag('event', 'recommendation_click', {
 });
 ```
 
-[→ Analytics & Tracking Setup](./analytics/)
+[→ Analytics & Tracking Setup](./Analytics/)
 
 ## 🎯 Advanced Features
 
@@ -77,7 +77,7 @@ gtag('event', 'recommendation_click', {
 - Visual similarity search
 - Custom ranking algorithms
 
-[→ Search API Details](./search/overview) | [→ Search Examples](./search/examples)
+[→ Search API Details](./Search/overview) | [→ Search Examples](./Search/examples)
 
 ### Product Organization
 - Auto-categorization with taxonomies
@@ -92,23 +92,23 @@ Complete integration patterns and code samples:
 - Mobile app integrations
 - Microservices architecture
 
-[→ Integration Examples](./integrations/integration-examples)
+[→ Integration Examples](./Integrations/integration-examples)
 
 ## 🆘 Need Help?
 
 - **API Issues** → Check [Authentication](./authentication)
 - **UI Problems** → See [UI Integration](./ui-integration)
-- **Platform Help** → [Platform Integrations](./integrations/)
-- **Analytics Setup** → [Analytics & Tracking](./analytics/)
-- **Advanced Config** → [Integration Examples](./integrations/integration-examples)
+- **Platform Help** → [Platform Integrations](./Integrations/)
+- **Analytics Setup** → [Analytics & Tracking](./Analytics/)
+- **Advanced Config** → [Integration Examples](./Integrations/integration-examples)
 
 ## 📋 Next Steps
 
 1. **[Set up authentication](./authentication)** - Get your API credentials
 2. **[Test API endpoints](./api-endpoints)** - Make your first calls
 3. **[Add to your UI](./ui-integration)** - Integrate frontend components
-4. **[Configure analytics](./analytics/)** - Track performance
-5. **[Go live](./integrations/integration-examples)** - Production deployment
+4. **[Configure analytics](./Analytics/)** - Track performance
+5. **[Go live](./Integrations/integration-examples)** - Production deployment
 
 ---
 

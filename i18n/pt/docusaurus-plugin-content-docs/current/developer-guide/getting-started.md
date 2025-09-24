@@ -54,7 +54,7 @@ Configuração rápida para plataformas de e-commerce populares:
 - **VTEX** - Componentes personalizados
 - **Implementações customizadas** - Exemplos do mundo real
 
-[→ Todas as Integrações de Plataforma](./integrations/)
+[→ Todas as Integrações de Plataforma](./Integrations/)
 
 ## 📊 Analytics & Rastreamento
 
@@ -68,7 +68,7 @@ gtag('event', 'recommendation_click', {
 });
 ```
 
-[→ Configuração de Analytics & Rastreamento](./analytics/)
+[→ Configuração de Analytics & Rastreamento](./Analytics/)
 
 ## 🎯 Recursos Avançados
 
@@ -77,14 +77,14 @@ gtag('event', 'recommendation_click', {
 - Busca por similaridade visual
 - Algoritmos de ranking personalizados
 
-[→ Detalhes da API de Busca](./search/overview) | [→ Exemplos de Busca](./search/examples)
+[→ Detalhes da API de Busca](./Search/overview) | [→ Exemplos de Busca](./Search/examples)
 
 ### Organização de Produtos
 - Auto-categorização com taxonomias
 - Classificação de estilo e tendência
 - Agrupamento sazonal de produtos
 
-[→ Guia de Taxonomias](./taxonomies)
+[→ Guia de Taxonomias](../user-guide/taxonomies)
 
 ### Exemplos do Mundo Real
 Padrões completos de integração e amostras de código:
@@ -92,23 +92,23 @@ Padrões completos de integração e amostras de código:
 - Integrações de aplicativos mobile
 - Arquitetura de microsserviços
 
-[→ Exemplos de Integração](./integrations/integration-examples)
+[→ Exemplos de Integração](./Integrations/integration-examples)
 
 ## 🆘 Precisa de Ajuda?
 
 - **Problemas de API** → Verifique [Autenticação](./authentication)
 - **Problemas de UI** → Veja [Integração de UI](./ui-integration)
-- **Ajuda de Plataforma** → [Integrações de Plataforma](./integrations/)
-- **Configuração de Analytics** → [Analytics & Rastreamento](./analytics/)
-- **Configuração Avançada** → [Exemplos de Integração](./integrations/integration-examples)
+- **Ajuda de Plataforma** → [Integrações de Plataforma](./Integrations/)
+- **Configuração de Analytics** → [Analytics & Rastreamento](./Analytics/)
+- **Configuração Avançada** → [Exemplos de Integração](./Integrations/integration-examples)
 
 ## 📋 Próximos Passos
 
 1. **[Configure autenticação](./authentication)** - Obtenha suas credenciais de API
 2. **[Teste endpoints da API](./api-endpoints)** - Faça suas primeiras chamadas
 3. **[Adicione à sua UI](./ui-integration)** - Integre componentes frontend
-4. **[Configure analytics](./analytics/)** - Rastreie o desempenho
-5. **[Entre em produção](./integrations/integration-examples)** - Deploy de produção
+4. **[Configure analytics](./Analytics/)** - Rastreie o desempenho
+5. **[Entre em produção](./Integrations/integration-examples)** - Deploy de produção
 
 ---
 

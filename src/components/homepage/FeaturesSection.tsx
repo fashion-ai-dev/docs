@@ -19,7 +19,7 @@ export default function FeaturesSection() {
       title: <Translate>Advanced Semantic Search</Translate>,
       description: <Translate>Intelligent search that understands natural descriptions like "blue dress for wedding" and finds products using natural language processing and image analysis.</Translate>,
       linkColor: '#059669',
-      linkUrl: '/docs/developer-guide/search/overview'
+      linkUrl: '/docs/developer-guide/Search/overview'
     },
     {
       icon: <TrendingUp style={{width: '1.5rem', height: '1.5rem'}} />,
@@ -27,7 +27,7 @@ export default function FeaturesSection() {
       title: <Translate>Fashion SEO & Analytics</Translate>,
       description: <Translate>Automatic search engine optimization with specialized fashion tags, trend analysis, and detailed catalog performance reports.</Translate>,
       linkColor: '#d97706',
-      linkUrl: '/docs/user-guide/google-analytics'
+      linkUrl: '/docs/developer-guide/Analytics/google-analytics'
     }
   ];
 

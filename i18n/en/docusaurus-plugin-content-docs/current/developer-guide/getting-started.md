@@ -1,82 +1,115 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
 
-# Recommendations Overview
+# Getting Started
 
-Learn about Fashion.AI's intelligent recommendation system and how it enhances customer experience through personalized product suggestions powered by advanced AI.
+Quick start guide for developers integrating FashionAI into their applications.
 
-## Recommendation Types
+## 🚀 Quick Setup (5 minutes)
 
-### 🎯 Similar Products
-Deliver personalized product suggestions based on user navigation history. Powered by 4,500+ product attributes, this API helps increase conversion by showing items that match the shopper's style and intent.
+### 1. Authentication
+Get your API credentials and start making requests:
+- Generate API token in dashboard
+- Add to headers: `Authorization: Bearer YOUR_TOKEN`
+- Test with sample API call
 
-**Use Cases:**
-- Product page recommendations
-- Category browsing enhancement
-- Cross-selling opportunities
+[→ Full Authentication Guide](./authentication)
 
-[Learn more about Similar Products →](./api-endpoints#category-view-event)
+### 2. Core APIs
+**Recommendations API** - Personalized product suggestions
+```javascript
+POST /api/recommendations
+{
+  "user_id": "user123",
+  "context": "product_page",
+  "product_id": "item456"
+}
+```
 
-### 👗 Shop the Look
-Automatically identify and recommend additional products featured in the same image. Turn every look into a complete outfit—just like a personal stylist would.
+**Search API** - Intelligent product search
+```javascript
+POST /api/search
+{
+  "query": "red summer dress",
+  "filters": { "category": "dresses" }
+}
+```
 
-**Use Cases:**
-- Complete outfit suggestions
-- Style inspiration
-- Upselling complementary items
+[→ Complete API Reference](./api-endpoints)
 
-[Learn more about Shop the Look →](./api-endpoints#shop-the-look-event)
+## 🛠️ Integration Options
 
-### 📋 Visual Merchandising
-Reorganize product listings dynamically based on what the user is really looking for. Create high-performing, personalized category displays that feel like a custom storefront.
+### Frontend Integration
+Add recommendation widgets and search to your UI:
+- React/Vue/Angular components
+- Vanilla JavaScript widgets
+- Mobile SDKs
 
-**Use Cases:**
-- Dynamic category organization
-- Personalized homepage layouts
-- Seasonal trend highlighting
+[→ UI Integration Guide](./ui-integration)
 
-[Learn more about Visual Merchandising →](./api-endpoints#category-view-event)
+### Platform-Specific
+Quick setup for popular e-commerce platforms:
+- **Shopify** - Native app integration
+- **VTEX** - Custom components
+- **Custom implementations** - Real-world examples
 
-## How Our AI Works
+[→ All Platform Integrations](./Integrations/)
 
-### Intent Mapping Process
+## 📊 Analytics & Tracking
 
-1. **Product Navigation**: Tracks products users have navigated during the session
-2. **Category Elements**: Analyzes visual elements like silhouettes, patterns, and styling details
-3. **Pattern Insights**: Identifies textures, fabrics, and structural elements
-4. **Styling Intent**: Understands occasion, style preferences, and versatility needs
-5. **User Behavior**: Cross-references searches, products, and past purchases for logged-in users
-6. **Intent Prediction**: Relates products from different categories based on style mapping
+### Google Analytics Enhanced Ecommerce
+Track recommendation performance and search behavior:
+```javascript
+// Track recommendation clicks
+gtag('event', 'recommendation_click', {
+  'item_id': 'product123',
+  'item_category': 'dresses'
+});
+```
 
-### Example: Dress Navigation Analysis
+[→ Analytics & Tracking Setup](./Analytics/)
 
-When a user navigates dresses, our AI identifies:
+## 🎯 Advanced Features
 
-**Category Elements:**
-- V-neck silhouette
-- Spaghetti straps
-- Defined waistline
-- A-line or flared skirt
+### Search Configuration
+- Semantic search with natural language
+- Visual similarity search
+- Custom ranking algorithms
 
-**Pattern Insights:**
-- Vertical pleating
-- Botanical or minimalist textures
-- Lightweight, airy fabrics
-- Subtle structured tailoring
+[→ Search API Details](./Search/overview) | [→ Search Examples](./Search/examples)
 
-**Styling Intent:**
-- Feminine yet contemporary
-- Suggests confidence, delicacy, and movement
-- Day-to-night versatility
-- Ideal for spring/summer social occasions
+### Product Organization
+- Auto-categorization with taxonomies
+- Style and trend classification
+- Seasonal product grouping
 
-## Next Steps
+[→ Taxonomies Guide](./taxonomies)
 
-🚀 **Ready to implement recommendations?** Choose your integration path:
+### Real-World Examples
+Complete integration patterns and code samples:
+- E-commerce store implementations
+- Mobile app integrations
+- Microservices architecture
 
-- **[API Reference](./api-endpoints)** - Technical implementation guide
-- **[Authentication](./authentication)** - Set up your API access
-- **[UI Integration](./ui-integration)** - Frontend implementation examples
-- **[Search API](./search/overview)** - Intelligent product search
-- **[Analytics Setup](./google-analytics)** - Track performance
+[→ Integration Examples](./Integrations/integration-examples)
+
+## 🆘 Need Help?
+
+- **API Issues** → Check [Authentication](./authentication)
+- **UI Problems** → See [UI Integration](./ui-integration)
+- **Platform Help** → [Platform Integrations](./Integrations/)
+- **Analytics Setup** → [Analytics & Tracking](./Analytics/)
+- **Advanced Config** → [Integration Examples](./Integrations/integration-examples)
+
+## 📋 Next Steps
+
+1. **[Set up authentication](./authentication)** - Get your API credentials
+2. **[Test API endpoints](./api-endpoints)** - Make your first calls
+3. **[Add to your UI](./ui-integration)** - Integrate frontend components
+4. **[Configure analytics](./Analytics/)** - Track performance
+5. **[Go live](./Integrations/integration-examples)** - Production deployment
+
+---
+
+**Ready to integrate?** Start with [Authentication](./authentication) →
