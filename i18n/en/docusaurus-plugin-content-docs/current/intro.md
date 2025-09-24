@@ -8,10 +8,10 @@ Welcome to FashionAI's comprehensive documentation. Learn how to integrate intel
 
 ## Quick Start
 
-1. **[Recommendations Overview](./getting-started)** - Learn about our AI-powered recommendation system
-2. **[API Reference](./api-endpoints)** - Technical implementation guide
-3. **[Authentication](./authentication)** - Set up your API access
-4. **[UI Integration](./ui-integration)** - Frontend implementation examples
+1. **[Getting Started](./developer-guide/getting-started)** - Quick start guide for developers
+2. **[API Endpoints](./developer-guide/api-endpoints)** - Complete endpoint reference
+3. **[Authentication](./developer-guide/authentication)** - Set up your API access
+4. **[UI Integration](./developer-guide/ui-integration)** - Frontend implementation examples
 
 ## Support
 

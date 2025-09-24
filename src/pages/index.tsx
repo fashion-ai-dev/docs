@@ -15,7 +15,6 @@ export default function HomePage() {
       <div style={{minHeight: '100vh'}}>
         <HeroSection />
         <FeaturesSection />
-        <CTASection />
       </div>
     </Layout>
   )

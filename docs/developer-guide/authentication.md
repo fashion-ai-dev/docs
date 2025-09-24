@@ -1,33 +1,33 @@
 ---
-sidebar_position: 4
+sidebar_position: 3
 ---
 
-# Guia de Autenticação da API
+# API Authentication - App Token
 
-Aprenda como autenticar suas requisições para todas as APIs da Fashion.AI usando tokens de app seguros.
+Learn how to authenticate your requests to all Fashion.AI APIs using secure app tokens.
 
-## Visão Geral
+## Overview
 
-Todas as APIs da FashionAI (Busca, Personalização, Analytics) usam o mesmo método de autenticação com tokens de app. Esta abordagem unificada simplifica a integração e permite que você use um único token em todos os serviços.
+All FashionAI APIs (Search, Personalization, Analytics) use the same authentication method with app tokens. This unified approach simplifies integration and allows you to use a single token across all services.
 
-## Método de Autenticação
+## Authentication Method
 
-Todas as APIs usam **Autenticação por Bearer Token** via cabeçalhos customizados.
+All APIs use **Bearer Token Authentication** via custom headers.
 
-### Cabeçalhos Obrigatórios
+### Required Headers
 
-| Cabeçalho | Obrigatório | Descrição |
+| Header | Required | Description |
 |--------|----------|-------------|
-| `Content-Type` | Sim | Deve ser `application/json` |
-| `X-FashionAI-APP-Token` | Sim | Seu token de aplicação |
+| `Content-Type` | Yes | Must be `application/json` |
+| `X-FashionAI-APP-Token` | Yes | Your application token |
 
-## Obtendo Seu Token
+## Obtaining Your Token
 
-### Passo 1: Acessar Dashboard
+### Step 1: Access Dashboard
 
-1. Faça login no seu [Dashboard FashionAI](https://app.generativecrm.com)
-2. Navegue para **Configurações da API** na barra lateral
-3. Clique na seção **Tokens da API**
+1. Log into your [FashionAI Dashboard](https://dashboard.fashionaiale.com)
+2. Navigate to **API Settings** in the sidebar
+3. Click on **API Tokens** section
 
 ### Step 2: Generate Token
 

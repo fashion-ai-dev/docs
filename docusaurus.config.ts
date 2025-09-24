@@ -112,10 +112,8 @@ const config: Config = {
           label: 'components.NavigationBar.developerGuide',
         },
         {
-          type: 'docSidebar',
-          sidebarId: 'trackingSidebar',
+          type: 'localeDropdown',
           position: 'right',
-          label: 'components.NavigationBar.tracking',
         },
         {
           href: 'https://app.generativecrm.com',
@@ -124,7 +122,7 @@ const config: Config = {
           rel: 'noopener noreferrer',
         },
         {
-          type: 'localeDropdown',
+          type: 'search',
           position: 'right',
         },
         {
@@ -144,19 +142,19 @@ const config: Config = {
           items: [
             {
               label: 'footer.links.gettingStarted',
-              to: '/docs/getting-started',
+              to: '/docs/developer-guide/getting-started',
             },
             {
               label: 'footer.links.apiEndpoints',
-              to: '/docs/api-endpoints',
+              to: '/docs/developer-guide/api-endpoints',
             },
             {
               label: 'footer.links.authentication',
-              to: '/docs/authentication',
+              to: '/docs/developer-guide/authentication',
             },
             {
               label: 'footer.links.search',
-              to: '/docs/search/overview',
+              to: '/docs/developer-guide/Search/overview',
             },
           ],
         },
@@ -165,15 +163,15 @@ const config: Config = {
           items: [
             {
               label: 'footer.links.uiIntegration',
-              to: '/docs/ui-integration',
+              to: '/docs/developer-guide/ui-integration',
             },
             {
               label: 'footer.links.googleAnalytics',
-              to: '/docs/google-analytics',
+              to: '/docs/developer-guide/Analytics/google-analytics',
             },
             {
-              label: 'footer.links.googleTagManager',
-              to: '/docs/google-tag-manager',
+              label: 'footer.links.integrations',
+              to: '/docs/developer-guide/Integrations',
             },
           ],
         },

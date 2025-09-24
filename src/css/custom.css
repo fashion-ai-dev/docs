@@ -59,7 +59,6 @@
   transform: scale(1.05);
 }
 
-/* Feature card "Saiba mais" hover effect */
 .homepage-card:hover .feature-card-link {
   text-decoration: underline;
 }
@@ -179,7 +178,6 @@
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 
-  /* Custom theme variables that adapt automatically */
   --custom-hero-bg-start: rgba(255, 152, 187, 0.05);
   --custom-hero-bg-end: rgb(255, 255, 255);
   --custom-card-bg: rgba(172, 172, 172, 0.068);
@@ -191,14 +189,12 @@
   --custom-icon-accent: #d97706;
   --custom-status-dot: #10b981;
 
-  /* Footer variables */
   --custom-footer-text: rgba(255, 255, 255, 0.8);
   --custom-footer-text-hover: white;
   --custom-footer-copyright: rgba(255, 255, 255, 0.7);
   --custom-footer-border: rgba(255, 255, 255, 0.1);
 }
 
-/* Logo styles */
 .navbar__logo svg {
   color: var(--ifm-navbar-link-color);
 }
@@ -207,7 +203,6 @@
   color: var(--ifm-navbar-link-color);
 }
 
-/* Dark mode adjustments for specific elements */
 [data-theme='dark'] .homepage-badge {
   color: var(--ifm-color-primary-light);
 }
@@ -225,7 +220,6 @@
   color: var(--ifm-color-primary-light);
 }
 
-/* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: #F28585;
   --ifm-color-primary-dark: #eb7474;
@@ -236,7 +230,6 @@
   --ifm-color-primary-lightest: #ffffff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 
-  /* Dark mode custom variables */
   --custom-hero-bg-start: rgba(26, 26, 26, 0.75);
   --custom-hero-bg-end: rgb(34, 34, 34);
   --custom-card-bg: rgba(33, 37, 37, 0.6);
@@ -245,14 +238,12 @@
   --custom-badge-bg: rgba(255, 255, 255, 0.12);
   --custom-button-border: rgba(248, 223, 231, 0.25);
 
-  /* Footer dark mode variables */
   --custom-footer-text: var(--ifm-color-emphasis-700);
   --custom-footer-text-hover: var(--ifm-color-primary-lightest);
   --custom-footer-copyright: var(--ifm-color-emphasis-600);
   --custom-footer-border: var(--ifm-color-emphasis-300);
 }
 
-/* Footer styles */
 .footer {
   background: linear-gradient(135deg, var(--ifm-color-primary-darker) 0%, var(--ifm-color-primary-dark) 100%) !important;
   border-top: 2px solid var(--ifm-color-primary);
@@ -302,7 +293,6 @@
   font-size: 0.9rem;
 }
 
-/* Dark mode footer adjustments */
 [data-theme='dark'] .footer {
   background: linear-gradient(135deg, var(--ifm-background-color-secondary) 0%, var(--ifm-color-emphasis-200) 100%) !important;
 }
@@ -311,7 +301,6 @@
   color: var(--ifm-color-primary-lightest) !important;
 }
 
-/* GitHub icon in navbar */
 .header-github-link::before {
   content: '';
   width: 24px;
@@ -345,25 +334,21 @@
 }
 
 
-/* Language selector styling */
 [data-theme='dark'] .language-selector-trigger:hover {
   background-color: var(--ifm-color-emphasis-300) !important;
 }
 
-/* Smooth page transitions */
 html {
   scroll-behavior: smooth;
 }
 
 
-/* Focus states for accessibility */
 .homepage-button:focus,
 .homepage-card:focus {
   outline: 2px solid var(--ifm-color-primary);
   outline-offset: 2px;
 }
 
-/* Documentation gradient effect */
 .documentation-gradient {
   background: linear-gradient(135deg, #F28585 0%, #eb7474 50%, #e04747 100%) !important;
   -webkit-background-clip: text !important;
@@ -373,8 +358,9 @@ html {
 }
 
 .ai-platform-badge {
-  background: linear-gradient(90deg, #f7e4e4 0%, #fceaea 50%, #f7e4e4 100%) !important;
+  background: linear-gradient(90deg, var(--ifm-color-primary) 0%, var(--ifm-color-primary) 50%, var(--ifm-color-primary-darker) 100%) !important;
   background-size: 200% 100% !important;
+  color: white !important;
   animation: ai-shimmer 2s ease-in-out infinite !important;
   position: relative !important;
   overflow: hidden !important;
@@ -387,7 +373,7 @@ html {
   left: -100%;
   width: 100%;
   height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.4), transparent);
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.6), transparent);
   animation: ai-shine 3s ease-in-out infinite;
 }
 
@@ -451,4 +437,8 @@ html {
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1) !important;
 }
 
-
+.navbar {
+  padding: 2rem 1rem !important;
+  align-items: center;
+  transition: padding 0.3s ease;
+}
