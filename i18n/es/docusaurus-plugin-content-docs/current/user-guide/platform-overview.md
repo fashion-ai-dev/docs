@@ -16,7 +16,7 @@ Entrega sugerencias de productos personalizadas basadas en el historial de naveg
 - Mejora de navegación por categorías
 - Oportunidades de venta cruzada
 
-[Aprende más sobre Productos Similares →](../developer-guide/api-endpoints# evento-de-vista-de-categoría)
+[Aprende más sobre Productos Similares →](../developer-guide/api-endpoints#evento-de-vista-de-categoría)
 
 ### 👗 Compra el Look
 Identifica automáticamente y recomienda productos adicionales presentados en la misma imagen. Convierte cada look en un conjunto completo—tal como lo haría un personal stylist.
@@ -26,7 +26,7 @@ Identifica automáticamente y recomienda productos adicionales presentados en la
 - Inspiración de estilo
 - Venta adicional de artículos complementarios
 
-[Aprende más sobre Compra el Look →](../developer-guide/api-endpoints# evento-compra-el-look)
+[Aprende más sobre Compra el Look →](../developer-guide/api-endpoints#evento-compra-el-look)
 
 ### 📋 Visual Merchandising
 Reorganiza las listas de productos dinámicamente basado en lo que el usuario realmente está buscando. Crea displays de categorías personalizados y de alto rendimiento que se sienten como una tienda personalizada.
@@ -36,7 +36,7 @@ Reorganiza las listas de productos dinámicamente basado en lo que el usuario re
 - Layouts personalizados de página de inicio
 - Destacado de tendencias estacionales
 
-[Aprende más sobre Visual Merchandising →](../developer-guide/api-endpoints# evento-de-vista-de-categoría)
+[Aprende más sobre Visual Merchandising →](../developer-guide/api-endpoints#evento-de-vista-de-categoría)
 
 ## Cómo Funciona Nuestra IA
 
