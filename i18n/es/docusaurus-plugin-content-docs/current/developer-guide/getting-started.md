@@ -18,33 +18,12 @@ Obtén tus credenciales de API y comienza a hacer solicitudes:
 
 ### 2. APIs Principales
 **API de Recomendaciones** - Sugerencias personalizadas de productos
-```javascript
-POST /api/recommendations
-{
-  "user_id": "user123",
-  "context": "product_page",
-  "product_id": "item456"
-}
-```
 
 **API de Búsqueda** - Búsqueda inteligente de productos
-```javascript
-POST /api/search
-{
-  "query": "vestido rojo de verano",
-  "filters": { "category": "vestidos" }
-}
-```
 
 [→ Referencia Completa de API](./api-endpoints)
 
 ## 🛠️ Opciones de Integración
-
-### Integración Frontend
-Añade widgets de recomendación y búsqueda a tu UI:
-- Componentes React/Vue/Angular
-- Widgets JavaScript vanilla
-- SDKs móviles
 
 [→ Guía de Integración de UI](./ui-integration)
 
@@ -52,7 +31,7 @@ Añade widgets de recomendación y búsqueda a tu UI:
 Configuración rápida para plataformas de e-commerce populares:
 - **Shopify** - Integración de app nativa
 - **VTEX** - Componentes personalizados
-- **Implementaciones personalizadas** - Ejemplos del mundo real
+- **Implementaciones personalizadas** - Contacta el Soporte de Fashion
 
 [→ Todas las Integraciones de Plataforma](./Integrations/)
 
@@ -60,20 +39,13 @@ Configuración rápida para plataformas de e-commerce populares:
 
 ### Google Analytics Enhanced Ecommerce
 Rastrea el rendimiento de recomendaciones y comportamiento de búsqueda:
-```javascript
-// Rastrear clics en recomendaciones
-gtag('event', 'recommendation_click', {
-  'item_id': 'product123',
-  'item_category': 'vestidos'
-});
-```
 
 [→ Configuración de Analytics y Seguimiento](./Analytics/)
 
 ## 🎯 Características Avanzadas
 
 ### Configuración de Búsqueda
-- Búsqueda semántica con lenguaje natural
+- Búsqueda semántica
 - Búsqueda por similitud visual
 - Algoritmos de ranking personalizados
 
@@ -82,17 +54,10 @@ gtag('event', 'recommendation_click', {
 ### Organización de Productos
 - Auto-categorización con taxonomías
 - Clasificación de estilo y tendencia
-- Agrupación estacional de productos
+- Etiquetado estacional de productos
 
 [→ Guía de Taxonomías](../user-guide/taxonomies)
 
-### Ejemplos del Mundo Real
-Patrones completos de integración y muestras de código:
-- Implementaciones de tiendas e-commerce
-- Integraciones de aplicaciones móviles
-- Arquitectura de microservicios
-
-[→ Ejemplos de Integración](./Integrations/integration-examples)
 
 ## 🆘 ¿Necesitas Ayuda?
 
@@ -100,7 +65,6 @@ Patrones completos de integración y muestras de código:
 - **Problemas de UI** → Ve [Integración de UI](./ui-integration)
 - **Ayuda de Plataforma** → [Integraciones de Plataforma](./Integrations/)
 - **Configuración de Analytics** → [Analytics y Seguimiento](./Analytics/)
-- **Configuración Avanzada** → [Ejemplos de Integración](./Integrations/integration-examples)
 
 ## 📋 Próximos Pasos
 
@@ -108,7 +72,6 @@ Patrones completos de integración y muestras de código:
 2. **[Prueba endpoints de API](./api-endpoints)** - Haz tus primeras llamadas
 3. **[Añade a tu UI](./ui-integration)** - Integra componentes frontend
 4. **[Configura analytics](./Analytics/)** - Rastrea el rendimiento
-5. **[Ve en vivo](./Integrations/integration-examples)** - Despliegue de producción
 
 ---
 

@@ -18,33 +18,12 @@ Obtenha suas credenciais de API e comece a fazer solicitações:
 
 ### 2. APIs Principais
 **API de Recomendações** - Sugestões personalizadas de produtos
-```javascript
-POST /api/recommendations
-{
-  "user_id": "user123",
-  "context": "product_page",
-  "product_id": "item456"
-}
-```
 
 **API de Busca** - Busca inteligente de produtos
-```javascript
-POST /api/search
-{
-  "query": "vestido vermelho de verão",
-  "filters": { "category": "vestidos" }
-}
-```
 
 [→ Referência Completa da API](./api-endpoints)
 
 ## 🔧 Opções de Integração
-
-### Integração Frontend
-Adicione widgets de recomendação e busca à sua UI:
-- Componentes React/Vue/Angular
-- Widgets JavaScript vanilla
-- SDKs mobile
 
 [→ Guia de Integração de UI](./ui-integration)
 
@@ -52,7 +31,7 @@ Adicione widgets de recomendação e busca à sua UI:
 Configuração rápida para plataformas de e-commerce populares:
 - **Shopify** - Integração de app nativa
 - **VTEX** - Componentes personalizados
-- **Implementações customizadas** - Exemplos do mundo real
+- **Implementações customizadas** - Entre em contato com o Suporte da Fashion
 
 [→ Todas as Integrações de Plataforma](./Integrations/)
 
@@ -60,20 +39,13 @@ Configuração rápida para plataformas de e-commerce populares:
 
 ### Google Analytics Enhanced Ecommerce
 Rastreie o desempenho de recomendações e comportamento de busca:
-```javascript
-// Rastrear cliques em recomendações
-gtag('event', 'recommendation_click', {
-  'item_id': 'product123',
-  'item_category': 'vestidos'
-});
-```
 
 [→ Configuração de Analytics & Rastreamento](./Analytics/)
 
 ## 🎯 Recursos Avançados
 
 ### Configuração de Busca
-- Busca semântica com linguagem natural
+- Busca semântica
 - Busca por similaridade visual
 - Algoritmos de ranking personalizados
 
@@ -82,17 +54,10 @@ gtag('event', 'recommendation_click', {
 ### Organização de Produtos
 - Auto-categorização com taxonomias
 - Classificação de estilo e tendência
-- Agrupamento sazonal de produtos
+- Etiquetagem sazonal de produtos
 
 [→ Guia de Taxonomias](../user-guide/taxonomies)
 
-### Exemplos do Mundo Real
-Padrões completos de integração e amostras de código:
-- Implementações de lojas e-commerce
-- Integrações de aplicativos mobile
-- Arquitetura de microsserviços
-
-[→ Exemplos de Integração](./Integrations/integration-examples)
 
 ## 🆘 Precisa de Ajuda?
 
@@ -100,7 +65,6 @@ Padrões completos de integração e amostras de código:
 - **Problemas de UI** → Veja [Integração de UI](./ui-integration)
 - **Ajuda de Plataforma** → [Integrações de Plataforma](./Integrations/)
 - **Configuração de Analytics** → [Analytics & Rastreamento](./Analytics/)
-- **Configuração Avançada** → [Exemplos de Integração](./Integrations/integration-examples)
 
 ## 📋 Próximos Passos
 
@@ -108,7 +72,6 @@ Padrões completos de integração e amostras de código:
 2. **[Teste endpoints da API](./api-endpoints)** - Faça suas primeiras chamadas
 3. **[Adicione à sua UI](./ui-integration)** - Integre componentes frontend
 4. **[Configure analytics](./Analytics/)** - Rastreie o desempenho
-5. **[Entre em produção](./Integrations/integration-examples)** - Deploy de produção
 
 ---
 

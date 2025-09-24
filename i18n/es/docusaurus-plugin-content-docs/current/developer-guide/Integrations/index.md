@@ -12,9 +12,6 @@ Integración nativa de aplicación para tiendas Shopify con sincronización auto
 ### [Integración VTEX](./vtex-integration)
 Componentes personalizados e integración de API para VTEX IO y CMS Legacy.
 
-### [Ejemplos de Integración](./integration-examples)
-Ejemplos de implementación del mundo real y patrones de código para plataformas personalizadas.
-
 ## ¿Necesitas Ayuda?
 
 - Revisa nuestra documentación de [Endpoints de API](../api-endpoints)
@@ -23,4 +20,4 @@ Ejemplos de implementación del mundo real y patrones de código para plataforma
 
 ---
 
-**¿Listo para integrar?** Elige tu plataforma arriba o comienza con nuestros [Ejemplos de Integración](./integration-examples).
+**¿Listo para integrar?** Elige tu plataforma arriba o comienza con nuestra [Guía de Integración](./integration-examples).

@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Platform Overview
+# General View About Recommendations
 
 Learn about Fashion.AI's intelligent system and how it enhances customer experience through personalized product suggestions powered by advanced AI.
 
