@@ -56,7 +56,7 @@ Track recommendation performance and search behavior:
 - Style and trend classification
 - Seasonal product tagging
 
-[→ Taxonomies Guide](./taxonomies)
+[→ Taxonomies Guide](../user-guide/taxonomies)
 
 ## 🆘 Need Help?
 

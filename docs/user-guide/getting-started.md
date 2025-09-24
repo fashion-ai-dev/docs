@@ -54,7 +54,3 @@ Boost your online visibility with:
 - **E-commerce Managers** wanting better search and recommendations
 - **Marketing Teams** focusing on SEO and content optimization
 - **Product Teams** building fashion applications
-
-## Getting Started
-
-Ready to transform your fashion catalog? Check out our [Getting Started](/docs/user-guide/getting-started) guide to begin your journey.
