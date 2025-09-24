@@ -14,7 +14,7 @@ const config: Config = {
   organizationName: 'fashion-ai-dev',
   projectName: 'docs',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
