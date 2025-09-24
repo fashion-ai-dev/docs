@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Primeros Pasos
+# Tipos de Recomendaciones
 
 Aprende sobre el sistema inteligente de Fashion.AI y cómo mejora la experiencia del cliente a través de sugerencias de productos personalizadas impulsadas por IA avanzada.
 

@@ -1,6 +1,8 @@
 ---
-sidebar_position: 2
+sidebar_position: 1
 ---
+
+# Primeiros Passos
 
 ## Visão Geral da Plataforma
 

@@ -2,6 +2,8 @@
 sidebar_position: 1
 ---
 
+# Primeros Pasos
+
 ## Descripción General de la Plataforma
 
 ### ¿Qué es nuestra plataforma de catálogo de moda?
