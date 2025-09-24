@@ -33,14 +33,14 @@ Quick setup for popular e-commerce platforms:
 - **VTEX** - Custom components
 - **Custom implementations** - Contact Fashion's Support
 
-[→ All Platform Integrations](./Integrations/)
+[→ All Platform Integrations](./integrations/)
 
 ## 📊 Analytics & Tracking
 
 ### Google Analytics Enhanced Ecommerce
 Track recommendation performance and search behavior:
 
-[→ Analytics & Tracking Setup](./Analytics/)
+[→ Analytics & Tracking Setup](./analytics/)
 
 ## 🎯 Advanced Features
 
@@ -49,7 +49,7 @@ Track recommendation performance and search behavior:
 - Visual similarity search
 - Custom ranking algorithms
 
-[→ Search API Details](./Search/overview) | [→ Search Examples](./Search/examples)
+[→ Search API Details](./search/overview) | [→ Search Examples](./search/examples)
 
 ### Product Organization
 - Auto-categorization with taxonomies
@@ -62,15 +62,15 @@ Track recommendation performance and search behavior:
 
 - **API Issues** → Check [Authentication](./authentication)
 - **UI Problems** → See [UI Integration](./ui-integration)
-- **Platform Help** → [Platform Integrations](./Integrations/)
-- **Analytics Setup** → [Analytics & Tracking](./Analytics/)
+- **Platform Help** → [Platform Integrations](./integrations/)
+- **Analytics Setup** → [Analytics & Tracking](./analytics/)
 
 ## 📋 Next Steps
 
 1. **[Set up authentication](./authentication)** - Get your API credentials
 2. **[Test API endpoints](./api-endpoints)** - Make your first calls
 3. **[Add to your UI](./ui-integration)** - Integrate frontend components
-4. **[Configure analytics](./Analytics/)** - Track performance
+4. **[Configure analytics](./analytics/)** - Track performance
 ---
 
 **Ready to integrate?** Start with [Authentication](./authentication) →

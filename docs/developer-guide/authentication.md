@@ -61,6 +61,6 @@ X-FashionAI-APP-Token: fai_live_sk_1234567890abcdef...
 
 Now that you understand authentication, explore specific APIs:
 
-- [Search API](./Search/overview) - Product search functionality
+- [Search API](./search/overview) - Product search functionality
 - [API Endpoints](./api-endpoints) - Complete endpoint reference
 - [UI Integration](./ui-integration) - Frontend integration guides

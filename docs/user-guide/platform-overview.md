@@ -78,5 +78,5 @@ When a user navigates dresses, our AI identifies:
 - **[API Reference](../developer-guide/api-endpoints)** - Technical implementation guide
 - **[Authentication](../developer-guide/authentication)** - Set up your API access
 - **[UI Integration](../developer-guide/ui-integration)** - Frontend implementation examples
-- **[Search API](../developer-guide/Search/overview)** - Intelligent product search
-- **[Analytics Setup](../developer-guide/Analytics/google-analytics)** - Track performance
+- **[Search API](../developer-guide/search/overview)** - Intelligent product search
+- **[Analytics Setup](../developer-guide/analytics/google-analytics)** - Track performance

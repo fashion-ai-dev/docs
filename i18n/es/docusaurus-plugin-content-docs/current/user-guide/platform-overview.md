@@ -78,5 +78,5 @@ Cuando un usuario navega vestidos, nuestra IA identifica:
 - **[Referencia de API](../developer-guide/api-endpoints)** - Guía de implementación técnica
 - **[Autenticación](../developer-guide/authentication)** - Configura tu acceso a la API
 - **[Integración de UI](../developer-guide/ui-integration)** - Ejemplos de implementación frontend
-- **[API de Búsqueda](../developer-guide/Search/overview)** - Búsqueda inteligente de productos
-- **[Configuración de Analytics](../developer-guide/Analytics/google-analytics)** - Rastrea el rendimiento
+- **[API de Búsqueda](../developer-guide/search/overview)** - Búsqueda inteligente de productos
+- **[Configuración de Analytics](../developer-guide/analytics/google-analytics)** - Rastrea el rendimiento

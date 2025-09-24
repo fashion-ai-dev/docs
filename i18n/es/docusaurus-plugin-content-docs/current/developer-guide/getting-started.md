@@ -33,14 +33,14 @@ Configuración rápida para plataformas de e-commerce populares:
 - **VTEX** - Componentes personalizados
 - **Implementaciones personalizadas** - Contacta el Soporte de Fashion
 
-[→ Todas las Integraciones de Plataforma](./Integrations/)
+[→ Todas las Integraciones de Plataforma](./integrations/)
 
 ## 📊 Analytics y Seguimiento
 
 ### Google Analytics Enhanced Ecommerce
 Rastrea el rendimiento de recomendaciones y comportamiento de búsqueda:
 
-[→ Configuración de Analytics y Seguimiento](./Analytics/)
+[→ Configuración de Analytics y Seguimiento](./analytics/)
 
 ## 🎯 Características Avanzadas
 
@@ -49,7 +49,7 @@ Rastrea el rendimiento de recomendaciones y comportamiento de búsqueda:
 - Búsqueda por similitud visual
 - Algoritmos de ranking personalizados
 
-[→ Detalles de API de Búsqueda](./Search/overview) | [→ Ejemplos de Búsqueda](./Search/examples)
+[→ Detalles de API de Búsqueda](./search/overview) | [→ Ejemplos de Búsqueda](./search/examples)
 
 ### Organización de Productos
 - Auto-categorización con taxonomías
@@ -63,15 +63,15 @@ Rastrea el rendimiento de recomendaciones y comportamiento de búsqueda:
 
 - **Problemas de API** → Revisa [Autenticación](./authentication)
 - **Problemas de UI** → Ve [Integración de UI](./ui-integration)
-- **Ayuda de Plataforma** → [Integraciones de Plataforma](./Integrations/)
-- **Configuración de Analytics** → [Analytics y Seguimiento](./Analytics/)
+- **Ayuda de Plataforma** → [Integraciones de Plataforma](./integrations/)
+- **Configuración de Analytics** → [Analytics y Seguimiento](./analytics/)
 
 ## 📋 Próximos Pasos
 
 1. **[Configura autenticación](./authentication)** - Obtén tus credenciales de API
 2. **[Prueba endpoints de API](./api-endpoints)** - Haz tus primeras llamadas
 3. **[Añade a tu UI](./ui-integration)** - Integra componentes frontend
-4. **[Configura analytics](./Analytics/)** - Rastrea el rendimiento
+4. **[Configura analytics](./analytics/)** - Rastrea el rendimiento
 
 ---
 
