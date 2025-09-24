@@ -154,7 +154,7 @@ const config: Config = {
             },
             {
               label: 'footer.links.search',
-              to: '/docs/developer-guide/Search/overview',
+              to: '/docs/developer-guide/search/overview',
             },
           ],
         },
@@ -167,11 +167,11 @@ const config: Config = {
             },
             {
               label: 'footer.links.googleAnalytics',
-              to: '/docs/developer-guide/Analytics/google-analytics',
+              to: '/docs/developer-guide/analytics/google-analytics',
             },
             {
               label: 'footer.links.integrations',
-              to: '/docs/developer-guide/Integrations',
+              to: '/docs/developer-guide/integrations',
             },
           ],
         },
