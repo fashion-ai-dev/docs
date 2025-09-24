@@ -84,7 +84,7 @@ gtag('event', 'recommendation_click', {
 - Style and trend classification
 - Seasonal product grouping
 
-[→ Taxonomies Guide](./taxonomies)
+[→ Taxonomies Guide](../user-guide/taxonomies)
 
 ### Real-World Examples
 Complete integration patterns and code samples:
