@@ -1,167 +1,82 @@
-# Visão Geral da Plataforma
+---
+sidebar_position: 2
+---
 
+# Visão Geral das Recomendações
 
-## O que é Nossa Plataforma de Catálogo de Moda?
+Conheça o sistema inteligente de recomendações da Fashion.AI e como ele melhora a experiência do cliente através de sugestões de produtos personalizadas alimentadas por IA avançada.
 
-Nossa plataforma revoluciona como varejistas de moda gerenciam e otimizam seus catálogos de produtos. Fornecemos enriquecimento inteligente de catálogo, otimização de SEO, recomendações personalizadas e capacidades de busca semântica especificamente projetadas para a indústria da moda.
+## Tipos de Recomendação
 
-## Recursos Principais
+### 🎯 Produtos Similares
+Ofereça sugestões de produtos personalizadas baseadas no histórico de navegação do usuário. Alimentado por mais de 4.500 atributos de produtos, esta API ajuda a aumentar a conversão mostrando itens que combinam com o estilo e intenção do comprador.
 
-### 🤖 Enriquecimento Automático de Catálogo
-- **Análise de imagem com IA** para identificação automática de atributos de produtos
-- **Geração de descrições** otimizadas para SEO e experiência do usuário
-- **Classificação automática** de produtos em categorias e subcategorias
-- **Extração de características** como cor, padrão, estilo, ocasião e material
+**Casos de Uso:**
+- Recomendações na página do produto
+- Melhoria na navegação por categorias
+- Oportunidades de venda cruzada
 
-### 🔍 Busca Semântica Avançada
-- **Compreensão de linguagem natural** para consultas em português
-- **Busca por similaridade visual** baseada em características de estilo
-- **Filtros inteligentes** que se adaptam ao comportamento do usuário
-- **Sugestões automáticas** e correção de consultas de busca
+[Saiba mais sobre Produtos Similares →](../developer-guide/api-endpoints#category-view-event)
 
-### 📊 Recomendações Personalizadas
-- **Algoritmos de machine learning** treinados especificamente para moda
-- **Recomendações por estilo** baseadas no histórico de navegação
-- **"Complete o look"** com produtos complementares
-- **Tendências personalizadas** por perfil de cliente
+### 👗 Compre o Look
+Identifique automaticamente e recomende produtos adicionais apresentados na mesma imagem. Transforme cada look em um conjunto completo—como um personal stylist faria.
 
-### 📈 Analytics e Insights
-- **Dashboards em tempo real** com métricas de performance
-- **Análise de tendências** de cores, estilos e categorias
-- **Insights de comportamento** do cliente e padrões de compra
-- **Relatórios de ROI** e métricas de conversão
+**Casos de Uso:**
+- Sugestões de conjuntos completos
+- Inspiração de estilo
+- Venda adicional de itens complementares
 
-### 🛍️ Integração E-commerce
-- **APIs RESTful** para integração com qualquer plataforma
-- **Webhooks** para sincronização automática de dados
-- **SDKs** para implementação rápida em React, Vue, Angular
-- **Plugins nativos** para Shopify, WooCommerce, VTEX
+[Saiba mais sobre Compre o Look →](../developer-guide/api-endpoints#shop-the-look-event)
 
-## Como Funciona
+### 📋 Visual Merchandising
+Reorganize as listagens de produtos dinamicamente baseado no que o usuário realmente está procurando. Crie displays de categoria personalizados e de alta performance que parecem uma vitrine customizada.
 
-### 1. Configuração Inicial
-1. **Conecte sua loja** através de nossa API ou integrações nativas
-2. **Configure permissões** e credenciais de acesso
-3. **Defina preferências** de enriquecimento e categorização
-4. **Ative recursos** desejados (busca, recomendações, analytics)
+**Casos de Uso:**
+- Organização dinâmica de categorias
+- Layouts personalizados da página inicial
+- Destaque de tendências sazonais
 
-### 2. Enriquecimento Automático
-1. **Upload de produtos** via API ou sincronização automática
-2. **Análise de imagens** com algoritmos de computer vision
-3. **Processamento de texto** para extrair características
-4. **Classificação automática** em taxonomia de moda
-5. **Geração de metadados** otimizados para SEO
+[Saiba mais sobre Visual Merchandising →](../developer-guide/api-endpoints#category-view-event)
 
-### 3. Otimização Contínua
-1. **Monitoramento de performance** através de analytics
-2. **Ajustes automáticos** baseados em comportamento do usuário
-3. **Atualizações de tendências** e padrões de mercado
-4. **Refinamento de algoritmos** com feedback de conversões
+## Como Nossa IA Funciona
 
-## Benefícios para seu Negócio
+### Processo de Mapeamento de Intenção
 
-### 💰 Aumento de Conversão
-- **+35% em taxa de conversão** através de recomendações precisas
-- **+50% em tempo de permanência** com busca mais relevante
-- **+25% em valor médio do pedido** com "complete o look"
+1. **Navegação de Produtos**: Rastreia produtos que os usuários navegaram durante a sessão
+2. **Elementos de Categoria**: Analisa elementos visuais como silhuetas, padrões e detalhes de estilo
+3. **Insights de Padrões**: Identifica texturas, tecidos e elementos estruturais
+4. **Intenção de Estilo**: Entende ocasião, preferências de estilo e necessidades de versatilidade
+5. **Comportamento do Usuário**: Cruza referências de buscas, produtos e compras passadas para usuários logados
+6. **Predição de Intenção**: Relaciona produtos de diferentes categorias baseado no mapeamento de estilo
 
-### ⚡ Eficiência Operacional
-- **90% menos tempo** gasto em catalogação manual
-- **Redução de 70%** em produtos mal categorizados
-- **Automatização completa** do processo de enriquecimento
+### Exemplo: Análise de Navegação de Vestidos
 
-### 🎯 Experiência do Cliente
-- **Busca mais intuitiva** com compreensão de linguagem natural
-- **Recomendações relevantes** baseadas em preferências reais
-- **Descoberta de produtos** mais eficiente e personalizada
+Quando um usuário navega por vestidos, nossa IA identifica:
 
-### 📊 Insights Valiosos
-- **Compreensão profunda** do comportamento do cliente
-- **Identificação de tendências** antes da concorrência
-- **Otimização de estoque** baseada em dados reais
+**Elementos de Categoria:**
+- Silhueta decote em V
+- Alças finas
+- Cintura definida
+- Saia evasê ou rodada
 
-## Casos de Uso
+**Insights de Padrões:**
+- Pregas verticais
+- Texturas botânicas ou minimalistas
+- Tecidos leves e arejados
+- Alfaiataria estruturada sutil
 
-### Varejo Online
-- **E-commerces de moda** que precisam de catalogação automática
-- **Marketplaces** que lidam com milhares de produtos
-- **Boutiques online** que querem recomendações personalizadas
-
-### Varejo Físico
-- **Integração omnichannel** com experiência unificada
-- **Kioscos interativos** com busca por imagem
-- **Aplicativos móveis** para assistentes de venda
-
-### Atacado e B2B
-- **Distribuidores** que precisam de catálogos organizados
-- **Representantes comerciais** com ferramentas de busca avançada
-- **Plataformas B2B** com recomendações por perfil empresarial
-
-## Tecnologia e Segurança
-
-### 🔧 Infraestrutura
-- **Cloud-native** com alta disponibilidade (99.9% uptime)
-- **Auto-scaling** para picos de tráfego
-- **CDN global** para performance otimizada
-- **APIs REST** com documentação completa
-
-### 🔒 Segurança
-- **Criptografia end-to-end** para todos os dados
-- **Conformidade LGPD** e GDPR
-- **Autenticação multi-fator** e controle de acesso
-- **Monitoramento 24/7** de segurança
-
-### 🚀 Performance
-- **Resposta média de API** < 100ms
-- **Processamento de imagens** em menos de 2 segundos
-- **Busca em tempo real** em catálogos com milhões de produtos
-- **Cache inteligente** para otimização de velocidade
-
-## Planos e Preços
-
-### 🌟 Starter
-- Até 1.000 produtos
-- Enriquecimento básico
-- Busca semântica
-- Analytics básico
-- **R$ 299/mês**
-
-### 🚀 Professional
-- Até 10.000 produtos
-- Enriquecimento avançado
-- Recomendações personalizadas
-- Analytics completo
-- Suporte prioritário
-- **R$ 899/mês**
-
-### 🏢 Enterprise
-- Produtos ilimitados
-- Recursos customizados
-- Integração dedicada
-- SLA garantido
-- Success manager
-- **Sob consulta**
+**Intenção de Estilo:**
+- Feminino porém contemporâneo
+- Sugere confiança, delicadeza e movimento
+- Versatilidade dia-noite
+- Ideal para ocasiões sociais primavera/verão
 
 ## Próximos Passos
 
-### 🎯 Comece Agora
-1. **Agende uma demo** personalizada para seu negócio
-2. **Teste gratuito** por 14 dias sem compromisso
-3. **Implementação guiada** pela nossa equipe técnica
-4. **Treinamento completo** para sua equipe
+🚀 **Pronto para implementar recomendações?** Escolha seu caminho de integração:
 
-### 📞 Entre em Contato
-- **E-mail**: contato@fashionai.com.br
-- **Telefone**: +55 11 9999-9999
-- **WhatsApp**: +55 11 9999-9999
-- **Chat online**: Disponível 24/7
-
-### 📚 Recursos Adicionais
-- **Documentação técnica** completa
-- **Casos de sucesso** de clientes
-- **Webinars** e treinamentos gratuitos
-- **Blog** com insights de mercado
-
----
-
-*Transforme seu catálogo de moda com inteligência artificial e aumente suas vendas hoje mesmo!*
+- **[Referência da API](../developer-guide/api-endpoints)** - Guia de implementação técnica
+- **[Autenticação](../developer-guide/authentication)** - Configure seu acesso à API
+- **[Integração de UI](../developer-guide/ui-integration)** - Exemplos de implementação frontend
+- **[API de Busca](../developer-guide/Search/overview)** - Busca inteligente de produtos
+- **[Configuração de Analytics](../developer-guide/Analytics/google-analytics)** - Rastreie performance

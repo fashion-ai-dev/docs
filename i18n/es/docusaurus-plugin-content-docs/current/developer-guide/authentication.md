@@ -2,65 +2,43 @@
 sidebar_position: 4
 ---
 
-# API Authentication Guide
+# Guía de Autenticación de API
 
-Learn how to authenticate your requests to all Fashion.AI APIs using secure app tokens.
+Aprende a autenticar tus solicitudes a todas las APIs de Fashion.AI usando tokens de aplicación seguros.
 
 ## Resumen
 
-All FashionAI APIs (Search, Personalization, Analytics) use the same authentication method with app tokens. This unified approach simplifies integration and allows you to use a single token across all services.
+Todas las APIs de FashionAI (Búsqueda, Personalización, Analíticas) usan el mismo método de autenticación con tokens de aplicación. Este enfoque unificado simplifica la integración y te permite usar un único token en todos los servicios.
 
-## Authentication Method
+## Método de Autenticación
 
-All APIs use **Bearer Token Authentication** via custom headers.
+Todas las APIs usan **Autenticación de tipo Bearer** (Bearer Token) a través de encabezados personalizados.
 
-### Required Headers
+### Encabezados Requeridos
 
-| Header | Required | Description |
-|--------|----------|-------------|
-| `Content-Type` | Yes | Must be `application/json` |
-| `X-FashionAI-APP-Token` | Yes | Your application token |
+| Encabezado              | Requerido | Descripción                    |
+| ----------------------- | --------- | ------------------------------ |
+| `Content-Type`          | Sí        | Debe ser `application/json`    |
+| `X-FashionAI-APP-Token` | Sí        | Tu token de aplicación         |
 
-## Obtaining Your Token
+## Cómo Obtener Tu Token
 
-### Step 1: Access Dashboard
+### Paso 1: Accede al Panel de Control
 
-1. Log into your [FashionAI Dashboard](https://app.generativecrm.com)
-2. Navigate to **API Settings** in the sidebar
-3. Click on **API Tokens** section
+1.  Inicia sesión en tu [Panel de FashionAI](https://app.generativecrm.com)
+2.  Navega a **Configuración de API** en la barra lateral
+3.  Haz clic en la sección **Tokens de API**
 
-### Step 2: Generate Token
+### Paso 2: Genera el Token
 
-1. Click **"Generate New Token"**
-2. Enter a descriptive name (e.g., "Production API Token")
-4. Click **"Create Token"**
+1.  Haz clic en **"Generar Nuevo Token"**
+2.  Ingresa un nombre descriptivo (ej., "Token de API de Producción")
+3.  Haz clic en **"Crear Token"**
 
-![App Token Generation](/img/app-token.png)
+![Generación de Token de Aplicación](/img/app-token.png)
 
-### Step 3: Copy Token
+### Paso 3: Copia el Token
 
 ```bash
-# Your token will look like this:
+# Tu token se verá así:
 X-FashionAI-APP-Token: fai_live_sk_1234567890abcdef...
-```
-
-⚠️ **Important**: Copy and store your token immediately. It won't be shown again for security reasons.
-
-### Common Issues
-
-1. **Wrong Header Name**
-   ```javascript
-   // ❌ Wrong
-   headers: { 'Authorization': 'Bearer ' + token }
-
-   // ✅ Correct
-   headers: { 'X-FashionAI-APP-Token': token }
-   ```
-
-## Next Steps
-
-Now that you understand authentication, explore specific APIs:
-
-- [Search API](./Search/overview) - Product search functionality
-- [API Endpoints](./api-endpoints) - Complete endpoint reference
-- [UI Integration](./ui-integration) - Frontend integration guides

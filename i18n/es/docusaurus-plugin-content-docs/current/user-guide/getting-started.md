@@ -2,81 +2,63 @@
 sidebar_position: 1
 ---
 
-# Primeros Pasos
+## Descripción General de la Plataforma
 
-Aprende sobre el sistema inteligente de Fashion.AI y cómo mejora la experiencia del cliente a través de sugerencias de productos personalizadas impulsadas por IA avanzada.
+### ¿Qué es nuestra plataforma de catálogo de moda?
 
-## Tipos de Recomendaciones
+Nuestra plataforma revoluciona la forma en que los minoristas de moda gestionan y optimizan sus catálogos de productos. Ofrecemos enriquecimiento inteligente de catálogos, optimización de SEO, recomendaciones personalizadas y capacidades de búsqueda semántica diseñadas específicamente para la industria de la moda.
 
-### 🎯 Productos Similares
-Entrega sugerencias de productos personalizadas basadas en el historial de navegación del usuario. Impulsado por más de 4,500 atributos de productos, esta API ayuda a aumentar la conversión mostrando artículos que coinciden con el estilo e intención del comprador.
+### Características Clave
 
-**Casos de Uso:**
-- Recomendaciones de página de producto
-- Mejora de navegación por categorías
-- Oportunidades de venta cruzada
+🛍️ **Enriquecimiento de Catálogo**
 
-[Aprende más sobre Productos Similares →](../developer-guide/api-endpoints#category-view-event)
+Mejore automáticamente sus productos de moda con:
+* Descripciones de productos detalladas
+* Etiquetas y atributos de estilo
+* Recomendaciones de talla y ajuste
+* Detalles de color y material
+* Categorización por temporada
 
-### 👗 Compra el Look
-Identifica automáticamente y recomienda productos adicionales presentados en la misma imagen. Convierte cada look en un conjunto completo—tal como lo haría un personal stylist.
+🎯 **Recomendaciones Inteligentes**
 
-**Casos de Uso:**
-- Sugerencias de conjunto completo
-- Inspiración de estilo
-- Venta adicional de artículos complementarios
+Recomendaciones impulsadas por IA que entienden:
+* Preferencias de estilo del cliente
+* Tendencias de temporada
+* Oportunidades de venta cruzada
+* Compatibilidad de talla y ajuste
+* Afinidad con la marca
 
-[Aprende más sobre Compra el Look →](../developer-guide/api-endpoints#shop-the-look-event)
+🔍 **Búsqueda Semántica**
 
-### 📋 Visual Merchandising
-Reorganiza las listas de productos dinámicamente basado en lo que el usuario realmente está buscando. Crea displays de categorías personalizados y de alto rendimiento que se sienten como una tienda personalizada.
+Capacidades de búsqueda avanzadas que incluyen:
+* Consultas en lenguaje natural ("vestido rojo de verano para boda")
+* Búsqueda por similitud visual
+* Filtrado basado en el estilo
+* Resultados que tienen en cuenta las tendencias
 
-**Casos de Uso:**
-- Organización dinámica de categorías
-- Layouts personalizados de página de inicio
-- Destacado de tendencias estacionales
+📈 **Optimización SEO**
 
-[Aprende más sobre Visual Merchandising →](../developer-guide/api-endpoints#category-view-event)
+Aumente su visibilidad en línea con:
+* Metadescripciones automatizadas
+* Palabras clave específicas de moda
+* Marcado de esquema de producto
+* Optimización de contenido para motores de búsqueda
 
-## Cómo Funciona Nuestra IA
+### Cómo Funciona
 
-### Proceso de Mapeo de Intención
+1.  **Conecte** su catálogo existente
+2.  **Enriquezca** los productos con descripciones y atributos impulsados por IA
+3.  **Optimice** para los motores de búsqueda y la experiencia del usuario
+4.  **Analice** el rendimiento y el comportamiento del cliente
+5.  **Escale** su negocio de moda con información basada en datos
 
-1. **Navegación de Productos**: Rastrea productos que los usuarios han navegado durante la sesión
-2. **Elementos de Categoría**: Analiza elementos visuales como siluetas, patrones y detalles de estilo
-3. **Insights de Patrones**: Identifica texturas, telas y elementos estructurales
-4. **Intención de Estilo**: Entiende ocasión, preferencias de estilo y necesidades de versatilidad
-5. **Comportamiento del Usuario**: Referencias cruzadas de búsquedas, productos y compras pasadas para usuarios conectados
-6. **Predicción de Intención**: Relaciona productos de diferentes categorías basado en mapeo de estilo
+### Usuarios Objetivo
 
-### Ejemplo: Análisis de Navegación de Vestidos
+* **Minoristas de moda** que buscan mejorar la calidad del catálogo
+* **Gerentes de comercio electrónico** que desean una mejor búsqueda y recomendaciones
+* **Equipos de marketing** centrados en SEO y optimización de contenido
+* **Equipos de producto** que crean aplicaciones de moda
 
-Cuando un usuario navega vestidos, nuestra IA identifica:
+### Para Empezar
 
-**Elementos de Categoría:**
-- Silueta de escote en V
-- Tirantes delgados
-- Cintura definida
-- Falda línea A o acampanada
-
-**Insights de Patrones:**
-- Plisado vertical
-- Texturas botánicas o minimalistas
-- Telas ligeras y aireadas
-- Sastrería estructurada sutil
-
-**Intención de Estilo:**
-- Femenino pero contemporáneo
-- Sugiere confianza, delicadeza y movimiento
-- Versatilidad día-noche
-- Ideal para ocasiones sociales primavera/verano
-
-## Próximos Pasos
-
-🚀 **¿Listo para implementar recomendaciones?** Elige tu ruta de integración:
-
-- **[Referencia de API](../developer-guide/api-endpoints)** - Guía de implementación técnica
-- **[Autenticación](../developer-guide/authentication)** - Configura tu acceso a la API
-- **[Integración de UI](../developer-guide/ui-integration)** - Ejemplos de implementación frontend
-- **[API de Búsqueda](../developer-guide/Search/overview)** - Búsqueda inteligente de productos
-- **[Configuración de Analytics](../developer-guide/Analytics/google-analytics)** - Rastrea el rendimiento
+¿Listo para transformar su catálogo de moda? Consulte nuestra guía de **Primeros Pasos** para comenzar su viaje.
