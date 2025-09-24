@@ -1,4 +1,4 @@
-# 📘 VM Builder – Collections and Subsets (Slices)
+# VM Builder – Collections and Subsets (Slices)
 
 The **VM Builder** allows you to create and organize product collections using **AI, spreadsheets, or manual selection**.
 Each collection can contain subsets called **slices**, which organize products according to defined criteria.
