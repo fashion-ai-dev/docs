@@ -25,14 +25,18 @@ export default function FeatureCard({ icon, iconType, title, description, linkCo
       {linkUrl ? (
         <Link to={linkUrl} style={{textDecoration: 'none'}}>
           <div className="feature-card-link" style={{display: 'flex', alignItems: 'center', fontSize: '0.875rem', color: linkColor, fontWeight: 500}}>
-            <Translate>Learn More</Translate>
-            <ArrowRight style={{width: '0.75rem', height: '0.75rem', marginLeft: '0.25rem', transition: 'transform 0.3s ease'}} />
+            <Translate id="featureCard.learnMore">Learn More</Translate>
+            <span style={{marginLeft: '0.25rem', transition: 'transform 0.3s ease', display: 'inline-flex'}}>
+              <ArrowRight size={12} />
+            </span>
           </div>
         </Link>
       ) : (
         <div className="feature-card-link" style={{display: 'flex', alignItems: 'center', fontSize: '0.875rem', color: linkColor, fontWeight: 500}}>
-          <Translate>Learn More</Translate>
-          <ArrowRight style={{width: '0.75rem', height: '0.75rem', marginLeft: '0.25rem', transition: 'transform 0.3s ease'}} />
+          <Translate id="featureCard.learnMore">Learn More</Translate>
+          <span style={{marginLeft: '0.25rem', transition: 'transform 0.3s ease', display: 'inline-flex'}}>
+            <ArrowRight size={12} />
+          </span>
         </div>
       )}
     </div>

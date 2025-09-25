@@ -100,4 +100,4 @@ To protect the authentication token (X-FashionAI-APP-Token), we block direct bro
 
 This measure prevents the token from being exposed in the website's source code, which could compromise API security and allow unauthorized use.
 
-If your team still chooses to make calls directly from the frontend, simply request domain authorization from FashionAI technical support.
+If your team still chooses to make calls directly from the frontend, simply request domain authorization from FashionAI technical support. :mailbox: **support@generativecrm.com**
