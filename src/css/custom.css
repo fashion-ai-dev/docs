@@ -1,6 +1,25 @@
 /**
- * Any CSS included here will be global. The classic template
-/* Custom styles for FashionAI homepage */
+ * Global CSS for FashionAI Documentation
+ */
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+  padding: 2rem 1rem !important;
+  align-items: center;
+  transition: padding 0.3s ease;
+}
+
+.prism-code {
+  border-radius: 8px !important;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* ============================================
+   HOMEPAGE - HERO SECTION
+   ============================================ */
+
 .homepage-hero {
   background: linear-gradient(to bottom right, var(--custom-hero-bg-start), var(--custom-hero-bg-end), var(--custom-hero-bg-start));
   position: relative;
@@ -19,6 +38,10 @@
   pointer-events: none;
 }
 
+/* ============================================
+   HOMEPAGE - LAYOUT COMPONENTS
+   ============================================ */
+
 .homepage-container {
   max-width: 1200px;
   margin: 0 auto;
@@ -29,13 +52,17 @@
   padding: 6rem 0;
 }
 
+/* ============================================
+   HOMEPAGE - CARDS & COMPONENTS
+   ============================================ */
+
 .homepage-card {
   background: var(--custom-card-bg);
   border: 1px solid var(--custom-card-border);
   border-radius: 0.5rem;
   padding: 2rem;
   backdrop-filter: blur(10px);
-  transition: box-shadow 0.3s ease, transform 0.3s ease;
+  transition: transform 0.3s ease;
   position: relative;
   overflow: hidden;
 }
@@ -51,10 +78,6 @@
   pointer-events: none;
 }
 
-.homepage-card {
-  transition: transform 0.3s ease;
-}
-
 .homepage-card:hover {
   transform: scale(1.05);
 }
@@ -62,6 +85,15 @@
 .homepage-card:hover .feature-card-link {
   text-decoration: underline;
 }
+
+.homepage-card:focus {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: 2px;
+}
+
+/* ============================================
+   HOMEPAGE - CARD ICONS
+   ============================================ */
 
 .homepage-card-icon {
   display: flex;
@@ -92,6 +124,10 @@
   background: var(--custom-badge-bg);
   color: var(--custom-icon-accent);
 }
+
+/* ============================================
+   HOMEPAGE - BADGES & BUTTONS
+   ============================================ */
 
 .homepage-badge {
   display: inline-flex;
@@ -129,6 +165,11 @@
   border-color: var(--ifm-color-primary);
 }
 
+.homepage-button:focus {
+  outline: 2px solid var(--ifm-color-primary);
+  outline-offset: 2px;
+}
+
 .homepage-button.primary {
   background: var(--ifm-color-primary-dark);
   border-radius: 3rem;
@@ -141,16 +182,33 @@
   border-color: var(--ifm-color-primary);
 }
 
+/* ============================================
+   HOMEPAGE - FEATURES GRID
+   ============================================ */
+
 .homepage-grid {
   display: grid;
+  grid-template-columns: 1fr;
   gap: 2rem;
+  width: 100%;
+  margin: 0 auto;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 640px) {
+  .homepage-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
   .homepage-grid {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+/* ============================================
+   HOMEPAGE - STATUS INDICATOR
+   ============================================ */
 
 .homepage-status-indicator {
   display: inline-flex;
@@ -166,6 +224,10 @@
   border-radius: 50%;
   background: var(--custom-status-dot);
 }
+
+/* ============================================
+   CSS VARIABLES & THEME COLORS
+   ============================================ */
 
 :root {
   --ifm-color-primary: #F28585;
@@ -195,9 +257,17 @@
   --custom-footer-border: rgba(255, 255, 255, 0.1);
 }
 
+/* ============================================
+   NAVBAR CUSTOMIZATION
+   ============================================ */
+
 .navbar__logo svg {
   color: var(--ifm-navbar-link-color);
 }
+
+/* ============================================
+   DARK THEME OVERRIDES
+   ============================================ */
 
 [data-theme='dark'] .navbar__logo svg {
   color: var(--ifm-navbar-link-color);
@@ -243,6 +313,10 @@
   --custom-footer-copyright: var(--ifm-color-emphasis-600);
   --custom-footer-border: var(--ifm-color-emphasis-300);
 }
+
+/* ============================================
+   FOOTER CUSTOMIZATION
+   ============================================ */
 
 .footer {
   background: linear-gradient(135deg, var(--ifm-color-primary-darker) 0%, var(--ifm-color-primary-dark) 100%) !important;
@@ -300,6 +374,10 @@
 [data-theme='dark'] .footer__title {
   color: var(--ifm-color-primary-lightest) !important;
 }
+
+/* ============================================
+   HEADER & NAVIGATION
+   ============================================ */
 
 .header-github-link::before {
   content: '';
@@ -417,18 +495,72 @@ html {
   background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
 }
 
+/* Carousel responsive styles */
+.carousel-nav-button {
+  display: flex !important;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.carousel-nav-button.carousel-prev {
+  left: -60px;
+}
+
+.carousel-nav-button.carousel-next {
+  right: -60px;
+}
+
+@media (max-width: 1210px) {
+  .carousel-nav-button.carousel-prev {
+    left: 10px !important;
+  }
+
+  .carousel-nav-button.carousel-next {
+    right: 10px !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .carousel-nav-button.carousel-prev {
+    left: 5px !important;
+  }
+
+  .carousel-nav-button.carousel-next {
+    right: 5px !important;
+  }
+}
+
 @media (max-width: 768px) {
   .homepage-section {
-    padding: 3rem 0;
+    padding: 4rem 1rem;
   }
 
   .homepage-card {
     padding: 1.5rem;
   }
 
+  /* Hide desktop carousel grid on mobile */
   .homepage-grid {
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
+    display: none !important;
+  }
+
+  /* Hide carousel navigation on mobile */
+  .carousel-nav-button {
+    display: none !important;
+  }
+
+  /* Hide dots indicator on mobile */
+  .carousel-dots {
+    display: none !important;
+  }
+
+  /* Show mobile grid on mobile */
+  .features-mobile-grid {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
   }
 }
 

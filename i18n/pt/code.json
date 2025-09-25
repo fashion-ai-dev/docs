@@ -335,7 +335,7 @@
     "message": "Documentação"
   },
   "Complete guide to integrate Fashion AI into your applications. Learn how to use our RESTful API and GraphQL endpoints.": {
-    "message": "Guia completo para integrar Fashion AI em suas aplicações. Aprenda como usar nossa API RESTful e endpoints GraphQL."
+    "message": "Guia completo para integrar Fashion AI em suas aplicações. Aprenda como usar nossa API RESTful e nossa Plataforma."
   },
   "Learn More": {
     "message": "Saiba Mais"
@@ -343,8 +343,8 @@
   "API Available": {
     "message": "API Disponível"
   },
-  "RESTful & GraphQL": {
-    "message": "RESTful & GraphQL"
+  "RESTful": {
+    "message": "RESTful"
   },
   "Fast Response": {
     "message": "Resposta Rápida"

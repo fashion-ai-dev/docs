@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from '@docusaurus/Link';
 import Translate from '@docusaurus/Translate';
-import { BookOpen, Code, ExternalLink, Zap } from 'lucide-react';
+import { BookOpen, Code, ExternalLink, Zap, Users, User } from 'lucide-react';
 
 export default function HeroSection() {
   return (
@@ -18,14 +18,20 @@ export default function HeroSection() {
           <p style={{fontSize: '1.25rem', marginBottom: '2rem', maxWidth: '42rem', margin: '0 auto 2rem auto', lineHeight: '1.6', opacity: 0.8}}>
             <Translate>Complete guide to integrate Fashion AI into your applications. Learn how to use our RESTful API endpoint.</Translate>
           </p>
-          <div style={{display: 'flex', flexDirection: 'row', gap: '1rem', justifyContent: 'center', alignItems: 'center'}}>
-            <Link to="/docs/user-guide/getting-started" className="homepage-button primary">
-              <BookOpen style={{width: '1rem', height: '1rem'}} />
-              <Translate>Start Documentation</Translate>
+          <div style={{display: 'flex', flexDirection: 'row', gap: '1rem', justifyContent: 'center', alignItems: 'center', flexWrap: 'wrap'}}>
+            <Link to="/docs/developer-guide" className="homepage-button primary">
+              <Code style={{width: '1rem', height: '1rem'}} />
+              <Translate>Documentation</Translate>
             </Link>
-            <a href="https://www.generativecrm.com/" className="homepage-button" target="_blank" rel="noopener noreferrer">
-              <ExternalLink style={{width: '1rem', height: '1rem'}} />
-              <Translate>See More About Fashion AI</Translate>
+            <Link to="/docs/user-guide" className="homepage-button">
+              <User style={{width: '1rem', height: '1rem'}} />
+              <Translate>Platform Tutorial</Translate>
+            </Link>
+          </div>
+          <div style={{marginTop: '1rem', display: 'flex', justifyContent: 'center'}}>
+            <a href="https://www.generativecrm.com/" className="homepage-link" target="_blank" rel="noopener noreferrer" style={{display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.875rem', color: 'var(--ifm-color-primary)', textDecoration: 'none'}}>
+              <ExternalLink style={{width: '0.875rem', height: '0.875rem'}} />
+              <Translate>Learn more about Fashion AI</Translate>
             </a>
           </div>
           <div style={{marginTop: '2rem', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1.5rem', fontSize: '0.875rem', flexWrap: 'wrap'}}>
