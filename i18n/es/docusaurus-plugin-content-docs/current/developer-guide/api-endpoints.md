@@ -39,7 +39,7 @@ https://catalog.api.fashionaiale.com/api/v1/products/protected/recommendation
 ### Evento de Vista de Categoría
 
 Cuando un usuario visita una página de categoría (ej: "Pantalones"), un evento de vista de categoría debe ser disparado a Fashion.AI.
-
+Si el usuario está logueado, fashion muestra una vista de categoría específica basada en su historial.
 Este evento es una señal fuerte de intención del usuario y ayuda a la IA a mapear la intención del usuario, sirviendo como base para organización del escaparate, recomendaciones de productos y enriquecimiento de perfil CRM.
 
 ### Cuerpo de la Solicitud

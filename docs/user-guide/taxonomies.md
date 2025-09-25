@@ -30,7 +30,7 @@ Some groups automatically apply to all product categories:
 - 💰 **Sales Support** - Arguments and benefits for sales
 - 🔍 **SEO Content** - Content optimized for search engines
 
-💡 **Important:** When you add a property of these types, it's automatically copied to all existing categories.
+💡 **Important:** When you edit a property of these types, it's automatically copied to all existing categories.
 
 ## 🔢 Versioning System
 
@@ -43,18 +43,19 @@ Some groups automatically apply to all product categories:
 **Client Taxonomy:**
 - Format: major.minor (example: 2.1, 2.2)
 - **Major:** Based on received global version
-- **Minor:** Increases with each client customization
+- **Minor:** Increases with each client customization - cliente can edit simutaneous categories before saving and generating a new version
 
 ### Practical Example
 
 1. Client receives global taxonomy v2 → Their version becomes **2.0**
-2. Client makes first customization → Version **2.1**
-3. Client makes second customization → Version **2.2**
+2. Client makes first set of customizations → Version **2.1**
+Ps.: If cliente want to make a version with the first and the second set of customizations, the client should edit second set from version **2.1**, which has to be selected manually on the version selector, by default its the main version.
+3. Client makes second set of customizations → Version **2.2**
 4. Admin releases new global version v3 → Client can opt to receive as **3.0**
 
 ## 📚 Available Operations
 
-- Customize taxonomies (add examples and adjustments)
+- Customize taxonomies (edit examples and adjustments)
 - Create complete custom versions
 - **Set version as main** to make it active for product processing
 - Reset to global version by setting main version
@@ -65,7 +66,7 @@ Some groups automatically apply to all product categories:
 
 1. **Access** your taxonomies on the platform
 2. **Select** the category you want to customize
-3. **Add examples** specific to your business
+3. **Edit examples** specific to your business
 4. **Save** as new custom version
 5. **Set as main version** to activate for product processing
 
@@ -75,7 +76,7 @@ Some groups automatically apply to all product categories:
 
 To make a taxonomy version active for processing your products:
 
-1. **Navigate** to your taxonomy versions list
+1. **Navigate** to your My Style Ai page
 2. **Choose** the version you want to activate (e.g., "2.1", "2.2")
 3. **Click "Set as Main"** to make it the active version
 4. **Confirm** the change
@@ -88,7 +89,6 @@ To make a taxonomy version active for processing your products:
 - Generate product descriptions
 - Create SEO content
 - Extract product attributes
-- Build category structures
 
 ❌ **Inactive versions:**
 - Remain saved for reference
@@ -97,14 +97,12 @@ To make a taxonomy version active for processing your products:
 
 ### Version Management Tips
 
-- **Test thoroughly** before setting as main
 - **Keep backup** of working versions
 - **Document changes** you make to custom versions
+- **Make huge edits** you can make huge edits and generate one version
 - **Update main version** seasonally for best results
 
 ### Customization Tips
 
 - Use language consistent with your brand
 - Add terms specific to your niche
-- Test with different product types
-- Keep examples updated seasonally

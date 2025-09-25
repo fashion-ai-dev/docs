@@ -36,7 +36,7 @@ Reorganize product listings dynamically based on what the user is really looking
 - Personalized homepage layouts
 - Seasonal trend highlighting
 
-[Learn more about Visual Merchandising →](../developer-guide/api-endpoints#category-view-event)
+[Learn more about Visual Merchandising →](../developer-guide/vm-builder)
 
 ## How Our AI Works
 

@@ -76,4 +76,4 @@ After completing the affiliate configuration:
 
 ### Support
 
-For technical support with VTEX integration, contact our team at vtex@generativecrm.com
+For technical support with VTEX integration, contact our team at :mailbox: **support@generativecrm.com**

@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Visão Geral das Recomendações
+# Visão Geral sobre Recomendações
 
 Conheça o sistema inteligente de recomendações da Fashion.AI e como ele melhora a experiência do cliente através de sugestões de produtos personalizadas alimentadas por IA avançada.
 
@@ -36,7 +36,7 @@ Reorganize as listagens de produtos dinamicamente baseado no que o usuário real
 - Layouts personalizados da página inicial
 - Destaque de tendências sazonais
 
-[Saiba mais sobre Visual Merchandising →](../developer-guide/api-endpoints#evento-de-visualização-de-categoria)
+[Saiba mais sobre Visual Merchandising →](../developer-guide/vm-builder)
 
 ## Como Nossa IA Funciona
 

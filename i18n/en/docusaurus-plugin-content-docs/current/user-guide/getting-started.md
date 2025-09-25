@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Getting Started 
 
-## What is Our Fashion Catalog Platform?
+## What is Our Fashion Platform?
 
 Our platform revolutionizes how fashion retailers manage and optimize their product catalogs. We provide intelligent catalog enrichment, SEO optimization, personalized recommendations, and semantic search capabilities specifically designed for the fashion industry.
 
@@ -36,7 +36,7 @@ Advanced search capabilities including:
 ### 📈 SEO Optimization
 Boost your online visibility with:
 - Automated meta descriptions
-- Fashion-specific keywords
+- Fashion-specific tags
 - Product schema markup
 - Content optimization for search engines
 
@@ -53,4 +53,3 @@ Boost your online visibility with:
 - **Fashion Retailers** looking to improve catalog quality
 - **E-commerce Managers** wanting better search and recommendations
 - **Marketing Teams** focusing on SEO and content optimization
-- **Product Teams** building fashion applications

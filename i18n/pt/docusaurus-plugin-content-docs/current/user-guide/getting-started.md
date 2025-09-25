@@ -6,7 +6,7 @@ sidebar_position: 1
 
 ## Visão Geral da Plataforma
 
-### O que é a nossa plataforma de catálogo de moda?
+### O que é a nossa plataforma de moda?
 
 Nossa plataforma revoluciona a forma como os varejistas de moda gerenciam e otimizam seus catálogos de produtos. Oferecemos enriquecimento inteligente de catálogo, otimização de SEO, recomendações personalizadas e recursos de pesquisa semântica projetados especificamente para a indústria da moda.
 
@@ -59,7 +59,6 @@ Aumente sua visibilidade online com:
 * **Varejistas de moda** que procuram melhorar a qualidade do catálogo
 * **Gerentes de e-commerce** que desejam uma melhor pesquisa e recomendações
 * **Equipes de marketing** com foco em SEO e otimização de conteúdo
-* **Equipes de produto** que criam aplicativos de moda
 
 ### Começando
 

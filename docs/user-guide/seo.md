@@ -17,7 +17,7 @@ The configuration includes:
 - **Product Tags**: Tags and categories
 - **Alternative Image Descriptions**: Alt text for all product images (1-10)
 
-Select which fields you want to synchronize and enable them
+Select which fields you want to synchronize and enable them. These selected fields will be directly replaced at your integration platform by Fashion's.
 
 ## SEO Format Optimization
 
@@ -48,52 +48,6 @@ Boost your fashion store's visibility with our AI-powered SEO tools specifically
 - **Size and fit SEO** to capture sizing-related searches
 - **Brand and designer SEO** for luxury and designer items
 
-## SEO Strategy Tools
-
-### Keyword Research
-- **Fashion trend analysis** for emerging keywords
-- **Competitive analysis** for fashion retailers
-- **Long-tail keyword discovery** for specific product attributes
-- **Local SEO optimization** for brick-and-mortar stores
-
-### Content Calendar
-- **Seasonal content planning** for fashion cycles
-- **Trend-based content suggestions** for blog and social media
-- **Product launch SEO** for new collection releases
-- **Event-based optimization** (holidays, fashion weeks, sales)
-
-## Performance Optimization
-
-### Technical SEO
-- **Page speed optimization** for image-heavy fashion sites
-- **Mobile responsiveness** for on-the-go fashion shopping
-- **Site structure optimization** for large product catalogs
-- **Internal linking strategy** for improved crawlability
-
-### Analytics Integration
-- **Search performance tracking** for fashion keywords
-- **Recommendation effectiveness** measurement
-- **Conversion optimization** for different traffic sources
-- **ROI tracking** for SEO and recommendation investments
-
-## Fashion-Specific Features
-
-### Trend Integration
-- **Real-time trend monitoring** from fashion week and social media
-- **Seasonal adjustment** of recommendations and SEO focus
-- **Influencer trend tracking** for emerging style movements
-- **Color trend integration** in both SEO and recommendations
-
-### Size and Fit Optimization
-- **Size-specific SEO** for fit-related searches
-- **Size recommendation engine** based on customer data
-- **Fit guide integration** in product recommendations
-- **Return rate optimization** through better fit suggestions
-
 ## Measuring Success
 
-Track the impact of your SEO and recommendation efforts:
-- **Organic traffic growth** for fashion-related keywords
-- **Recommendation conversion rates** across different placement areas
-- **Average order value** impact from cross-sell recommendations
-- **Customer engagement metrics** like time on site and pages per session
+Track the impact of your SEO and recommendation efforts before and after Fashion's SEO, you can learn how at [Analytics](../developer-guide/analytics)

@@ -17,7 +17,7 @@ A configuração inclui:
 - **Tags do Produto**: Tags e categorias
 - **Descrições Alternativas de Imagens**: Texto alt para todas as imagens do produto (1-10)
 
-Selecione quais campos você deseja sincronizar e habilite-os
+Selecione quais campos você deseja sincronizar e habilite-os. Estes campos selecionados serão substituídos diretamente na sua plataforma de integração pelo Fashion's.
 
 ## Otimização de Formato SEO
 
@@ -47,48 +47,6 @@ Impulsione a visibilidade da sua loja de moda com nossas ferramentas de SEO impu
 - **Otimização de tendências de estilo** baseada em movimentos de moda atuais
 - **SEO de tamanho e caimento** para capturar buscas relacionadas a tamanhos
 - **SEO de marca e designer** para itens de luxo e designer
-
-## Ferramentas de Estratégia SEO
-
-### Pesquisa de Palavras-Chave
-- **Análise de tendências de moda** para palavras-chave emergentes
-- **Análise competitiva** para varejistas de moda
-- **Descoberta de palavras-chave de cauda longa** para atributos específicos do produto
-- **Otimização SEO local** para lojas físicas
-
-### Calendário de Conteúdo
-- **Planejamento de conteúdo sazonal** para ciclos de moda
-- **Sugestões de conteúdo baseadas em tendências** para blog e redes sociais
-- **SEO de lançamento de produto** para novos lançamentos de coleções
-- **Otimização baseada em eventos** (feriados, semanas de moda, promoções)
-
-## Otimização de Performance
-
-### SEO Técnico
-- **Otimização de velocidade de página** para sites de moda com muitas imagens
-- **Responsividade móvel** para compras de moda em movimento
-- **Otimização de estrutura do site** para catálogos de produtos grandes
-- **Estratégia de links internos** para melhor rastreabilidade
-
-### Integração de Analytics
-- **Rastreamento de performance de busca** para palavras-chave de moda
-- **Medição de efetividade de recomendações**
-- **Otimização de conversão** para diferentes fontes de tráfego
-- **Rastreamento de ROI** para investimentos em SEO e recomendações
-
-## Recursos Específicos de Moda
-
-### Integração de Tendências
-- **Monitoramento de tendências em tempo real** de semanas de moda e redes sociais
-- **Ajuste sazonal** de recomendações e foco SEO
-- **Rastreamento de tendências de influenciadores** para movimentos de estilo emergentes
-- **Integração de tendências de cores** tanto em SEO quanto em recomendações
-
-### Otimização de Tamanho e Caimento
-- **SEO específico de tamanho** para buscas relacionadas ao caimento
-- **Engine de recomendação de tamanhos** baseado em dados do cliente
-- **Integração de guia de tamanhos** em recomendações de produtos
-- **Otimização de taxa de devolução** através de melhores sugestões de caimento
 
 ## Medindo o Sucesso
 

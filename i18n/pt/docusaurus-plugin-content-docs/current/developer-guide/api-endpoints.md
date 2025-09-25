@@ -39,7 +39,7 @@ https://catalog.api.fashionaiale.com/api/v1/products/protected/recommendation
 ### Evento de Visualização de Categoria
 
 Quando um usuário visita uma página de categoria (ex: "Calças"), um evento de visualização de categoria deve ser disparado para a Fashion.AI.
-
+Se o usuário estiver logado, a fashion mostra uma visualização de categoria específica baseada em seu histórico.
 Este evento é um sinal forte de intenção do usuário e ajuda a IA a mapear a intenção do usuário, servindo como base para organização da vitrine, recomendações de produtos e enriquecimento de perfil CRM.
 
 ### Corpo da Requisição

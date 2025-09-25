@@ -10,7 +10,7 @@ Choose your platform to get started:
 Native app integration for Shopify stores with automatic synchronization and recommendation widgets.
 
 ### [VTEX Integration](./vtex-integration)
-Custom components and API integration for VTEX IO and Legacy CMS.
+Custom components and API integration for VTEX.
 
 ## Need Help?
 

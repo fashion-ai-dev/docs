@@ -1,96 +1,112 @@
-# Integración Shopify
+# Shopify Integration
 
-Guía completa para integrar FashionAI con tu tienda Shopify para enriquecimiento automatizado de productos y gestión de catálogo.
+Complete guide to integrate FashionAI with your Shopify store for automated product enrichment and catalog management.
 
-## Configuración Inicial
+## Initial Setup
 
-Para integrar tu tienda Shopify con nuestra plataforma, necesitarás crear una aplicación personalizada en el admin de Shopify y generar credenciales de API. Estas credenciales permitirán que nuestro sistema se conecte de forma segura con tu tienda y acceda a los datos necesarios.
+To integrate your Shopify store with our platform, you'll need to create a custom application in the Shopify admin and generate API credentials. These credentials will allow our system to securely connect with your store and access the necessary data.
 
-### Paso 1: Acceder al Admin de Shopify
+### Step 1: Access Shopify Admin
 
-1. Inicia sesión en Shopify como administrador
-2. En el menú lateral, haz clic en **Configuraciones**
-3. Ve a **Aplicaciones y canales de venta**
+1. Log in to Shopify as administrator
+2. In the side menu, click **Settings**
+3. Go to **Apps and sales channels**
 
-### Paso 2: Crear una Aplicación Personalizada
+### Step 2: Create a Custom Application
 
-1. Haz clic en **Desarrollar aplicaciones**
-2. Haz clic en **Crear una aplicación**
-3. Dale un nombre a la aplicación, ej.: **Integración FashionAI API**
-4. Haz clic en **Crear aplicación**
+1. Click **Develop apps**
+2. Click **Create an app**
+3. Give the application a name, e.g.: **FashionAI API Integration**
+4. Click **Create app**
 
-### Paso 3: Configurar Permisos de API
+### Step 3: Configure API Permissions
 
-En la aplicación creada, ve a la pestaña **Credenciales de API**.
+In the created application, go to the **API credentials** tab.
 
-1. Haz clic en **Configurar alcances de Admin API**
-2. Selecciona los siguientes permisos:
+1. Click **Configure Admin API scopes**
+2. Select the following permissions:
 
-| Permiso | Descripción |
+| Permission | Description |
 |---------|-------------|
-| **read_products** | Para leer productos |
-| **write_products** | Para editar productos (incluyendo imágenes) |
-| **read_publications** | Para leer publicaciones |
-| **read_inventory** | Para leer inventario |
-| **read_customers** | Para leer clientes |
-| **read_orders** | Para leer pedidos |
-| **read_marketplace_orders** | Para leer pedidos realizados a través de marketplaces |
-| **read_buyer_membership_orders** | Para leer pedidos relacionados con membresías de compradores |
+| **read_products** | To read products |
+| **write_products** | To edit products (including images) |
+| **read_publications** | To read publications |
+| **read_inventory** | To read inventory |
+| **read_customers** | To read customers |
+| **read_orders** | To read orders |
+| **read_marketplace_orders** | To read orders placed through marketplaces |
+| **read_buyer_membership_orders** | To read orders related to buyer memberships |
 
-3. Haz clic en **Guardar**
+3. Click **Save**
 
-### Paso 4: Generar la Clave de API y Token de Acceso
+### Step 4: Generate API Key and Access Token
 
-Aún en la pestaña **Credenciales de API**:
+Still in the **API credentials** tab:
 
-1. Haz clic en **Instalar aplicación**
-2. Confirma la instalación
-3. Shopify generará las siguientes credenciales:
-   - **Token de Acceso de Admin API** (¡Este token se muestra solo una vez! Guárdalo inmediatamente)
+1. Click **Install app**
+2. Confirm the installation
+3. Shopify will generate the following credentials:
+   - **Admin API Access Token** (This token is shown only once! Save it immediately)
 
-## Credenciales Necesarias
+## Required Credentials
 
-Después de completar la configuración, tendrás:
+After completing the setup, you'll have:
 
-- **Store URL**: `https://tu-tienda.myshopify.com`
-- **Admin API Access Token**: Token generado en el paso 4
+- **Store URL**: `https://your-store.myshopify.com`
+- **Admin API Access Token**: Token generated in step 4
 
-## Configuración en la Plataforma FashionAI
+## Configuration in FashionAI Platform
 
-### 1. Habilitar Vision Enrichment
+### 1. Enable Vision Enrichment
 
-1. En el menú derecho de la plataforma, haz clic en **Configuraciones**
-2. En **Configuraciones Generales**, habilita el botón **Vision Enrichment**
+1. In the right menu of the platform, click **Settings**
+2. In **General Settings**, enable the **Vision Enrichment** toggle
 
-### 2. Configurar Credenciales Shopify
+### 2. Configure Shopify Credentials
 
-1. Ve a la pestaña **Configuraciones Shopify**
-2. Inserta tus credenciales de API Shopify para sincronización de datos:
-   - **Store URL**: Tu URL de tienda Shopify
-   - **Access Token**: El token generado anteriormente
+1. Go to the **Shopify Settings** tab
+2. Insert your Shopify API credentials for data synchronization:
+   - **Store URL**: Your Shopify store URL
+   - **Access Token**: The token generated previously
 
-## Próximos Pasos
+### 3. Additional Configuration
 
-Después de completar la configuración:
+You can leave any field blank if you want to ignore that rule.
 
-1. **Probar la conexión** - Verificar que FashionAI pueda acceder a tu catálogo
-2. **Configurar reglas de enriquecimiento** - Definir qué productos deben ser procesados
-3. **Monitorear sincronización** - Verificar el estado de la integración en la plataforma
+**Sales Channels (Publication IDs)**
+Enter IDs separated by comma, e.g.: `123,456`
+These are the publication IDs (sales channels) where the product will be available. If you need to set more than one, separate them with a comma.
 
-## Solución de Problemas
+**Excluded Vendors**
+Enter vendor names separated by comma, e.g.: `Nike,Adidas,Puma`
+These are the vendors (brands) that will be excluded from processing. If you need to add multiple vendors, separate them with a comma.
 
-### Problemas Comunes
+**Order Source (Sales Platform)**
+Enter order source name, e.g.: `web,pos,api`
+This defines the origin of the orders based on the sales platform. Use the source name (for example: web for online store, pos for Point of Sale, api for API orders). If multiple sources apply, separate them with a comma.
 
-- **Errores de autenticación**: Verifica las credenciales de API y permisos
-- **Fallas de sincronización**: Verifica la configuración de credenciales y endpoints
-- **Productos ausentes**: Asegúrate de que todos los productos deseados estén publicados
+## Next Steps
 
-### Soporte
+After completing the configuration:
 
-Para soporte técnico con la integración Shopify, contacta a nuestro equipo en shopify@generativecrm.com
+1. **Test the connection** - Verify that FashionAI can access your catalog
+2. **Configure enrichment rules** - Define which products should be processed
+3. **Monitor synchronization** - Check the integration status on the platform
 
-## Observaciones Importantes
+## Troubleshooting
 
-- El **Token de Acceso de Admin API** se muestra solo una vez durante la creación. Asegúrate de guardarlo en un lugar seguro
-- Mantén tus credenciales seguras y no las compartas públicamente
-- Revisa periódicamente los permisos para garantizar que estén actualizados según tus necesidades
+### Common Issues
+
+- **Authentication errors**: Verify API credentials and permissions
+- **Sync failures**: Check credential configuration and endpoints
+- **Missing products**: Ensure all desired products are published
+
+### Support
+
+For technical support with Shopify integration, contact our team at :mailbox: **support@generativecrm.com**
+
+## Important Notes
+
+- The **Admin API Access Token** is shown only once during creation. Make sure to save it in a secure location
+- Keep your credentials secure and don't share them publicly
+- Periodically review permissions to ensure they're updated according to your needs

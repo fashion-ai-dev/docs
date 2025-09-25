@@ -1,11 +1,11 @@
 # Analytics y Seguimiento
 
-Configura el seguimiento y analytics para tu implementación de FashionAI para monitorear el rendimiento y comportamiento del usuario.
+Configura el seguimiento y analytics para tu implementación de FashionAI para monitorear el rendimiento.
 
 ## Soluciones de Analytics
 
 ### [Google Analytics](./google-analytics)
-Seguimiento de ecommerce mejorado con Google Analytics para análisis de rendimiento de recomendaciones y comportamiento del usuario.
+Seguimiento de ecommerce mejorado con Google Analytics para análisis de rendimiento de recomendaciones.
 
 ### [Google Tag Manager](./google-tag-manager)
 Configura Google Tag Manager para seguimiento avanzado e integración con automatización de marketing.
@@ -21,8 +21,6 @@ Configura Google Tag Manager para seguimiento avanzado e integración con automa
 
 1. **[Configurar Google Analytics](./google-analytics)** - Configura ecommerce mejorado
 2. **[Configurar Tag Manager](./google-tag-manager)** - Seguimiento avanzado de eventos
-3. **Prueba tu configuración** - Verifica la recolección de datos
-4. **Monitorea el rendimiento** - Informes regulares y optimización
 
 ---
 

@@ -1,6 +1,10 @@
+---
+sidebar_position: 3
+---
+
 # Taxonomias (Sistema de Classificação de Produtos)
 
-Taxonomias são estruturas de dados que definem como descrever produtos de forma padronizada. É como um "dicionário" que ensina o sistema a gerar descrições, conteúdo SEO, cores, tamanhos, etc. para produtos de e-commerce.
+Taxonomias são estruturas de dados que definem como descrever produtos de forma padronizada. Pense nelas como um "dicionário" que ensina o sistema a gerar descrições, conteúdo SEO, cores, tamanhos, etc. para produtos de e-commerce.
 
 ## 🏗️ Como Funciona
 
@@ -19,18 +23,18 @@ Taxonomias são estruturas de dados que definem como descrever produtos de forma
 
 ## 🎛️ Categorias Automáticas
 
-Alguns grupos se aplicam automaticamente a todas as categorias de produto:
+Alguns grupos se aplicam automaticamente a todas as categorias de produtos:
 
 - 🎨 **Estampas e Cores** - Descrições de padrões e paleta de cores
-- 👔 **Combina com** - Sugestões de peças que harmonizam
-- 💰 **Suporte a Vendas** - Argumentos e benefícios para vendas
+- 👔 **Combina Com** - Sugestões de peças para harmonizar
+- 💰 **Apoio de Vendas** - Argumentos e benefícios para vendas
 - 🔍 **Conteúdo SEO** - Conteúdo otimizado para motores de busca
 
-💡 **Importante:** Quando você adiciona uma propriedade desses tipos, ela é automaticamente copiada para todas as categorias existentes.
+💡 **Importante:** Quando você edita uma propriedade desses tipos, ela é automaticamente copiada para todas as categorias existentes.
 
 ## 🔢 Sistema de Versionamento
 
-### Como Funciona o Controle de Versões
+### Como Funciona o Controle de Versão
 
 **Taxonomia Global:**
 - Versões numeradas: v1, v2, v3...
@@ -39,29 +43,30 @@ Alguns grupos se aplicam automaticamente a todas as categorias de produto:
 **Taxonomia do Cliente:**
 - Formato: major.minor (exemplo: 2.1, 2.2)
 - **Major:** Baseado na versão global recebida
-- **Minor:** Aumenta a cada personalização do cliente
+- **Minor:** Aumenta com cada personalização do cliente - cliente pode editar categorias simultâneas antes de salvar e gerar uma nova versão
 
 ### Exemplo Prático
 
-1. Cliente recebe taxonomia global v2 → Sua versão fica **2.0**
-2. Cliente faz primeira personalização → Versão **2.1**
-3. Cliente faz segunda personalização → Versão **2.2**
+1. Cliente recebe taxonomia global v2 → Sua versão se torna **2.0**
+2. Cliente faz primeiro conjunto de personalizações → Versão **2.1**
+Obs.: Se cliente quiser fazer uma versão com o primeiro e segundo conjunto de personalizações, deve editar o segundo conjunto a partir da versão **2.1**, que deve ser selecionada manualmente no seletor de versão, por padrão é a versão principal.
+3. Cliente faz segundo conjunto de personalizações → Versão **2.2**
 4. Admin lança nova versão global v3 → Cliente pode optar por receber como **3.0**
 
 ## 📚 Operações Disponíveis
 
-- Personalizar taxonomias (adicionar exemplos e ajustes)
-- Criar versões customizadas completas
-- **Definir versão como principal** para ativá-la no processamento de produtos
+- Personalizar taxonomias (editar exemplos e ajustes)
+- Criar versões personalizadas completas
+- **Definir versão como principal** para torná-la ativa no processamento de produtos
 - Resetar para versão global definindo versão principal
 
 ## ⚙️ Como Personalizar
 
-### Passo a Passo para Clientes
+### Passo-a-Passo para Clientes
 
 1. **Acesse** suas taxonomias na plataforma
 2. **Selecione** a categoria que deseja personalizar
-3. **Adicione exemplos** específicos do seu negócio
+3. **Edite exemplos** específicos do seu negócio
 4. **Salve** como nova versão personalizada
 5. **Defina como versão principal** para ativar no processamento de produtos
 
@@ -71,36 +76,33 @@ Alguns grupos se aplicam automaticamente a todas as categorias de produto:
 
 Para tornar uma versão de taxonomia ativa para processar seus produtos:
 
-1. **Navegue** até sua lista de versões de taxonomia
+1. **Navegue** para sua página My Style Ai
 2. **Escolha** a versão que deseja ativar (ex: "2.1", "2.2")
-3. **Clique em "Definir como Principal"** para torná-la a versão ativa
+3. **Clique "Definir como Principal"** para torná-la a versão ativa
 4. **Confirme** a alteração
 
 ⚠️ **Importante:** Apenas a **versão principal** é usada para processar produtos. Outras versões permanecem disponíveis mas inativas.
 
-### O que Acontece Quando Você Define Como Principal
+### O que Acontece Quando Você Define Principal
 
 ✅ **O sistema usará esta taxonomia para:**
 - Gerar descrições de produtos
 - Criar conteúdo SEO
 - Extrair atributos de produtos
-- Construir estruturas de categoria
 
 ❌ **Versões inativas:**
 - Permanecem salvas para referência
 - Podem ser ativadas posteriormente
 - Não afetam o processamento de produtos
 
-### Dicas de Gerenciamento de Versões
+### Dicas de Gerenciamento de Versão
 
-- **Teste completamente** antes de definir como principal
 - **Mantenha backup** de versões funcionais
-- **documente mudanças** que você faz em versões personalizadas
+- **Documente alterações** que fizer em versões personalizadas
+- **Faça edições grandes** você pode fazer edições grandes e gerar uma versão
 - **Atualize versão principal** sazonalmente para melhores resultados
 
 ### Dicas de Personalização
 
 - Use linguagem consistente com sua marca
 - Adicione termos específicos do seu nicho
-- Teste com diferentes tipos de produto
-- Mantenha exemplos atualizados sazonalmente

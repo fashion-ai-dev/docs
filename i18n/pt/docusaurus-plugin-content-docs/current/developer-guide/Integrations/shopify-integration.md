@@ -69,6 +69,22 @@ Após completar a configuração, você terá:
    - **Store URL**: Sua URL da loja Shopify
    - **Access Token**: O token gerado anteriormente
 
+### 3. Configuração Adicional
+
+Você pode deixar qualquer campo em branco se quiser ignorar essa regra.
+
+**Canais de Venda (IDs de Publicação)**
+Digite os IDs separados por vírgula, ex.: `123,456`
+Estes são os IDs de publicação (canais de venda) onde o produto estará disponível. Se você precisar configurar mais de um, separe-os com vírgula.
+
+**Fornecedores Excluídos**
+Digite nomes de fornecedores separados por vírgula, ex.: `Nike,Adidas,Puma`
+Estes são os fornecedores (marcas) que serão excluídos do processamento. Se você precisar adicionar múltiplos fornecedores, separe-os com vírgula.
+
+**Origem do Pedido (Plataforma de Venda)**
+Digite o nome da origem do pedido, ex.: `web,pos,api`
+Isso define a origem dos pedidos baseado na plataforma de venda. Use o nome da origem (por exemplo: web para loja online, pos para Ponto de Venda, api para pedidos da API). Se múltiplas origens se aplicam, separe-as com vírgula.
+
 ## Próximos Passos
 
 Após completar a configuração:

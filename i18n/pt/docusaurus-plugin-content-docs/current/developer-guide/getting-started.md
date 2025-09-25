@@ -11,7 +11,7 @@ Guia de início rápido para desenvolvedores integrando FashionAI em suas aplica
 ### 1. Autenticação
 Obtenha suas credenciais de API e comece a fazer solicitações:
 - Gere token da API no painel
-- Adicione aos cabeçalhos: `Authorization: Bearer SEU_TOKEN`
+- Adicione o token aos cabeçalhos
 - Teste com chamada de API de exemplo
 
 [→ Guia Completo de Autenticação](./authentication)
@@ -29,16 +29,16 @@ Obtenha suas credenciais de API e comece a fazer solicitações:
 
 ### Específico por Plataforma
 Configuração rápida para plataformas de e-commerce populares:
-- **Shopify** - Integração de app nativa
-- **VTEX** - Componentes personalizados
-- **Implementações customizadas** - Entre em contato com o Suporte da Fashion
+- **Shopify** - Integração
+- **VTEX** - Integração
+- **Implementações customizadas** - Entre em contato com o Suporte da Fashion :mailbox: **support@generativecrm.com**
 
 [→ Todas as Integrações de Plataforma](./integrations/)
 
 ## 📊 Analytics & Rastreamento
 
 ### Google Analytics Enhanced Ecommerce
-Rastreie o desempenho de recomendações e comportamento de busca:
+Rastreie o desempenho de recomendações:
 
 [→ Configuração de Analytics & Rastreamento](./analytics/)
 
@@ -54,7 +54,6 @@ Rastreie o desempenho de recomendações e comportamento de busca:
 ### Organização de Produtos
 - Auto-categorização com taxonomias
 - Classificação de estilo e tendência
-- Etiquetagem sazonal de produtos
 
 [→ Guia de Taxonomias](../user-guide/taxonomies)
 

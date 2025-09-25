@@ -1,10 +1,10 @@
 ---
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 # Personalization Reference
 
-Technical reference for Fashion.AI's Personalization API endpoints. For an overview of recommendation types and how our AI works, see [Getting Started with Recommendations](./getting-started).
+Technical reference for Fashion.AI's Personalization API endpoints. For an overview of recommendation types and how our AI works, see [Getting Started with Recommendations](../user-guide/getting-started).
 
 ## Base Configuration
 
@@ -39,7 +39,7 @@ https://catalog.api.fashionaiale.com/api/v1/products/protected/recommendation
 ### Category View Event
 
 When a user visits a category page (e.g., "Pants"), a category view event should be triggered to Fashion.AI.
-
+If the user is logged in, fashion shows a specific category view based on its history.
 This event is a strong signal of user intention and helps the AI map user intent, serving as the foundation for storefront organization, product recommendations, and CRM profile enrichment.
 
 ### Request Body

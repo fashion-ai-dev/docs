@@ -1,11 +1,11 @@
 # Analytics & Rastreamento
 
-Configure o rastreamento e analytics para sua implementação FashionAI para monitorar performance e comportamento do usuário.
+Configure o rastreamento e analytics para sua implementação FashionAI para monitorar performance.
 
 ## Soluções de Analytics
 
 ### [Google Analytics](./google-analytics)
-Rastreamento de ecommerce aprimorado com Google Analytics para análise de performance de recomendações e comportamento do usuário.
+Rastreamento de ecommerce aprimorado com Google Analytics para análise de performance de recomendações.
 
 ### [Google Tag Manager](./google-tag-manager)
 Configure o Google Tag Manager para rastreamento avançado e integração com automação de marketing.
@@ -21,8 +21,6 @@ Configure o Google Tag Manager para rastreamento avançado e integração com au
 
 1. **[Configurar Google Analytics](./google-analytics)** - Configure ecommerce aprimorado
 2. **[Configurar Tag Manager](./google-tag-manager)** - Rastreamento avançado de eventos
-3. **Teste sua configuração** - Verifique a coleta de dados
-4. **Monitore a performance** - Relatórios regulares e otimização
 
 ---
 

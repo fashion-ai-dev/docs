@@ -8,11 +8,11 @@ Aprenda como autenticar suas requisições para todas as APIs da Fashion.AI usan
 
 ## Visão Geral
 
-Todas as APIs da FashionAI (Busca, Personalização, Analytics) usam o mesmo método de autenticação com tokens de app. Esta abordagem unificada simplifica a integração e permite que você use um único token em todos os serviços.
+Todas as APIs da FashionAI (Busca, Recomendações) usam o mesmo método de autenticação com tokens de app. Esta abordagem unificada simplifica a integração e permite que você use um único token em ambos os serviços.
 
 ## Método de Autenticação
 
-Todas as APIs usam **Autenticação por Bearer Token** via cabeçalhos personalizados.
+Todas as APIs usam **X-FashionAI-APP-Token** via cabeçalhos personalizados.
 
 ### Cabeçalhos Obrigatórios
 
@@ -41,7 +41,7 @@ Todas as APIs usam **Autenticação por Bearer Token** via cabeçalhos personali
 
 ```bash
 # Seu token se parecerá com isto:
-X-FashionAI-APP-Token: fai_live_sk_1234567890abcdef...
+X-FashionAI-APP-Token: ab1234567890abcdef...
 ```
 
 ⚠️ **Importante**: Copie e armazene seu token imediatamente. Ele não será mostrado novamente por motivos de segurança.

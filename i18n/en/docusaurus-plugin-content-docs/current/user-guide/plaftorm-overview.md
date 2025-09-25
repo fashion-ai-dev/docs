@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Recommendations Overview
+# General View About Recommendations
 
 Learn about Fashion.AI's intelligent recommendation system and how it enhances customer experience through personalized product suggestions powered by advanced AI.
 
@@ -36,7 +36,7 @@ Reorganize product listings dynamically based on what the user is really looking
 - Personalized homepage layouts
 - Seasonal trend highlighting
 
-[Learn more about Visual Merchandising →](../developer-guide/api-endpoints#category-view-event)
+[Learn more about Visual Merchandising →](../developer-guide/vm-builder)
 
 ## How Our AI Works
 

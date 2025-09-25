@@ -1,18 +1,18 @@
 ---
-sidebar_position: 4
+sidebar_position: 3
 ---
 
-# Guía de Autenticación de API
+# Autenticación de API - Token del App
 
 Aprende a autenticar tus solicitudes a todas las APIs de Fashion.AI usando tokens de aplicación seguros.
 
 ## Resumen
 
-Todas las APIs de FashionAI (Búsqueda, Personalización, Analíticas) usan el mismo método de autenticación con tokens de aplicación. Este enfoque unificado simplifica la integración y te permite usar un único token en todos los servicios.
+Todas las APIs de FashionAI (Búsqueda, Recomendaciones) usan el mismo método de autenticación con tokens de aplicación. Este enfoque unificado simplifica la integración y te permite usar un único token en ambos servicios.
 
 ## Método de Autenticación
 
-Todas las APIs usan **Autenticación de tipo Bearer** (Bearer Token) a través de encabezados personalizados.
+Todas las APIs usan **X-FashionAI-APP-Token** a través de encabezados personalizados.
 
 ### Encabezados Requeridos
 
@@ -25,7 +25,7 @@ Todas las APIs usan **Autenticación de tipo Bearer** (Bearer Token) a través d
 
 ### Paso 1: Accede al Panel de Control
 
-1.  Inicia sesión en tu [Panel de FashionAI](https://app.generativecrm.com)
+1.  Inicia sesión en tu [Panel de FashionAI](https://dashboard.fashionaiale.com)
 2.  Navega a **Configuración de API** en la barra lateral
 3.  Haz clic en la sección **Tokens de API**
 
@@ -33,7 +33,7 @@ Todas las APIs usan **Autenticación de tipo Bearer** (Bearer Token) a través d
 
 1.  Haz clic en **"Generar Nuevo Token"**
 2.  Ingresa un nombre descriptivo (ej., "Token de API de Producción")
-3.  Haz clic en **"Crear Token"**
+4.  Haz clic en **"Crear Token"**
 
 ![Generación de Token de Aplicación](/img/app-token.png)
 
@@ -41,4 +41,26 @@ Todas las APIs usan **Autenticación de tipo Bearer** (Bearer Token) a través d
 
 ```bash
 # Tu token se verá así:
-X-FashionAI-APP-Token: fai_live_sk_1234567890abcdef...
+X-FashionAI-APP-Token: ab1234567890abcdef...
+```
+
+⚠️ **Importante**: Copia y guarda tu token inmediatamente. No se mostrará nuevamente por razones de seguridad.
+
+### Problemas Comunes
+
+1. **Nombre de Encabezado Incorrecto**
+   ```javascript
+   // ❌ Incorrecto
+   headers: { 'Authorization': 'Bearer ' + token }
+
+   // ✅ Correcto
+   headers: { 'X-FashionAI-APP-Token': token }
+   ```
+
+## Siguientes Pasos
+
+Ahora que entiendes la autenticación, explora APIs específicas:
+
+- [API de Búsqueda](./search/overview) - Funcionalidad de búsqueda de productos
+- [Endpoints de la API](./api-endpoints) - Referencia completa de endpoints
+- [Integración de UI](./ui-integration) - Guías de integración frontend

@@ -31,14 +31,14 @@ Get your API credentials and start making requests:
 Quick setup for popular e-commerce platforms:
 - **Shopify** - Native app integration
 - **VTEX** - Custom components
-- **Custom implementations** - Contact Fashion's Support
+- **Custom implementations** - Contact Fashion's Support :mailbox: **support@generativecrm.com**
 
 [→ All Platform Integrations](./integrations/)
 
 ## 📊 Analytics & Tracking
 
 ### Google Analytics Enhanced Ecommerce
-Track recommendation performance and search behavior:
+Track recommendation performance:
 
 [→ Analytics & Tracking Setup](./analytics/)
 
@@ -68,8 +68,8 @@ Track recommendation performance and search behavior:
 ## 📋 Next Steps
 
 1. **[Set up authentication](./authentication)** - Get your API credentials
-2. **[Test API endpoints](./api-endpoints)** - Make your first calls
 3. **[Add to your UI](./ui-integration)** - Integrate frontend components
+2. **[Test API endpoints](./api-endpoints)** - Make your first calls
 4. **[Configure analytics](./analytics/)** - Track performance
 ---
 
