@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # API de Busca
 
 Funcionalidade de busca poderosa para ajudar clientes a encontrar produtos rapidamente e eficientemente usando algoritmos de busca avançados alimentados por IA.

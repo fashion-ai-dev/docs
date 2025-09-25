@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Search API
 
 Powerful search functionality to help customers find products quickly and efficiently using advanced AI-powered search algorithms.

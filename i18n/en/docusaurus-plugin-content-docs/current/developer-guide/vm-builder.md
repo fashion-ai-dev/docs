@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # VM Builder – Collections and Subsets (Slices)
 
 The **VM Builder** allows you to create and organize product collections using **AI, spreadsheets, or manual selection**.

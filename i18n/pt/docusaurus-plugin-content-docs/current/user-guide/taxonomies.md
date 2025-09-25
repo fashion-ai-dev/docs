@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Taxonomias (Sistema de Classificação de Produtos)
+# Taxonomias
 
 Taxonomias são estruturas de dados que definem como descrever produtos de forma padronizada. Pense nelas como um "dicionário" que ensina o sistema a gerar descrições, conteúdo SEO, cores, tamanhos, etc. para produtos de e-commerce.
 

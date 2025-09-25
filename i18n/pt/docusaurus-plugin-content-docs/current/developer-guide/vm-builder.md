@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # VM Builder – Coleções e Subconjuntos (Slices)
 
 O **VM Builder** permite criar e organizar coleções de produtos utilizando **IA, planilhas ou seleção manual**.

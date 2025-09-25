@@ -2,7 +2,7 @@
 sidebar_position: 3
 ---
 
-# Taxonomies (Product Classification System)
+# Taxonomies
 
 Taxonomies are data structures that define how to describe products in a standardized way. Think of it as a "dictionary" that teaches the system to generate descriptions, SEO content, colors, sizes, etc. for e-commerce products.
 
