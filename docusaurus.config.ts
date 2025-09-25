@@ -78,10 +78,11 @@ const config: Config = {
       {name: 'twitter:site', content: '@fashion_ai'},
     ],
     algolia: {
-      appId: 'PMZUYBQDAK',
-      apiKey: '24b09689d5b4223813d9b8e48563c8f6',
+      container: '#docsearch',
+      appId: 'I0A754A8VU',
+      apiKey: 'edd9c7af6222bee311b4803e1bdfc042',
       keyboardShortcuts: { 'Ctrl/Cmd+K': false, '/' : false },
-      indexName: 'docsearch',
+      indexName: 'documentation',
       contextualSearch: true,
       replaceSearchResultPathname: {
         from: '/docs/',
