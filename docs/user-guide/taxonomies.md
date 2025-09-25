@@ -49,7 +49,9 @@ Some groups automatically apply to all product categories:
 
 1. Client receives global taxonomy v2 → Their version becomes **2.0**
 2. Client makes first set of customizations → Version **2.1**
-Ps.: If cliente want to make a version with the first and the second set of customizations, the client should edit second set from version **2.1**, which has to be selected manually on the version selector, by default its the main version.
+
+> ⚠️ **Note**: If cliente want to make a version with the first and the second set of customizations, the client should edit second set from version **2.1**, which has to be selected manually on the version selector, by default its the main version.
+
 3. Client makes second set of customizations → Version **2.2**
 4. Admin releases new global version v3 → Client can opt to receive as **3.0**
 

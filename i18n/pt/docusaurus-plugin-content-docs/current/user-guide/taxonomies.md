@@ -49,7 +49,9 @@ Alguns grupos se aplicam automaticamente a todas as categorias de produtos:
 
 1. Cliente recebe taxonomia global v2 → Sua versão se torna **2.0**
 2. Cliente faz primeiro conjunto de personalizações → Versão **2.1**
-Obs.: Se cliente quiser fazer uma versão com o primeiro e segundo conjunto de personalizações, deve editar o segundo conjunto a partir da versão **2.1**, que deve ser selecionada manualmente no seletor de versão, por padrão é a versão principal.
+
+> ⚠️ **Note**: Se cliente quiser fazer uma versão com o primeiro e segundo conjunto de personalizações, deve editar o segundo conjunto a partir da versão **2.1**, que deve ser selecionada manualmente no seletor de versão, por padrão é a versão principal.
+
 3. Cliente faz segundo conjunto de personalizações → Versão **2.2**
 4. Admin lança nova versão global v3 → Cliente pode optar por receber como **3.0**
 
