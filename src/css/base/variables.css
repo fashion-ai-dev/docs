@@ -23,7 +23,7 @@
   --custom-card-border: rgba(242, 133, 133, 0.15);
   --custom-card-gradient: rgba(248, 201, 219, 0.1);
   --custom-badge-bg: rgba(254, 245, 248, 0.95);
-  --custom-button-border: rgba(255, 251, 252, 0.2);
+  --custom-button-border: #f5a5a5;
   --custom-icon-secondary: #059669;
   --custom-icon-accent: #d97706;
   --custom-status-dot: #10b981;

@@ -96,8 +96,8 @@ const config: Config = {
       title: '',
       logo: {
         alt: 'FashionAI Logo',
-        src: 'img/logo.svg',
-        srcDark: 'img/logo-dark.svg',
+        src: 'img/fashionai-logo.png',
+        srcDark: 'img/fashionai-logo-white.png',
       },
       items: [
         {
@@ -172,7 +172,7 @@ const config: Config = {
             },
             {
               label: 'footer.links.integrations',
-              to: '/docs/developer-guide/integrations',
+              to: '/docs/developer-guide/integrations/shopify-integration',
             },
           ],
         },

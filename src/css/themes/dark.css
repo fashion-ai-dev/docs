@@ -29,7 +29,7 @@
 }
 
 [data-theme='dark'] .homepage-card-icon.primary {
-  color: var(--ifm-color-primary-light);
+  color: white;
 }
 
 [data-theme='dark'] {
