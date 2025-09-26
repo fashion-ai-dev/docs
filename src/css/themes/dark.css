@@ -19,6 +19,15 @@
   color: var(--ifm-color-primary-darkest);
 }
 
+[data-theme='dark'] .homepage-card {
+  background: var(--ifm-background-surface-color);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3), 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+[data-theme='dark'] .homepage-card:hover {
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.4), 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
 [data-theme='dark'] .homepage-card-icon.primary {
   color: var(--ifm-color-primary-light);
 }
@@ -32,6 +41,9 @@
   --ifm-color-primary-lighter: #f5a5a5;
   --ifm-color-primary-lightest: #ffffff;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+
+  /* Reset navbar background to original dark color */
+  --ifm-navbar-background-color: var(--ifm-background-surface-color);
 
   --custom-hero-bg-start: rgba(26, 26, 26, 0.75);
   --custom-hero-bg-end: rgb(34, 34, 34);

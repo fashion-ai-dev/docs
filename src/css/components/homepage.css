@@ -39,25 +39,14 @@
    ============================================ */
 
 .homepage-card {
-  background: var(--custom-card-bg);
-  border: 1px solid var(--custom-card-border);
-  border-radius: 0.5rem;
+  background: #fefcfc;
+  border: none;
+  border-radius: 1rem;
   padding: 2rem;
-  backdrop-filter: blur(10px);
-  transition: transform 0.3s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08), 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
-}
-
-.homepage-card::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: linear-gradient(to bottom right, var(--custom-card-gradient), transparent);
-  pointer-events: none;
 }
 
 .homepage-card:hover .feature-card-link {
@@ -72,30 +61,32 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 3rem;
-  height: 3rem;
-  border-radius: 0.5rem;
-  margin-bottom: 1rem;
-  transition: transform 0.3s ease;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 0.75rem;
+  margin-bottom: 1.5rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 .homepage-card:hover .homepage-card-icon {
-  transform: scale(1.1);
+  transform: scale(1.05);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 
 .homepage-card-icon.primary {
-  background: var(--custom-badge-bg);
-  color: var(--ifm-color-primary);
+  background: linear-gradient(135deg, var(--ifm-color-primary-light), var(--ifm-color-primary));
+  color: white;
 }
 
 .homepage-card-icon.secondary {
-  background: var(--custom-badge-bg);
-  color: var(--custom-icon-secondary);
+  background: linear-gradient(135deg, #10b981, var(--custom-icon-secondary));
+  color: white;
 }
 
 .homepage-card-icon.accent {
-  background: var(--custom-badge-bg);
-  color: var(--custom-icon-accent);
+  background: linear-gradient(135deg, #f59e0b, var(--custom-icon-accent));
+  color: white;
 }
 
 /* ============================================
@@ -161,7 +152,7 @@
 
 .homepage-grid {
   display: grid;
-  gap: 2rem;
+  gap: 2.5rem;
   width: 100%;
   padding: 0 1rem;
 }

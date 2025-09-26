@@ -20,14 +20,15 @@
 
 @media (min-width: 769px) {
   .homepage-card:hover {
-    transform: scale(1.05);
+    transform: translateY(-4px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12), 0 4px 12px rgba(0, 0, 0, 0.15);
   }
   .homepage-carousel {
     margin: 0 2rem 0 2rem !important;
     position: relative;
   }
+  
 }
-
 @media (max-width: 1210px) {
   .carousel-prev {
     left: 10px;
@@ -75,6 +76,6 @@
   .homepage-grid {
     display: grid !important;
     grid-template-columns: 1fr !important;
-    gap: 1.5rem !important;
+    gap: 2rem !important;
   }
 }
