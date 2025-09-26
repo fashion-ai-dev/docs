@@ -7,7 +7,7 @@ export default function HeroSection() {
   return (
     <section className="homepage-hero">
       <div className="homepage-container homepage-section" style={{paddingTop: '4rem', paddingBottom: '4rem'}}>
-        <div style={{maxWidth: '64rem', margin: '0 auto', textAlign: 'center'}}>
+        <div style={{margin: '0 1.5rem', textAlign: 'center'}}>
           <div className="homepage-badge ai-platform-badge">
             <Zap style={{width: '0.75rem', height: '0.75rem', marginRight: '0.25rem'}} />
             <Translate>API Platform</Translate>
@@ -19,11 +19,11 @@ export default function HeroSection() {
             <Translate>Complete guide to integrate Fashion AI into your applications. Learn how to use our RESTful API endpoint.</Translate>
           </p>
           <div style={{display: 'flex', flexDirection: 'row', gap: '1rem', justifyContent: 'center', alignItems: 'center', flexWrap: 'wrap'}}>
-            <Link to="/docs/developer-guide" className="homepage-button primary">
+            <Link to="/docs/developer-guide/getting-started" className="homepage-button primary">
               <Code style={{width: '1rem', height: '1rem'}} />
               <Translate>Documentation</Translate>
             </Link>
-            <Link to="/docs/user-guide" className="homepage-button">
+            <Link to="/docs/user-guide/getting-started" className="homepage-button">
               <User style={{width: '1rem', height: '1rem'}} />
               <Translate>Platform Tutorial</Translate>
             </Link>

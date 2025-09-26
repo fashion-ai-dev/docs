@@ -1,10 +1,29 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Translate from '@docusaurus/Translate';
 import { Sparkles, Search, TrendingUp, BarChart3, ChevronLeft, ChevronRight } from 'lucide-react';
 import FeatureCard from './FeatureCard';
 
 export default function FeaturesSection() {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [itemsPerPage, setItemsPerPage] = useState(3);
+
+  useEffect(() => {
+    const updateItemsPerPage = () => {
+      const width = window.innerWidth;
+      if (width < 768) {
+        setItemsPerPage(4); // Mobile: show all 4 features
+      } else if (width < 1024) {
+        setItemsPerPage(2); // Tablet: 2 items
+      } else {
+        setItemsPerPage(3); // Desktop: 3 items
+      }
+      setCurrentIndex(0);
+    };
+
+    updateItemsPerPage();
+    window.addEventListener('resize', updateItemsPerPage);
+    return () => window.removeEventListener('resize', updateItemsPerPage);
+  }, []);
 
   const features = [
     {
@@ -41,20 +60,22 @@ export default function FeaturesSection() {
     }
   ];
 
+  const maxIndex = Math.max(0, features.length - itemsPerPage);
+
   const nextSlide = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % (features.length - 2));
+    setCurrentIndex((prevIndex) => Math.min(prevIndex + 1, maxIndex));
   };
 
   const prevSlide = () => {
-    setCurrentIndex((prevIndex) => (prevIndex - 1 + features.length - 2) % (features.length - 2));
+    setCurrentIndex((prevIndex) => Math.max(prevIndex - 1, 0));
   };
 
-  const visibleFeatures = features.slice(currentIndex, currentIndex + 3);
+  const visibleFeatures = features.slice(currentIndex, currentIndex + itemsPerPage);
 
   return (
     <section className="homepage-section">
       <div className="homepage-container">
-        <div style={{textAlign: 'center', marginBottom: '4rem'}}>
+        <div style={{textAlign: 'center', marginBottom: '4rem', padding: '0 2rem'}}>
           <h2 style={{fontSize: 'clamp(2rem, 4vw, 2.5rem)', fontWeight: 'bold', marginBottom: '1rem'}}>
             <Translate id="features.title">Key Features</Translate>
           </h2>
@@ -63,8 +84,10 @@ export default function FeaturesSection() {
           </p>
         </div>
 
-        <div style={{ position: 'relative', maxWidth: '72rem', margin: '0 auto', padding: '0 4rem' }}>
-          {/* Navigation Buttons - Hidden on mobile */}
+        <div style={{ position: 'relative', margin: '0 auto', padding: '0 2rem' }}>
+          {/* Navigation Buttons */}
+          {maxIndex > 0 && (
+            <>
           <button
             onClick={prevSlide}
             style={{
@@ -112,22 +135,24 @@ export default function FeaturesSection() {
               cursor: 'pointer',
               boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
               transition: 'all 0.2s ease',
-              opacity: currentIndex >= features.length - 3 ? '0.5' : '1'
+              opacity: currentIndex >= maxIndex ? '0.5' : '1'
             }}
             onMouseEnter={(e) => {
-              if (currentIndex < features.length - 3) {
+              if (currentIndex < maxIndex) {
                 e.currentTarget.style.transform = 'scale(1.1)';
               }
             }}
             onMouseLeave={(e) => {
               e.currentTarget.style.transform = 'scale(1)';
             }}
-            disabled={currentIndex >= features.length - 3}
+            disabled={currentIndex >= maxIndex}
             aria-label="Next features"
             className="carousel-nav-button carousel-next"
           >
             <ChevronRight size={20} />
           </button>
+            </>
+          )}
 
           {/* Feature Cards */}
           <div className="homepage-grid">
@@ -144,33 +169,16 @@ export default function FeaturesSection() {
             ))}
           </div>
 
-          {/* Mobile: Show all features in single column */}
-          <div className="features-mobile-grid" style={{
-            display: 'none',
-            width: '100%',
-            padding: '0 1rem'
-          }}>
-            {features.map((feature, index) => (
-              <FeatureCard
-                key={`mobile-${index}`}
-                icon={feature.icon}
-                iconType={feature.iconType}
-                title={feature.title}
-                description={feature.description}
-                linkColor={feature.linkColor}
-                linkUrl={feature.linkUrl}
-              />
-            ))}
-          </div>
 
-          {/* Dots Indicator - Hidden on mobile */}
-          <div className="carousel-dots" style={{
-            display: 'flex',
-            justifyContent: 'center',
-            marginTop: '2rem',
-            gap: '0.5rem'
-          }}>
-            {Array.from({ length: features.length - 2 }, (_, index) => (
+          {/* Dots Indicator */}
+          {maxIndex > 0 && (
+            <div className="carousel-dots" style={{
+              display: 'flex',
+              justifyContent: 'center',
+              marginTop: '2rem',
+              gap: '0.5rem'
+            }}>
+            {Array.from({ length: maxIndex + 1 }, (_, index) => (
               <button
                 key={index}
                 onClick={() => setCurrentIndex(index)}
@@ -186,7 +194,8 @@ export default function FeaturesSection() {
                 aria-label={`Go to slide ${index + 1}`}
               />
             ))}
-          </div>
+            </div>
+          )}
         </div>
       </div>
     </section>
