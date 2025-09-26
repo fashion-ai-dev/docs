@@ -101,7 +101,7 @@ export default function FeaturesSection() {
               justifyContent: 'center',
               color: 'white',
               cursor: 'pointer',
-              boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
+              boxShadow: '0 2px 10px rgba(0,0,0,0.15)',
               transition: 'all 0.2s ease',
               opacity: currentIndex === 0 ? '0.5' : '1'
             }}
@@ -133,7 +133,7 @@ export default function FeaturesSection() {
               justifyContent: 'center',
               color: 'white',
               cursor: 'pointer',
-              boxShadow: '0 4px 12px rgba(0,0,0,0.15)',
+              boxShadow: '0 2px 10px rgba(0,0,0,0.15)',
               transition: 'all 0.2s ease',
               opacity: currentIndex >= maxIndex ? '0.5' : '1'
             }}

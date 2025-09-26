@@ -40,11 +40,11 @@ export default function HeroSection() {
               <Translate>API Available</Translate>
             </div>
             <div className="homepage-status-indicator">
-              <Code style={{width: '0.75rem', height: '0.75rem'}} />
+              <Code style={{width: '0.75rem', height: '0.75rem', color: 'orange'}} />
               <Translate>RESTful</Translate>
             </div>
             <div className="homepage-status-indicator">
-              <Zap style={{width: '0.75rem', height: '0.75rem'}} />
+              <Zap style={{width: '0.75rem', height: '0.75rem', color: 'yellow'}} />
               <Translate>Fast Response</Translate>
             </div>
           </div>
