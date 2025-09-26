@@ -1,12 +1,9 @@
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
 import {translate} from '@docusaurus/Translate';
 import HeroSection from '../components/homepage/HeroSection';
 import FeaturesSection from '../components/homepage/FeaturesSection';
-import CTASection from '../components/homepage/CTASection';
 
 export default function HomePage() {
-  const {siteConfig} = useDocusaurusContext();
 
   return (
     <Layout

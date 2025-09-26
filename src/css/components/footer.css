@@ -1,0 +1,58 @@
+/* ============================================
+   FOOTER CUSTOMIZATION
+   ============================================ */
+
+.footer {
+  background: linear-gradient(135deg, var(--ifm-color-primary-darker) 0%, var(--ifm-color-primary-dark) 100%) !important;
+  border-top: 2px solid var(--ifm-color-primary);
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.footer__links {
+  justify-content: center !important;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.footer__col {
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.footer__title {
+  color: white !important;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+}
+
+.footer__item {
+  margin-bottom: 0.5rem;
+}
+
+.footer__items {
+  text-align: center;
+}
+
+.footer__link-item {
+  color: var(--custom-footer-text) !important;
+  transition: all 0.2s ease;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.footer__link-item:hover {
+  color: var(--custom-footer-text-hover) !important;
+  text-decoration: none;
+  transform: translateX(4px);
+}
+
+.footer__copyright {
+  color: var(--custom-footer-copyright) !important;
+  border-top: 1px solid var(--custom-footer-border);
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  text-align: center;
+  font-size: 0.9rem;
+}

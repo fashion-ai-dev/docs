@@ -1,0 +1,80 @@
+/* ============================================
+   RESPONSIVE STYLES
+   ============================================ */
+
+@media (min-width: 640px) {
+  .homepage-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .homepage-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .homepage-carousel {
+    margin: 0 auto;
+    position: relative;
+  }
+}
+
+@media (min-width: 769px) {
+  .homepage-card:hover {
+    transform: scale(1.05);
+  }
+  .homepage-carousel {
+    margin: 0 2rem 0 2rem !important;
+    position: relative;
+  }
+}
+
+@media (max-width: 1210px) {
+  .carousel-prev {
+    left: 10px;
+  }
+  .carousel-next {
+    right: 10px;
+  }
+  .homepage-carousel {
+    margin: 0 2rem 0 2rem !important;
+    position: relative;
+  }
+}
+
+@media (max-width: 900px) {
+  .carousel-prev {
+    left: 5px;
+  }
+  .carousel-next {
+    right: 5px;
+  }
+  .homepage-carousel {
+    margin: 0 2rem 0 2rem !important;
+    position: relative;
+  }
+}
+
+@media (max-width: 768px) {
+  .homepage-container {
+    padding: 0 2rem;
+  }
+
+  .homepage-carousel {
+    margin: 0 0.5rem 0 0.5rem !important;
+  }
+
+  .homepage-section {
+    padding: 4rem 0.05rem;
+  }
+
+  .homepage-card {
+    padding: 1.5rem;
+  }
+
+  /* Ensure grid is always visible for responsive system */
+  .homepage-grid {
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
+}

@@ -40,7 +40,7 @@ export default function FeaturesSection() {
       title: <Translate id="features.semanticSearch.title">Advanced Semantic Search</Translate>,
       description: <Translate id="features.semanticSearch.description">Intelligent search that understands natural descriptions like "blue dress for wedding" and finds products using natural language processing and image analysis.</Translate>,
       linkColor: '#059669',
-      linkUrl: '/docs/search'
+      linkUrl: '/docs/developer-guide/search'
     },
     {
       icon: <TrendingUp size={24} />,
@@ -75,7 +75,7 @@ export default function FeaturesSection() {
   return (
     <section className="homepage-section">
       <div className="homepage-container">
-        <div style={{textAlign: 'center', marginBottom: '4rem', padding: '0 2rem'}}>
+        <div style={{textAlign: 'center', marginBottom: '4rem', padding: '0 1rem'}}>
           <h2 style={{fontSize: 'clamp(2rem, 4vw, 2.5rem)', fontWeight: 'bold', marginBottom: '1rem'}}>
             <Translate id="features.title">Key Features</Translate>
           </h2>
@@ -84,7 +84,7 @@ export default function FeaturesSection() {
           </p>
         </div>
 
-        <div style={{ position: 'relative', margin: '0 auto', padding: '0 2rem' }}>
+        <div className="homepage-carousel">
           {/* Navigation Buttons */}
           {maxIndex > 0 && (
             <>
@@ -94,8 +94,8 @@ export default function FeaturesSection() {
               background: 'var(--ifm-color-primary)',
               border: 'none',
               borderRadius: '50%',
-              width: '48px',
-              height: '48px',
+              width: '35px',
+              height: '35px',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
@@ -126,8 +126,8 @@ export default function FeaturesSection() {
               background: 'var(--ifm-color-primary)',
               border: 'none',
               borderRadius: '50%',
-              width: '48px',
-              height: '48px',
+              width: '35px',
+              height: '35px',
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'center',
@@ -158,7 +158,7 @@ export default function FeaturesSection() {
           <div className="homepage-grid">
             {visibleFeatures.map((feature, index) => (
               <FeatureCard
-                key={currentIndex + index}
+                key={`feature-${currentIndex}-${index}`}
                 icon={feature.icon}
                 iconType={feature.iconType}
                 title={feature.title}
@@ -168,7 +168,6 @@ export default function FeaturesSection() {
               />
             ))}
           </div>
-
 
           {/* Dots Indicator */}
           {maxIndex > 0 && (

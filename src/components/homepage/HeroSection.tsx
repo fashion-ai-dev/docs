@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from '@docusaurus/Link';
 import Translate from '@docusaurus/Translate';
-import { BookOpen, Code, ExternalLink, Zap, Users, User } from 'lucide-react';
+import { Code, ExternalLink, Zap, User } from 'lucide-react';
 
 export default function HeroSection() {
   return (
