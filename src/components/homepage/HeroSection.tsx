@@ -9,7 +9,7 @@ export default function HeroSection() {
       <div className="homepage-container homepage-section" style={{paddingTop: '4rem', paddingBottom: '4rem'}}>
         <div style={{margin: '0 1.5rem', textAlign: 'center'}}>
           <div className="homepage-badge ai-platform-badge">
-            <Zap style={{width: '0.75rem', height: '0.75rem', marginRight: '0.25rem'}} />
+            <Zap style={{width: '0.75rem', height: '0.75rem', marginRight: '0.25rem'u}} />
             <Translate>API Platform</Translate>
           </div>
           <h1 style={{fontSize: 'clamp(2.5rem, 5vw, 4rem)', fontWeight: 'bold', marginBottom: '1.5rem', lineHeight: '1.2'}}>

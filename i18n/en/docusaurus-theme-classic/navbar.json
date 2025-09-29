@@ -11,10 +11,6 @@
     "message": "Developer Guide",
     "description": "Navbar item with label components.NavigationBar.developerGuide"
   },
-  "item.label.components.NavigationBar.tracking": {
-    "message": "Tracking",
-    "description": "Navbar item with label components.NavigationBar.tracking"
-  },
   "item.label.components.NavigationBar.platform": {
     "message": "Platform",
     "description": "Navbar item with label components.NavigationBar.platform"
