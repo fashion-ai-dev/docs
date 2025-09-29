@@ -117,12 +117,6 @@ const config: Config = {
           position: 'right',
         },
         {
-          href: 'https://app.generativecrm.com',
-          label: 'components.NavigationBar.platform',
-          position: 'right',
-          rel: 'noopener noreferrer',
-        },
-        {
           type: 'search',
           position: 'right',
         },

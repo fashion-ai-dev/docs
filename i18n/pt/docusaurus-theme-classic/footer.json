@@ -39,8 +39,12 @@
     "message": "Google Tag Manager",
     "description": "The label of footer link with label=footer.links.googleTagManager linking to /docs/google-tag-manager"
   },
+  "link.item.label.footer.links.integrations": {
+    "message": "Integrações da Plataforma",
+    "description": "The label of footer link with label=footer.links.integrations linking to /docs/developer-guide/integrations/shopify-integration"
+  },
   "link.item.label.footer.links.dashboard": {
-    "message": "Dashboard",
+    "message": "Plataforma",
     "description": "The label of footer link with label=footer.links.dashboard linking to https://app.generativecrm.com"
   },
   "link.item.label.footer.links.website": {
@@ -48,7 +52,7 @@
     "description": "The label of footer link with label=footer.links.website linking to https://www.generativecrm.com"
   },
   "copyright": {
-    "message": "Copyright © 2025 Fashion AI. Todos os direitos reservados.",
+    "message": "© 2025 Copyright | Todos os direitos reservados.",
     "description": "The footer copyright"
   }
 }
