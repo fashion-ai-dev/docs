@@ -20,7 +20,7 @@ export default function HeroSection() {
           </p>
           <div style={{display: 'flex', flexDirection: 'row', gap: '1rem', justifyContent: 'center', alignItems: 'center', flexWrap: 'wrap'}}>
             <Link to="/docs/developer-guide/getting-started" className="homepage-button primary">
-              <Code style={{width: '1rem', height: '1rem'}} />
+              <Code style={{width: '1rem', height: '1rem', color: '#ffffff'}} />
               <Translate>Documentation</Translate>
             </Link>
             <Link to="/docs/user-guide/getting-started" className="homepage-button">
@@ -40,11 +40,11 @@ export default function HeroSection() {
               <Translate>API Available</Translate>
             </div>
             <div className="homepage-status-indicator">
-              <Code style={{width: '0.75rem', height: '0.75rem', color: 'orange'}} />
+              <Code style={{width: '0.75rem', height: '0.75rem', color: '#3b82f6'}} />
               <Translate>RESTful</Translate>
             </div>
             <div className="homepage-status-indicator">
-              <Zap style={{width: '0.75rem', height: '0.75rem', color: 'yellow'}} />
+              <Zap style={{width: '0.75rem', height: '0.75rem', color: '#eab308'}} />
               <Translate>Fast Response</Translate>
             </div>
           </div>
