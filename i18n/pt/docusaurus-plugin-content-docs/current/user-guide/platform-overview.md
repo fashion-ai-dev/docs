@@ -9,9 +9,10 @@ Conheça o sistema inteligente de recomendações da Fashion.AI e como ele melho
 ## Tipos de Recomendação
 
 ### 🎯 Produtos Similares
-Ofereça sugestões de produtos personalizadas baseadas no histórico de navegação do usuário. Alimentado por mais de 4.500 atributos de produtos, esta API ajuda a aumentar a conversão mostrando itens que combinam com o estilo e intenção do comprador.
+Ofereça sugestões de produtos personalizadas baseadas no histórico de navegação do usuário. Alimentado por mais de 1000 atributos de produtos, esta API ajuda a aumentar a conversão mostrando itens que combinam com o estilo e intenção do comprador.
 
 **Casos de Uso:**
+- Página de categorias montada baseado em experiências anteriores do usuário - se logado.
 - Recomendações na página do produto
 - Melhoria na navegação por categorias
 - Oportunidades de venda cruzada
