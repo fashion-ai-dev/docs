@@ -72,7 +72,7 @@ Some groups automatically apply to all product categories:
 4. **Save** as new custom version
 5. **Set as main version** to activate for product processing
 
-### Taxonomies Interface
+### Demo Video
 
 <div style={{position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden'}}>
   <iframe

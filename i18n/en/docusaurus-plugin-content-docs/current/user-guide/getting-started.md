@@ -2,54 +2,64 @@
 sidebar_position: 1
 ---
 
-# Getting Started 
+# Getting Started
 
-## What is Our Fashion Platform?
+## Platform Overview
 
-Our platform revolutionizes how fashion retailers manage and optimize their product catalogs. We provide intelligent catalog enrichment, SEO optimization, personalized recommendations, and semantic search capabilities specifically designed for the fashion industry.
+### What is our fashion platform?
 
-## Key Features
+Our platform revolutionizes the way fashion retailers manage and optimize their product catalogs. We offer intelligent catalog enrichment, SEO optimization, personalized recommendations, and semantic search features designed specifically for the fashion industry.
 
-### 🛍️ Catalog Enrichment
+### Key Features
+
+🛍️ **Catalog Enrichment**
+
 Automatically enhance your fashion products with:
-- Rich product descriptions
-- Style tags and attributes
-- Size and fit recommendations
-- Color and material details
-- Seasonal categorization
+* Rich product descriptions
+* Style tags and attributes
+* Personalized recommendations
+* Color and material details
 
-### 🎯 Smart Recommendations
+🎯 **Smart Recommendations**
+
 AI-powered recommendations that understand:
-- Customer style preferences
-- Seasonal trends
-- Cross-selling opportunities
-- Size and fit compatibility
-- Brand affinity
+* Each customer's style preferences
+* Every user click
+* Cross-selling opportunities - shop the look
+* Brand affinity
 
-### 🔍 Semantic Search
-Advanced search capabilities including:
-- Natural language queries ("red summer dress for wedding")
-- Visual similarity search
-- Style-based filtering
-- Trend-aware results
+🔍 **Semantic Search**
 
-### 📈 SEO Optimization
+Search capabilities, including:
+* Natural language queries ("red summer dress")
+* Visual similarity search
+* Complete image reading
+* Style-based filtering
+* Trend-aware results
+
+📈 **SEO Optimization**
+
 Boost your online visibility with:
-- Automated meta descriptions
-- Fashion-specific tags
-- Product schema markup
-- Content optimization for search engines
+* Automated meta descriptions
+* Fashion-specific keywords
+* Product schema markup
+* Specific and highly searchable tags
+* Content optimization for search engines
 
-## How It Works
+### How it Works
 
-1. **Connect** your existing catalog
-2. **Enrich** products with AI-powered descriptions and attributes
-3. **Optimize** for search engines and user experience
-4. **Analyze** performance and customer behavior
-5. **Scale** your fashion business with data-driven insights
+1.  **Connect** your existing catalog from the platform
+2.  **Activate** automatic product reading by the catalog in settings
+3.  **Optimize** taxonomy to better categorize your products - optional
+4.  **Track** analyze fashion recommendations performance from Google Analytics
+5.  **Scale** your fashion business with data-driven insights
 
-## Target Users
+### Target Audience
 
-- **Fashion Retailers** looking to improve catalog quality
-- **E-commerce Managers** wanting better search and recommendations
-- **Marketing Teams** focusing on SEO and content optimization
+* **Fashion retailers** looking to improve catalog quality
+* **E-commerce managers** wanting better search and recommendations
+* **Marketing teams** focused on SEO and content optimization
+
+### Getting Started
+
+Ready to transform your fashion catalog? Check out our **Getting Started** guide to begin your journey.

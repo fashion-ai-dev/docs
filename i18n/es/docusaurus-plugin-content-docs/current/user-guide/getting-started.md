@@ -4,58 +4,62 @@ sidebar_position: 1
 
 # Primeros Pasos
 
-## Descripción General de la Plataforma
+## Visión General de la Plataforma
 
 ### ¿Qué es nuestra plataforma de moda?
 
-Nuestra plataforma revoluciona la forma en que los minoristas de moda gestionan y optimizan sus catálogos de productos. Ofrecemos enriquecimiento inteligente de catálogos, optimización de SEO, recomendaciones personalizadas y capacidades de búsqueda semántica diseñadas específicamente para la industria de la moda.
+Nuestra plataforma revoluciona la forma en que los minoristas de moda gestionan y optimizan sus catálogos de productos. Ofrecemos enriquecimiento inteligente de catálogo, optimización de SEO, recomendaciones personalizadas y recursos de búsqueda semántica diseñados específicamente para la industria de la moda.
 
-### Características Clave
+### Características principales
 
 🛍️ **Enriquecimiento de Catálogo**
 
 Mejore automáticamente sus productos de moda con:
-* Descripciones de productos detalladas
+* Descripciones ricas de productos
 * Etiquetas y atributos de estilo
-* Recomendaciones de talla y ajuste
+* Recomendaciones personalizadas
 * Detalles de color y material
-* Categorización por temporada
 
 🎯 **Recomendaciones Inteligentes**
 
 Recomendaciones impulsadas por IA que entienden:
-* Preferencias de estilo del cliente
-* Tendencias de temporada
-* Oportunidades de venta cruzada
-* Compatibilidad de talla y ajuste
+* Preferencias de estilo de cada cliente
+* Cada clic del usuario
+* Oportunidades de venta cruzada - compre el look
 * Afinidad con la marca
 
 🔍 **Búsqueda Semántica**
 
-Capacidades de búsqueda avanzadas que incluyen:
-* Consultas en lenguaje natural ("vestido rojo de verano para boda")
+Capacidades de búsqueda, incluyendo:
+* Consultas en lenguaje natural ("vestido de verano rojo")
 * Búsqueda por similitud visual
-* Filtrado basado en el estilo
-* Resultados que tienen en cuenta las tendencias
+* Lectura completa de imagen
+* Filtrado basado en estilo
+* Resultados conscientes de las tendencias
 
-📈 **Optimización SEO**
+📈 **Optimización de SEO**
 
 Aumente su visibilidad en línea con:
-* Metadescripciones automatizadas
+* Meta descripciones automatizadas
 * Palabras clave específicas de moda
 * Marcado de esquema de producto
+* Etiquetas específicas y altamente buscables
 * Optimización de contenido para motores de búsqueda
 
-### Cómo Funciona
+### Cómo funciona
 
-1.  **Conecte** su catálogo existente
-2.  **Enriquezca** los productos con descripciones y atributos impulsados por IA
-3.  **Optimice** para los motores de búsqueda y la experiencia del usuario
-4.  **Analice** el rendimiento y el comportamiento del cliente
-5.  **Escale** su negocio de moda con información basada en datos
+1.  **Conecte** su catálogo existente desde la plataforma
+2.  **Active** la lectura automática de productos por el catálogo en configuración
+3.  **Optimice** la taxonomía para categorizar mejor sus productos - opcional
+4.  **Rastree** analice el rendimiento de las recomendaciones de moda desde Google Analytics
+5.  **Escale** su negocio de moda con insights basados en datos
 
-### Usuarios Objetivo
+### Público objetivo
 
 * **Minoristas de moda** que buscan mejorar la calidad del catálogo
-* **Gerentes de comercio electrónico** que desean una mejor búsqueda y recomendaciones
-* **Equipos de marketing** centrados en SEO y optimización de contenido
+* **Gerentes de e-commerce** que desean una mejor búsqueda y recomendaciones
+* **Equipos de marketing** enfocados en SEO y optimización de contenido
+
+### Comenzando
+
+¿Listo para transformar su catálogo de moda? Consulte nuestra guía de **Primeros Pasos** para comenzar su viaje.
