@@ -72,7 +72,7 @@ Alguns grupos se aplicam automaticamente a todas as categorias de produtos:
 4. **Salve** como nova versão personalizada
 5. **Defina como versão principal** para ativar no processamento de produtos
 
-### Interface de Taxonomias
+### Vídeo Demonstrativo
 
 <div style={{position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden'}}>
   <iframe
