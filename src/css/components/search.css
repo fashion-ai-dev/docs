@@ -1,0 +1,45 @@
+/* ============================================
+   ALGOLIA DOCSEARCH CUSTOMIZATION
+   ============================================ */
+
+/* Search button */
+.DocSearch-Button {
+  border-radius: 18px !important;
+  border: 1px solid var(--ifm-color-emphasis-300) !important;
+  transition: all 0.2s ease !important;
+}
+
+.DocSearch-Button:hover {
+  border-color: var(--ifm-color-primary) !important;
+  box-shadow: 0 0 0 2px rgba(242, 133, 133, 0.1) !important;
+}
+
+/* Search modal */
+.DocSearch-Modal {
+  border-radius: 12px !important;
+  max-height: calc(100vh - 100px) !important;
+  margin: 16px auto !important;
+}
+
+.DocSearch-Container {
+  padding: 16px !important;
+}
+
+/* Search input */
+.DocSearch-Input {
+  border-radius: 8px !important;
+}
+
+/* Search results */
+.DocSearch-Hit {
+  border-radius: 8px !important;
+}
+
+.DocSearch-Hit[aria-selected='true'] {
+  background-color: rgba(242, 133, 133, 0.1) !important;
+}
+
+.DocSearch-Hit-action-button:hover,
+.DocSearch-Hit-action-button:focus {
+  background-color: rgba(242, 133, 133, 0.15) !important;
+}

@@ -1,6 +1,10 @@
 User-agent: *
 Allow: /
 
+# Allow Algolia crawler specifically
+User-agent: Algolia Crawler
+Allow: /
+
 # Sitemap
 Sitemap: https://docs.generativecrm.com/sitemap.xml
 

@@ -13,6 +13,7 @@
 @import './components/homepage.css';
 @import './components/carousel.css';
 @import './components/footer.css';
+@import './components/search.css';
 
 /* Theme styles */
 @import './themes/dark.css';

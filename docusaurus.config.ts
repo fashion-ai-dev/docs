@@ -10,8 +10,14 @@ const config: Config = {
   baseUrl: '/',
   organizationName: 'fashion-ai-dev',
   projectName: 'docs',
-  onBrokenMarkdownLinks: 'warn',
   onBrokenLinks: 'warn',
+  markdown: {
+    format: 'mdx',
+    mermaid: false,
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+    },
+  },
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'pt', 'es'],
@@ -79,10 +85,6 @@ const config: Config = {
       keyboardShortcuts: { 'Ctrl/Cmd+K': false, '/' : false },
       indexName: 'documentation',
       contextualSearch: true,
-      replaceSearchResultPathname: {
-        from: '/docs/',
-        to: '/',
-      },
       searchParameters: {},
       searchPagePath: 'search',
       insights: false,
