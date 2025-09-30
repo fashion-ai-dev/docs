@@ -6,17 +6,12 @@ const config: Config = {
   title: 'FashionAI',
   tagline: 'AI-powered fashion recommendations and intelligent search for e-commerce',
   favicon: 'img/favicon.png',
-
-
   url: 'https://docs.generativecrm.com',
   baseUrl: '/',
-
   organizationName: 'fashion-ai-dev',
   projectName: 'docs',
-
-  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-
+  onBrokenLinks: 'warn',
   i18n: {
     defaultLocale: 'en',
     locales: ['en', 'pt', 'es'],
