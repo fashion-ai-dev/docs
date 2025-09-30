@@ -72,6 +72,19 @@ Some groups automatically apply to all product categories:
 4. **Save** as new custom version
 5. **Set as main version** to activate for product processing
 
+### Taxonomies Interface
+
+<div style={{position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden'}}>
+  <iframe
+    style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}}
+    src="https://www.youtube.com/embed/-NcQNzSIDOQ"
+    title="Taxonomies Demo"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen>
+  </iframe>
+</div>
+
 ## 🎯 Activating a Taxonomy Version
 
 ### Setting Main Version

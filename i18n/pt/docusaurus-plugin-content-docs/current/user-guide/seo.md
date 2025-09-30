@@ -14,7 +14,7 @@ A configuração inclui:
 - **Nome do Produto**: Campo não recomendado pelo FashionAI
 - **Descrição do Produto**: Conteúdo principal para otimização
 - **Descrição SEO do Produto**: Meta descrição otimizada
-- **Tags do Produto**: Tags e categorias
+- **Tags do Produto**: Tags e categorias importantes para busca
 - **Descrições Alternativas de Imagens**: Texto alt para todas as imagens do produto (1-10)
 
 Selecione quais campos você deseja sincronizar e habilite-os. Estes campos selecionados serão substituídos diretamente na sua plataforma de integração pelo Fashion's.

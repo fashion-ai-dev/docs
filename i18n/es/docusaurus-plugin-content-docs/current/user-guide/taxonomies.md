@@ -72,6 +72,19 @@ Algunos grupos se aplican automáticamente a todas las categorías de productos:
 4. **Guarda** como nueva versión personalizada
 5. **Establece como versión principal** para activar en el procesamiento de productos
 
+### Interfaz de Taxonomías
+
+<div style={{position: 'relative', paddingBottom: '56.25%', height: 0, overflow: 'hidden'}}>
+  <iframe
+    style={{position: 'absolute', top: 0, left: 0, width: '100%', height: '100%'}}
+    src="https://www.youtube.com/embed/YkdTPn-vb0Y"
+    title="Demo de Taxonomías"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowFullScreen>
+  </iframe>
+</div>
+
 ## 🎯 Activando una Versión de Taxonomía
 
 ### Estableciendo Versión Principal

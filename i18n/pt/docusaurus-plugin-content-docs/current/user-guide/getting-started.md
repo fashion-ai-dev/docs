@@ -16,25 +16,24 @@ Nossa plataforma revoluciona a forma como os varejistas de moda gerenciam e otim
 
 Aprimore automaticamente seus produtos de moda com:
 * Descrições ricas de produtos
-* Etiquetas e atributos de estilo
-* Recomendações de tamanho e ajuste
+* Tags e atributos de estilo
+* Recomendações personalizadas
 * Detalhes de cor e material
-* Categorização sazonal
 
 🎯 **Recomendações Inteligentes**
 
 Recomendações com tecnologia de IA que entendem:
-* Preferências de estilo do cliente
-* Tendências sazonais
-* Oportunidades de cross-selling
-* Compatibilidade de tamanho e ajuste
+* Preferências de estilo de cada cliente
+* Cada clique do usuário
+* Oportunidades de cross-selling - compre o look
 * Afinidade com a marca
 
 🔍 **Pesquisa Semântica**
 
-Recursos de pesquisa avançada, incluindo:
-* Consultas em linguagem natural ("vestido de verão vermelho para casamento")
+Recursos de pesquisa, incluindo:
+* Consultas em linguagem natural ("vestido de verão vermelho")
 * Pesquisa por semelhança visual
+* Leitura de imagem completa
 * Filtragem baseada em estilo
 * Resultados cientes das tendências
 
@@ -44,14 +43,15 @@ Aumente sua visibilidade online com:
 * Meta descrições automatizadas
 * Palavras-chave específicas de moda
 * Marcação de esquema de produto
+* Tags específicas e altamente buscáveis
 * Otimização de conteúdo para mecanismos de busca
 
 ### Como funciona
 
-1.  **Conecte** seu catálogo existente
-2.  **Enriqueça** produtos com descrições e atributos gerados por IA
-3.  **Otimize** para mecanismos de busca e experiência do usuário
-4.  **Analise** o desempenho e o comportamento do cliente
+1.  **Conecte** seu catálogo existente a partir da plataforma
+2.  **Ative** ative a leitura automática dos produtos pelo catálogo em configurações
+3.  **Otimize** otimize a taxonomia para categorizar melhor o seus produtos - opcional
+4.  **Trackeie** analise a perfomance das recomendações fashion a partir do google analytics
 5.  **Escale** seu negócio de moda com insights baseados em dados
 
 ### Público-alvo
