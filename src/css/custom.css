@@ -3,6 +3,9 @@
  * All styles are organized into modules for better maintainability
  */
 
+/* Algolia DocSearch base styles */
+@import '@docsearch/css';
+
 /* Base styles */
 @import './base/variables.css';
 @import './base/global.css';
