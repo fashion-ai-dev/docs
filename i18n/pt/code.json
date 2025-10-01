@@ -334,11 +334,14 @@
   "Documentation": {
     "message": "Documentação"
   },
-  "Complete guide to integrate Fashion AI into your applications. Learn how to use our RESTful API and GraphQL endpoints.": {
-    "message": "Guia completo para integrar Fashion AI em suas aplicações. Aprenda como usar nossa API RESTful e nossa Plataforma."
+  "Complete guide to integrate Fashion AI into your applications. Learn how to use our RESTful API endpoint.": {
+    "message": "Guia completo para integrar Fashion AI em suas aplicações. Aprenda como usar nossos endpoints da API RESTful."
   },
-  "Learn More": {
-    "message": "Saiba Mais"
+  "Platform Tutorial": {
+    "message": "Tutorial da Plataforma"
+  },
+  "Learn more about Fashion AI": {
+    "message": "Saiba mais sobre Fashion AI"
   },
   "API Available": {
     "message": "API Disponível"
@@ -349,40 +352,34 @@
   "Fast Response": {
     "message": "Resposta Rápida"
   },
-  "Ready to revolutionize your e-commerce?": {
-    "message": "Pronto para revolucionar seu e-commerce?"
-  },
-  "Start using FashionAI today and see conversion increases.": {
-    "message": "Comece a usar a FashionAI hoje mesmo e veja o aumento nas conversões."
-  },
-  "Schedule Demo": {
-    "message": "Agendar Demo"
-  },
-  "See More About Fashion AI": {
-    "message": "Saiba Mais Sobre Fashion AI"
-  },
-  "Smart Recommendations": {
+  "features.smartRecommendations.title": {
     "message": "Recomendações Inteligentes"
   },
-  "AI-powered recommendation system that analyzes preferences, purchase history, and trends to suggest personalized products for each customer.": {
+  "features.smartRecommendations.description": {
     "message": "Sistema de recomendação baseado em IA que analisa preferências, histórico de compras e tendências para sugerir produtos personalizados para cada cliente."
   },
-  "Advanced Semantic Search": {
+  "features.semanticSearch.title": {
     "message": "Busca Semântica Avançada"
   },
-  "Intelligent search that understands natural descriptions like \"blue dress for wedding\" and finds products using natural language processing and image analysis.": {
+  "features.semanticSearch.description": {
     "message": "Busca inteligente que entende descrições naturais como \"vestido azul para casamento\" e encontra produtos usando processamento de linguagem natural e análise de imagens."
   },
-  "Fashion SEO & Analytics": {
-    "message": "SEO e Analytics de Moda"
+  "features.seo.title": {
+    "message": "SEO de Moda"
   },
-  "Automatic search engine optimization with specialized fashion tags, trend analysis, and detailed catalog performance reports.": {
-    "message": "Otimização automática para mecanismos de busca com tags especializadas em moda, análise de tendências e relatórios detalhados de performance do catálogo."
+  "features.seo.description": {
+    "message": "Otimização automática para mecanismos de busca com tags especializadas em moda e metadados para melhor visibilidade e ranking dos produtos."
   },
-  "Key Features": {
+  "features.analytics.title": {
+    "message": "Analytics e Insights"
+  },
+  "features.analytics.description": {
+    "message": "Dashboard de analytics abrangente com análise de tendências, métricas de performance e relatórios detalhados de desempenho do catálogo."
+  },
+  "features.title": {
     "message": "Recursos Principais"
   },
-  "Everything you need to create personalized and intelligent shopping experiences": {
+  "features.subtitle": {
     "message": "Tudo que você precisa para criar experiências de compra personalizadas e inteligentes"
   },
   "theme.SearchBar.seeAll": {

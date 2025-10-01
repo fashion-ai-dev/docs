@@ -334,11 +334,14 @@
   "Documentation": {
     "message": "Documentation"
   },
-  "Complete guide to integrate Fashion AI into your applications. Learn how to use our RESTful API and GraphQL endpoints.": {
-    "message": "Complete guide to integrate Fashion AI into your applications. Learn how to use our RESTful API and our Plataform."
+  "Complete guide to integrate Fashion AI into your applications. Learn how to use our RESTful API endpoint.": {
+    "message": "Complete guide to integrate Fashion AI into your applications. Learn how to use our RESTful API endpoint."
   },
-  "Learn More": {
-    "message": "Learn More"
+  "Platform Tutorial": {
+    "message": "Platform Tutorial"
+  },
+  "Learn more about Fashion AI": {
+    "message": "Learn more about Fashion AI"
   },
   "API Available": {
     "message": "API Available"
@@ -349,37 +352,34 @@
   "Fast Response": {
     "message": "Fast Response"
   },
-  "Ready to revolutionize your e-commerce?": {
-    "message": "Ready to revolutionize your e-commerce?"
-  },
-  "Start using FashionAI today and see conversion increases in minutes.": {
-    "message": "Start using FashionAI today and see conversion increases in minutes."
-  },
-  "Schedule Demo": {
-    "message": "Schedule Demo"
-  },
-  "Smart Recommendations": {
+  "features.smartRecommendations.title": {
     "message": "Smart Recommendations"
   },
-  "AI-powered recommendation system that analyzes preferences, purchase history, and trends to suggest personalized products for each customer.": {
+  "features.smartRecommendations.description": {
     "message": "AI-powered recommendation system that analyzes preferences, purchase history, and trends to suggest personalized products for each customer."
   },
-  "Advanced Semantic Search": {
+  "features.semanticSearch.title": {
     "message": "Advanced Semantic Search"
   },
-  "Intelligent search that understands natural descriptions like \"blue dress for wedding\" and finds products using natural language processing and image analysis.": {
+  "features.semanticSearch.description": {
     "message": "Intelligent search that understands natural descriptions like \"blue dress for wedding\" and finds products using natural language processing and image analysis."
   },
-  "Fashion SEO & Analytics": {
-    "message": "Fashion SEO & Analytics"
+  "features.seo.title": {
+    "message": "Fashion SEO"
   },
-  "Automatic search engine optimization with specialized fashion tags, trend analysis, and detailed catalog performance reports.": {
-    "message": "Automatic search engine optimization with specialized fashion tags, trend analysis, and detailed catalog performance reports."
+  "features.seo.description": {
+    "message": "Automatic search engine optimization with specialized fashion tags and metadata for better product visibility and search rankings."
   },
-  "Key Features": {
+  "features.analytics.title": {
+    "message": "Analytics & Insights"
+  },
+  "features.analytics.description": {
+    "message": "Comprehensive analytics dashboard with trend analysis, performance metrics, and detailed catalog performance reports."
+  },
+  "features.title": {
     "message": "Key Features"
   },
-  "Everything you need to create personalized and intelligent shopping experiences": {
+  "features.subtitle": {
     "message": "Everything you need to create personalized and intelligent shopping experiences"
   }
 }
