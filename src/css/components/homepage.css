@@ -3,7 +3,7 @@
    ============================================ */
 
 .homepage-hero {
-  background: linear-gradient(180deg, var(--custom-hero-bg-start),#f2efec, var(--custom-hero-bg-end));
+  background: linear-gradient(180deg, var(--custom-hero-bg-start),#f5f3f0, var(--custom-hero-bg-end));
   position: relative;
   overflow: hidden;
 }

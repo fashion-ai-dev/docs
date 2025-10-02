@@ -15,10 +15,10 @@
 
   /* Custom background colors */
   --ifm-background-color: #f5f3f0;
-  --ifm-navbar-background-color: #f2efec;
+  --ifm-navbar-background-color: #f5f3f0;
 
-  --custom-hero-bg-start: #f2efec;
-  --custom-hero-bg-end: #faebeb;
+  --custom-hero-bg-start: #f5f3f0;
+  --custom-hero-bg-end: #faf0f0;
   --custom-card-bg: rgba(252, 247, 249, 0.795);
   --custom-card-border: rgba(242, 133, 133, 0.15);
   --custom-card-gradient: rgba(248, 201, 219, 0.1);
