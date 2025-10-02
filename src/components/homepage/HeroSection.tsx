@@ -13,7 +13,7 @@ export default function HeroSection() {
             <Translate>API Platform</Translate>
           </div>
           <h1 className="hero-title">
-            Fashion AI <span className="documentation-gradient"><Translate>Documentação</Translate></span>
+            Fashion AI <span className="documentation-gradient"><Translate>Documentation</Translate></span>
           </h1>
           <p className="hero-description">
             <Translate>Complete guide to integrate Fashion AI into your applications. Learn how to use our RESTful API endpoint.</Translate>
