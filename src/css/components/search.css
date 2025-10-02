@@ -40,6 +40,10 @@
   box-shadow: 0 0 0 2px rgba(242, 133, 133, 0.1);
 }
 
+.DocSearch-Button-Keys {
+  display: none !important;
+}
+
 /* Search modal */
 .DocSearch-Modal {
   border-radius: 12px;
