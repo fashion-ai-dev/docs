@@ -1,18 +1,15 @@
 # Detailed Product Search
 
-## 🔧 Developer Documentation
-
-### Protected Search Detailed Endpoint
+### Search Detailed - Whatsapp
 
 #### Overview
 
-Protected endpoint for detailed semantic product search with session and user tracking.
+Endpoint for detailed semantic product search on whatsapp with session and user tracking.
 
 #### Technical Details
 
 - **Route:** `POST /v1/products/protected/search/detailed`
-- **Authentication:** `@IsProtected()` - Requires authentication via protection token
-- **HTTP Status:** 200 OK
+- **Authentication:**  Requires authentication via token
 
 #### Request
 
@@ -30,8 +27,10 @@ Protected endpoint for detailed semantic product search with session and user tr
 **Headers:**
 ```
 Content-Type: application/json
-Authorization: Bearer {token}
+X-FashionAI-APP-Token: {token}
 ```
+
+[How generate my token?](../authentication.md)
 
 #### Response
 
@@ -49,34 +48,12 @@ Authorization: Bearer {token}
 }
 ```
 
-#### DTOs
-
-- `SearchDetailedQueryDto`: Query parameters validation
-- `SearchDetailedDto`: Request body validation
-- `SearchDetailedResponseDto`: Response structure
-
-#### Service Method
-
-```typescript
-searchDetailed(
-  customerId: number,
-  searchDetailedQueryDto: SearchDetailedQueryDto,
-  searchDetailedDto: SearchDetailedDto
-): Promise<SearchDetailedResponseDto>
-```
-
-#### Decorators
-
-- `@IsProtected()` - Custom authentication guard
-- `@HttpCode(HttpStatus.OK)` - Explicit 200 status
-- `@CustomerId()` - Extracts customer ID from request context
-
 #### cURL Example
 
 ```bash
-curl -X POST 'https://api.example.com/v1/products/protected/search/detailed?query=blue+dress' \
+curl -X POST 'https://catalog.api.fashionaiale.com/v1/products/protected/search/detailed?query=blue+dress' \
   -H 'Content-Type: application/json' \
-  -H 'Authorization: Bearer YOUR_TOKEN' \
+  -H 'X-FashionAI-APP-Token: {token}' \
   -d '{
     "sessionId": "session-123",
     "userId": "user-456"
@@ -85,7 +62,5 @@ curl -X POST 'https://api.example.com/v1/products/protected/search/detailed?quer
 
 #### Notes
 
-- `customerId` is automatically extracted from authentication context
-- Session tracking is mandatory for analytics
 - `userId` is optional for anonymous searches
 - Results are filtered by customer's product catalog

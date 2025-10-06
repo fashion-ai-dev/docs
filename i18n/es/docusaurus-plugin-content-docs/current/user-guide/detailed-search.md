@@ -1,7 +1,5 @@
 # Búsqueda Detallada de Productos
 
-## 📄 Documentación para Usuarios
-
 ### ¿Qué hace?
 
 Permite realizar búsquedas avanzadas de productos usando lenguaje natural. El sistema entiende descripciones como "vestido azul para boda" o "zapatillas cómodas para correr" y devuelve productos relevantes.

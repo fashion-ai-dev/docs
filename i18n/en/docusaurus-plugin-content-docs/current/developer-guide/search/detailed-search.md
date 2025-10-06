@@ -1,7 +1,5 @@
 # Detailed Product Search
 
-## 🔧 Developer Documentation
-
 ### Protected Search Detailed Endpoint
 
 #### Overview

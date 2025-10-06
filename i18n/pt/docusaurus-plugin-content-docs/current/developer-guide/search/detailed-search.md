@@ -1,7 +1,5 @@
 # Busca Detalhada de Produtos
 
-## 🔧 Documentação para Desenvolvedores
-
 ### Protected Search Detailed Endpoint
 
 #### Visão Geral
