@@ -1,7 +1,5 @@
 # Detailed Product Search
 
-## 📄 User Documentation
-
 ### What does it do?
 
 Allows advanced product searches using natural language. The system understands descriptions like "blue dress for wedding" or "comfortable running shoes" and returns relevant products.
