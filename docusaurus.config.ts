@@ -182,6 +182,15 @@ const config: Config = {
             },
           ],
         },
+        {
+          title: 'footer.sections.support',
+          items: [
+            {
+              label: 'footer.links.contact',
+              href: 'mailto:support@generativecrm.com',
+            },
+          ],
+        },
       ],
       copyright: 'footer.copyright',
     },
