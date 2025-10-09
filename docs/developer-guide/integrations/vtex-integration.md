@@ -152,7 +152,7 @@ Customize enrichment in the platform:
 For technical support with VTEX integration:
 
 - **Email:** support@generativecrm.com
-- **VTEX-Specific Issues:** vtex@generativecrm.com
+- **VTEX-Specific Issues:** [Vtex help link](https://help.vtex.com/)
 
 **When contacting support, include:**
 - Your VTEX account name
