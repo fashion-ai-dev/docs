@@ -59,7 +59,3 @@ Boost your online visibility with:
 * **Fashion retailers** looking to improve catalog quality
 * **E-commerce managers** wanting better search and recommendations
 * **Marketing teams** focused on SEO and content optimization
-
-### Getting Started
-
-Ready to transform your fashion catalog? Check out our **Getting Started** guide to begin your journey.

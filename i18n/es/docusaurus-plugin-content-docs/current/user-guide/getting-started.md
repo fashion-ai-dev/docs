@@ -59,7 +59,3 @@ Aumente su visibilidad en línea con:
 * **Minoristas de moda** que buscan mejorar la calidad del catálogo
 * **Gerentes de e-commerce** que desean una mejor búsqueda y recomendaciones
 * **Equipos de marketing** enfocados en SEO y optimización de contenido
-
-### Comenzando
-
-¿Listo para transformar su catálogo de moda? Consulte nuestra guía de **Primeros Pasos** para comenzar su viaje.

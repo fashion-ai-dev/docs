@@ -59,7 +59,3 @@ Aumente sua visibilidade online com:
 * **Varejistas de moda** que procuram melhorar a qualidade do catálogo
 * **Gerentes de e-commerce** que desejam uma melhor pesquisa e recomendações
 * **Equipes de marketing** com foco em SEO e otimização de conteúdo
-
-### Começando
-
-Pronto para transformar seu catálogo de moda? Confira nosso guia de **Primeiros Passos** para começar sua jornada.
