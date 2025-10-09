@@ -10,7 +10,7 @@ sidebar_position: 1
 
 Nossa plataforma revoluciona a forma como os varejistas de moda gerenciam e otimizam seus catálogos de produtos. Oferecemos enriquecimento inteligente de catálogo, otimização de SEO, recomendações personalizadas e recursos de pesquisa semântica projetados especificamente para a indústria da moda.
 
-### Principais características
+### Principais Funcionalidades
 
 🛍️ **Enriquecimento de Catálogo**
 

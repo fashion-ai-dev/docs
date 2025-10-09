@@ -66,8 +66,8 @@ Some groups automatically apply to all product categories:
 
 ### Step-by-Step for Clients
 
-1. **Access** your taxonomies on the platform
-2. **Select** the category you want to customize
+1. **Access** your taxonomies on the platform on the My StyleAi tab
+2. **Select** the category you want to customize, you can customize a lot of categories before saving
 3. **Edit examples** specific to your business
 4. **Save** as new custom version
 5. **Set as main version** to activate for product processing
