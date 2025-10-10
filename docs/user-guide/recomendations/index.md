@@ -12,7 +12,7 @@ Deliver personalized product suggestions based on user navigation history. Power
 - Category browsing enhancement
 - Cross-selling opportunities
 
-[Learn more about Similar Products →](../developer-guide/api-endpoints#category-view-event)
+[Technical documentation about Similar Products →](../developer-guide/api-endpoints#category-view-event)
 
 ### 👗 Shop the Look
 Automatically identify and recommend additional products featured in the same image. Turn every look into a complete outfit—just like a personal stylist would.
@@ -22,7 +22,7 @@ Automatically identify and recommend additional products featured in the same im
 - Style inspiration
 - Upselling complementary items
 
-[Learn more about Shop the Look →](../developer-guide/api-endpoints#shop-the-look-event)
+[Technical documentation about Shop the Look →](../developer-guide/api-endpoints#shop-the-look-event)
 
 ### 📋 Visual Merchandising
 Reorganize product listings dynamically based on what the user is really looking for. Create high-performing, personalized category displays that feel like a custom storefront.
@@ -32,7 +32,7 @@ Reorganize product listings dynamically based on what the user is really looking
 - Personalized homepage layouts
 - Seasonal trend highlighting
 
-[Learn more about Visual Merchandising →](../developer-guide/vm-builder)
+[Technical documentation about Visual Merchandising →](../developer-guide/vm-builder)
 
 
 ## Next Steps
