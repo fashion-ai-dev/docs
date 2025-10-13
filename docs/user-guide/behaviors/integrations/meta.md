@@ -66,7 +66,7 @@ Ready to activate your behaviors on Meta?
 4. **Create a campaign** in Meta Ads Manager using your new audience
 5. **Monitor performance** and refine your approach
 
-For more information on creating effective behaviors to export, see our [Behaviors Guide](./index.md) and [How to Use Behaviors](./how-to-use.md).
+For more information on creating effective behaviors to export, see our [Behaviors Guide](./index.md) and [How to Use Behaviors](../how-to-use.md).
 
 ---
 
@@ -150,5 +150,5 @@ Ready to activate your behaviors on Google Ads?
 6. **Monitor match rates** and sync status in the integrations dashboard
 7. **Measure performance** and refine your approach
 
-For more information on creating effective behaviors to export, see our [Behaviors Guide](./index.md) and [How to Use Behaviors](./how-to-use.md).
+For more information on creating effective behaviors to export, see our [Behaviors Guide](./index.md) and [How to Use Behaviors](../how-to-use.md).
 

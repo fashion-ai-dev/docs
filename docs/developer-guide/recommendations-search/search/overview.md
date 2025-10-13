@@ -52,5 +52,5 @@ The API returns a consistent response structure:
 
 ## Next Steps
 
-- [Authentication](../authentication) - Learn how to authenticate your requests
+- [Authentication](../../customization-reference/authentication) - Learn how to authenticate your requests
 - [Implementation Examples](./examples) - See code examples in different languages

@@ -136,7 +136,7 @@ WhatsApp Search works with:
 - **WhatsApp Business App** - For small businesses (manual responses)
 - **Third-party chatbot platforms** - Automated shopping assistants
 
-**For technical setup**, your development team can find implementation details in the [Developer Guide - Detailed Search API](../../developer-guide/customization-reference/search/detailed-search.md).
+**For technical setup**, your development team can find implementation details in the [Developer Guide - Detailed Search API](../../../developer-guide/recommendations-search/search/detailed-search).
 
 ---
 

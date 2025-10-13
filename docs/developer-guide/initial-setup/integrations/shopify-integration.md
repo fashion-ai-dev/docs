@@ -177,5 +177,5 @@ For technical support with Shopify integration:
 ## Additional Resources
 
 - **Shopify API Documentation:** [Shopify Developers](https://shopify.dev/docs)
-- **FashionAI Platform Guide:** [Getting Started](../getting-started.md)
-- **Vision Enrichment Details:** [Vision Enrichment Guide](../../user-guide/vision-enrichment/index.md)
+- **FashionAI Platform Guide:** [Getting Started](../../getting-started.md)
+- **Vision Enrichment Details:** [Vision Enrichment Guide](../../../user-guide/vision-enrichment/index.md)
