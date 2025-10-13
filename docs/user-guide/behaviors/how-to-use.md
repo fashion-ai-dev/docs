@@ -15,7 +15,11 @@
 ![Nico Inputs](/img/tela3-behaviors.png)
 
 4. Let our AI analyze your customer data and generate the cluster
-5. Review the segment characteristics and customer count
+5. Review the segment characteristics and customer count, you can edit the filters as much as you want
+   - Check the [Similarity Score](/docs/user-guide/behaviors#similarity-score-pontuação-de-similaridade) to understand how cohesive the segment is
+   - Review the [Lifetime Value (LTV)](/docs/user-guide/behaviors#lifetime-value-ltv) to assess the value of this customer group
+   - See the [Audience Size](/docs/user-guide/behaviors#audience-size) to understand your reach potential
+   - View the [Product Set Size](/docs/user-guide/behaviors#product-set-size) to see associated products
 6. Save and activate your new behavior
 
 ### Applying Behaviors to Campaigns

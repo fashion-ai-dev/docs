@@ -39,6 +39,60 @@ Create your own unique customer clusters tailored to your specific business need
 
 Custom behaviors give you the flexibility to identify niche segments, test hypotheses, and discover new customer patterns unique to your business.
 
+## Key Metrics
+
+Each behavior includes important metrics that help you understand the value, size, and cohesion of each customer segment:
+
+### Similarity Score (Pontuação de Similaridade)
+
+**What it is:** Measures how similar customers are within a specific behavior group.
+
+**How to interpret:**
+- A score of 76 means there is 76% similarity among customers in that group
+- The higher the score, the more homogeneous the group (customers share similar characteristics)
+- The lower the score, the more diverse the segment
+
+**Why it matters:** A high score indicates you can create highly targeted campaigns, as customers behave similarly and will likely respond to the same messaging and offers.
+
+### Lifetime Value (LTV)
+
+**What it is:** The average total value each customer in this group generates for your business throughout their entire relationship.
+
+**How to interpret:**
+- R$ 681.27 means that, on average, a customer in this behavior is worth this amount over their lifetime
+- Includes all purchases, frequency, average order value, etc.
+
+**Why it matters:**
+- Helps prioritize investments (it's worth spending more on marketing for high-LTV groups)
+- Allows you to calculate ROI for specific campaigns
+- Identifies your most valuable customers
+
+### Audience Size
+
+**What it is:** The total number of customers that belong to this behavior segment.
+
+**How to interpret:**
+- Shows the reach potential of campaigns targeting this behavior
+- Larger audiences offer more scale, while smaller ones may be more niche
+
+**Why it matters:**
+- Helps determine if a segment is large enough for campaign viability
+- Allows you to balance reach vs. precision in your targeting strategy
+- You can download the complete customer list for use in CRM campaigns
+
+### Product Set Size
+
+**What it is:** The total number of products associated with this behavior, representing items that customers in this segment are most likely to purchase.
+
+**How to interpret:**
+- Shows the breadth of product preferences for this customer group
+- All product IDs are available for download
+
+**Why it matters:**
+- Enables product recommendation strategies tailored to each behavior
+- Helps merchandising teams curate relevant collections
+- You can generate a product feed link for personalization (customize with your own favicon by uploading it on Fashion's Platform)
+
 ## Benefits of Using Behaviors
 
 - **Increased relevance** - Deliver the right product or message to the right customer at the right time
