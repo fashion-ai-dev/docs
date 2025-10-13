@@ -1,3 +1,7 @@
+---
+sidebar_position: 5
+---
+
 # Google Analytics 4 Integration
 
 This section describes how to configure Fashion.AI event tracking in Google Analytics 4 for comprehensive analytics and conversion monitoring.

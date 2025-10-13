@@ -1,8 +1,8 @@
-# Search Implementation Guide
+# Guia de Implementação de Busca
 
-Step-by-step implementation examples for the Product Search API using JavaScript and React.
+Exemplos de implementação passo a passo para a API de Busca de Produtos usando JavaScript e React.
 
-## Basic Search Function
+## Função de Busca Básica
 
 ```javascript
 async function searchProducts(page, limit, query, token, userId, sessionId) {
@@ -22,31 +22,32 @@ async function searchProducts(page, limit, query, token, userId, sessionId) {
     });
 
     if (!response.ok) {
-      throw new Error(`API request failed with status ${response.status}`);
+      throw new Error(`A solicitação à API falhou com status ${response.status}`);
     }
 
     const data = await response.json();
     return data;
   } catch (error) {
-    console.error("Error fetching products:", error);
+    console.error("Erro ao buscar produtos:", error);
     return [];
   }
 }
 
-// Usage
+// Uso
 const results = await searchProducts(
-  1,           // page
-  10,          // limit
-  "black shirts", // query
-  "your_token_here", // token
-  "user123",   // userId (optional)
+  1,           // página
+  10,          // limite
+  "camisas pretas", // consulta
+  "seu_token_aqui", // token
+  "usuario123",   // userId (opcional)
   "sess456"    // sessionId
 );
 
-console.log(`Found ${results.totalItems} products`);
+console.log(`Encontrados ${results.totalItems} produtos`);
 ```
 
-## Next Steps
+## Próximos Passos
 
-- [Authentication](../authentication) - Quick auth reference
-- [Overview](./overview) - Search API overview
+- [Autenticação](../authentication) - Referência rápida de autenticação
+- [Visão Geral](./overview) - Visão geral da API de Busca
+

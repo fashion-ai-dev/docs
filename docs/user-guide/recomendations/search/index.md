@@ -40,6 +40,6 @@ Specialized search designed for WhatsApp commerce, enabling customers to browse 
 
 ## Related Features
 
-- **[Similar Products](../index.md#similar-products)** - Complement search with recommendations
-- **[Behaviors](../../behaviors/index.md)** - Target campaigns based on search patterns
-- **[How Our AI Works](../how-our-ai-works.md)** - Understanding the technology
+- **[Similar Products](../index#similar-products)** - Complement search with recommendations
+- **[Behaviors](../../behaviors/index)** - Target campaigns based on search patterns
+- **[How Our AI Works](../how-our-ai-works)** - Understanding the technology

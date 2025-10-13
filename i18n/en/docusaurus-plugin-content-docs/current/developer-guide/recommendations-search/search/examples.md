@@ -48,5 +48,5 @@ console.log(`Found ${results.totalItems} products`);
 
 ## Next Steps
 
-- [Authentication](../authentication) - Quick auth reference
+- [Authentication](../../customization-reference/authentication) - Quick auth reference
 - [Overview](./overview) - Search API overview

@@ -2,59 +2,59 @@
 sidebar_position: 4
 ---
 
-# Frontend Integration
+# Integração de Frontend
 
-This comprehensive guide describes how to implement user interface components for Fashion.AI features in your frontend application.
+Este guia abrangente descreve como implementar componentes de interface de usuário para recursos do Fashion.AI em sua aplicação frontend.
 
-## Visual Reference
+## Referência Visual
 
-Visual suggestions for the "shop the look" component are available in our example Figma design.
+Sugestões visuais para o componente "shop the look" estão disponíveis em nosso design de exemplo do Figma.
 
-## Interface Components
+## Componentes de Interface
 
-### "Shop The Look" Button
+### Botão "Shop The Look"
 
-- Positioned over the main product image
-- Displayed only when recommendations are available
-- Triggers the opening of related products modal/drawer
+- Posicionado sobre a imagem principal do produto
+- Exibido apenas quando há recomendações disponíveis
+- Aciona a abertura do modal/drawer de produtos relacionados
 
-### Related Products Modal
+### Modal de Produtos Relacionados
 
-The modal should display:
+O modal deve exibir:
 
-- **API-returned products** with "I want it" button to add to cart
-- **Product information**: name, price, available sizes
-- **Local stock validation** before rendering
-- **Modal close button**
+- **Produtos retornados pela API** com botão "Eu quero" para adicionar ao carrinho
+- **Informações do produto**: nome, preço, tamanhos disponíveis
+- **Validação de estoque local** antes de renderizar
+- **Botão de fechar modal**
 
-### Behavior
+### Comportamento
 
-1. **Button display**: Only show if there are recommended products with valid stock
-2. **Modal opening**: When clicking the "shop the look" button
-3. **Add to cart**: Through the "I want it" button for each product
-4. **Closing**: X button or click outside the modal
+1. **Exibição do botão**: Mostrar apenas se houver produtos recomendados com estoque válido
+2. **Abertura do modal**: Ao clicar no botão "shop the look"
+3. **Adicionar ao carrinho**: Através do botão "Eu quero" para cada produto
+4. **Fechamento**: Botão X ou clique fora do modal
 
-## Important Validations
+## Validações Importantes
 
-- ✅ Check stock locally before rendering
-- ✅ Validate if there are products returned by the API
-- ✅ Implement loading states during API calls
-- ✅ Handle connectivity errors or unavailable API
+- ✅ Verificar estoque localmente antes de renderizar
+- ✅ Validar se há produtos retornados pela API
+- ✅ Implementar estados de carregamento durante as chamadas à API
+- ✅ Lidar com erros de conectividade ou API indisponível
 
-## Implementation Example
+## Exemplo de Implementação
 
 ```javascript
-// Pseudo-code for modal opening
+// Pseudo-código para abertura de modal
 function openShopTheLookModal(productId) {
-  // 1. Make API call
+  // 1. Fazer chamada à API
   const recommendations = await fetchShopTheLook(productId);
 
-  // 2. Validate stock locally
+  // 2. Validar estoque localmente
   const validProducts = recommendations.filter(product =>
     hasStock(product.id)
   );
 
-  // 3. Only open modal if there are valid products
+  // 3. Abrir modal apenas se houver produtos válidos
   if (validProducts.length > 0) {
     renderModal(validProducts);
   }

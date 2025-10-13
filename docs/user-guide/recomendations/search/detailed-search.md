@@ -142,6 +142,6 @@ WhatsApp Search works with:
 
 ## Related Features
 
-- **[Smart Product Search](./search.md)** - Search for your website
-- **[Similar Products](./index.md#similar-products)** - Recommend complementary items in conversations
-- **[Behaviors](../behaviors/index.md)** - Target WhatsApp campaigns by customer segments
+- **[Smart Product Search](./search)** - Search for your website
+- **[Similar Products](./index#similar-products)** - Recommend complementary items in conversations
+- **[Behaviors](../behaviors)** - Target WhatsApp campaigns by customer segments

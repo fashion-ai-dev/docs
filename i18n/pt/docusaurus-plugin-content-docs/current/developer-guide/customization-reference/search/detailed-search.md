@@ -1,40 +1,40 @@
-# Detailed Product Search
+# Busca Detalhada de Produtos
 
-### Search Detailed - Whatsapp
+### Busca Detalhada - Whatsapp
 
-#### Overview
+#### Visão Geral
 
-Endpoint for detailed semantic product search on whatsapp with session and user tracking.
+Endpoint para busca semântica detalhada de produtos no whatsapp com rastreamento de sessão e usuário.
 
-#### Technical Details
+#### Detalhes Técnicos
 
-- **Route:** `POST /v1/products/protected/search/detailed`
-- **Authentication:**  Requires authentication via token
+- **Rota:** `POST /v1/products/protected/search/detailed`
+- **Autenticação:** Requer autenticação via token
 
-#### Request
+#### Solicitação
 
-**Query Parameters:**
-- `query` (string, required) - Search term
+**Parâmetros de Consulta:**
+- `query` (string, obrigatório) - Termo de busca
 
-**Request Body:**
+**Corpo da Solicitação:**
 ```typescript
 {
-  sessionId: string;  // Required - Session tracking ID
-  userId?: string;    // Optional - User identifier
+  sessionId: string;  // Obrigatório - ID de rastreamento de sessão
+  userId?: string;    // Opcional - Identificador de usuário
 }
 ```
 
-**Headers:**
+**Cabeçalhos:**
 ```
 Content-Type: application/json
 X-FashionAI-APP-Token: {token}
 ```
 
-[How generate my token?](../authentication)
+[Como gerar meu token?](../authentication)
 
-#### Response
+#### Resposta
 
-**Success (200):**
+**Sucesso (200):**
 ```typescript
 {
   products: Array<{
@@ -48,10 +48,10 @@ X-FashionAI-APP-Token: {token}
 }
 ```
 
-#### cURL Example
+#### Exemplo cURL
 
 ```bash
-curl -X POST 'https://catalog.api.fashionaiale.com/v1/products/protected/search/detailed?query=blue+dress' \
+curl -X POST 'https://catalog.api.fashionaiale.com/v1/products/protected/search/detailed?query=vestido+azul' \
   -H 'Content-Type: application/json' \
   -H 'X-FashionAI-APP-Token: {token}' \
   -d '{
@@ -60,7 +60,8 @@ curl -X POST 'https://catalog.api.fashionaiale.com/v1/products/protected/search/
   }'
 ```
 
-#### Notes
+#### Notas
 
-- `userId` is optional for anonymous searches
-- Results are filtered by customer's product catalog
+- `userId` é opcional para buscas anônimas
+- Os resultados são filtrados pelo catálogo de produtos do cliente
+

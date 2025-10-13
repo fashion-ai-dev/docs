@@ -7,7 +7,7 @@ Complete reference for customizing and integrating FashionAI into your applicati
 ### [Authentication](./authentication)
 Learn how to authenticate API requests and manage API tokens securely.
 
-### [Search API](./search)
+### [Search API](../recommendations-search/search)
 Implement powerful AI-powered search functionality with natural language processing and typo tolerance.
 
 ### [UI Integration](./ui-integration)
@@ -23,7 +23,7 @@ This section provides detailed documentation for developers who want to customiz
 ## Getting Started
 
 1. Start with [Authentication](./authentication) to secure your API integration
-2. Explore [Search API](./search) to implement product search
+2. Explore [Search API](../recommendations-search/search) to implement product search
 3. Review [UI Integration](./ui-integration) for frontend components
 4. Use [VM Builder](./vm-builder) to customize data presentation
 

@@ -36,7 +36,7 @@ The FashionAI API provides RESTful endpoints for product management, search, and
 
 ## API Documentation
 
-For detailed API reference, see the [Customization Reference](../../customization-reference) section.
+For detailed API reference, see the [Customization Reference](../../customization-reference/index.md) section.
 
 ## Support
 

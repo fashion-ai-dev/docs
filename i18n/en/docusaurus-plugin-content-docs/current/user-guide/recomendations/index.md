@@ -12,7 +12,7 @@ Deliver personalized product suggestions based on user navigation history. Power
 - Category browsing enhancement
 - Cross-selling opportunities
 
-[Technical documentation about Similar Products →](../developer-guide/api-endpoints#category-view-event)
+[Technical documentation about Similar Products →](../../developer-guide/recommendations-search/api-endpoints#category-view-event)
 
 ### 👗 Shop the Look
 Automatically identify and recommend additional products featured in the same image. Turn every look into a complete outfit—just like a personal stylist would.
@@ -22,7 +22,7 @@ Automatically identify and recommend additional products featured in the same im
 - Style inspiration
 - Upselling complementary items
 
-[Technical documentation about Shop the Look →](../developer-guide/api-endpoints#shop-the-look-event)
+[Technical documentation about Shop the Look →](../../developer-guide/recommendations-search/api-endpoints#shop-the-look-event)
 
 ### 📋 Visual Merchandising
 Reorganize product listings dynamically based on what the user is really looking for. Create high-performing, personalized category displays that feel like a custom storefront.
@@ -32,15 +32,15 @@ Reorganize product listings dynamically based on what the user is really looking
 - Personalized homepage layouts
 - Seasonal trend highlighting
 
-[Technical documentation about Visual Merchandising →](../developer-guide/vm-builder)
+[Technical documentation about Visual Merchandising →](../../developer-guide/customization-reference/vm-builder)
 
 
 ## Next Steps
 
 🚀 **Ready to implement recommendations?** Choose your integration path:
 
-- **[API Reference](../developer-guide/api-endpoints)** - Technical implementation guide
-- **[Authentication](../developer-guide/authentication)** - Set up your API access
-- **[UI Integration](../developer-guide/ui-integration)** - Frontend implementation examples
-- **[Search API](../developer-guide/search/overview)** - Intelligent product search
-- **[Analytics Setup](../developer-guide/analytics/google-analytics)** - Track performance
+- **[API Reference](../../developer-guide/recommendations-search/api-endpoints)** - Technical implementation guide
+- **[Authentication](../../developer-guide/customization-reference/authentication)** - Set up your API access
+- **[UI Integration](../../developer-guide/customization-reference/ui-integration)** - Frontend implementation examples
+- **[Search API](../../developer-guide/recommendations-search/search/overview)** - Intelligent product search
+- **[Analytics Setup](../../developer-guide/analytics/google-analytics)** - Track performance

@@ -1,3 +1,7 @@
+---
+sidebar_position: 4
+---
+
 # Google Tag Manager Setup Guide
 
 This comprehensive guide details how to configure Google Tag Manager to capture and send Fashion.AI events to Google Analytics 4.

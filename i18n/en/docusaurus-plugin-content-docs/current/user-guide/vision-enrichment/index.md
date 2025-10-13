@@ -8,7 +8,7 @@ The AI learns from your actions in three main ways:
 
 1. **Editing attributes** - When you correct or enhance automatically generated descriptions and attributes
 2. **Providing categorization feedback** - When you validate or adjust categories suggested by the AI
-3. **Managing taxonomies** - Through the [Taxonomy page](../taxonomy/index), you can structure and organize your categories in a personalized way
+3. **Managing taxonomies** - Through the [Taxonomy page](../taxonomy/index.md), you can structure and organize your categories in a personalized way
 
 ![Product page](/img/tela1-vision-enrichment.png)
 

@@ -1,33 +1,33 @@
-# Search API
+# API de Busca
 
-Powerful search functionality to help customers find products quickly and efficiently using advanced AI-powered search algorithms.
+Funcionalidade de busca poderosa para ajudar os clientes a encontrar produtos de forma rápida e eficiente usando algoritmos de busca avançados impulsionados por IA.
 
-## Overview
+## Visão Geral
 
-The Search API provides intelligent product search capabilities that Compreenda natural language queries and return relevant results based on product attributes, descriptions, and user intent.
+A API de Busca fornece capacidades de busca inteligente de produtos que entendem consultas em linguagem natural e retornam resultados relevantes baseados em atributos de produtos, descrições e intenção do usuário.
 
-## Recursos Principais
+## Características Principais
 
-### 🔍 Smart Search
-- Natural language processing for better query understanding
-- Typo tolerance and fuzzy matching
-- Synonym recognition and query expansion
+### 🔍 Busca Inteligente
+- Processamento de linguagem natural para melhor compreensão de consultas
+- Tolerância a erros de digitação e correspondência difusa
+- Reconhecimento de sinônimos e expansão de consultas
 
-## Começando
+## Primeiros Passos
 
-To start using the Search API, you'll need:
+Para começar a usar a API de Busca, você precisará:
 
-1. **API Authentication** - Get your API token from the [dashboard](https://app.generativecrm.com)
-2. **Product Catalog** - Ensure your products are properly indexed
-3. **Integration Setup** - Configure the search endpoints in your application
+1. **Autenticação de API** - Obtenha seu token de API do [painel de controle](https://app.generativecrm.com)
+2. **Catálogo de Produtos** - Certifique-se de que seus produtos estejam indexados corretamente
+3. **Configuração de Integração** - Configure os endpoints de busca em sua aplicação
 
-## Best Practices
+## Melhores Práticas
 
-1. **Query Optimization** - Use specific keywords and filters
-2. **Result Caching** - Cache popular search results
-3. **Analytics Tracking** - Monitor search performance
-4. **Error Handling** - Implement proper fallbacks
+1. **Otimização de Consultas** - Use palavras-chave específicas e filtros
+2. **Cache de Resultados** - Armazene em cache os resultados de busca populares
+3. **Rastreamento de Analíticas** - Monitore o desempenho da busca
+4. **Tratamento de Erros** - Implemente fallbacks adequados
 
 ## Suporte
 
-For technical support with Search API integration, contact our team at **support@generativecrm.com**
+Para suporte técnico com a integração da API de Busca, entre em contato com nossa equipe em **support@generativecrm.com**

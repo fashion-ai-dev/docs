@@ -1,19 +1,34 @@
 # Platform Integrations
 
-Learn how to integrate FashionAI with popular e-commerce platforms and custom implementations.
+Quick setup guides for integrating FashionAI with popular e-commerce platforms.
 
-## Quick Start Guides
-
-Choose your platform to get started:
+## Supported Platforms
 
 ### [Shopify Integration](./shopify-integration)
-Native app integration for Shopify stores with automatic synchronization and recommendation widgets.
+Connect FashionAI to your Shopify store with our native integration. Set up in minutes with automatic product sync.
 
 ### [VTEX Integration](./vtex-integration)
-Custom components and API integration for VTEX.
+Integrate FashionAI with your VTEX store for AI-powered product recommendations and search.
 
-## Need Help?
+## Integration Benefits
 
-- Review our [API Endpoints](../api-endpoints) documentation
-- Check our [Authentication](../authentication) guide
-- Explore [UI Integration](../ui-integration) patterns
+- **Automatic Sync** - Products sync automatically from your store
+- **Easy Setup** - No coding required for basic setup
+- **Quick Deployment** - Get up and running in minutes
+- **Maintained Integration** - We handle platform updates
+
+## Choosing Your Platform
+
+Select your e-commerce platform above to view detailed integration instructions. Each guide includes:
+- Step-by-step setup process
+- Configuration options
+- Troubleshooting tips
+- Best practices
+
+## Custom Platforms
+
+If your platform isn't listed, you can use our [API Integration](../api) for custom implementations.
+
+## Support
+
+Questions about platform integrations? Contact **support@generativecrm.com**

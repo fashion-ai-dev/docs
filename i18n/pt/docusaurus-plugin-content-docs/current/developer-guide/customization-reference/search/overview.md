@@ -1,18 +1,18 @@
-# Product Search Overview
+# Visão Geral da Busca de Produtos
 
-Integrate the Product Search API to deliver intelligent, relevant results from your catalog. This guide provides a comprehensive overview of search functionality and available endpoints.
+Integre a API de Busca de Produtos para entregar resultados inteligentes e relevantes do seu catálogo. Este guia fornece uma visão abrangente da funcionalidade de busca e endpoints disponíveis.
 
-## Introduction
+## Introdução
 
-The Search API provides intelligent product search capabilities for your catalog. It processes search queries and returns relevant product matches with pagination support.
+A API de Busca fornece capacidades de busca inteligente de produtos para seu catálogo. Ela processa consultas de busca e retorna correspondências de produtos relevantes com suporte de paginação.
 
-## Recursos Principais
+## Características Principais
 
-- **Product Search**: Find products by name, category, or attributes
-- **Pagination**: Handle large result sets efficiently
-- **Session Tracking**: Track user search behavior
-- **Multi-language Support**: Search in different languages
-- **Real-time Results**: Fast response times for better user experience
+- **Busca de Produtos**: Encontre produtos por nome, categoria ou atributos
+- **Paginação**: Lida com conjuntos de resultados grandes de forma eficiente
+- **Rastreamento de Sessão**: Rastreia o comportamento de busca do usuário
+- **Suporte Multi-idioma**: Busca em diferentes idiomas
+- **Resultados em Tempo Real**: Tempos de resposta rápidos para melhor experiência do usuário
 
 ## Endpoint
 
@@ -20,26 +20,26 @@ The Search API provides intelligent product search capabilities for your catalog
 POST https://catalog.api.fashionaiale.com/api/v1/products/protected/search?page={page}&limit={limit}&query={query}
 ```
 
-## Quick Start
+## Início Rápido
 
-1. **Get Your Token**: Obtain your API token from the dashboard
-2. **Make a Request**: Send a POST request with your search query
-3. **Handle Results**: Process the returned product IDs
-4. **Implement Pagination**: Use page and limit parameters for large datasets
+1. **Obtenha Seu Token**: Obtenha seu token de API do painel de controle
+2. **Faça uma Solicitação**: Envie uma solicitação POST com sua consulta de busca
+3. **Processe Resultados**: Processe os IDs de produtos retornados
+4. **Implemente Paginação**: Use os parâmetros de página e limite para conjuntos de dados grandes
 
-## Request Flow
+## Fluxo de Solicitação
 
 ```mermaid
 sequenceDiagram
-    Client->>API: POST /search with query
-    API->>Database: Search products
-    Database->>API: Return matching products
-    API->>Client: Return product IDs + pagination
+    Cliente->>API: POST /search com consulta
+    API->>Banco de Dados: Buscar produtos
+    Banco de Dados->>API: Retornar produtos correspondentes
+    API->>Cliente: Retornar IDs de produtos + paginação
 ```
 
-## Response Structure
+## Estrutura de Resposta
 
-The API returns a consistent response structure:
+A API retorna uma estrutura de resposta consistente:
 
 ```json
 {
@@ -50,7 +50,7 @@ The API returns a consistent response structure:
 }
 ```
 
-## Next Steps
+## Próximos Passos
 
-- [Authentication](../authentication) - Aprenda how to authenticate your requests
-- [Implementation Examples](./examples) - See code examples in different languages
+- [Autenticação](../authentication) - Aprenda como autenticar suas solicitações
+- [Exemplos de Implementação](./examples) - Veja exemplos de código em diferentes linguagens

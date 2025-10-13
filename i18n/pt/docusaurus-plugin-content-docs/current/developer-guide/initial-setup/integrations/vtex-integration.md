@@ -1,79 +1,79 @@
-# VTEX Integration
+# Integração VTEX
 
-Complete guide to integrate FashionAI with your VTEX store for automated product enrichment and catalog management.
+Guia completo para integrar o FashionAI com sua loja VTEX para enriquecimento automático de produtos e gerenciamento de catálogo.
 
-## Initial Setup
+## Configuração Inicial
 
-### 1. Enable Vision Enrichment
+### 1. Habilitar Vision Enrichment
 
-1. In the platform's right menu, click on **Settings**
-2. In **General Settings**, enable the **Vision Enrichment** button
+1. No menu direito da plataforma, clique em **Settings**
+2. Em **General Settings**, habilite o botão **Vision Enrichment**
 
-### 2. Configure VTEX Settings
+### 2. Configurar VTEX Settings
 
-1. Go to the **VTEX Settings** tab
-2. Insert your VTEX API credentials for data synchronization
+1. Vá para a aba **VTEX Settings**
+2. Insira suas credenciais da API VTEX para sincronização de dados
 
-## Required Permissions
+## Permissões Necessárias
 
-For proper authentication and authorization within the VTEX ecosystem, your token must have specific permissions granted. Below is a table with the necessary access and their respective scopes:
+Para garantir a autenticação e autorização corretas dentro do ecossistema VTEX, seu token deve ter permissões específicas concedidas. Abaixo está uma tabela com os acessos necessários e seus respectivos escopos:
 
-| Product | Category | Resource |
-|---------|----------|----------|
-| Catalog | Content | Product and SKU Management |
-| Catalog | Content | Category Management |
-| Catalog | Content | Category |
-| Catalog | Content | SKUs |
-| OMS | OMS Access | List Orders |
-| OMS | OMS Access | View Order |
-| Checkout | Checkout Resources | Full Order Access |
+| Produto | Categoria | Recurso |
+|---------|-----------|---------|
+| Catálogo | Conteúdo | Gerenciamento de Produtos e SKUs |
+| Catálogo | Conteúdo | Gerenciamento de Categorias |
+| Catálogo | Conteúdo | Categoria |
+| Catálogo | Conteúdo | SKUs |
+| OMS | Acesso OMS | Listar Pedidos |
+| OMS | Acesso OMS | Visualizar Pedido |
+| Checkout | Recursos do Checkout | Acesso Completo a Pedidos |
 
-## Affiliate System Configuration
+## Configuração do Sistema de Afiliados
 
-### How to Configure the Affiliate System for Catalog Consumption
+### Como Configurar o Sistema de Afiliados para Consumo de Catálogo
 
-To enable FashionAI to consume your VTEX catalog, you need to create an affiliate configuration.
+Para permitir que o FashionAI consuma seu catálogo VTEX, você precisa criar uma configuração de afiliado.
 
-### Creating an Affiliate
+### Criando um Afiliado
 
-1. In the admin side menu, click on **Order Management**
-2. Click on **Settings**
-3. Click on the **Affiliates** tab
-4. Click the **New Affiliate** button
-5. Fill in the New Affiliate panel fields:
+1. No menu lateral do admin, clique em **Gerenciamento de Pedidos**
+2. Clique em **Configurações**
+3. Clique na aba **Afiliados**
+4. Clique no botão **Novo Afiliado**
+5. Preencha os campos do painel de Novo Afiliado:
 
-| Field | Value |
+| Campo | Valor |
 |-------|-------|
-| **Name** | FashionAI |
+| **Nome** | FashionAI |
 | **ID** | FFF |
-| **Trade Policy** | 1 |
-| **Follow-up Email** | vtex@generativecrm.com |
-| **Search Endpoint** | Generate Link |
-| **Search Endpoint Version** | 1.x.x |
-| **Use my payment method** | ❌ Do not check this option |
+| **Política Comercial** | 1 |
+| **E-mail de Acompanhamento** | vtex@generativecrm.com |
+| **Endpoint de Busca** | Gerar Link |
+| **Versão do Endpoint de Busca** | 1.x.x |
+| **Usar meu método de pagamento** | ❌ Não marque esta opção |
 
-6. Click **Save**
+6. Clique em **Salvar**
 
-### Important Note
+### Nota Importante
 
-If any of the affiliate panel field information is different, please fill out the form that will be provided below.
+Se alguma das informações dos campos do painel de afiliado for diferente, por favor, preencha o formulário que será fornecido abaixo.
 
-## Next Steps
+## Próximos Passos
 
-After completing the affiliate configuration:
+Após completar a configuração do afiliado:
 
-1. **Test the connection** - Verify that FashionAI can access your catalog
-2. **Configure enrichment rules** - Set up which products should be processed
-3. **Monitor synchronization** - Check the integration status in the platform
+1. **Teste a conexão** - Verifique se o FashionAI pode acessar seu catálogo
+2. **Configure regras de enriquecimento** - Configure quais produtos devem ser processados
+3. **Monitore a sincronização** - Verifique o status da integração na plataforma
 
-## Troubleshooting
+## Solução de Problemas
 
-### Common Issues
+### Problemas Comuns
 
-- **Authentication errors**: Verify API credentials and permissions
-- **Sync failures**: Check affiliate configuration and endpoints
-- **Missing products**: Ensure trade policy includes all desired items
+- **Erros de autenticação**: Verifique credenciais da API e permissões
+- **Falhas de sincronização**: Verifique configuração do afiliado e endpoints
+- **Produtos ausentes**: Certifique-se de que a política comercial inclui todos os itens desejados
 
 ### Suporte
 
-For technical support with VTEX integration, contact our team at vtex@generativecrm.com
+Para suporte técnico com integração VTEX, entre em contato com nossa equipe em vtex@generativecrm.com

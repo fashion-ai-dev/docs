@@ -3,80 +3,80 @@ sidebar_position: 5
 ---
 
 
-# VM Builder – Collections and Subsets (Slices)
+# VM Builder – Coleções e Subconjuntos (Slices)
 
-The **VM Builder** allows you to create and organize product collections using **AI, spreadsheets, or manual selection**.
-Each collection can contain subsets called **slices**, which organize products according to defined criteria.
+O **VM Builder** permite criar e organizar coleções de produtos usando **IA, planilhas ou seleção manual**.
+Cada coleção pode conter subconjuntos chamados **slices**, que organizam produtos de acordo com critérios definidos.
 
-## 1. Creating a Collection
+## 1. Criação de uma Coleção
 
-1. Click on **New Collection**.
-2. Enter:
-   - **Collection name** (e.g., `Winter Collection 2025`).
-   - **Collection description** (e.g., `Winter products`).
-3. Save the collection.
+1. Clique em **Nova Coleção**.
+2. Digite:
+   - **Nome da coleção** (ex., `Coleção Inverno 2025`).
+   - **Descrição da coleção** (ex., `Produtos de inverno`).
+3. Salve a coleção.
 
-The collection will be listed on the main screen, showing:
-- Name
-- Description
-- Creation date
-- Number of existing slices
+A coleção será listada na tela principal, mostrando:
+- Nome
+- Descrição
+- Data de criação
+- Número de slices existentes
 
-## 2. Creating a Subset (Slice)
+## 2. Criação de um Subconjunto (Slice)
 
-1. Within the collection, click on **New Slice**.
-2. Fill in:
-   - **Slice name** (e.g., `Wool Coats`).
-   - **Type** (`MANUAL`, or other types if available).
-   - **Start date** (when it becomes **active**).
-   - **End date** (when it **expires**).
+1. Dentro da coleção, clique em **Novo Slice**.
+2. Preencha:
+   - **Nome do slice** (ex., `Casacos de Lã`).
+   - **Tipo** (`MANUAL`, ou outros tipos se disponíveis).
+   - **Data de início** (quando se torna **ativo**).
+   - **Data de término** (quando **expira**).
 
-> For a slice without expiration, use a **distant end date**.
+> Para um slice sem expiração, use uma **data de término distante**.
 
-### Slice status (based on dates)
-- 🟩 **Green – Active** (between start and end date).
-- 🟨 **Yellow – Scheduled** (hasn't started yet).
-- 🟥 **Red – Expired** (end date has passed).
+### Status do slice (baseado em datas)
+- 🟩 **Verde – Ativo** (entre data de início e término).
+- 🟨 **Amarelo – Agendado** (ainda não começou).
+- 🟥 **Vermelho – Expirado** (data de término passou).
 
-## 3. Product Management in Slice
+## 3. Gerenciamento de Produtos no Slice
 
-Within each slice you can:
-- ➕ **Add products**
-- ➖ **Remove products**
-- 🔀 **Reposition products** (define the order/`position`)
+Dentro de cada slice você pode:
+- ➕ **Adicionar produtos**
+- ➖ **Remover produtos**
+- 🔀 **Reposicionar produtos** (definir a ordem/`position`)
 
-**Limit:** each slice can contain **up to 500 products**.
+**Limite:** cada slice pode conter **até 500 produtos**.
 
-The `active` field returned per product in the API respects the **filters applied** to the slice.
+O campo `active` retornado por produto na API respeita os **filtros aplicados** ao slice.
 
-## 4. Querying Collection Products via API
+## 4. Consulta de Produtos da Coleção via API
 
-On the collection page, there's an endpoint to query the products of the **active slice**.
+Na página da coleção, há um endpoint para consultar os produtos do **slice ativo**.
 
 ### Endpoint
 ```http
 GET https://catalog.api.fashionaiale.com/api/v1/merchandising-collections/protected/{id}
 ```
 
-### Headers
+### Cabeçalhos
 ```http
 X-FashionAI-APP-Token: <app-token>
 ```
 
-### API Rules
-- The API returns **only 1 active slice**.
-- If there are **multiple** active ones, it returns the one with the **latest start date**.
-- If there's **no active** slice, it returns **HTTP 404**.
+### Regras da API
+- A API retorna **apenas 1 slice ativo**.
+- Se houver **múltiplos** ativos, retorna aquele com a **data de início mais recente**.
+- Se **não houver** slice ativo, retorna **HTTP 404**.
 
-## 5. Response Example (payload)
+## 5. Exemplo de Resposta (payload)
 
 ```json
 {
   "collectionId": 1,
-  "collectionName": "Winter Collection 2025",
-  "collectionDescription": "Winter products",
+  "collectionName": "Coleção Inverno 2025",
+  "collectionDescription": "Produtos de inverno",
   "sliceId": 10,
-  "sliceName": "Wool Coats",
+  "sliceName": "Casacos de Lã",
   "startsAt": "2025-09-23T00:00:00.000Z",
   "endsAt": "2025-12-31T23:59:59.000Z",
   "products": [
@@ -94,18 +94,18 @@ X-FashionAI-APP-Token: <app-token>
 }
 ```
 
-### Important Fields
-- `position`: product order in the slice.
-- `active`: indicates if the product is active according to the slice **filters**.
+### Campos Importantes
+- `position`: ordem do produto no slice.
+- `active`: indica se o produto está ativo de acordo com os **filtros** do slice.
 
-## 6. Restrictions
+## 6. Restrições
 
-- ✅ Maximum of **500 products per slice**.
-- ✅ A slice can be created **without expiration** (by setting a distant end date).
-- ❌ No active slice → **the API doesn't return products** (HTTP 404).
+- ✅ Máximo de **500 produtos por slice**.
+- ✅ Um slice pode ser criado **sem expiração** (definindo uma data de término distante).
+- ❌ Sem slice ativo → **a API não retorna produtos** (HTTP 404).
 
-## 7. Best Practice Notes
+## 7. Notas de Melhores Práticas
 
-- Name collections and slices clearly to facilitate maintenance.
-- Avoid keeping more than one slice active at the same time, to reduce ambiguities.  
+- Nomeie coleções e slices claramente para facilitar a manutenção.
+- Evite manter mais de um slice ativo ao mesmo tempo, para reduzir ambiguidades.  
 
