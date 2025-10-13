@@ -20,12 +20,16 @@ The Meta integration enables you to:
 
 Before you can export behaviors to Meta, you need to establish a connection:
 
-1. Navigate to **Settings** > **Integrations**
-2. Select **Meta** from the list of available integrations
+1. Navigate to **Settings** > **Meta**
+
+![Imagem meta](/img/tela1-meta/png)
+
 3. Click **Connect to Meta**
 4. Log in with your Meta Business account credentials
 5. Grant the necessary permissions for audience management
 6. Select the Ad Account(s) you want to sync with
+
+
 
 ### Getting Help
 
