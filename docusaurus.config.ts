@@ -138,15 +138,15 @@ const config: Config = {
             },
             {
               label: 'footer.links.apiEndpoints',
-              to: '/docs/developer-guide/api-endpoints',
+              to: '/docs/developer-guide/recommendations-search/api-endpoints',
             },
             {
               label: 'footer.links.authentication',
-              to: '/docs/developer-guide/authentication',
+              to: '/docs/developer-guide/customization-reference/authentication',
             },
             {
               label: 'footer.links.search',
-              to: '/docs/developer-guide/search/overview',
+              to: '/docs/developer-guide/recommendations-search/search/overview',
             },
           ],
         },
@@ -155,7 +155,7 @@ const config: Config = {
           items: [
             {
               label: 'footer.links.uiIntegration',
-              to: '/docs/developer-guide/ui-integration',
+              to: '/docs/developer-guide/customization-reference/ui-integration',
             },
             {
               label: 'footer.links.googleAnalytics',
@@ -163,7 +163,7 @@ const config: Config = {
             },
             {
               label: 'footer.links.integrations',
-              to: '/docs/developer-guide/integrations/shopify-integration',
+              to: '/docs/developer-guide/initial-setup/integrations/shopify-integration',
             },
           ],
         },
