@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Getting Started
+# First Steps with Developer Guide
 
 Quick start guide for developers integrating FashionAI into their applications.
 

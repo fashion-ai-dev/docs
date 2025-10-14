@@ -381,5 +381,11 @@
   },
   "features.subtitle": {
     "message": "Everything you need to create personalized and intelligent shopping experiences"
+  },
+  "components.NavigationBar.userGuide": {
+    "message": "User Guide"
+  },
+  "components.NavigationBar.developerGuide": {
+    "message": "Developer Guide"
   }
 }

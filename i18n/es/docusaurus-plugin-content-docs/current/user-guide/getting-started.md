@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Comenzando
+# Primeros pasos con la Guía del Usuario
 
 ## ¿Qué es Nuestra Plataforma de Moda?
 
