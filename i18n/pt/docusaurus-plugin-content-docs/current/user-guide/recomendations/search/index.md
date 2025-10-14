@@ -4,7 +4,7 @@ Ajude seus clientes a encontrar produtos rápida e facilmente com busca alimenta
 
 ## Soluções de Busca
 
-### 1. [Busca Inteligente de Produtos](./search)
+### 1. [Busca Inteligente de Produtos](./smart-search)
 
 Busca alimentada por IA para seu site que compreende consultas em linguagem natural e encontra produtos relevantes mesmo com erros de digitação ou descrições conversacionais.
 
@@ -16,7 +16,7 @@ Busca alimentada por IA para seu site que compreende consultas em linguagem natu
 - Resultados conscientes do contexto
 - Reconhecimento de sinônimos
 
-[Saiba mais sobre Busca Inteligente de Produtos →](./search)
+[Saiba mais sobre Busca Inteligente de Produtos →](./smart-search)
 
 ---
 

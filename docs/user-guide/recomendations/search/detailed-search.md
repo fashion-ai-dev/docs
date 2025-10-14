@@ -136,12 +136,12 @@ WhatsApp Search works with:
 - **WhatsApp Business App** - For small businesses (manual responses)
 - **Third-party chatbot platforms** - Automated shopping assistants
 
-**For technical setup**, your development team can find implementation details in the [Developer Guide - Detailed Search API](../../../developer-guide/recommendations-search/search/detailed-search).
+**For technical setup**, your development team can find implementation details in the [Developer Guide - Detailed Search API](../../../developer-guide/recommendations-search/search/detailed-search.md).
 
 ---
 
 ## Related Features
 
-- **[Smart Product Search](./search)** - Search for your website
-- **[Similar Products](./index#similar-products)** - Recommend complementary items in conversations
-- **[Behaviors](../behaviors)** - Target WhatsApp campaigns by customer segments
+- **[Smart Product Search](./smart-search.md)** - Search for your website
+- **[Similar Products](../index.md#similar-products)** - Recommend complementary items in conversations
+- **[Behaviors](../../behaviors/index.md)** - Target WhatsApp campaigns by customer segments

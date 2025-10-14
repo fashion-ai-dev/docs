@@ -26,7 +26,7 @@ const sidebars: SidebarsConfig = {
           label: 'Search',
           items: [
             'user-guide/recomendations/search/index',
-            'user-guide/recomendations/search/search',
+            'user-guide/recomendations/search/smart-search',
             'user-guide/recomendations/search/detailed-search',
           ],
         },
