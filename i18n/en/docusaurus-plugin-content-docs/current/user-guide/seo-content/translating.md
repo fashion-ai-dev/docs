@@ -1,10 +1,20 @@
-# Translating SEO Content
+# How to Use SEO Content
 
 Fashion's SEO content feature supports multiple languages, making it easy to optimize your product catalog for different markets.
 
 ## Available Languages
 
 By default, Fashion provides SEO content in the language configured when your account was created. If you need additional languages for your SEO content, simply contact our support team and we'll add them to your account.
+
+## How to Edit SEO Content
+
+1. Click the **edit icon** in the table to start editing.
+
+   ![Edit icon](/img/tela1-seo.png)
+
+2. After making all your edits, click the **save icon** to save your changes.
+
+   ![Save icon](/img/tela2-seo.png)
 
 ## How to Download SEO Content in Different Languages
 

@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# First Steps with User Guide
+# First Steps
 
 ## What is Our Fashion Platform?
 
@@ -18,6 +18,8 @@ Automatically enhance your fashion products with:
 - Color and material details
 - Seasonal categorization
 
+[Learn more about Catalog Enrichment →](./vision-enrichment/)
+
 ### 🎯 Smart Recommendations
 AI-powered recommendations that understand:
 - Customer style preferences
@@ -26,6 +28,8 @@ AI-powered recommendations that understand:
 - Size and fit compatibility
 - Brand affinity
 
+[Learn more about Smart Recommendations →](./recomendations/)
+
 ### 🔍 Semantic Search
 Search capabilities including:
 - Natural language queries ("red summer")
@@ -33,12 +37,16 @@ Search capabilities including:
 - Style-based filtering
 - Trend-aware results
 
+[Learn more about Semantic Search →](./recomendations/search/)
+
 ### 📈 SEO Optimization
 Boost your online visibility with:
 - Automated meta descriptions
 - Fashion-specific tags
 - Product schema markup
 - Content optimization for search engines
+
+[Learn more about SEO Content →](./seo-content/)
 
 ## How It Works
 

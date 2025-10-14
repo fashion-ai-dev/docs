@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# First Steps with User Guide
+# First Steps
 
 ## What is Our Fashion Platform?
 

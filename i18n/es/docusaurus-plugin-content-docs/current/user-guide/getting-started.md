@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Primeros pasos con la Guía del Usuario
+# Primeros pasos
 
 ## ¿Qué es Nuestra Plataforma de Moda?
 
@@ -10,35 +10,43 @@ Nuestra plataforma revoluciona cómo los minoristas de moda gestionan y optimiza
 
 ## Características Principales
 
-### 🛍️ Catalog Enrichment
-Automatically enhance your fashion products with:
-- Rich product descriptions
-- Style tags and attributes
-- Size and fit recommendations
-- Color and material details
-- Seasonal categorization
+### 🛍️ Enriquecimiento de Catálogo
+Mejore automáticamente sus productos de moda con:
+- Descripciones ricas de productos
+- Etiquetas y atributos de estilo
+- Recomendaciones de talla y ajuste
+- Detalles de color y material
+- Categorización estacional
 
-### 🎯 Smart Recommendations
-AI-powered recommendations that Comprenda:
-- Customer style preferences
-- Seasonal trends
-- Cross-selling opportunities
-- Size and fit compatibility
-- Brand affinity
+[Conoce más sobre Enriquecimiento de Catálogo →](./vision-enrichment/)
 
-### 🔍 Semantic Search
-Search capabilities including:
-- Natural language queries ("red summer")
-- Visual similarity search
-- Style-based filtering
-- Trend-aware results
+### 🎯 Recomendaciones Inteligentes
+Recomendaciones impulsadas por IA que comprenden:
+- Preferencias de estilo del cliente
+- Tendencias estacionales
+- Oportunidades de venta cruzada
+- Compatibilidad de talla y ajuste
+- Afinidad de marca
 
-### 📈 optimización SEO
-Boost your online visibility with:
-- Automated meta descriptions
-- Fashion-specific tags
-- Product schema markup
-- Content optimization for search engines
+[Conoce más sobre Recomendaciones Inteligentes →](./recomendations/)
+
+### 🔍 Búsqueda Semántica
+Capacidades de búsqueda que incluyen:
+- Consultas en lenguaje natural ("vestido rojo de verano")
+- Búsqueda por similitud visual
+- Filtrado basado en estilo
+- Resultados conscientes de tendencias
+
+[Conoce más sobre Búsqueda Semántica →](./recomendations/search/)
+
+### 📈 Optimización SEO
+Aumente su visibilidad en línea con:
+- Meta descripciones automatizadas
+- Etiquetas específicas de moda
+- Marcado de schema de productos
+- Optimización de contenido para motores de búsqueda
+
+[Conoce más sobre Contenido SEO →](./seo-content/)
 
 ## Cómo Funciona
 

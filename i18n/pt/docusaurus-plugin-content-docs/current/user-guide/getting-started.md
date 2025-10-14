@@ -2,43 +2,51 @@
 sidebar_position: 1
 ---
 
-# Primeiros Passos do Guia do Usuário
+# Primeiros Passos
 
 ## O que é Nossa Plataforma de Moda?
 
 Nossa plataforma revoluciona como os varejistas de moda gerenciam e otimizam seus catálogos de produtos. Fornecemos enriquecimento inteligente de catálogos, otimização de SEO, recomendações personalizadas, e capacidades de busca semântica especificamente projetadas para a indústria da moda.
 
-## Recursos Principais
+## Funcionalidades Principais
 
-### 🛍️ Catalog Enrichment
-Automatically enhance your fashion products with:
-- Rich product descriptions
-- Style tags and attributes
-- Size and fit recommendations
-- Color and material details
-- Seasonal categorization
+### 🛍️ Enriquecimento de Catálogo
+Aprimore automaticamente seus produtos de moda com:
+- Descrições ricas de produtos
+- Tags e atributos de estilo
+- Recomendações de tamanho e ajuste
+- Detalhes de cor e material
+- Categorização sazonal
 
-### 🎯 Smart Recommendations
-AI-powered recommendations that Compreenda:
-- Customer style preferences
-- Seasonal trends
-- Cross-selling opportunities
-- Size and fit compatibility
-- Brand affinity
+[Saiba mais sobre Enriquecimento de Catálogo →](./vision-enrichment/)
 
-### 🔍 Semantic Search
-Search capabilities including:
-- Natural language queries ("red summer")
-- Visual similarity search
-- Style-based filtering
-- Trend-aware results
+### 🎯 Recomendações Inteligentes
+Recomendações alimentadas por IA que compreendem:
+- Preferências de estilo do cliente
+- Tendências sazonais
+- Oportunidades de venda cruzada
+- Compatibilidade de tamanho e ajuste
+- Afinidade de marca
 
-### 📈 otimização de SEO
-Boost your online visibility with:
-- Automated meta descriptions
-- Fashion-specific tags
-- Product schema markup
-- Content optimization for search engines
+[Saiba mais sobre Recomendações Inteligentes →](./recomendations/)
+
+### 🔍 Busca Semântica
+Capacidades de busca incluindo:
+- Consultas em linguagem natural ("vestido vermelho de verão")
+- Busca por similaridade visual
+- Filtragem baseada em estilo
+- Resultados conscientes de tendências
+
+[Saiba mais sobre Busca Semântica →](./recomendations/search/)
+
+### 📈 Otimização de SEO
+Aumente sua visibilidade online com:
+- Meta descrições automatizadas
+- Tags específicas de moda
+- Marcação de schema de produtos
+- Otimização de conteúdo para mecanismos de busca
+
+[Saiba mais sobre Conteúdo SEO →](./seo-content/)
 
 ## Como Funciona
 

@@ -18,6 +18,10 @@ Our SEO Content uses customizable AI for your brand to:
 
 FashionAI brings you automated SEO to optimize search and marketplace rankings, increase qualified traffic, and drive more conversions (we already know that engaging content sells!).
 
+## How to Use
+
+You can **[edit](./translating#how-to-edit-seo-content)** and **[download](./translating#how-to-download-seo-content-in-different-languages)** SEO content in different languages.
+
 ### Content Enhancement
 - **Seasonal keyword integration** (summer dresses, winter coats, etc.)
 - **Style trend optimization** based on current fashion movements

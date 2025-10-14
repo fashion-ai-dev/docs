@@ -1,10 +1,20 @@
-# Traduciendo Contenido SEO
+# Cómo utilizar el contenido SEO
 
 La función de contenido SEO de Fashion admite múltiples idiomas, lo que facilita optimizar tu catálogo de productos para diferentes mercados.
 
 ## Idiomas Disponibles
 
 Por defecto, Fashion proporciona contenido SEO en el idioma configurado cuando se creó tu cuenta. Si necesitas idiomas adicionales para tu contenido SEO, simplemente contacta a nuestro equipo de soporte y los agregaremos a tu cuenta.
+
+## Cómo Editar Contenido SEO
+
+1. Haz clic en el **ícono de edición** en la tabla para comenzar a editar.
+
+   ![Ícono de edición](/img/tela1-seo.png)
+
+2. Después de hacer todas tus ediciones, haz clic en el **ícono de guardar** para guardar tus cambios.
+
+   ![Ícono de guardar](/img/tela2-seo.png)
 
 ## Cómo Descargar Contenido SEO en Diferentes Idiomas
 

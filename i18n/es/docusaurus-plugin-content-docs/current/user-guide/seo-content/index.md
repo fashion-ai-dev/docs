@@ -18,6 +18,10 @@ Nuestro Contenido SEO usa IA personalizable para tu marca para:
 
 FashionAI te trae SEO automatizado para optimizar rankings de búsqueda y marketplace, aumentar el tráfico calificado e impulsar más conversiones (¡ya sabemos que el contenido atractivo vende!).
 
+## Cómo Usar
+
+Puedes **[editar](./translating#cómo-editar-contenido-seo)** y **[descargar](./translating#cómo-descargar-contenido-seo-en-diferentes-idiomas)** contenido SEO en diferentes idiomas.
+
 ### Mejora de Contenido
 - **Integración de palabras clave estacionales** (vestidos de verano, abrigos de invierno, etc.)
 - **Optimización de tendencias de estilo** basada en movimientos de moda actuales
