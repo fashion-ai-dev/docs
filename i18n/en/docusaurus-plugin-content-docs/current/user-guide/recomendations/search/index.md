@@ -4,7 +4,7 @@ Help your customers find products quickly and easily with AI-powered search that
 
 ## Search Solutions
 
-### 1. [Smart Product Search](./search)
+### 1. [Smart Product Search](./smart-search.md)
 
 AI-powered search for your website that understands natural language queries and finds relevant products even with typos or conversational descriptions.
 
@@ -16,11 +16,11 @@ AI-powered search for your website that understands natural language queries and
 - Context-aware results
 - Synonym recognition
 
-[Learn more about Smart Product Search →](./search)
+[Learn more about Smart Product Search →](./smart-search.md)
 
 ---
 
-### 2. [Search for WhatsApp](./detailed-search)
+### 2. [Search for WhatsApp](./detailed-search.md)
 
 Specialized search designed for WhatsApp commerce, enabling customers to browse and shop your catalog directly through messaging conversations.
 
@@ -32,7 +32,7 @@ Specialized search designed for WhatsApp commerce, enabling customers to browse 
 - Conversation-ready formatting
 - Anonymous or identified searches
 
-[Learn more about WhatsApp Search →](./detailed-search)
+[Learn more about WhatsApp Search →](./detailed-search.md)
 
 ---
 
@@ -40,6 +40,6 @@ Specialized search designed for WhatsApp commerce, enabling customers to browse 
 
 ## Related Features
 
-- **[Similar Products](../index#similar-products)** - Complement search with recommendations
-- **[Behaviors](../../behaviors/index)** - Target campaigns based on search patterns
-- **[How Our AI Works](../how-our-ai-works)** - Understanding the technology
+- **[Similar Products](../#-similar-products)** - Complement search with recommendations
+- **[Behaviors](../../behaviors/index.md)** - Target campaigns based on search patterns
+- **[How Our AI Works](../how-our-ai-works.md)** - Understanding the technology

@@ -28,6 +28,6 @@ Sincronize comportamentos com seu CRM HubSpot para enriquecer contatos, criar li
 
 ## Documentação Relacionada
 
-- [Compreender Comportamentos](../index)
+- [Compreender Comportamentos](../)
 - [Como Usar Comportamentos](../how-to-use)
-- [Métricas de Comportamento](../index#key-metrics)
+- [Métricas de Comportamento](../#métricas-principais)

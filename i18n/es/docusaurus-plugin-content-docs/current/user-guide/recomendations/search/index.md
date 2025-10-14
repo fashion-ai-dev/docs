@@ -4,7 +4,7 @@ Ayuda a tus clientes a encontrar productos rápida y fácilmente con búsqueda i
 
 ## Soluciones de Búsqueda
 
-### 1. [Búsqueda Inteligente de Productos](./search)
+### 1. [Búsqueda Inteligente de Productos](./smart-search)
 
 Búsqueda impulsada por IA para tu sitio web que comprende consultas en lenguaje natural y encuentra productos relevantes incluso con errores tipográficos o descripciones conversacionales.
 
@@ -16,7 +16,7 @@ Búsqueda impulsada por IA para tu sitio web que comprende consultas en lenguaje
 - Resultados conscientes del contexto
 - Reconocimiento de sinónimos
 
-[Aprende más sobre Búsqueda Inteligente de Productos →](./search)
+[Aprende más sobre Búsqueda Inteligente de Productos →](./smart-search)
 
 ---
 
@@ -40,6 +40,6 @@ Búsqueda especializada diseñada para comercio en WhatsApp, que permite a los c
 
 ## Características Relacionadas
 
-- **[Productos Similares](../index#similar-products)** - Complementa la búsqueda con recomendaciones
-- **[Comportamientos](../../behaviors/index)** - Dirige campañas basadas en patrones de búsqueda
+- **[Productos Similares](../#-productos-similares)** - Complementa la búsqueda con recomendaciones
+- **[Comportamientos](../../behaviors/)** - Dirige campañas basadas en patrones de búsqueda
 - **[Cómo Funciona Nuestra IA](../how-our-ai-works)** - Comprender la tecnología

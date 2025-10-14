@@ -61,6 +61,6 @@ X-FashionAI-APP-Token: ab1234567890abcdef...
 
 Now that you Compreenda authentication, explore specific APIs:
 
-- [Search API](./search/overview) - Product search functionality
-- [API Endpoints](./api-endpoints) - Referência completa de endpoints
+- [Search API](../recommendations-search/search/overview) - Product search functionality
+- [API Endpoints](../recommendations-search/api-endpoints) - Referência completa de endpoints
 - [UI Integration](./ui-integration) - Frontend integration guides

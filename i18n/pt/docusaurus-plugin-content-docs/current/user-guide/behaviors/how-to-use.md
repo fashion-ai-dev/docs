@@ -16,10 +16,10 @@
 
 4. Deixe nossa IA analisar seus dados de clientes e gerar o grupo
 5. Revise as características do segmento e contagem de clientes, você pode editar os filtros o quanto quiser
-   - Verifique a [Pontuação de Similaridade](/docs/user-guide/behaviors#similarity-score-pontuação-de-similaridade) para entender quão coeso é o segmento
-   - Revise o [Valor de Vida do Cliente (LTV)](/docs/user-guide/behaviors#lifetime-value-ltv) para avaliar o valor deste grupo de clientes
-   - Veja o [Tamanho da Audiência](/docs/user-guide/behaviors#audience-size) para entender seu potencial de alcance
-   - Visualize o [Tamanho do Conjunto de Produtos](/docs/user-guide/behaviors#product-set-size) para ver produtos associados
+   - Verifique a [Pontuação de Similaridade](./#pontuação-de-similaridade-similarity-score) para entender quão coeso é o segmento
+   - Revise o [Valor de Vida do Cliente (LTV)](./#valor-de-vida-do-cliente-ltv) para avaliar o valor deste grupo de clientes
+   - Veja o [Tamanho da Audiência](./#tamanho-da-audiência) para entender seu potencial de alcance
+   - Visualize o [Tamanho do Conjunto de Produtos](./#tamanho-do-conjunto-de-produtos) para ver produtos associados
 6. Salve e ative seu novo comportamento
 
 ### Aplicando Comportamentos a Campanhas

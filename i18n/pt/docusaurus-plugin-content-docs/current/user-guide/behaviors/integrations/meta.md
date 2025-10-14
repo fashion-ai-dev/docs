@@ -66,7 +66,7 @@ Pronto para ativar seus comportamentos no Meta?
 4. **Crie uma campanha** no Gerenciador de Anúncios Meta usando seu novo público
 5. **Monitore o desempenho** e refine sua abordagem
 
-Para mais informações sobre como criar comportamentos eficazes para exportar, consulte nosso [Guia de Comportamentos](./index) e [Como Usar Comportamentos](./how-to-use).
+Para mais informações sobre como criar comportamentos eficazes para exportar, consulte nosso [Guia de Comportamentos](../) e [Como Usar Comportamentos](../how-to-use).
 
 ---
 
@@ -150,4 +150,4 @@ Pronto para ativar seus comportamentos no Google Ads?
 6. **Monitore taxas de correspondência** e status de sincronização no painel de integrações
 7. **Meça o desempenho** e refine sua abordagem
 
-Para mais informações sobre como criar comportamentos eficazes para exportar, consulte nosso [Guia de Comportamentos](./index) e [Como Usar Comportamentos](./how-to-use).
+Para mais informações sobre como criar comportamentos eficazes para exportar, consulte nosso [Guia de Comportamentos](../) e [Como Usar Comportamentos](../how-to-use).

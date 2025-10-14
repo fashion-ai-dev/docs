@@ -62,7 +62,7 @@ Track recommendation performance:
 
 - **API Issues** → Check [Authentication](./customization-reference/authentication)
 - **UI Problems** → See [UI Integration](./customization-reference/ui-integration)
-- **Platform Help** → [Platform Integrations](./integrations/)
+- **Platform Help** → [Platform Integrations](./initial-setup/integrations/)
 - **Analytics Setup** → [Analytics & Tracking](./analytics/)
 
 ## 📋 Next Steps

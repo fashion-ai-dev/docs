@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Referencia de Personalización
 
-Referencia técnica para los endpoints de la API de Personalización de Fashion.AI. Para una descripción general de tipos de recomendaciones y cómo funciona nuestra IA, consulta [Primeros Pasos con Recomendaciones](../user-guide/getting-started).
+Referencia técnica para los endpoints de la API de Personalización de Fashion.AI. Para una descripción general de tipos de recomendaciones y cómo funciona nuestra IA, consulta [Primeros Pasos con Recomendaciones](../../user-guide/getting-started).
 
 ## Configuración Base
 

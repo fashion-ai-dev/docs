@@ -133,12 +133,12 @@ Ajuste prioridades de produtos de acordo com as estações:
 
 A busca é habilitada automaticamente para seu catálogo uma vez que você integra Fashion.ai. Nenhuma configuração adicional necessária.
 
-**Para detalhes de implementação técnica**, consulte o [Guia do Desenvolvedor - API de Busca](../../developer-guide/customization-reference/search/index).
+**Para detalhes de implementação técnica**, consulte o [Guia do Desenvolvedor - API de Busca](../../../developer-guide/recommendations-search/search/).
 
 ---
 
 ## Recursos Relacionados
 
-- **[Produtos Similares](./index#similar-products)** - Recomendações automáticas de produtos
-- **[Visual Merchandising](./index#visual-merchandising)** - Organização dinâmica de categorias
-- **[Como Nossa IA Funciona](./how-our-ai-works)** - Compreender a tecnologia por trás das recomendações
+- **[Produtos Similares](../#-produtos-similares)** - Recomendações automáticas de produtos
+- **[Visual Merchandising](../#-visual-merchandising)** - Organização dinâmica de categorias
+- **[Como Nossa IA Funciona](../how-our-ai-works)** - Compreender a tecnologia por trás das recomendações

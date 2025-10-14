@@ -81,4 +81,4 @@ Use clear, consistent names for your HubSpot lists:
 This makes it easier to find and manage lists in HubSpot.
 
 
-For more information on creating effective behaviors to export, see our [Behaviors Guide](./index) and [How to Use Behaviors](./how-to-use).
+For more information on creating effective behaviors to export, see our [Behaviors Guide](../) and [How to Use Behaviors](../how-to-use).

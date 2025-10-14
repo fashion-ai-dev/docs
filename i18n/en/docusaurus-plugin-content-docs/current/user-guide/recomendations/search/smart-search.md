@@ -133,12 +133,12 @@ Adjust product priorities based on seasons:
 
 Search is automatically enabled for your catalog once you integrate Fashion.ai. No additional configuration required.
 
-**For technical implementation details**, see the [Developer Guide - Search API](../../../developer-guide/recommendations-search/search/index.md).
+**For technical implementation details**, see the [Developer Guide - Search API](../../../developer-guide/recommendations-search/search/).
 
 ---
 
 ## Related Features
 
-- **[Similar Products](../index.md#similar-products)** - Automated product recommendations
-- **[Visual Merchandising](../index.md#visual-merchandising)** - Dynamic category organization
+- **[Similar Products](../#-similar-products)** - Automated product recommendations
+- **[Visual Merchandising](../#-visual-merchandising)** - Dynamic category organization
 - **[How Our AI Works](../how-our-ai-works.md)** - Understanding the technology behind recommendations

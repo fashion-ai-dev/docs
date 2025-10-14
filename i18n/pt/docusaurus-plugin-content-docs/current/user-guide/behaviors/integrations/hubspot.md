@@ -81,4 +81,4 @@ Use nomes claros e consistentes para suas listas do HubSpot:
 Isso facilita encontrar e gerenciar listas no HubSpot.
 
 
-Para mais informações sobre como criar comportamentos eficazes para exportar, consulte nosso [Guia de Comportamentos](./index) e [Como Usar Comportamentos](./how-to-use).
+Para mais informações sobre como criar comportamentos eficazes para exportar, consulte nosso [Guia de Comportamentos](../) e [Como Usar Comportamentos](../how-to-use).

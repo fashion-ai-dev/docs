@@ -28,6 +28,6 @@ Sync behaviors with your HubSpot CRM to enrich contacts, create targeted lists, 
 
 ## Related Documentation
 
-- [Understanding Behaviors](../index)
+- [Understanding Behaviors](../)
 - [How to Use Behaviors](../how-to-use)
-- [Behavior Metrics](../index#key-metrics)
+- [Behavior Metrics](../#métricas-clave)

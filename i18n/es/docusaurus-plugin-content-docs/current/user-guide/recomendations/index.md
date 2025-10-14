@@ -12,7 +12,7 @@ Entrega sugerencias de productos personalizadas basadas en el historial de naveg
 - Mejora de navegación por categorías
 - Oportunidades de venta cruzada
 
-[Documentación técnica sobre Productos Similares →](../developer-guide/api-endpoints#category-view-event)
+[Documentación técnica sobre Productos Similares →](../../developer-guide/recommendations-search/api-endpoints#evento-de-vista-de-categoría)
 
 ### 👗 Compra el Look
 Identifica y recomienda automáticamente productos adicionales que aparecen en la misma imagen. Convierte cada look en un outfit completo—justo como lo haría un estilista personal.
@@ -22,7 +22,7 @@ Identifica y recomienda automáticamente productos adicionales que aparecen en l
 - Inspiración de estilo
 - Upselling de artículos complementarios
 
-[Documentación técnica sobre Compra el Look →](../developer-guide/api-endpoints#shop-the-look-event)
+[Documentación técnica sobre Compra el Look →](../../developer-guide/recommendations-search/api-endpoints#evento-shop-the-look)
 
 ### 📋 Visual Merchandising
 Reorganiza dinámicamente los listados de productos según lo que el usuario realmente está buscando. Crea exhibiciones de categorías personalizadas y de alto rendimiento que se sienten como una tienda personalizada.
@@ -32,15 +32,15 @@ Reorganiza dinámicamente los listados de productos según lo que el usuario rea
 - Diseños de página de inicio personalizados
 - Destacado de tendencias estacionales
 
-[Documentación técnica sobre Visual Merchandising →](../developer-guide/vm-builder)
+[Documentación técnica sobre Visual Merchandising →](../../developer-guide/customization-reference/vm-builder)
 
 
 ## Próximos Pasos
 
 🚀 **¿Listo para implementar recomendaciones?** Elige tu ruta de integración:
 
-- **[Referencia de API](../developer-guide/api-endpoints)** - Guía de implementación técnica
-- **[Autenticación](../developer-guide/authentication)** - Configura tu acceso API
-- **[Integración de UI](../developer-guide/ui-integration)** - Ejemplos de implementación frontend
-- **[API de Búsqueda](../developer-guide/search/overview)** - Búsqueda inteligente de productos
-- **[Configuración de Analytics](../developer-guide/analytics/google-analytics)** - Rastrea el rendimiento
+- **[Referencia de API](../../developer-guide/recommendations-search/api-endpoints)** - Guía de implementación técnica
+- **[Autenticación](../../developer-guide/customization-reference/authentication)** - Configura tu acceso API
+- **[Integración de UI](../../developer-guide/customization-reference/ui-integration)** - Ejemplos de implementación frontend
+- **[API de Búsqueda](./search/)** - Búsqueda inteligente de productos
+- **[Configuración de Analytics](../../developer-guide/analytics/google-analytics)** - Rastrea el rendimiento

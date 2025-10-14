@@ -16,10 +16,10 @@
 
 4. Let our AI analyze your customer data and generate the cluster
 5. Review the segment characteristics and customer count, you can edit the filters as much as you want
-   - Check the [Similarity Score](./index#similarity-score-pontuação-de-similaridade) to understand how cohesive the segment is
-   - Review the [Lifetime Value (LTV)](./index#lifetime-value-ltv) to assess the value of this customer group
-   - See the [Audience Size](./index#audience-size) to understand your reach potential
-   - View the [Product Set Size](./index#product-set-size) to see associated products
+   - Check the [Similarity Score](./#similarity-score-pontuação-de-similaridade) to understand how cohesive the segment is
+   - Review the [Lifetime Value (LTV)](./#lifetime-value-ltv) to assess the value of this customer group
+   - See the [Audience Size](./#audience-size) to understand your reach potential
+   - View the [Product Set Size](./#product-set-size) to see associated products
 6. Save and activate your new behavior
 
 ### Applying Behaviors to Campaigns

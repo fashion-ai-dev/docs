@@ -8,7 +8,7 @@ La IA aprende de tus acciones de tres formas principales:
 
 1. **Editando atributos** - Cuando corriges o mejoras descripciones y atributos generados automáticamente
 2. **Proporcionando retroalimentación de categorización** - Cuando validas o ajustas categorías sugeridas por la IA
-3. **Gestionando taxonomías** - A través de la [página de Taxonomía](../taxonomy/index), puedes estructurar y organizar tus categorías de manera personalizada
+3. **Gestionando taxonomías** - A través de la [página de Taxonomía](../taxonomy/), puedes estructurar y organizar tus categorías de manera personalizada
 
 ![Product page](/img/tela1-vision-enrichment.png)
 

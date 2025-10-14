@@ -136,12 +136,12 @@ A Busca no WhatsApp funciona com:
 - **App WhatsApp Business** - Para pequenas empresas (respostas manuais)
 - **Plataformas de chatbot de terceiros** - Assistentes de compras automatizados
 
-**Para configuração técnica**, sua equipe de desenvolvimento pode encontrar detalhes de implementação no [Guia do Desenvolvedor - API de Busca Detalhada](../../developer-guide/customization-reference/search/detailed-search).
+**Para configuração técnica**, sua equipe de desenvolvimento pode encontrar detalhes de implementação no [Guia do Desenvolvedor - API de Busca Detalhada](../../../developer-guide/recommendations-search/search/detailed-search).
 
 ---
 
 ## Recursos Relacionados
 
 - **[Busca Inteligente de Produtos](./smart-search)** - Busca para seu site
-- **[Produtos Similares](../index#similar-products)** - Recomende itens complementares em conversas
-- **[Comportamentos](../../behaviors/index)** - Direcione campanhas do WhatsApp por segmentos de clientes
+- **[Produtos Similares](../#-produtos-similares)** - Recomende itens complementares em conversas
+- **[Comportamentos](../../behaviors/)** - Direcione campanhas do WhatsApp por segmentos de clientes

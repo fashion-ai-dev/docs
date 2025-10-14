@@ -177,6 +177,6 @@ Para soporte técnico con la integración de Shopify:
 ## Recursos Adicionales
 
 - **Documentación de la API de Shopify:** [Desarrolladores de Shopify](https://shopify.dev/docs)
-- **Guía de la Plataforma FashionAI:** [Primeros Pasos](../getting-started)
-- **Detalles de Vision Enrichment:** [Guía de Vision Enrichment](../../user-guide/vision-enrichment/index)
+- **Guía de la Plataforma FashionAI:** [Primeros Pasos](../../getting-started)
+- **Detalles de Vision Enrichment:** [Guía de Vision Enrichment](../../../user-guide/vision-enrichment/)
 
