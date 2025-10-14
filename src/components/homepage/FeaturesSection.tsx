@@ -32,7 +32,7 @@ export default function FeaturesSection() {
       title: <Translate id="features.smartRecommendations.title">Smart Recommendations</Translate>,
       description: <Translate id="features.smartRecommendations.description">AI-powered recommendation system that analyzes preferences, purchase history, and trends to suggest personalized products for each customer.</Translate>,
       linkColor: 'var(--ifm-color-primary)',
-      linkUrl: '/docs/developer-guide/api-endpoints'
+      linkUrl: '/docs/developer-guide/recommendations-search/api-endpoints'
     },
     {
       icon: <Search size={24} />,
@@ -40,7 +40,7 @@ export default function FeaturesSection() {
       title: <Translate id="features.semanticSearch.title">Advanced Semantic Search</Translate>,
       description: <Translate id="features.semanticSearch.description">Intelligent search that understands natural descriptions like "blue dress for wedding" and finds products using natural language processing and image analysis.</Translate>,
       linkColor: '#059669',
-      linkUrl: '/docs/developer-guide/search'
+      linkUrl: '/docs/developer-guide/recommendations-search/search/'
     },
     {
       icon: <TrendingUp size={24} />,
@@ -48,7 +48,7 @@ export default function FeaturesSection() {
       title: <Translate id="features.seo.title">Fashion SEO</Translate>,
       description: <Translate id="features.seo.description">Automatic search engine optimization with specialized fashion tags and metadata for better product visibility and search rankings.</Translate>,
       linkColor: '#d97706',
-      linkUrl: '/docs/user-guide/seo'
+      linkUrl: '/docs/user-guide/seo-content/'
     },
     {
       icon: <BarChart3 size={24} />,

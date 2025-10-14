@@ -2,76 +2,75 @@
 sidebar_position: 1
 ---
 
-# Primeros Pasos para Desarrolladores
+# Primeros pasos
 
-Guía de inicio rápido para desarrolladores integrando FashionAI en sus aplicaciones.
+Guía de inicio rápido para desarrolladores integrating FashionAI into their applications.
 
-## 🚀 Configuración Rápida (5 minutos)
+## 🚀 Quick Setup (5 minutes)
 
-### 1. Autenticación
-Obtén tus credenciales de API y comienza a hacer solicitudes:
-- Genera token de API en el panel
-- Añade token a los encabezado
-- Prueba con llamada de API de ejemplo
+### 1. Authentication
+Get your API credentials and start making requests:
+- Generate API token in dashboard
+- Add to headers: `Authorization: Bearer YOUR_TOKEN`
+- Test with sample API call
 
-[→ Guía Completa de Autenticación](./authentication)
+[→ Full Authentication Guide](./customization-reference/authentication)
 
-### 2. APIs Principales
-**API de Recomendaciones** - Sugerencias personalizadas de productos
+### 2. Core APIs
+**Recommendations API** - Personalized product suggestions
 
-**API de Búsqueda** - Búsqueda inteligente de productos
+**Search API** - Intelligent product search
 
-[→ Referencia Completa de API](./api-endpoints)
+[→ Complete API Reference](./recommendations-search/api-endpoints)
 
-## 🛠️ Opciones de Integración
+## 🛠️ Integration Options
 
-[→ Guía de Integración de UI](./ui-integration)
+[→ UI Integration Guide](./customization-reference/ui-integration)
 
-### Específico por Plataforma
-Configuración rápida para plataformas de e-commerce populares:
-- **Shopify** - Integración
-- **VTEX** - Integración
-- **Implementaciones personalizadas** - Contacta el Soporte de Fashion :mailbox: **support@generativecrm.com**
+### Platform-Specific
+Quick setup for popular e-commerce platforms:
+- **Shopify** - Native app integration
+- **VTEX** - Custom components
+- **Custom implementations** - Contact Fashion's Support :mailbox: **support@generativecrm.com**
 
-[→ Todas las Integraciones de Plataforma](./integrations/)
+[→ All Platform Integrations](./initial-setup/integrations/)
 
-## 📊 Analytics y Seguimiento
+## 📊 Analytics & Tracking
 
 ### Google Analytics Enhanced Ecommerce
-Rastrea el rendimiento de recomendaciones:
+Track recommendation performance:
 
-[→ Configuración de Analytics y Seguimiento](./analytics/)
+[→ Analytics & Tracking Setup](./analytics/)
 
-## 🎯 Características Avanzadas
+## 🎯 Advanced Features
 
-### Configuración de Búsqueda
-- Búsqueda semántica
-- Búsqueda por similitud visual
-- Algoritmos de ranking personalizados
+### Search Configuration
+- Semantic search
+- Visual similarity search
+- Custom ranking algorithms
 
-[→ Detalles de API de Búsqueda](./search/overview) | [→ Ejemplos de Búsqueda](./search/examples)
+[→ Search API Details](./recommendations-search/search/overview) | [→ Search Examples](./recommendations-search/search/examples)
 
-### Organización de Productos
-- Auto-categorización con taxonomías
-- Clasificación de estilo y tendencia
+### Product Organization
+- Auto-categorization with taxonomies
+- Style and trend classification
+- Seasonal product tagging
 
-[→ Guía de Taxonomías](../user-guide/taxonomies)
+[→ Taxonomies Guide](../user-guide/taxonomy/index.md)
 
+## 🆘 Need Help?
 
-## 🆘 ¿Necesitas Ayuda?
+- **API Issues** → Check [Authentication](./customization-reference/authentication)
+- **UI Problems** → See [UI Integration](./customization-reference/ui-integration)
+- **Platform Help** → [Platform Integrations](./initial-setup/integrations/)
+- **Analytics Setup** → [Analytics & Tracking](./analytics/)
 
-- **Problemas de API** → Revisa [Autenticación](./authentication)
-- **Problemas de UI** → Ve [Integración de UI](./ui-integration)
-- **Ayuda de Plataforma** → [Integraciones de Plataforma](./integrations/)
-- **Configuración de Analytics** → [Analytics y Seguimiento](./analytics/)
+## 📋 Next Steps
 
-## 📋 Próximos Pasos
-
-1. **[Configura autenticación](./authentication)** - Obtén tus credenciales de API
-2. **[Prueba endpoints de API](./api-endpoints)** - Haz tus primeras llamadas
-3. **[Añade a tu UI](./ui-integration)** - Integra componentes frontend
-4. **[Configura analytics](./analytics/)** - Rastrea el rendimiento
-
+1. **[Set up authentication](./customization-reference/authentication)** - Get your API credentials
+3. **[Add to your UI](./customization-reference/ui-integration)** - Integrate frontend components
+2. **[Test API endpoints](./recommendations-search/api-endpoints)** - Make your first calls
+4. **[Configure analytics](./analytics/)** - Track performance
 ---
 
-**¿Listo para integrar?** Comienza con [Autenticación](./authentication) →
+**Ready to integrate?** Start with [Authentication](./customization-reference/authentication) →

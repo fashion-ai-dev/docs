@@ -6,6 +6,13 @@ Fashion's SEO content feature supports multiple languages, making it easy to opt
 
 By default, Fashion provides SEO content in the language configured when your account was created. If you need additional languages for your SEO content, simply contact our support team and we'll add them to your account.
 
+## How to Edit Seo Content
+
+1. You need to click at the edit icon on the table.
+![edit icon](/img/tela1-seo.png)
+2 . After Making All Edits you click at the save icon
+![save icon](/img/tela2-seo.png)
+
 ## How to Download SEO Content in Different Languages
 
 The process to download SEO content in your desired language is simple and straightforward:

@@ -1,10 +1,66 @@
 {
   "version.label": {
-    "message": "Next",
+    "message": "Atual",
     "description": "The label for version current"
   },
-  "sidebar.tutorialSidebar.category.Tracking & Analytics": {
-    "message": "Tracking & Analytics",
-    "description": "The label for category Tracking & Analytics in sidebar tutorialSidebar"
+  "sidebar.userGuideSidebar.category.Recommendations": {
+    "message": "Recomendações",
+    "description": "The label for category Recommendations in sidebar userGuideSidebar"
+  },
+  "sidebar.userGuideSidebar.category.Search": {
+    "message": "Busca",
+    "description": "The label for category Search in sidebar userGuideSidebar"
+  },
+  "sidebar.userGuideSidebar.category.Behaviors": {
+    "message": "Comportamentos",
+    "description": "The label for category Behaviors in sidebar userGuideSidebar"
+  },
+  "sidebar.userGuideSidebar.category.Integrations": {
+    "message": "Integrações",
+    "description": "The label for category Integrations in sidebar userGuideSidebar"
+  },
+  "sidebar.userGuideSidebar.category.SEO Content": {
+    "message": "Conteúdo SEO",
+    "description": "The label for category SEO Content in sidebar userGuideSidebar"
+  },
+  "sidebar.userGuideSidebar.category.Taxonomy": {
+    "message": "Taxonomia",
+    "description": "The label for category Taxonomy in sidebar userGuideSidebar"
+  },
+  "sidebar.userGuideSidebar.category.Vision Enrichment": {
+    "message": "Enriquecimento de Visão",
+    "description": "The label for category Vision Enrichment in sidebar userGuideSidebar"
+  },
+  "sidebar.developerGuideSidebar.category.Initial Setup": {
+    "message": "Configuração Inicial",
+    "description": "The label for category Initial Setup in sidebar developerGuideSidebar"
+  },
+  "sidebar.developerGuideSidebar.category.API": {
+    "message": "API",
+    "description": "The label for category API in sidebar developerGuideSidebar"
+  },
+  "sidebar.developerGuideSidebar.category.Integrations": {
+    "message": "Integrações",
+    "description": "The label for category Integrations in sidebar developerGuideSidebar"
+  },
+  "sidebar.developerGuideSidebar.category.Spreadsheet": {
+    "message": "Planilha",
+    "description": "The label for category Spreadsheet in sidebar developerGuideSidebar"
+  },
+  "sidebar.developerGuideSidebar.category.Recommendations & Search": {
+    "message": "Recomendações e Busca",
+    "description": "The label for category Recommendations & Search in sidebar developerGuideSidebar"
+  },
+  "sidebar.developerGuideSidebar.category.Search": {
+    "message": "Busca",
+    "description": "The label for category Search in sidebar developerGuideSidebar"
+  },
+  "sidebar.developerGuideSidebar.category.Analytics": {
+    "message": "Analytics",
+    "description": "The label for category Analytics in sidebar developerGuideSidebar"
+  },
+  "sidebar.developerGuideSidebar.category.Customization Reference": {
+    "message": "Referência de Personalização",
+    "description": "The label for category Customization Reference in sidebar developerGuideSidebar"
   }
 }

@@ -1,10 +1,66 @@
 {
   "version.label": {
-    "message": "Next",
+    "message": "Actual",
     "description": "The label for version current"
   },
-  "sidebar.tutorialSidebar.category.Tracking & Analytics": {
-    "message": "Tracking & Analytics",
-    "description": "The label for category Tracking & Analytics in sidebar tutorialSidebar"
+  "sidebar.userGuideSidebar.category.Recommendations": {
+    "message": "Recomendaciones",
+    "description": "The label for category Recommendations in sidebar userGuideSidebar"
+  },
+  "sidebar.userGuideSidebar.category.Search": {
+    "message": "Búsqueda",
+    "description": "The label for category Search in sidebar userGuideSidebar"
+  },
+  "sidebar.userGuideSidebar.category.Behaviors": {
+    "message": "Comportamientos",
+    "description": "The label for category Behaviors in sidebar userGuideSidebar"
+  },
+  "sidebar.userGuideSidebar.category.Integrations": {
+    "message": "Integraciones",
+    "description": "The label for category Integrations in sidebar userGuideSidebar"
+  },
+  "sidebar.userGuideSidebar.category.SEO Content": {
+    "message": "Contenido SEO",
+    "description": "The label for category SEO Content in sidebar userGuideSidebar"
+  },
+  "sidebar.userGuideSidebar.category.Taxonomy": {
+    "message": "Taxonomía",
+    "description": "The label for category Taxonomy in sidebar userGuideSidebar"
+  },
+  "sidebar.userGuideSidebar.category.Vision Enrichment": {
+    "message": "Enriquecimiento de Visión",
+    "description": "The label for category Vision Enrichment in sidebar userGuideSidebar"
+  },
+  "sidebar.developerGuideSidebar.category.Initial Setup": {
+    "message": "Configuración Inicial",
+    "description": "The label for category Initial Setup in sidebar developerGuideSidebar"
+  },
+  "sidebar.developerGuideSidebar.category.API": {
+    "message": "API",
+    "description": "The label for category API in sidebar developerGuideSidebar"
+  },
+  "sidebar.developerGuideSidebar.category.Integrations": {
+    "message": "Integraciones",
+    "description": "The label for category Integrations in sidebar developerGuideSidebar"
+  },
+  "sidebar.developerGuideSidebar.category.Spreadsheet": {
+    "message": "Hoja de Cálculo",
+    "description": "The label for category Spreadsheet in sidebar developerGuideSidebar"
+  },
+  "sidebar.developerGuideSidebar.category.Recommendations & Search": {
+    "message": "Recomendaciones y Búsqueda",
+    "description": "The label for category Recommendations & Search in sidebar developerGuideSidebar"
+  },
+  "sidebar.developerGuideSidebar.category.Search": {
+    "message": "Búsqueda",
+    "description": "The label for category Search in sidebar developerGuideSidebar"
+  },
+  "sidebar.developerGuideSidebar.category.Analytics": {
+    "message": "Analytics",
+    "description": "The label for category Analytics in sidebar developerGuideSidebar"
+  },
+  "sidebar.developerGuideSidebar.category.Customization Reference": {
+    "message": "Referencia de Personalización",
+    "description": "The label for category Customization Reference in sidebar developerGuideSidebar"
   }
 }

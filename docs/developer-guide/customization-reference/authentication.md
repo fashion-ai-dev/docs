@@ -25,7 +25,7 @@ All APIs use **X-FashionAI-APP-Token** via custom headers.
 
 ### Step 1: Access Dashboard
 
-1. Log into your [FashionAI Dashboard](https://dashboard.fashionaiale.com)
+1. Log into your [FashionAI Dashboard](https://app.generativecrm.com)
 2. Navigate to **API Settings** in the sidebar
 3. Click on **API Tokens** section
 
@@ -61,6 +61,6 @@ X-FashionAI-APP-Token: ab1234567890abcdef...
 
 Now that you understand authentication, explore specific APIs:
 
-- [Search API](./search/overview) - Product search functionality
-- [API Endpoints](./api-endpoints) - Complete endpoint reference
+- [Search API](../recommendations-search/search/overview) - Product search functionality
+- [API Endpoints](../recommendations-search/api-endpoints) - Complete endpoint reference
 - [UI Integration](./ui-integration) - Frontend integration guides

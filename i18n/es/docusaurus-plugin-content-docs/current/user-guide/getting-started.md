@@ -2,60 +2,62 @@
 sidebar_position: 1
 ---
 
-# Primeros Pasos
+# Primeros pasos
 
-## Visión General de la Plataforma
+## ¿Qué es Nuestra Plataforma de Moda?
 
-### ¿Qué es nuestra plataforma de moda?
+Nuestra plataforma revoluciona cómo los minoristas de moda gestionan y optimizan sus catálogos de productos. Proporcionamos enriquecimiento inteligente de catálogos, optimización SEO, recomendaciones personalizadas, y capacidades de búsqueda semántica específicamente diseñadas para la industria de la moda.
 
-Nuestra plataforma revoluciona la forma en que los minoristas de moda gestionan y optimizan sus catálogos de productos. Ofrecemos enriquecimiento inteligente de catálogo, optimización de SEO, recomendaciones personalizadas y recursos de búsqueda semántica diseñados específicamente para la industria de la moda.
+## Características Principales
 
-### Características principales
-
-🛍️ **Enriquecimiento de Catálogo**
-
+### 🛍️ Enriquecimiento de Catálogo
 Mejore automáticamente sus productos de moda con:
-* Descripciones ricas de productos
-* Etiquetas y atributos de estilo
-* Recomendaciones personalizadas
-* Detalles de color y material
+- Descripciones ricas de productos
+- Etiquetas y atributos de estilo
+- Recomendaciones de talla y ajuste
+- Detalles de color y material
+- Categorización estacional
 
-🎯 **Recomendaciones Inteligentes**
+[Conoce más sobre Enriquecimiento de Catálogo →](./vision-enrichment/)
 
-Recomendaciones impulsadas por IA que entienden:
-* Preferencias de estilo de cada cliente
-* Cada clic del usuario
-* Oportunidades de venta cruzada - compre el look
-* Afinidad con la marca
+### 🎯 Recomendaciones Inteligentes
+Recomendaciones impulsadas por IA que comprenden:
+- Preferencias de estilo del cliente
+- Tendencias estacionales
+- Oportunidades de venta cruzada
+- Compatibilidad de talla y ajuste
+- Afinidad de marca
 
-🔍 **Búsqueda Semántica**
+[Conoce más sobre Recomendaciones Inteligentes →](./recomendations/)
 
-Capacidades de búsqueda, incluyendo:
-* Consultas en lenguaje natural ("vestido de verano rojo")
-* Búsqueda por similitud visual
-* Lectura completa de imagen
-* Filtrado basado en estilo
-* Resultados conscientes de las tendencias
+### 🔍 Búsqueda Semántica
+Capacidades de búsqueda que incluyen:
+- Consultas en lenguaje natural ("vestido rojo de verano")
+- Búsqueda por similitud visual
+- Filtrado basado en estilo
+- Resultados conscientes de tendencias
 
-📈 **Optimización de SEO**
+[Conoce más sobre Búsqueda Semántica →](./recomendations/search/)
 
+### 📈 Optimización SEO
 Aumente su visibilidad en línea con:
-* Meta descripciones automatizadas
-* Palabras clave específicas de moda
-* Marcado de esquema de producto
-* Etiquetas específicas y altamente buscables
-* Optimización de contenido para motores de búsqueda
+- Meta descripciones automatizadas
+- Etiquetas específicas de moda
+- Marcado de schema de productos
+- Optimización de contenido para motores de búsqueda
 
-### Cómo funciona
+[Conoce más sobre Contenido SEO →](./seo-content/)
 
-1.  **Conecte** su catálogo existente desde la plataforma
-2.  **Active** la lectura automática de productos por el catálogo en configuración
-3.  **Optimice** la taxonomía para categorizar mejor sus productos - opcional
-4.  **Rastree** analice el rendimiento de las recomendaciones de moda desde Google Analytics
-5.  **Escale** su negocio de moda con insights basados en datos
+## Cómo Funciona
 
-### Público objetivo
+1. **Connect** your existing catalog
+2. **Enrich** products with AI-powered descriptions and attributes
+3. **Optimize** for search engines and user experience
+4. **Analyze** performance and customer behavior
+5. **Scale** your fashion business with data-driven insights
 
-* **Minoristas de moda** que buscan mejorar la calidad del catálogo
-* **Gerentes de e-commerce** que desean una mejor búsqueda y recomendaciones
-* **Equipos de marketing** enfocados en SEO y optimización de contenido
+## Usuarios Objetivo
+
+- **Fashion Retailers** looking to improve catalog quality
+- **E-commerce Managers** wanting better search and recommendations
+- **Marketing Teams** focusing on SEO and content optimization

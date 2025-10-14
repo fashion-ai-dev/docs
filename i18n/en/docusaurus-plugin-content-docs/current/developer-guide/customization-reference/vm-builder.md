@@ -2,6 +2,7 @@
 sidebar_position: 5
 ---
 
+
 # VM Builder – Collections and Subsets (Slices)
 
 The **VM Builder** allows you to create and organize product collections using **AI, spreadsheets, or manual selection**.
@@ -106,4 +107,5 @@ X-FashionAI-APP-Token: <app-token>
 ## 7. Best Practice Notes
 
 - Name collections and slices clearly to facilitate maintenance.
-- Avoid keeping more than one slice active at the same time, to reduce ambiguities.
+- Avoid keeping more than one slice active at the same time, to reduce ambiguities.  
+

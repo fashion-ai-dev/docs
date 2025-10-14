@@ -512,5 +512,11 @@
   "theme.SearchModal.placeholder": {
     "message": "Buscar documentos",
     "description": "The placeholder of the input of the DocSearch pop-up modal"
+  },
+  "components.NavigationBar.userGuide": {
+    "message": "Guía del Usuario"
+  },
+  "components.NavigationBar.developerGuide": {
+    "message": "Guía del Desarrollador"
   }
 }
