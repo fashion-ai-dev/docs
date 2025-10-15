@@ -1,68 +1,68 @@
-# Spreadsheet Import
+# Importação por Planilha
 
-Import your product catalog using spreadsheet templates for easy bulk uploads.
+Importe seu catálogo de produtos usando templates de planilhas para uploads em massa facilitados.
 
-## Overview
+## Visão Geral
 
-The spreadsheet import method allows you to upload your product catalog using CSV or Excel files. This is ideal for:
-- Initial bulk product imports
-- Product catalog updates
-- Offline catalog management
-- Migration from other systems
+O método de importação por planilha permite que você faça upload do seu catálogo de produtos usando arquivo CSV. Isso é ideal para:
+- Importações iniciais em massa de produtos
+- Atualizações de catálogo de produtos
+- Gerenciamento de catálogo offline
+- Migração de outros sistemas
 
-## Getting Started
+## Começando
 
-1. **Download Template**
-   - Get the spreadsheet template from your FashionAI dashboard
-   - Review the required fields and format
+1. **Baixar Template**
+   - Obtenha o template de planilha no seu painel FashionAI
+   - Revise os campos obrigatórios e o formato
 
-2. **Prepare Your Data**
-   - Fill in product information
-   - Include required fields (ID, name, price, etc.)
-   - Add optional attributes for better recommendations
+2. **Preparar seus Dados**
+   - Preencha as informações dos produtos
+   - Inclua campos obrigatórios (ID, nome, preço, etc.)
+   - Adicione atributos opcionais para melhores recomendações
 
-3. **Upload File**
-   - Log in to your dashboard
-   - Navigate to Products > Import
-   - Upload your spreadsheet file
+3. **Fazer Upload do Arquivo**
+   - Faça login no seu painel
+   - Navegue até Configurações > Gerenciador de Produtos
+   - Faça upload do seu arquivo de planilha
 
-4. **Validate Import**
-   - Review import summary
-   - Fix any errors
-   - Confirm import
+4. **Validar Importação**
+   - Revise o resumo da importação
+   - Corrija quaisquer erros
+   - Confirme a importação
 
-## Required Fields
+## Campos Obrigatórios
 
-- **Product ID** - Unique identifier for each product
-- **Name** - Product name
-- **Price** - Product price
-- **Image URL** - Main product image
-- **Category** - Product category
+- **Nome do Produto**
+- **ID da Categoria**
+- **URL da Imagem** - Imagem principal do produto
+- **Categoria** - Categoria do produto
 
-## Optional Fields
+## Campos Opcionais
 
-- Description
-- Brand
-- Color
-- Size
+- ID do Produto
+- Descrição
+- Marca
+- Cor
+- Tamanho
 - Tags
-- Additional images
+- Imagens adicionais
 
-## Best Practices
+## Melhores Práticas
 
-1. **Use Consistent IDs** - Keep product IDs consistent across updates
-2. **High-Quality Images** - Use clear product images with good resolution
-3. **Complete Descriptions** - Provide detailed product descriptions
-4. **Accurate Categories** - Use consistent category naming
-5. **Regular Updates** - Keep your catalog up to date
+1. **Use IDs Consistentes** - Mantenha os IDs dos produtos consistentes entre atualizações
+2. **Imagens de Alta Qualidade** - Use imagens claras de produtos com boa resolução
+3. **Descrições Completas** - Forneça descrições detalhadas dos produtos
+4. **Categorias Precisas** - Use nomenclatura de categorias consistente
+5. **Atualizações Regulares** - Mantenha seu catálogo atualizado
 
-## Troubleshooting
+## Solução de Problemas
 
-Common issues and solutions:
-- **Import Errors** - Check required fields are filled
-- **Duplicate IDs** - Ensure each product has a unique ID
-- **Image Issues** - Verify image URLs are accessible
+Problemas comuns e soluções:
+- **Erros de Importação** - Verifique se os campos obrigatórios estão preenchidos
+- **IDs Duplicados** - Certifique-se de que cada produto tenha um ID único
+- **Problemas com Imagens** - Verifique se as URLs das imagens estão acessíveis
 
-## Support
+## Suporte
 
-Need help with spreadsheet imports? Contact **support@generativecrm.com**
+Precisa de ajuda com importações de planilhas? Entre em contato: **support@generativecrm.com**

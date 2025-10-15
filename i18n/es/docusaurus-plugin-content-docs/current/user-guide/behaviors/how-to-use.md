@@ -1,40 +1,40 @@
-# How to Use Behaviors
+# Cómo Usar Comportamientos
 
-### Creating a Custom Behavior
+### Creando un Comportamiento Personalizado
 
-1. Navigate to the Behaviors section in our platform
+1. Navega a la sección de Comportamientos en nuestra plataforma
 
-![Tela Inicial Behaviors](/img/tela1-behaviors.png)
+![Pantalla Inicial Comportamientos](/img/tela1-behaviors.png)
 
-2. Click "Create New Behavior" in Custom Behaviors
+2. Haz clic en "Crear Nuevo Comportamiento" en Comportamientos Personalizados
 
-![Create Button](/img/tela2-behaviors.png)
+![Botón Crear](/img/tela2-behaviors.png)
 
-3. Enter descriptive inputs about the customer segment you want to identify
+3. Ingresa descripciones detalladas sobre el segmento de clientes que deseas identificar
 
-![Nico Inputs](/img/tela3-behaviors.png)
+![Entradas Nico](/img/tela3-behaviors.png)
 
-4. Let our AI analyze your customer data and generate the cluster
-5. Review the segment characteristics and customer count, you can edit the filters as much as you want
-   - Check the [Similarity Score](/docs/user-guide/behaviors#similarity-score-pontuação-de-similaridade) to Comprenda how cohesive the segment is
-   - Review the [Lifetime Value (LTV)](/docs/user-guide/behaviors#lifetime-value-ltv) to assess the value of this customer group
-   - See the [Audience Size](/docs/user-guide/behaviors#audience-size) to Comprenda your reach potential
-   - View the [Product Set Size](/docs/user-guide/behaviors#product-set-size) to see associated products
-6. Save and activate your new behavior
+4. Deja que nuestra IA analice los datos de tus clientes y genere el clúster
+5. Revisa las características del segmento y el número de clientes, puedes editar los filtros tanto como quieras
+   - Verifica el [Puntaje de Similitud](/docs/user-guide/behaviors#similarity-score-pontuação-de-similaridade) para comprender qué tan cohesivo es el segmento
+   - Revisa el [Valor del Tiempo de Vida (LTV)](/docs/user-guide/behaviors#lifetime-value-ltv) para evaluar el valor de este grupo de clientes
+   - Consulta el [Tamaño de Audiencia](/docs/user-guide/behaviors#audience-size) para comprender tu potencial de alcance
+   - Visualiza el [Tamaño del Conjunto de Productos](/docs/user-guide/behaviors#product-set-size) para ver los productos asociados
+6. Guarda y activa tu nuevo comportamiento
 
-### Applying Behaviors to Campaigns
+### Aplicando Comportamientos a Campañas
 
-Once you've created or selected a behavior, you can:
+Una vez que hayas creado o seleccionado un comportamiento, puedes:
 
-- **Build targeted CRM campaigns** - Send personalized messages to specific customer segments
-- **Create media audiences** - Export behaviors for use in advertising platforms
-- **Analyze performance** - Track how different behaviors respond to your campaigns
-- **Optimize product assortments** - Match product collections to customer preferences
+- **Construir campañas CRM dirigidas** - Envía mensajes personalizados a segmentos específicos de clientes
+- **Crear audiencias para medios** - Exporta comportamientos para usar en plataformas publicitarias
+- **Analizar rendimiento** - Rastrea cómo diferentes comportamientos responden a tus campañas
+- **Optimizar surtidos de productos** - Asocia colecciones de productos con las preferencias de los clientes
 
-## Best Practices
+## Mejores Prácticas
 
-- **Start with suggested behaviors** to quickly identify major customer segments
-- **Combine multiple behaviors** to create sophisticated, multi-dimensional targeting
-- **Regularly update custom behaviors** as your customer base and products evolve
-- **Test and measure** the performance of different behaviors to optimize your approach
-- **Use descriptive names** for custom behaviors to keep your segments organized
+- **Comienza con comportamientos sugeridos** para identificar rápidamente los principales segmentos de clientes
+- **Combina múltiples comportamientos** para crear segmentaciones sofisticadas y multidimensionales
+- **Actualiza regularmente los comportamientos personalizados** a medida que tu base de clientes y productos evolucionen
+- **Prueba y mide** el rendimiento de diferentes comportamientos para optimizar tu enfoque
+- **Usa nombres descriptivos** para los comportamientos personalizados para mantener tus segmentos organizados

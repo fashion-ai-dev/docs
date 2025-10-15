@@ -71,7 +71,6 @@ const sidebars: SidebarsConfig = {
       label: 'Vision Enrichment',
       items: [
         'user-guide/vision-enrichment/index',
-        'user-guide/vision-enrichment/who-we-are',
       ],
     },
   ],

@@ -33,8 +33,6 @@ Quick setup for popular e-commerce platforms:
 - **VTEX** - Custom components
 - **Custom implementations** - Contact Fashion's Support :mailbox: **support@generativecrm.com**
 
-[→ All Platform Integrations](./initial-setup/integrations/)
-
 ## 📊 Analytics & Tracking
 
 ### Google Analytics Enhanced Ecommerce
@@ -62,7 +60,6 @@ Track recommendation performance:
 
 - **API Issues** → Check [Authentication](./customization-reference/authentication)
 - **UI Problems** → See [UI Integration](./customization-reference/ui-integration)
-- **Platform Help** → [Platform Integrations](./initial-setup/integrations/)
 - **Analytics Setup** → [Analytics & Tracking](./analytics/)
 
 ## 📋 Next Steps

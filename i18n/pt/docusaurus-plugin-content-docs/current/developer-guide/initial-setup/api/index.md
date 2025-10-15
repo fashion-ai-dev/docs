@@ -1,43 +1,47 @@
-# API Integration
+---
+unlisted: true
+---
 
-Set up direct API integration with FashionAI for complete control over your implementation.
+# Integração API
 
-## Overview
+Configure a integração API direta com FashionAI para ter controle completo sobre sua implementação.
 
-The FashionAI API provides RESTful endpoints for product management, search, and recommendations. This guide walks you through the initial API setup.
+## Visão Geral
 
-## Prerequisites
+A API do FashionAI fornece endpoints RESTful para busca e recomendações. Este guia orienta você através da configuração inicial da API.
 
-- API credentials from the [FashionAI dashboard](https://app.generativecrm.com)
-- Basic understanding of REST APIs
-- Your product catalog data ready for import
+## Pré-requisitos
 
-## Setup Steps
+- Credenciais de API do [painel FashionAI](https://app.generativecrm.com)
+- Compreensão básica de APIs REST
+- Dados do seu catálogo de produtos prontos para importação
 
-1. **Get API Credentials**
-   - Log in to your FashionAI dashboard
-   - Navigate to Settings > API
-   - Generate your API token
+## Passos de Configuração
 
-2. **Authenticate Requests**
-   - Include your API token in request headers
-   - Use HTTPS for all API calls
-   - Store credentials securely
+1. **Obter Credenciais de API**
+   - Faça login no seu painel FashionAI
+   - Navegue até Configurações > API
+   - Gere seu token de API
 
-3. **Import Products**
-   - Use the product import endpoint
-   - Follow the product schema
-   - Validate imported data
+2. **Autenticar Requisições**
+   - Inclua seu token de API nos headers das requisições
+   - Use HTTPS para todas as chamadas de API
+   - Armazene as credenciais de forma segura
 
-4. **Test Integration**
-   - Make test API calls
-   - Verify data appears correctly
-   - Test search and recommendations
+3. **Importar Produtos**
+   - Use o endpoint de importação de produtos
+   - Siga o schema de produtos
+   - Valide os dados importados
 
-## API Documentation
+4. **Testar Integração**
+   - Faça chamadas de API de teste
+   - Verifique se os dados aparecem corretamente
+   - Teste busca e recomendações
 
-For detailed API reference, see the [Customization Reference](../../customization-reference/index.md) section.
+## Documentação da API
 
-## Support
+Para referência detalhada da API, consulte a seção [Referência de Customização](../../customization-reference/index.md).
 
-Need help with API integration? Contact **support@generativecrm.com**
+## Suporte
+
+Precisa de ajuda com a integração API? Entre em contato: **support@generativecrm.com**

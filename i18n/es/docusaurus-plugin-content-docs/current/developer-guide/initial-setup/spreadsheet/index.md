@@ -1,68 +1,67 @@
-# Spreadsheet Import
+# Importación por Hoja de Cálculo
 
-Import your product catalog using spreadsheet templates for easy bulk uploads.
+Importa tu catálogo de productos usando plantillas de hojas de cálculo para cargas masivas fáciles.
 
-## Overview
+## Descripción General
 
-The spreadsheet import method allows you to upload your product catalog using CSV or Excel files. This is ideal for:
-- Initial bulk product imports
-- Product catalog updates
-- Offline catalog management
-- Migration from other systems
+El método de importación por hoja de cálculo te permite subir tu catálogo de productos usando archivos CSV. Esto es ideal para:
+- Importaciones masivas iniciales de productos
+- Actualizaciones de catálogo de productos
+- Gestión de catálogo offline
+- Migración desde otros sistemas
 
-## Getting Started
+## Comenzando
 
-1. **Download Template**
-   - Get the spreadsheet template from your FashionAI dashboard
-   - Review the required fields and format
+1. **Descargar Plantilla**
+   - Obtén la plantilla de hoja de cálculo desde tu panel de FashionAI
+   - Revisa los campos requeridos y el formato
 
-2. **Prepare Your Data**
-   - Fill in product information
-   - Include required fields (ID, name, price, etc.)
-   - Add optional attributes for better recommendations
+2. **Preparar tus Datos**
+   - Completa la información de los productos
+   - Incluye campos requeridos (ID, categoría, nombre, precio, etc.)
+   - Agrega atributos opcionales para mejores recomendaciones
 
-3. **Upload File**
-   - Log in to your dashboard
-   - Navigate to Products > Import
-   - Upload your spreadsheet file
+3. **Subir Archivo**
+   - Inicia sesión en tu panel
+   - Navega a Configuración > Gestor de Productos
+   - Sube tu archivo de hoja de cálculo
 
-4. **Validate Import**
-   - Review import summary
-   - Fix any errors
-   - Confirm import
+4. **Validar Importación**
+   - Revisa el resumen de importación
+   - Corrige cualquier error
+   - Confirma la importación
 
-## Required Fields
+## Campos Requeridos
 
-- **Product ID** - Unique identifier for each product
-- **Name** - Product name
-- **Price** - Product price
-- **Image URL** - Main product image
-- **Category** - Product category
+- **Nombre del Producto**
+- **Categoría** - Categoría del producto
+- **ID de Categoría**
+- **URL de Imagen** - Imagen principal del producto
 
-## Optional Fields
+## Campos Opcionales
 
-- Description
-- Brand
+- ID del Producto
+- Descripción
+- Marca
 - Color
-- Size
-- Tags
-- Additional images
+- Talla
+- Imágenes adicionales
 
-## Best Practices
+## Mejores Prácticas
 
-1. **Use Consistent IDs** - Keep product IDs consistent across updates
-2. **High-Quality Images** - Use clear product images with good resolution
-3. **Complete Descriptions** - Provide detailed product descriptions
-4. **Accurate Categories** - Use consistent category naming
-5. **Regular Updates** - Keep your catalog up to date
+1. **Usa IDs Consistentes** - Mantén los IDs de productos consistentes entre actualizaciones
+2. **Imágenes de Alta Calidad** - Usa imágenes claras de productos con buena resolución
+3. **Descripciones Completas** - Proporciona descripciones detalladas de productos
+4. **Categorías Precisas** - Usa nomenclatura de categorías consistente
+5. **Actualizaciones Regulares** - Mantén tu catálogo actualizado
 
-## Troubleshooting
+## Solución de Problemas
 
-Common issues and solutions:
-- **Import Errors** - Check required fields are filled
-- **Duplicate IDs** - Ensure each product has a unique ID
-- **Image Issues** - Verify image URLs are accessible
+Problemas comunes y soluciones:
+- **Errores de Importación** - Verifica que los campos requeridos estén completos
+- **IDs Duplicados** - Asegúrate de que cada producto tenga un ID único
+- **Problemas de Imagen** - Verifica que las URLs de las imágenes sean accesibles
 
-## Support
+## Soporte
 
-Need help with spreadsheet imports? Contact **support@generativecrm.com**
+¿Necesitas ayuda con las importaciones de hojas de cálculo? Contacta **support@generativecrm.com**
