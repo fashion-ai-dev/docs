@@ -4,7 +4,7 @@ Import your product catalog using spreadsheet templates for easy bulk uploads.
 
 ## Overview
 
-The spreadsheet import method allows you to upload your product catalog using CSV or Excel files. This is ideal for:
+The spreadsheet import method allows you to upload your product catalog using CSV file. This is ideal for:
 - Initial bulk product imports
 - Product catalog updates
 - Offline catalog management
@@ -33,14 +33,14 @@ The spreadsheet import method allows you to upload your product catalog using CS
 
 ## Required Fields
 
-- **Product ID** - Unique identifier for each product
-- **Name** - Product name
-- **Price** - Product price
+- **Product Name**
+- **Category ID**
 - **Image URL** - Main product image
 - **Category** - Product category
 
 ## Optional Fields
 
+- Product ID
 - Description
 - Brand
 - Color

@@ -1,10 +1,14 @@
+---
+unlisted: true
+---
+
 # API Integration
 
 Set up direct API integration with FashionAI for complete control over your implementation.
 
 ## Overview
 
-The FashionAI API provides RESTful endpoints for product management, search, and recommendations. This guide walks you through the initial API setup.
+The FashionAI API provides RESTful endpoints for search and recommendations. This guide walks you through the initial API setup.
 
 ## Prerequisites
 
@@ -25,7 +29,7 @@ The FashionAI API provides RESTful endpoints for product management, search, and
    - Store credentials securely
 
 3. **Import Products**
-   - Use the product import endpoint
+   - Use the product import page
    - Follow the product schema
    - Validate imported data
 

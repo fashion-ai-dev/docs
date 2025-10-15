@@ -5,7 +5,7 @@ Get started with FashionAI by setting up your integration and configuring your p
 ## Setup Options
 
 ### [API Integration](./api)
-Set up direct API integration for full control and customization.
+Set up direct API integration.
 
 ### [Platform Integrations](./integrations)
 Quick setup guides for popular e-commerce platforms like Shopify and VTEX.

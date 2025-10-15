@@ -4,8 +4,8 @@ Comience con FashionAI configurando su integración y configurando su catálogo 
 
 ## Opciones de Configuración
 
-### [Integración de API](./api)
-Configure la integración directa de API para control total y personalización.
+<!-- ### [Integración de API](./api)
+Configure la integración directa de API para control total y personalización. -->
 
 ### [Integraciones de Plataforma](./integrations)
 Guías de configuración rápida para plataformas de comercio electrónico populares como Shopify y VTEX.
@@ -22,7 +22,7 @@ Importe su catálogo de productos usando plantillas de hojas de cálculo para ca
 
 ## Inicio Rápido
 
-¿Nuevo en FashionAI? Comience con nuestras [Integraciones de Plataforma](./integrations) para la configuración más rápida, o use [Integración de API](./api) para implementaciones personalizadas.
+¿Nuevo en FashionAI? Comience con nuestras [Integraciones de Plataforma](./integrations) para la configuración más rápida.
 
 ## ¿Necesita Ayuda?
 

@@ -1,33 +1,33 @@
-# Integrations
+# Integraciones
 
-Connect your customer behaviors to leading marketing and advertising platforms to activate your segments across multiple channels.
+Conecta los comportamientos de tus clientes con las principales plataformas de marketing y publicidad para activar tus segmentos a través de múltiples canales.
 
-## Available Integrations
+## Integraciones Disponibles
 
-### [Meta (Facebook & Instagram)](./meta)
+### [Meta (Facebook e Instagram)](./meta)
 
-Export behavioral segments as Custom Audiences for targeted advertising on Facebook and Instagram. Create lookalike audiences and automate audience updates.
+Exporta segmentos de comportamiento como Audiencias Personalizadas para publicidad dirigida en Facebook e Instagram. Crea audiencias similares y automatiza las actualizaciones de audiencia.
 
-**Best for:** Social media advertising, retargeting, lookalike acquisition
+**Ideal para:** Publicidad en redes sociales, retargeting, adquisición de audiencias similares
 
-[View Meta Integration →](./meta)
+[Ver Integración con Meta →](./meta)
 
 ---
 
 ### [HubSpot](./hubspot)
 
-Sync behaviors with your HubSpot CRM to enrich contacts, create targeted lists, and trigger automated workflows.
+Sincroniza comportamientos con tu CRM de HubSpot para enriquecer contactos, crear listas dirigidas y activar flujos de trabajo automatizados.
 
-**Best for:** CRM enrichment, email marketing, marketing automation
+**Ideal para:** Enriquecimiento de CRM, email marketing, automatización de marketing
 
-[View HubSpot Integration →](./hubspot)
+[Ver Integración con HubSpot →](./hubspot)
 
 ---
 
-> 💡 **Pro Tip:** Start with your highest-value behaviors (high LTV or large audience size) to maximize ROI on your first campaigns.
+> 💡 **Consejo Pro:** Comienza con tus comportamientos de mayor valor (LTV alto o tamaño de audiencia grande) para maximizar el ROI en tus primeras campañas.
 
-## Related Documentation
+## Documentación Relacionada
 
-- [Understanding Behaviors](../)
-- [How to Use Behaviors](../how-to-use)
-- [Behavior Metrics](../#métricas-clave)
+- [Comprendiendo Comportamientos](../)
+- [Cómo Usar Comportamientos](../how-to-use)
+- [Métricas de Comportamiento](../#métricas-clave)
