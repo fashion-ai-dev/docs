@@ -17,6 +17,24 @@ const sidebars: SidebarsConfig = {
     'user-guide/getting-started',
     {
       type: 'category',
+      label: 'Integrations',
+      key: 'platform-integrations',
+      items: [
+        'user-guide/integrations/vtex',
+        'user-guide/integrations/shopify',
+        {
+          type: 'category',
+          label: 'CSV Imports',
+          items: [
+            'user-guide/integrations/csv-imports/index',
+            'user-guide/integrations/csv-imports/products',
+            'user-guide/integrations/csv-imports/shop-the-look',
+          ],
+        },
+      ],
+    },
+    {
+      type: 'category',
       label: 'Recommendations',
       items: [
         'user-guide/recomendations/index',
@@ -41,6 +59,7 @@ const sidebars: SidebarsConfig = {
         {
           type: 'category',
           label: 'Integrations',
+          key: 'behaviors-integrations',
           items: [
             'user-guide/behaviors/integrations/index',
             'user-guide/behaviors/integrations/hubspot',
