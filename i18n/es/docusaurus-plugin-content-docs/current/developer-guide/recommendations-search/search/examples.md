@@ -47,5 +47,5 @@ console.log(`Encontrados ${results.totalItems} productos`);
 
 ## Próximos Pasos
 
-- [Autenticación](../../customization-reference/authentication) - Referencia rápida de autenticación
+- [Autenticación](../../authentication) - Referencia rápida de autenticación
 - [Visión General](./overview) - Visión general de la API de Búsqueda

@@ -40,7 +40,7 @@ A API do FashionAI fornece endpoints RESTful para busca e recomendações. Este 
 
 ## Documentação da API
 
-Para referência detalhada da API, consulte a seção [Referência de Customização](../../customization-reference/index.md).
+Para referência detalhada da API, consulte a seção [Referência de Customização](../../recommendations-search/index.md).
 
 ## Suporte
 

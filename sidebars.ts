@@ -17,6 +17,24 @@ const sidebars: SidebarsConfig = {
     'user-guide/getting-started',
     {
       type: 'category',
+      label: 'Integrations',
+      key: 'platform-integrations',
+      items: [
+        'user-guide/integrations/vtex',
+        'user-guide/integrations/shopify',
+        {
+          type: 'category',
+          label: 'CSV Imports',
+          items: [
+            'user-guide/integrations/csv-imports/index',
+            'user-guide/integrations/csv-imports/products',
+            'user-guide/integrations/csv-imports/shop-the-look',
+          ],
+        },
+      ],
+    },
+    {
+      type: 'category',
       label: 'Recommendations',
       items: [
         'user-guide/recomendations/index',
@@ -41,6 +59,7 @@ const sidebars: SidebarsConfig = {
         {
           type: 'category',
           label: 'Integrations',
+          key: 'behaviors-integrations',
           items: [
             'user-guide/behaviors/integrations/index',
             'user-guide/behaviors/integrations/hubspot',
@@ -107,12 +126,15 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
+    'developer-guide/authentication',
     {
       type: 'category',
       label: 'Recommendations & Search',
       items: [
         'developer-guide/recommendations-search/index',
         'developer-guide/recommendations-search/api-endpoints',
+        'developer-guide/recommendations-search/ui-integration',
+        'developer-guide/recommendations-search/vm-builder',
         {
           type: 'category',
           label: 'Search',
@@ -132,16 +154,6 @@ const sidebars: SidebarsConfig = {
         'developer-guide/analytics/index',
         'developer-guide/analytics/google-analytics',
         'developer-guide/analytics/google-tag-manager',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Customization Reference',
-      items: [
-        'developer-guide/customization-reference/index',
-        'developer-guide/customization-reference/authentication',
-        'developer-guide/customization-reference/ui-integration',
-        'developer-guide/customization-reference/vm-builder',
       ],
     },
   ],

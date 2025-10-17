@@ -49,5 +49,5 @@ La API retorna una estructura de respuesta consistente:
 
 ## Próximos Pasos
 
-- [Autenticación](../../customization-reference/authentication) - Aprende cómo autenticar tus solicitudes
+- [Autenticación](../../authentication) - Aprende cómo autenticar tus solicitudes
 - [Ejemplos de Implementación](./examples) - Ve ejemplos de código en diferentes lenguajes

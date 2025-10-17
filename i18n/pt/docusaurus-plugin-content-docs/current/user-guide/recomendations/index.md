@@ -32,7 +32,7 @@ Reorganize listagens de produtos dinamicamente com base no que o usuário está 
 - Layouts de página inicial personalizados
 - Destaque de tendências sazonais
 
-[Documentação técnica sobre Visual Merchandising →](../../developer-guide/customization-reference/vm-builder)
+[Documentação técnica sobre Visual Merchandising →](../../developer-guide/recommendations-search/vm-builder)
 
 
 ## Próximos Passos
@@ -40,7 +40,7 @@ Reorganize listagens de produtos dinamicamente com base no que o usuário está 
 🚀 **Pronto para implementar recomendações?** Escolha seu caminho de integração:
 
 - **[Referência de API](../../developer-guide/recommendations-search/api-endpoints)** - Guia de implementação técnica
-- **[Autenticação](../../developer-guide/customization-reference/authentication)** - Configure seu acesso à API
-- **[Integração de UI](../../developer-guide/customization-reference/ui-integration)** - Exemplos de implementação frontend
+- **[Autenticação](../../developer-guide/authentication)** - Configure seu acesso à API
+- **[Integração de UI](../../developer-guide/recommendations-search/ui-integration)** - Exemplos de implementação frontend
 - **[API de Busca](../../developer-guide/recommendations-search/search/overview)** - Busca inteligente de produtos
 - **[Configuração de Analytics](../../developer-guide/analytics/google-analytics)** - Rastreie o desempenho

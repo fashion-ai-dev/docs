@@ -15,5 +15,5 @@ Componentes personalizados e integração de API para VTEX.
 ## Precisa de Ajuda?
 
 - Revise nossa documentação de [Endpoints da API](../../recommendations-search/api-endpoints)
-- Confira nosso guia de [Autenticação](../../customization-reference/authentication)
-- Explore os padrões de [Integração de UI](../../customization-reference/ui-integration)
+- Confira nosso guia de [Autenticação](../../authentication)
+- Explore os padrões de [Integração de UI](../../recommendations-search/ui-integration)
