@@ -142,7 +142,7 @@ const config: Config = {
             },
             {
               label: 'footer.links.authentication',
-              to: '/docs/developer-guide/customization-reference/authentication',
+              to: '/docs/developer-guide/authentication',
             },
             {
               label: 'footer.links.search',
@@ -155,7 +155,7 @@ const config: Config = {
           items: [
             {
               label: 'footer.links.uiIntegration',
-              to: '/docs/developer-guide/customization-reference/ui-integration',
+              to: '/docs/developer-guide/recommendations-search/ui-integration',
             },
             {
               label: 'footer.links.googleAnalytics',

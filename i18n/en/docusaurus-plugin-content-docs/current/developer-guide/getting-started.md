@@ -14,7 +14,7 @@ Get your API credentials and start making requests:
 - Add to headers: `Authorization: Bearer YOUR_TOKEN`
 - Test with sample API call
 
-[→ Full Authentication Guide](./customization-reference/authentication)
+[→ Full Authentication Guide](./authentication)
 
 ### 2. Core APIs
 **Recommendations API** - Personalized product suggestions
@@ -25,7 +25,7 @@ Get your API credentials and start making requests:
 
 ## 🛠️ Integration Options
 
-[→ UI Integration Guide](./customization-reference/ui-integration)
+[→ UI Integration Guide](./recommendations-search/ui-integration)
 
 ### Platform-Specific
 Quick setup for popular e-commerce platforms:
@@ -58,16 +58,16 @@ Track recommendation performance:
 
 ## 🆘 Need Help?
 
-- **API Issues** → Check [Authentication](./customization-reference/authentication)
-- **UI Problems** → See [UI Integration](./customization-reference/ui-integration)
+- **API Issues** → Check [Authentication](./authentication)
+- **UI Problems** → See [UI Integration](./recommendations-search/ui-integration)
 - **Analytics Setup** → [Analytics & Tracking](./analytics/)
 
 ## 📋 Next Steps
 
-1. **[Set up authentication](./customization-reference/authentication)** - Get your API credentials
-3. **[Add to your UI](./customization-reference/ui-integration)** - Integrate frontend components
+1. **[Set up authentication](./authentication)** - Get your API credentials
+3. **[Add to your UI](./recommendations-search/ui-integration)** - Integrate frontend components
 2. **[Test API endpoints](./recommendations-search/api-endpoints)** - Make your first calls
 4. **[Configure analytics](./analytics/)** - Track performance
 ---
 
-**Ready to integrate?** Start with [Authentication](./customization-reference/authentication) →
+**Ready to integrate?** Start with [Authentication](./authentication) →

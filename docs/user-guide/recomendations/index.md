@@ -32,7 +32,7 @@ Reorganize product listings dynamically based on what the user is really looking
 - Personalized homepage layouts
 - Seasonal trend highlighting
 
-[Technical documentation about Visual Merchandising →](../../developer-guide/customization-reference/vm-builder)
+[Technical documentation about Visual Merchandising →](../../developer-guide/recommendations-search/vm-builder)
 
 
 ## Next Steps
@@ -40,7 +40,7 @@ Reorganize product listings dynamically based on what the user is really looking
 🚀 **Ready to implement recommendations?** Choose your integration path:
 
 - **[API Reference](../../developer-guide/recommendations-search/api-endpoints)** - Technical implementation guide
-- **[Authentication](../../developer-guide/customization-reference/authentication)** - Set up your API access
-- **[UI Integration](../../developer-guide/customization-reference/ui-integration)** - Frontend implementation examples
+- **[Authentication](../../developer-guide/authentication)** - Set up your API access
+- **[UI Integration](../../developer-guide/recommendations-search/ui-integration)** - Frontend implementation examples
 - **[Search API](../../developer-guide/recommendations-search/search/overview)** - Intelligent product search
 - **[Analytics Setup](../../developer-guide/analytics/google-analytics)** - Track performance

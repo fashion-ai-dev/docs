@@ -107,12 +107,15 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
+    'developer-guide/authentication',
     {
       type: 'category',
       label: 'Recommendations & Search',
       items: [
         'developer-guide/recommendations-search/index',
         'developer-guide/recommendations-search/api-endpoints',
+        'developer-guide/recommendations-search/ui-integration',
+        'developer-guide/recommendations-search/vm-builder',
         {
           type: 'category',
           label: 'Search',
@@ -132,16 +135,6 @@ const sidebars: SidebarsConfig = {
         'developer-guide/analytics/index',
         'developer-guide/analytics/google-analytics',
         'developer-guide/analytics/google-tag-manager',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Customization Reference',
-      items: [
-        'developer-guide/customization-reference/index',
-        'developer-guide/customization-reference/authentication',
-        'developer-guide/customization-reference/ui-integration',
-        'developer-guide/customization-reference/vm-builder',
       ],
     },
   ],

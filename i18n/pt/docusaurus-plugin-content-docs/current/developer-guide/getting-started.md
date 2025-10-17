@@ -13,7 +13,7 @@ Obtenha suas credenciais de API e comece a fazer requisições:
 - Gere um token API no painel
 - Teste com uma chamada de API de exemplo
 
-[→ Guia Completo de Autenticação](./customization-reference/authentication)
+[→ Guia Completo de Autenticação](./authentication)
 
 ### 2. APIs Principais
 **API de Recomendações** - Sugestões personalizadas de produtos
@@ -24,7 +24,7 @@ Obtenha suas credenciais de API e comece a fazer requisições:
 
 ## 🛠️ Opções de Integração
 
-[→ Guia de Integração UI](./customization-reference/ui-integration)
+[→ Guia de Integração UI](./recommendations-search/ui-integration)
 
 ### Específico por Plataforma
 Configuração rápida para plataformas de e-commerce populares:
@@ -57,17 +57,17 @@ Acompanhe o desempenho das recomendações:
 
 ## 🆘 Precisa de Ajuda?
 
-- **Problemas de API** → Confira [Autenticação](./customization-reference/authentication)
-- **Problemas de UI** → Veja [Integração UI](./customization-reference/ui-integration)
+- **Problemas de API** → Confira [Autenticação](./authentication)
+- **Problemas de UI** → Veja [Integração UI](./recommendations-search/ui-integration)
 - **Configuração de Analytics** → [Analytics e Rastreamento](./analytics/)
 
 ## 📋 Próximos Passos
 
-1. **[Configure a autenticação](./customization-reference/authentication)** - Obtenha suas credenciais de API
+1. **[Configure a autenticação](./authentication)** - Obtenha suas credenciais de API
 2. **[Teste os endpoints da API](./recommendations-search/api-endpoints)** - Faça suas primeiras chamadas
-3. **[Adicione à sua UI](./customization-reference/ui-integration)** - Integre componentes frontend
+3. **[Adicione à sua UI](./recommendations-search/ui-integration)** - Integre componentes frontend
 4. **[Configure analytics](./analytics/)** - Acompanhe o desempenho
 
 ---
 
-**Pronto para integrar?** Comece com [Autenticação](./customization-reference/authentication) →
+**Pronto para integrar?** Comece com [Autenticação](./authentication) →

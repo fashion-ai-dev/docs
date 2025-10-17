@@ -30,7 +30,7 @@ Content-Type: application/json
 X-FashionAI-APP-Token: {token}
 ```
 
-[¿Cómo generar mi token?](../../customization-reference/authentication)
+[¿Cómo generar mi token?](../../authentication)
 
 #### Respuesta
 
