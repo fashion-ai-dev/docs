@@ -40,8 +40,8 @@ Datos del Cliente → Servicio Fashion AI → Perfil Completo en JSON
 **Ejemplo:**
 ```json
 {
-  "descripcion_general": "Mujer de 35 años, profesional independiente, valora sostenibilidad y comodidad en el día a día",
-  "estilo_general": "Casual-chic con tendencia minimalista, prefiere tonos neutros y piezas atemporales"
+  "descricao_geral": "Mujer de 35 años, profesional independiente, valora sostenibilidad y comodidad en el día a día",
+  "estilo_geral": "Casual-chic con tendencia minimalista, prefiere tonos neutros y piezas atemporales"
 }
 ```
 
@@ -54,9 +54,9 @@ Para cada situación importante en la vida del cliente:
 **Ejemplo:**
 ```json
 {
-  "ocasion": "Trabajo - Reuniones Importantes",
-  "persona_en_la_ocasion": "Profesional confiada, elegante sin exageraciones",
-  "sugerencia_look": [
+  "ocasião": "Trabajo - Reuniones Importantes",
+  "persona_na_ocasião": "Profesional confiada, elegante sin exageraciones",
+  "sugestao_look": [
     "Blazer de sastrería beige",
     "Pantalón de sarga negro",
     "Blusa de seda off-white",
@@ -127,7 +127,7 @@ Análisis del comportamiento reciente:
 **Situación**: Necesitas ideas para posts de Instagram
 
 **Cómo usar**:
-- Usa los "ganchos_contenido" de tus mejores clientes
+- Usa los "ganchos_conteudo" de tus mejores clientes
 - Crea posts que resuenen con esos temas
 - Aumenta el engagement orgánicamente
 
@@ -145,8 +145,8 @@ Análisis del comportamiento reciente:
 **Situación**: El cliente siempre compraba casual, pero comenzó a buscar piezas formales
 
 **Cómo usar**:
-- El campo "nuevo_comportamiento" retorna `true`
-- Identifica el cambio en el campo "momento_compra_actual"
+- El campo "novo_comportamento" retorna `true`
+- Identifica el cambio en el campo "momento_compra_atual"
 - Contacta proactivamente ofreciendo consultoría
 - Captura la oportunidad antes que la competencia
 

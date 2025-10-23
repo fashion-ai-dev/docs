@@ -40,8 +40,8 @@ Customer Data → Fashion AI Service → Complete Profile in JSON
 **Example:**
 ```json
 {
-  "general_description": "35-year-old woman, independent professional, values sustainability and comfort in daily life",
-  "general_style": "Casual-chic with minimalist tendency, prefers neutral tones and timeless pieces"
+  "descricao_geral": "35-year-old woman, independent professional, values sustainability and comfort in daily life",
+  "estilo_geral": "Casual-chic with minimalist tendency, prefers neutral tones and timeless pieces"
 }
 ```
 
@@ -54,9 +54,9 @@ For each important situation in the customer's life:
 **Example:**
 ```json
 {
-  "occasion": "Work - Important Meetings",
-  "persona_on_occasion": "Confident professional, elegant without excess",
-  "look_suggestion": [
+  "ocasião": "Work - Important Meetings",
+  "persona_na_ocasião": "Confident professional, elegant without excess",
+  "sugestao_look": [
     "Beige tailored blazer",
     "Black twill pants",
     "Off-white silk blouse",
@@ -118,8 +118,8 @@ Recent behavior analysis:
 **Situation**: Customer browsed the site but didn't purchase
 
 **How to use**:
-- Analyze the "current_purchase_moment"
-- Identify suggested "opportunities"
+- Analyze the "momento_compra_atual"
+- Identify suggested "oportunidades"
 - Send personalized recommendations based on relevant occasions
 - Increase conversion by 25%+
 
@@ -127,7 +127,7 @@ Recent behavior analysis:
 **Situation**: You need ideas for Instagram posts
 
 **How to use**:
-- Use the "content_hooks" from your top customers
+- Use the "ganchos_conteudo" from your top customers
 - Create posts that resonate with these themes
 - Increase engagement organically
 
@@ -144,8 +144,8 @@ Recent behavior analysis:
 **Situation**: Customer always bought casual but started searching for formal pieces
 
 **How to use**:
-- "new_behavior" field returns `true`
-- Identify the change in the "current_purchase_moment" field
+- "novo_comportamento" field returns `true`
+- Identify the change in the "momento_compra_atual" field
 - Proactively contact offering consultation
 - Capture opportunity before competition
 
