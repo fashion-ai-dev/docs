@@ -1,4 +1,4 @@
-# Servicio de Perfilado de Clientes Fashion AI
+# Servicio de Perfilado de Clientes
 
 ## ¿Qué es este servicio?
 

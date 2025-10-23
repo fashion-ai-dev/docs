@@ -1,10 +1,8 @@
-# Serviço de Perfilagem de Clientes Fashion AI
+# Serviço de Perfilagem de Clientes
 
 ## O que é este serviço?
 
 O **Fashion AI Profiling** é um serviço inteligente que analisa o comportamento de compra e navegação dos seus clientes e gera automaticamente perfis detalhados e acionáveis. Esses perfis ajudam sua equipe de marketing, vendas e CRM a entender melhor cada cliente e criar experiências personalizadas.
-
----
 
 ## Para que serve?
 
@@ -20,7 +18,6 @@ O **Fashion AI Profiling** é um serviço inteligente que analisa o comportament
 
 ✅ **Criação de conteúdo**: Tenha direcionamentos claros para criar conteúdo relevante para cada cliente
 
----
 
 ## Como funciona?
 
@@ -35,7 +32,6 @@ Dados do Cliente → Serviço Fashion AI → Perfil Completo em JSON
 2. **Processamento**: Nossa IA analisa os dados e identifica padrões comportamentais
 3. **Saída**: Você recebe um perfil estruturado com insights e recomendações práticas
 
----
 
 ## O que você recebe no perfil gerado?
 
@@ -51,7 +47,6 @@ Dados do Cliente → Serviço Fashion AI → Perfil Completo em JSON
 }
 ```
 
----
 
 ### 2. **Ocasiões Relevantes**
 Para cada situação importante na vida do cliente:
@@ -73,7 +68,6 @@ Para cada situação importante na vida do cliente:
 }
 ```
 
----
 
 ### 3. **Briefing de Marketing**
 Direcionamentos práticos para campanhas:
@@ -87,13 +81,11 @@ Direcionamentos práticos para campanhas:
 **Orientação para campanhas**: Estratégias de posicionamento
 - Exemplo: ["Destacar versatilidade das peças", "Conectar produto com sustentabilidade", "Mostrar transição dia-noite"]
 
----
 
 ### 4. **Ganchos de Conteúdo**
 Temas que ressoam com o cliente:
 - Exemplo: ["Moda sustentável e consumo consciente", "Peças curingas para múltiplas ocasiões", "Minimalismo no guarda-roupa"]
 
----
 
 ### 5. **Momento de Compra Atual**
 Análise do comportamento recente:
@@ -113,7 +105,6 @@ Análise do comportamento recente:
 **Oportunidades**: Ações recomendadas
 - Exemplo: ["Enviar lookbook de vestidos midi", "Oferecer consultoria de styling virtual"]
 
----
 
 ## Como usar o serviço?
 
@@ -130,7 +121,6 @@ Análise do comportamento recente:
 - Crie 3-4 versões de email com tom de voz e direção visual adequados
 - Aumente taxa de abertura em 40%+
 
----
 
 ### 2. **Recomendação de Produtos**
 **Situação**: Cliente navegou no site mas não comprou
@@ -141,7 +131,6 @@ Análise do comportamento recente:
 - Envie recomendações personalizadas baseadas nas ocasiões relevantes
 - Aumente conversão em 25%+
 
----
 
 ### 3. **Criação de Conteúdo**
 **Situação**: Precisa de ideias para posts de Instagram
@@ -151,7 +140,6 @@ Análise do comportamento recente:
 - Crie posts que ressoam com esses temas
 - Aumente engajamento organicamente
 
----
 
 ### 4. **Atendimento VIP**
 **Situação**: Cliente de alto valor agendou consultoria
@@ -161,8 +149,6 @@ Análise do comportamento recente:
 - Já conhece estilo, ocasiões importantes e preferências
 - Sugere looks completos durante a consultoria
 - Aumente ticket médio em 60%+
-
----
 
 ### 5. **Detecção de Mudança de Comportamento**
 **Situação**: Cliente sempre comprava casual, mas começou a buscar peças formais
@@ -187,7 +173,6 @@ Sim, o modelo se adapta ao tipo de dados fornecidos.
 ### Posso integrar com meu CRM?
 Sim! Basta integrar via API REST. Consulte sua equipe técnica.
 
----
 
 ## Suporte
 

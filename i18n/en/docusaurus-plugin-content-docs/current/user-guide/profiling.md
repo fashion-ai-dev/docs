@@ -1,4 +1,4 @@
-# Fashion AI Customer Profiling Service
+# Customer Profiling Service
 
 ## What is this service?
 

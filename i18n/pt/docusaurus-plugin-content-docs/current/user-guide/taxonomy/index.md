@@ -1,4 +1,4 @@
-# Taxonomia
+# Minha IA de Estilo - Taxonomia
 
 Taxonomias são estruturas de dados que definem como descrever produtos de forma padronizada. Pense nisso como um "dicionário" que ensina o sistema a gerar descrições, conteúdo SEO, cores, tamanhos, etc. para produtos de e-commerce.
 

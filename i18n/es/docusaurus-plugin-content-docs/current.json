@@ -24,12 +24,12 @@
     "description": "The label for category SEO Content in sidebar userGuideSidebar"
   },
   "sidebar.userGuideSidebar.category.Taxonomy": {
-    "message": "Taxonomía",
+    "message": "Mi IA de Estilo - Taxonomía",
     "description": "The label for category Taxonomy in sidebar userGuideSidebar"
   },
   "sidebar.userGuideSidebar.category.Vision Enrichment": {
-    "message": "Enriquecimiento de Visión",
-    "description": "The label for category Vision Enrichment in sidebar userGuideSidebar"
+    "message": "Catálogo",
+    "description": "The label for category Catálogo in sidebar userGuideSidebar"
   },
   "sidebar.developerGuideSidebar.category.Initial Setup": {
     "message": "Configuración Inicial",

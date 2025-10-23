@@ -20,16 +20,16 @@
     "description": "The label for category Integrations in sidebar userGuideSidebar"
   },
   "sidebar.userGuideSidebar.category.SEO Content": {
-    "message": "Conteúdo SEO",
+    "message": "Conteúdo de SEO",
     "description": "The label for category SEO Content in sidebar userGuideSidebar"
   },
   "sidebar.userGuideSidebar.category.Taxonomy": {
-    "message": "Taxonomia",
+    "message": "Minha IA de Estilo - Taxonomia",
     "description": "The label for category Taxonomy in sidebar userGuideSidebar"
   },
   "sidebar.userGuideSidebar.category.Vision Enrichment": {
-    "message": "Enriquecimento de Visão",
-    "description": "The label for category Vision Enrichment in sidebar userGuideSidebar"
+    "message": "Catálogo",
+    "description": "The label for category Catálogo in sidebar userGuideSidebar"
   },
   "sidebar.developerGuideSidebar.category.Initial Setup": {
     "message": "Configuração Inicial",

@@ -4,7 +4,7 @@ sidebar_position: 4
 
 # API de Perfilado de Clientes
 
-Referencia técnica para los endpoints de la API de Perfilado de Clientes de Fashion.AI. Esta API analiza el comportamiento de compra y navegación del cliente para generar perfiles detallados y accionables con insights impulsados por IA para personalización de marketing, ventas y CRM.
+Referencia técnica de los endpoints de la API de Perfilado de Clientes de Fashion.AI. Esta API analiza el comportamiento de compra y navegación de los clientes para generar perfiles detallados y accionables con insights impulsados por IA para personalización de marketing, ventas y CRM.
 
 ## Visión General
 
@@ -15,133 +15,56 @@ El servicio Fashion AI Profiling genera automáticamente perfiles completos de c
 - Preferencias de productos
 - Insights conductuales
 
-Para una explicación detallada de casos de uso y estructura de perfiles, consulta la [Guía de Usuario: Perfilado](../user-guide/profiling).
+Para una explicación detallada de los casos de uso y estructura del perfil, consulte la [Guía del Usuario: Perfilado](../user-guide/profiling).
 
 ## Configuración Base
 
-### Endpoint Base
+**URL Base:**
 ```
 https://catalog.api.fashionaiale.com/api/v1/crm
 ```
 
-### Headers Requeridos
-```json
-{
-  "Content-Type": "application/json",
-  "X-FashionAI-APP-Token": "<your_app_token>"
-}
+**Headers Obligatorios:**
+```http
+Content-Type: application/json
+X-FashionAI-APP-Token: <tu_app_token>
 ```
 
-> Genera tu token en: https://app.generativecrm.com/settings?tab=app-tokens
+> **Obtén tu token:** https://app.generativecrm.com/settings?tab=app-tokens
 
-## Autenticación
-
-Todos los endpoints de perfilado usan el mismo método de autenticación que las otras APIs de Fashion.AI. Para instrucciones detalladas de autenticación, consulta [Autenticación de API](./authentication).
+**Autenticación:** Todos los endpoints usan el mismo método de autenticación que las demás APIs Fashion.AI. Consulta [Autenticación de la API](./authentication) para más detalles.
 
 ## Endpoints de la API
 
-### 1. Obtener Perfil por User Profile ID
+Todos los endpoints retornan la misma estructura de perfil. Elige el endpoint basándote en el identificador de cliente que tengas disponible.
 
-Recupera un perfil de cliente usando su identificador único de perfil de usuario.
+### Endpoints Disponibles
 
-**Endpoint:**
-```
-GET /protected/profile/user-profile-id/:userProfileId
-```
+| Endpoint | Parámetro | Descripción |
+|----------|-----------|-------------|
+| `GET /protected/profile/user-profile-id/:userProfileId` | User Profile ID | Recuperar perfil por identificador Fashion AI |
+| `GET /protected/profile/phone/:phone` | Teléfono | Recuperar perfil por número de teléfono |
+| `GET /protected/profile/email/:email` | Email | Recuperar perfil por dirección de email |
+| `GET /protected/profile/document/:document` | Documento | Recuperar perfil por documento (CPF, ID, etc.) |
 
-**Parámetros:**
-
-| Parámetro | Tipo | Ubicación | Requerido | Descripción |
-|-----------|------|-----------|-----------|-------------|
-| `userProfileId` | string | path | Sí | Identificador único del perfil de usuario |
-
-**Ejemplo de Solicitud:**
+### Ejemplo Básico
 
 ```bash
 curl -X GET \
-  'https://catalog.api.fashionaiale.com/api/v1/crm/protected/profile/user-profile-id/ddsd23223' \
+  'https://catalog.api.fashionaiale.com/api/v1/crm/protected/profile/email/cliente@ejemplo.com' \
   -H 'Content-Type: application/json' \
-  -H 'X-FashionAI-APP-Token: <your_app_token>'
+  -H 'X-FashionAI-APP-Token: <tu_app_token>'
 ```
 
-**Ejemplo de Respuesta:**
+### Ejemplos de Código
 
-```json
-{
-  "userProfileId": "ddsd23223",
-  "profile": {
-    "perfil_cliente": {
-      "descricao_geral": "Hombre de 30-40 años, profesional que valora calidad y atemporalidad",
-      "estilo_geral": "Casual-elegante minimalista, tonos neutros, cortes regulares"
-    },
-    "ocasioes_relevantes": [
-      {
-        "ocasião": "Trabajo business casual",
-        "persona_na_ocasião": "Profesional confiado y alineado",
-        "sugestao_look": [
-          "Camisa manga larga",
-          "Chino oscuro",
-          "Zapato casual"
-        ]
-      }
-    ],
-    "briefing_marketing": {
-      "tom_de_voz": ["inspiracional", "auténtico", "sofisticado"],
-      "direcao_visual": ["Paleta neutra", "Escenarios urbanos", "Luz natural"],
-      "orientacao_campanhas": [
-        "Versatilidad",
-        "Calidad premium",
-        "Lifestyle urbano"
-      ]
-    },
-    "ganchos_conteudo": [
-      "Guardarropa cápsula masculino",
-      "Básicos premium que valen la inversión"
-    ],
-    "momento_compra_atual": {
-      "navegacoes": ["01/09: visualizó Short Azul Claro"],
-      "resumo_momento": "Explorando piezas de verano y ocio",
-      "relacao_com_historico": "Expande perfil para momentos de descontracción",
-      "novo_comportamento": true,
-      "oportunidades": [
-        "Curaduría looks verano",
-        "Bundle viaje"
-      ]
-    }
-  }
-}
-```
-
-### 2. Obtener Perfil por Teléfono
-
-Recupera un perfil de cliente usando su número de teléfono.
-
-**Endpoint:**
-```
-GET /protected/profile/phone/:phone
-```
-
-**Parámetros:**
-
-| Parámetro | Tipo | Ubicación | Requerido | Descripción |
-|-----------|------|-----------|-----------|-------------|
-| `phone` | string | path | Sí | Número de teléfono del cliente |
-
-**Ejemplo de Solicitud:**
-
-```bash
-curl -X GET \
-  'https://catalog.api.fashionaiale.com/api/v1/crm/protected/profile/phone/5511999998888' \
-  -H 'Content-Type: application/json' \
-  -H 'X-FashionAI-APP-Token: <your_app_token>'
-```
-
-**Ejemplo en JavaScript:**
+<details>
+<summary><strong>JavaScript/Node.js</strong></summary>
 
 ```javascript
-const getProfileByPhone = async (phone) => {
+const obtenerPerfil = async (identificador, tipo = 'email') => {
   const response = await fetch(
-    `https://catalog.api.fashionaiale.com/api/v1/crm/protected/profile/phone/${phone}`,
+    `https://catalog.api.fashionaiale.com/api/v1/crm/protected/profile/${tipo}/${identificador}`,
     {
       method: 'GET',
       headers: {
@@ -152,98 +75,24 @@ const getProfileByPhone = async (phone) => {
   );
 
   if (!response.ok) {
-    throw new Error(`HTTP error! status: ${response.status}`);
+    throw new Error(`Error HTTP! status: ${response.status}`);
   }
 
   return await response.json();
 };
 
-// Uso
-const profile = await getProfileByPhone('5511999998888');
-console.log(profile.profile.briefing_marketing.tom_de_voz);
+// Ejemplos de uso
+const perfilPorEmail = await obtenerPerfil('cliente@ejemplo.com', 'email');
+const perfilPorTelefono = await obtenerPerfil('5511999998888', 'phone');
+const perfilPorDoc = await obtenerPerfil('12345678900', 'document');
 ```
+</details>
 
-### 3. Obtener Perfil por Email
-
-Recupera un perfil de cliente usando su dirección de correo electrónico.
-
-**Endpoint:**
-```
-GET /protected/profile/email/:email
-```
-
-**Parámetros:**
-
-| Parámetro | Tipo | Ubicación | Requerido | Descripción |
-|-----------|------|-----------|-----------|-------------|
-| `email` | string | path | Sí | Dirección de correo electrónico del cliente |
-
-**Ejemplo de Solicitud:**
-
-```bash
-curl -X GET \
-  'https://catalog.api.fashionaiale.com/api/v1/crm/protected/profile/email/customer@example.com' \
-  -H 'Content-Type: application/json' \
-  -H 'X-FashionAI-APP-Token: <your_app_token>'
-```
-
-**Ejemplo en Python:**
-
-```python
-import requests
-import os
-
-def get_profile_by_email(email):
-    url = f"https://catalog.api.fashionaiale.com/api/v1/crm/protected/profile/email/{email}"
-    headers = {
-        "Content-Type": "application/json",
-        "X-FashionAI-APP-Token": os.getenv("FASHION_AI_TOKEN")
-    }
-
-    response = requests.get(url, headers=headers)
-    response.raise_for_status()
-
-    return response.json()
-
-# Uso
-profile = get_profile_by_email("customer@example.com")
-
-# Acceder a secciones específicas del perfil
-marketing_brief = profile["profile"]["briefing_marketing"]
-current_moment = profile["profile"]["momento_compra_atual"]
-
-print(f"Tono de voz: {marketing_brief['tom_de_voz']}")
-print(f"Oportunidades: {current_moment['oportunidades']}")
-```
-
-### 4. Obtener Perfil por Documento
-
-Recupera un perfil de cliente usando su número de documento (CPF, ID, etc.).
-
-**Endpoint:**
-```
-GET /protected/profile/document/:document
-```
-
-**Parámetros:**
-
-| Parámetro | Tipo | Ubicación | Requerido | Descripción |
-|-----------|------|-----------|-----------|-------------|
-| `document` | string | path | Sí | Número de documento del cliente |
-
-**Ejemplo de Solicitud:**
-
-```bash
-curl -X GET \
-  'https://catalog.api.fashionaiale.com/api/v1/crm/protected/profile/document/12345678900' \
-  -H 'Content-Type: application/json' \
-  -H 'X-FashionAI-APP-Token: <your_app_token>'
-```
-
-**Ejemplo en Node.js/TypeScript:**
+<details>
+<summary><strong>TypeScript</strong></summary>
 
 ```typescript
-interface CustomerProfile {
+interface PerfilCliente {
   userProfileId: string;
   profile: {
     perfil_cliente: {
@@ -271,9 +120,12 @@ interface CustomerProfile {
   };
 }
 
-async function getProfileByDocument(document: string): Promise<CustomerProfile> {
+async function obtenerPerfil(
+  identificador: string,
+  tipo: 'email' | 'phone' | 'document' | 'user-profile-id'
+): Promise<PerfilCliente> {
   const response = await fetch(
-    `https://catalog.api.fashionaiale.com/api/v1/crm/protected/profile/document/${document}`,
+    `https://catalog.api.fashionaiale.com/api/v1/crm/protected/profile/${tipo}/${identificador}`,
     {
       method: 'GET',
       headers: {
@@ -284,143 +136,190 @@ async function getProfileByDocument(document: string): Promise<CustomerProfile> 
   );
 
   if (!response.ok) {
-    throw new Error(`Failed to fetch profile: ${response.statusText}`);
+    throw new Error(`Error al obtener perfil: ${response.statusText}`);
   }
 
   return await response.json();
 }
 
 // Uso
-const profile = await getProfileByDocument('12345678900');
+const perfil = await obtenerPerfil('cliente@ejemplo.com', 'email');
 
-// Acceso type-safe a los datos del perfil
-const { briefing_marketing, momento_compra_atual } = profile.profile;
+if (perfil.profile.momento_compra_atual.novo_comportamento) {
+  console.log('¡Nuevo comportamiento detectado!');
+  console.log('Oportunidades:', perfil.profile.momento_compra_atual.oportunidades);
+}
+```
+</details>
 
-if (momento_compra_atual.novo_comportamento) {
-  console.log('¡El cliente está mostrando un nuevo comportamiento!');
-  console.log('Oportunidades:', momento_compra_atual.oportunidades);
+<details>
+<summary><strong>Python</strong></summary>
+
+```python
+import requests
+import os
+
+def obtener_perfil(identificador, tipo_perfil='email'):
+    """
+    Recupera perfil de cliente por identificador.
+
+    Args:
+        identificador: El identificador del cliente (email, phone, document o userProfileId)
+        tipo_perfil: Tipo de identificador ('email', 'phone', 'document', 'user-profile-id')
+    """
+    url = f"https://catalog.api.fashionaiale.com/api/v1/crm/protected/profile/{tipo_perfil}/{identificador}"
+    headers = {
+        "Content-Type": "application/json",
+        "X-FashionAI-APP-Token": os.getenv("FASHION_AI_TOKEN")
+    }
+
+    response = requests.get(url, headers=headers)
+    response.raise_for_status()
+
+    return response.json()
+
+# Ejemplos de uso
+perfil = obtener_perfil("cliente@ejemplo.com", "email")
+perfil = obtener_perfil("5511999998888", "phone")
+perfil = obtener_perfil("12345678900", "document")
+
+# Acceder a datos del perfil
+briefing_marketing = perfil["profile"]["briefing_marketing"]
+print(f"Tono de voz: {briefing_marketing['tom_de_voz']}")
+```
+</details>
+
+### Ejemplo de Respuesta
+
+Todos los endpoints retornan la misma estructura:
+
+```json
+{
+  "userProfileId": "ddsd23223",
+  "profile": {
+    "perfil_cliente": {
+      "descricao_geral": "Homem de 30-40 anos, profissional que valoriza qualidade e atemporalidade",
+      "estilo_geral": "Casual-elegante minimalista, tons neutros, cortes regulares"
+    },
+    "ocasioes_relevantes": [
+      {
+        "ocasião": "Trabalho business casual",
+        "persona_na_ocasião": "Profissional confiante e alinhado",
+        "sugestao_look": [
+          "Camisa manga longa",
+          "Chino escura",
+          "Sapato casual"
+        ]
+      }
+    ],
+    "briefing_marketing": {
+      "tom_de_voz": ["inspiracional", "autêntico", "sofisticado"],
+      "direcao_visual": ["Paleta neutra", "Cenários urbanos", "Luz natural"],
+      "orientacao_campanhas": [
+        "Versatilidade",
+        "Qualidade premium",
+        "Lifestyle urbano"
+      ]
+    },
+    "ganchos_conteudo": [
+      "Guarda-roupa cápsula masculino",
+      "Básicos premium que valem o investimento"
+    ],
+    "momento_compra_atual": {
+      "navegacoes": ["01/09: visualizou Short Azul Claro"],
+      "resumo_momento": "Explorando peças de verão e lazer",
+      "relacao_com_historico": "Expande perfil para momentos de descontração",
+      "novo_comportamento": true,
+      "oportunidades": [
+        "Curadoria looks verão",
+        "Bundle viagem"
+      ]
+    }
+  }
 }
 ```
 
-## Estructura de Respuesta
+## Estructura de la Respuesta
 
-Todos los endpoints devuelven la misma estructura de perfil:
-
-### Objeto Profile
+Todos los endpoints retornan la misma estructura:
 
 | Campo | Tipo | Descripción |
 |-------|------|-------------|
 | `userProfileId` | string | Identificador único del cliente |
-| `profile` | object | Perfil completo del cliente |
+| `profile` | object | Perfil completo del cliente (detalles abajo) |
 
-### Detalles del Perfil
+### Campos del Perfil
 
-#### perfil_cliente
-Descripción general del cliente y preferencias de estilo.
-
-```json
-{
-  "descricao_geral": "Estilo de vida, valores e intereses del cliente",
-  "estilo_geral": "Estilo de moda, preferencias de color, cortes y estéticas"
-}
-```
-
-#### ocasioes_relevantes
-Array de ocasiones relevantes con sugerencias de outfits.
-
-```json
-[
-  {
-    "ocasião": "Nombre de la ocasión (trabajo, fiesta, casual, etc.)",
-    "persona_na_ocasião": "Cómo se presenta el cliente",
-    "sugestao_look": ["Item 1", "Item 2", "Item 3"]
-  }
-]
-```
-
-#### briefing_marketing
-Orientación de marketing para campañas.
-
-```json
-{
-  "tom_de_voz": ["tono1", "tono2"],
-  "direcao_visual": ["visual1", "visual2"],
-  "orientacao_campanhas": ["estrategia1", "estrategia2"]
-}
-```
-
-#### ganchos_conteudo
-Temas de contenido que resuenan con el cliente.
-
-```json
-["tema1", "tema2", "tema3"]
-```
-
-#### momento_compra_atual
-Análisis del momento de compra actual.
-
-```json
-{
-  "navegacoes": ["Patrones de navegación recientes"],
-  "resumo_momento": "Interpretación conductual",
-  "relacao_com_historico": "Cómo se conecta con el historial de compras",
-  "novo_comportamento": true,
-  "oportunidades": ["Acción recomendada 1", "Acción recomendada 2"]
-}
-```
+| Campo | Tipo | Descripción |
+|-------|------|-------------|
+| `perfil_cliente` | object | Descripción general del cliente y preferencias de estilo |
+| `perfil_cliente.descricao_geral` | string | Estilo de vida, valores e intereses del cliente |
+| `perfil_cliente.estilo_geral` | string | Estilo de moda, preferencias de colores, cortes y estéticas |
+| `ocasioes_relevantes` | array | Lista de ocasiones relevantes con sugerencias de looks |
+| `ocasioes_relevantes[].ocasião` | string | Nombre de la ocasión (trabajo, fiesta, casual, etc.) |
+| `ocasioes_relevantes[].persona_na_ocasião` | string | Cómo se presenta el cliente en esta ocasión |
+| `ocasioes_relevantes[].sugestao_look` | array | Sugerencia de look completo (lista de items) |
+| `briefing_marketing` | object | Orientaciones de marketing para campañas |
+| `briefing_marketing.tom_de_voz` | array | Recomendaciones de tono de comunicación |
+| `briefing_marketing.direcao_visual` | array | Dirección visual para campañas |
+| `briefing_marketing.orientacao_campanhas` | array | Estrategias de posicionamiento de campaña |
+| `ganchos_conteudo` | array | Temas de contenido que resuenan con el cliente |
+| `momento_compra_atual` | object | Análisis del momento de compra actual |
+| `momento_compra_atual.navegacoes` | array | Patrones de navegación/browsing recientes |
+| `momento_compra_atual.resumo_momento` | string | Interpretación conductual del momento actual |
+| `momento_compra_atual.relacao_com_historico` | string | Cómo el comportamiento actual se relaciona con el historial de compras |
+| `momento_compra_atual.novo_comportamento` | boolean | Si el cliente está mostrando comportamiento nuevo/diferente |
+| `momento_compra_atual.oportunidades` | array | Acciones recomendadas basadas en el momento actual |
 
 ## Manejo de Errores
 
-### Códigos de Estado HTTP Comunes
-
 | Código de Estado | Descripción | Solución |
-|------------------|-------------|----------|
-| `200` | Éxito | Perfil devuelto exitosamente |
-| `401` | No autorizado | Verifica tu token APP |
-| `404` | No encontrado | El perfil no existe para el identificador proporcionado |
-| `429` | Demasiadas solicitudes | Implementa limitación de tasa en tu aplicación |
-| `500` | Error interno del servidor | Contacta soporte |
+|-----------------|-------------|----------|
+| `200` | Éxito | Perfil retornado exitosamente |
+| `401` | No Autorizado | Verifica que tu token APP sea correcto |
+| `404` | No Encontrado | El perfil no existe para el identificador proporcionado |
+| `429` | Demasiadas Peticiones | Implementa rate limiting en tu aplicación |
+| `500` | Error Interno del Servidor | Contacta con soporte |
 
 ## Seguridad y CORS
 
-Para proteger el token de autenticación (X-FashionAI-APP-Token), las solicitudes directas desde el navegador están bloqueadas. Si se realiza una llamada a la API directamente desde el frontend, el navegador bloqueará esta solicitud con un error CORS.
+> **Importante:** Las peticiones directas del navegador están bloqueadas para proteger tu token de autenticación.
 
-Esta medida evita que el token quede expuesto en el código fuente del sitio web, lo que podría comprometer la seguridad de la API y permitir el uso no autorizado.
+El `X-FashionAI-APP-Token` no debe ser expuesto en código frontend. Si intentas llamar a la API directamente desde el navegador, recibirás un error CORS.
 
-**Enfoque recomendado**: Realiza todas las llamadas a la API de perfilado desde tu servidor backend.
+**Recomendado:** Realiza todas las llamadas a la API desde tu servidor backend.
 
-Si tu equipo necesita realizar llamadas directamente desde el frontend, contacta al soporte técnico de FashionAI para solicitar autorización de dominio: :mailbox: **support@generativecrm.com**
+**¿Necesitas acceso frontend?** Contacta con soporte para solicitar autorización de dominio:
+:mailbox: **support@generativecrm.com**
 
 ## Casos de Uso
 
-### 1. Campañas de Marketing Personalizadas
+**Marketing Personalizado**
+Segmenta clientes por `briefing_marketing.tom_de_voz` y crea campañas dirigidas con tono y dirección visual apropiados.
 
-Segmenta clientes por `briefing_marketing.tom_de_voz` y crea campañas de email dirigidas con tono de voz y dirección visual apropiados.
+**Recomendaciones de Productos**
+Usa `ocasioes_relevantes` para sugerir combinaciones completas de looks basadas en el estilo de vida del cliente.
 
-### 2. Recomendaciones de Productos
+**Creación de Contenido**
+Aprovecha `ganchos_conteudo` para crear posts de blog, redes sociales y newsletters que resuenen con tu audiencia.
 
-Usa `ocasioes_relevantes` para sugerir combinaciones completas de outfits basadas en el estilo de vida del cliente.
+**Detección de Cambio de Comportamiento**
+Monitorea `momento_compra_atual.novo_comportamento` para identificar clientes explorando nuevos estilos y ofrecer consultorías proactivas.
 
-### 3. Creación de Contenido
+**Capacitación de Ventas**
+Proporciona a los equipos de ventas datos de `perfil_cliente` antes de consultas VIP para servicio personalizado.
 
-Aprovecha `ganchos_conteudo` para crear posts de blog, contenido de redes sociales y newsletters que resuenen con tu audiencia.
-
-### 4. Detección de Cambio de Comportamiento
-
-Monitorea `momento_compra_atual.novo_comportamento` para identificar clientes explorando nuevos estilos y ofrecer proactivamente consultas de styling.
-
-### 5. Habilitación del Equipo de Ventas
-
-Proporciona a los representantes de ventas el `perfil_cliente` antes de consultas VIP para ofrecer servicio personalizado.
+---
 
 ## Soporte
 
-Para preguntas técnicas o consultas comerciales, contacta al equipo de Fashion AI:
-
+Para preguntas técnicas o comerciales:
 :mailbox: **support@generativecrm.com**
 
-## Próximos Pasos
+---
 
-- [Guía de Autenticación](./authentication) - Instrucciones detalladas de autenticación
-- [Guía de Usuario: Perfilado](../user-guide/profiling) - Comprende la estructura del perfil y casos de uso
-- [Comenzando](./getting-started) - Guía de configuración inicial e integración
+## Documentación Relacionada
+
+- [Guía de Autenticación](./authentication) - Detalles de configuración y autenticación
+- [Guía del Usuario: Perfilado](../user-guide/profiling) - Casos de uso y estructura del perfil
+- [Primeros Pasos](./getting-started) - Guía de integración inicial
