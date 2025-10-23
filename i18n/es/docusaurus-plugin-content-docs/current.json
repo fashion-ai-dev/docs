@@ -43,6 +43,10 @@
     "message": "Configuración Inicial",
     "description": "The label for category Initial Setup in sidebar developerGuideSidebar"
   },
+  "sidebar.developerGuideSidebar.category.Profiling": {
+    "message": "Perfilado de Clientes",
+    "description": "The label for category Profiling in sidebar developerGuideSidebar"
+  },
   "sidebar.developerGuideSidebar.category.API": {
     "message": "API",
     "description": "The label for category API in sidebar developerGuideSidebar"

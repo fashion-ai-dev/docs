@@ -148,7 +148,15 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
-    'developer-guide/profiling',
+    {
+      type: 'category',
+      label: 'Profiling',
+      items: [
+        'developer-guide/profiling/index',
+        'developer-guide/profiling/endpoints',
+        'developer-guide/profiling/response-structure',
+      ],
+    },
     {
       type: 'category',
       label: 'Analytics',
