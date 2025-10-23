@@ -15,7 +15,11 @@
     "message": "Comportamentos",
     "description": "The label for category Behaviors in sidebar userGuideSidebar"
   },
-  "sidebar.userGuideSidebar.category.Integrations": {
+  "sidebar.userGuideSidebar.category.CSV Imports": {
+    "message": "Importações CSV",
+    "description": "The label for category CSV Imports in sidebar userGuideSidebar"
+  },
+  "sidebar.userGuideSidebar.category.behaviors-integrations": {
     "message": "Integrações",
     "description": "The label for category Integrations in sidebar userGuideSidebar"
   },
@@ -26,6 +30,10 @@
   "sidebar.userGuideSidebar.category.Taxonomy": {
     "message": "Minha IA de Estilo - Taxonomia",
     "description": "The label for category Taxonomy in sidebar userGuideSidebar"
+  },
+  "sidebar.userGuideSidebar.category.plataform-integrations": {
+    "message": "Integrações",
+    "description": "The label for category Integrations in sidebar userGuideSidebar"
   },
   "sidebar.userGuideSidebar.category.Vision Enrichment": {
     "message": "Catálogo",

@@ -15,7 +15,11 @@
     "message": "Comportamientos",
     "description": "The label for category Behaviors in sidebar userGuideSidebar"
   },
-  "sidebar.userGuideSidebar.category.Integrations": {
+  "sidebar.userGuideSidebar.category.CSV Imports": {
+    "message": "Importaciones CSV",
+    "description": "The label for category CSV Imports in sidebar userGuideSidebar"
+  },
+  "sidebar.userGuideSidebar.category.behaviors-integrations": {
     "message": "Integraciones",
     "description": "The label for category Integrations in sidebar userGuideSidebar"
   },
@@ -30,6 +34,10 @@
   "sidebar.userGuideSidebar.category.Vision Enrichment": {
     "message": "Catálogo",
     "description": "The label for category Catálogo in sidebar userGuideSidebar"
+  },
+  "sidebar.userGuideSidebar.category.plataform-integrations": {
+    "message": "Integraciones",
+    "description": "The label for category Integrations in sidebar userGuideSidebar"
   },
   "sidebar.developerGuideSidebar.category.Initial Setup": {
     "message": "Configuración Inicial",
