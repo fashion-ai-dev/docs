@@ -15,6 +15,7 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 const sidebars: SidebarsConfig = {
   userGuideSidebar: [
     'user-guide/getting-started',
+    'user-guide/profiling',
     {
       type: 'category',
       label: 'Integrations',
@@ -96,6 +97,7 @@ const sidebars: SidebarsConfig = {
 
   developerGuideSidebar: [
     'developer-guide/getting-started',
+    'developer-guide/profiling',
     {
       type: 'category',
       label: 'Initial Setup',

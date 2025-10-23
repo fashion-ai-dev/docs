@@ -31,7 +31,7 @@ Dados do Cliente → Serviço Fashion AI → Perfil Completo em JSON
 
 ### Fluxo simplificado:
 
-1. **Entrada**: Nós acessamos o histórico de compras e a navegação do cliente pela sua plataforma cadastrada.
+1. **Entrada**: Nós acessamos o histórico de compras e a navegação do cliente pelos dados da sua plataforma cadastrada no momento da integração.
 2. **Processamento**: Nossa IA analisa os dados e identifica padrões comportamentais
 3. **Saída**: Você recebe um perfil estruturado com insights e recomendações práticas
 
@@ -117,7 +117,7 @@ Análise do comportamento recente:
 
 ## Como usar o serviço?
 
-[Aprenda a implementar no developer guide: ]()
+[Aprenda a implementar no developer guide ](../developer-guide/profiling.md)
 
 ## Casos de uso práticos
 
@@ -179,16 +179,10 @@ Análise do comportamento recente:
 Sim, mas quanto mais dados de compra e navegação, mais rico e preciso será o perfil.
 
 ### Os perfis são atualizados automaticamente?
-Não. Você deve chamar o serviço novamente com dados atualizados quando quiser um novo perfil.
+Não. Você deve chamar o serviço novamente quando quiser um novo perfil.
 
 ### Posso usar para clientes B2B?
 Sim, o modelo se adapta ao tipo de dados fornecidos.
-
-### Quanto tempo leva para gerar um perfil?
-Geralmente entre 3-8 segundos, dependendo da quantidade de dados.
-
-### Os dados dos clientes ficam armazenados?
-O serviço não armazena dados - apenas processa e retorna o perfil. A responsabilidade pelo armazenamento é sua.
 
 ### Posso integrar com meu CRM?
 Sim! Basta integrar via API REST. Consulte sua equipe técnica.
