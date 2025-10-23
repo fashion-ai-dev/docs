@@ -112,8 +112,6 @@ curl -X GET \
 }
 ```
 
----
-
 ### 2. Obter Perfil por Telefone
 
 Recupera um perfil de cliente usando seu número de telefone.
@@ -164,8 +162,6 @@ const obterPerfilPorTelefone = async (telefone) => {
 const perfil = await obterPerfilPorTelefone('5511999998888');
 console.log(perfil.profile.briefing_marketing.tom_de_voz);
 ```
-
----
 
 ### 3. Obter Perfil por Email
 
@@ -219,8 +215,6 @@ momento_atual = perfil["profile"]["momento_compra_atual"]
 print(f"Tom de voz: {briefing_marketing['tom_de_voz']}")
 print(f"Oportunidades: {momento_atual['oportunidades']}")
 ```
-
----
 
 ### 4. Obter Perfil por Documento
 
@@ -308,8 +302,6 @@ if (momento_compra_atual.novo_comportamento) {
 }
 ```
 
----
-
 ## Estrutura da Resposta
 
 Todos os endpoints retornam a mesma estrutura de perfil:
@@ -377,8 +369,6 @@ Análise do momento de compra atual.
 }
 ```
 
----
-
 ## Tratamento de Erros
 
 ### Códigos de Status HTTP Comuns
@@ -391,8 +381,6 @@ Análise do momento de compra atual.
 | `429` | Muitas Requisições | Implemente rate limiting na sua aplicação |
 | `500` | Erro Interno do Servidor | Entre em contato com o suporte |
 
----
-
 ## Segurança e CORS
 
 Para proteger o token de autenticação (X-FashionAI-APP-Token), requisições diretas do navegador são bloqueadas. Se uma chamada de API for feita diretamente do frontend, o navegador bloqueará essa requisição com um erro CORS.
@@ -402,8 +390,6 @@ Esta medida previne que o token seja exposto no código-fonte do website, o que 
 **Abordagem recomendada**: Faça todas as chamadas da API de perfilagem a partir do seu servidor backend.
 
 Se sua equipe precisar fazer chamadas diretamente do frontend, entre em contato com o suporte técnico da FashionAI para solicitar autorização de domínio: :mailbox: **support@generativecrm.com**
-
----
 
 ## Casos de Uso
 
@@ -427,15 +413,11 @@ Monitore `momento_compra_atual.novo_comportamento` para identificar clientes exp
 
 Forneça aos representantes de vendas o `perfil_cliente` antes de consultorias VIP para entregar serviço personalizado.
 
----
-
 ## Suporte
 
 Para questões técnicas ou comerciais, entre em contato com a equipe Fashion AI:
 
 :mailbox: **support@generativecrm.com**
-
----
 
 ## Próximos Passos
 

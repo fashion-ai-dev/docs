@@ -4,8 +4,6 @@
 
 El **Fashion AI Profiling** es un servicio inteligente que analiza el comportamiento de compra y navegación de tus clientes y genera automáticamente perfiles detallados y accionables. Estos perfiles ayudan a tu equipo de marketing, ventas y CRM a entender mejor a cada cliente y crear experiencias personalizadas.
 
----
-
 ## ¿Para qué sirve?
 
 ### Principales beneficios:
@@ -20,8 +18,6 @@ El **Fashion AI Profiling** es un servicio inteligente que analiza el comportami
 
 ✅ **Creación de contenido**: Ten direccionamientos claros para crear contenido relevante para cada cliente
 
----
-
 ## ¿Cómo funciona?
 
 ```
@@ -34,8 +30,6 @@ Datos del Cliente → Servicio Fashion AI → Perfil Completo en JSON
 1. **Entrada**: Accedemos al historial de compras y la navegación del cliente a través de los datos de tu plataforma registrada al momento de la integración.
 2. **Procesamiento**: Nuestra IA analiza los datos e identifica patrones conductuales
 3. **Salida**: Recibes un perfil estructurado con insights y recomendaciones prácticas
-
----
 
 ## ¿Qué recibes en el perfil generado?
 
@@ -50,8 +44,6 @@ Datos del Cliente → Servicio Fashion AI → Perfil Completo en JSON
   "estilo_general": "Casual-chic con tendencia minimalista, prefiere tonos neutros y piezas atemporales"
 }
 ```
-
----
 
 ### 2. **Ocasiones Relevantes**
 Para cada situación importante en la vida del cliente:
@@ -73,8 +65,6 @@ Para cada situación importante en la vida del cliente:
 }
 ```
 
----
-
 ### 3. **Briefing de Marketing**
 Direccionamientos prácticos para campañas:
 
@@ -87,13 +77,9 @@ Direccionamientos prácticos para campañas:
 **Orientación para campañas**: Estrategias de posicionamiento
 - Ejemplo: ["Destacar versatilidad de las piezas", "Conectar producto con sostenibilidad", "Mostrar transición día-noche"]
 
----
-
 ### 4. **Ganchos de Contenido**
 Temas que resuenan con el cliente:
 - Ejemplo: ["Moda sostenible y consumo consciente", "Piezas comodín para múltiples ocasiones", "Minimalismo en el guardarropa"]
-
----
 
 ### 5. **Momento de Compra Actual**
 Análisis del comportamiento reciente:
@@ -113,8 +99,6 @@ Análisis del comportamiento reciente:
 **Oportunidades**: Acciones recomendadas
 - Ejemplo: ["Enviar lookbook de vestidos midi", "Ofrecer consultoría de styling virtual"]
 
----
-
 ## ¿Cómo usar el servicio?
 
 [Aprende a implementar en la guía del desarrollador](../developer-guide/profiling.md)
@@ -130,8 +114,6 @@ Análisis del comportamiento reciente:
 - Crea 3-4 versiones de email con tono de voz y dirección visual adecuados
 - Aumenta la tasa de apertura en 40%+
 
----
-
 ### 2. **Recomendación de Productos**
 **Situación**: El cliente navegó en el sitio pero no compró
 
@@ -141,8 +123,6 @@ Análisis del comportamiento reciente:
 - Envía recomendaciones personalizadas basadas en las ocasiones relevantes
 - Aumenta la conversión en 25%+
 
----
-
 ### 3. **Creación de Contenido**
 **Situación**: Necesitas ideas para posts de Instagram
 
@@ -150,8 +130,6 @@ Análisis del comportamiento reciente:
 - Usa los "ganchos_contenido" de tus mejores clientes
 - Crea posts que resuenen con esos temas
 - Aumenta el engagement orgánicamente
-
----
 
 ### 4. **Atención VIP**
 **Situación**: Cliente de alto valor agendó consultoría
@@ -162,7 +140,6 @@ Análisis del comportamiento reciente:
 - Sugiere looks completos durante la consultoría
 - Aumenta el ticket promedio en 60%+
 
----
 
 ### 5. **Detección de Cambio de Comportamiento**
 **Situación**: El cliente siempre compraba casual, pero comenzó a buscar piezas formales
@@ -187,10 +164,7 @@ Sí, el modelo se adapta al tipo de datos proporcionados.
 ### ¿Puedo integrar con mi CRM?
 ¡Sí! Solo necesitas integrar vía API REST. Consulta con tu equipo técnico.
 
----
 
 ## Soporte
 
 Para dudas técnicas o comerciales, contacta con el equipo de Fashion AI :mailbox: **support@generativecrm.com**
-
----

@@ -112,8 +112,6 @@ curl -X GET \
 }
 ```
 
----
-
 ### 2. Get Profile by Phone
 
 Retrieves a customer profile using their phone number.
@@ -164,8 +162,6 @@ const getProfileByPhone = async (phone) => {
 const profile = await getProfileByPhone('5511999998888');
 console.log(profile.profile.briefing_marketing.tom_de_voz);
 ```
-
----
 
 ### 3. Get Profile by Email
 
@@ -219,8 +215,6 @@ current_moment = profile["profile"]["momento_compra_atual"]
 print(f"Voice tone: {marketing_brief['tom_de_voz']}")
 print(f"Opportunities: {current_moment['oportunidades']}")
 ```
-
----
 
 ### 4. Get Profile by Document
 
@@ -308,8 +302,6 @@ if (momento_compra_atual.novo_comportamento) {
 }
 ```
 
----
-
 ## Response Structure
 
 All endpoints return the same profile structure:
@@ -377,8 +369,6 @@ Current purchase moment analysis.
 }
 ```
 
----
-
 ## Error Handling
 
 ### Common HTTP Status Codes
@@ -391,8 +381,6 @@ Current purchase moment analysis.
 | `429` | Too Many Requests | Implement rate limiting in your application |
 | `500` | Internal Server Error | Contact support |
 
----
-
 ## Security and CORS
 
 To protect the authentication token (X-FashionAI-APP-Token), direct browser requests are blocked. If an API call is made directly from the frontend, the browser will block this request with a CORS error.
@@ -402,8 +390,6 @@ This measure prevents the token from being exposed in the website's source code,
 **Recommended approach**: Make all profiling API calls from your backend server.
 
 If your team needs to make calls directly from the frontend, contact FashionAI technical support to request domain authorization: :mailbox: **support@generativecrm.com**
-
----
 
 ## Use Cases
 
@@ -427,15 +413,11 @@ Monitor `momento_compra_atual.novo_comportamento` to identify customers explorin
 
 Provide sales representatives with `perfil_cliente` before VIP consultations to deliver personalized service.
 
----
-
 ## Support
 
 For technical questions or commercial inquiries, contact the Fashion AI team:
 
 :mailbox: **support@generativecrm.com**
-
----
 
 ## Next Steps
 
