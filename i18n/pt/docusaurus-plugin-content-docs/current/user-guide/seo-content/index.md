@@ -1,4 +1,4 @@
-# Conteúdo SEO
+# Conteúdo de SEO
 
 ## Começando com SEO
 

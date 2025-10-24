@@ -50,6 +50,7 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
+    'user-guide/profiling',
     {
       type: 'category',
       label: 'Behaviors',
@@ -145,6 +146,15 @@ const sidebars: SidebarsConfig = {
             'developer-guide/recommendations-search/search/examples',
           ],
         },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Profiling',
+      items: [
+        'developer-guide/profiling/index',
+        'developer-guide/profiling/endpoints',
+        'developer-guide/profiling/response-structure',
       ],
     },
     {

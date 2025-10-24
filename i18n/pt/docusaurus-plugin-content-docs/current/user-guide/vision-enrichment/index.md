@@ -1,6 +1,6 @@
-# Enriquecimento de Visão
+# Catálogo
 
-O Enriquecimento de Visão permite melhorar a precisão da nossa inteligência artificial através de feedback e ajustes. Quanto mais você interagir com o sistema, mais ele aprende sobre suas preferências e necessidades.
+O Catálogo permite melhorar a precisão da nossa inteligência artificial através de feedback e ajustes. Quanto mais você interagir com o sistema, mais ele aprende sobre suas preferências e necessidades.
 
 ## Como funciona
 
