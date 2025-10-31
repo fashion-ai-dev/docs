@@ -15,6 +15,7 @@ Endpoint para busca semântica detalhada de produtos no whatsapp com rastreament
 
 **Parâmetros de Query:**
 - `query` (string, obrigatório) - Termo de busca
+- `size` (string, opcional) - Número de resultados a retornar
 
 **Corpo da Requisição:**
 ```typescript
@@ -40,9 +41,11 @@ X-FashionAI-APP-Token: {token}
   products: Array<{
     productId: string;
     name: string;
+    sku: string;
     images: string[];
     price: number;
     salePrice: number;
+    size?: string;
     link?: string;
   }>
 }
@@ -50,7 +53,7 @@ X-FashionAI-APP-Token: {token}
 
 #### Exemplo cURL
 ```bash
-curl -X POST 'https://catalog.api.fashionaiale.com/v1/products/protected/search/detailed?query=vestido+azul' \
+curl -X POST 'https://catalog.api.fashionaiale.com/v1/products/protected/search/detailed?query=vestido+azul&size=10' \
   -H 'Content-Type: application/json' \
   -H 'X-FashionAI-APP-Token: {token}' \
   -d '{
