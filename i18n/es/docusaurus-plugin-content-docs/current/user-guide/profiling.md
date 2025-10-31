@@ -101,7 +101,7 @@ Análisis del comportamiento reciente:
 
 ## ¿Cómo usar el servicio?
 
-[Aprende a implementar en la guía del desarrollador](../developer-guide/profiling.md)
+[Aprende a implementar en la guía del desarrollador](../developer-guide/profiling)
 
 ## Casos de uso prácticos
 

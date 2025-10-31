@@ -101,7 +101,7 @@ Recent behavior analysis:
 
 ## How to use the service?
 
-[Learn how to implement in the developer guide](../developer-guide/profiling.md)
+[Learn how to implement in the developer guide](../developer-guide/profiling)
 
 ## Practical use cases
 
