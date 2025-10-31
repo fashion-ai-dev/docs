@@ -60,7 +60,7 @@
     "description": "The label of footer link with label=footer.links.seoContent linking to /docs/user-guide/seo-content/index"
   },
   "link.item.label.footer.links.taxonomy": {
-    "message": "Taxonomy",
+    "message": "My Style AI",
     "description": "The label of footer link with label=footer.links.taxonomy linking to /docs/user-guide/taxonomy/index"
   },
   "link.item.label.footer.links.visionEnrichment": {

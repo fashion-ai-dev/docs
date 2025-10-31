@@ -60,11 +60,11 @@
     "description": "The label of footer link with label=footer.links.seoContent linking to /docs/user-guide/seo-content/index"
   },
   "link.item.label.footer.links.taxonomy": {
-    "message": "Taxonomía",
+    "message": "Mi IA de Estilo",
     "description": "The label of footer link with label=footer.links.taxonomy linking to /docs/user-guide/taxonomy/index"
   },
   "link.item.label.footer.links.visionEnrichment": {
-    "message": "Enriquecimiento Visual",
+    "message": "Catálogo",
     "description": "The label of footer link with label=footer.links.visionEnrichment linking to /docs/user-guide/vision-enrichment/index"
   },
   "link.item.label.footer.links.vmBuilder": {

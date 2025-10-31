@@ -56,15 +56,15 @@
     "description": "The label of footer link with label=footer.links.analytics linking to /docs/developer-guide/analytics/index"
   },
   "link.item.label.footer.links.seoContent": {
-    "message": "Conteúdo SEO",
+    "message": "Conteúdo de SEO",
     "description": "The label of footer link with label=footer.links.seoContent linking to /docs/user-guide/seo-content/index"
   },
   "link.item.label.footer.links.taxonomy": {
-    "message": "Taxonomia",
+    "message": "Minha IA de Estilo",
     "description": "The label of footer link with label=footer.links.taxonomy linking to /docs/user-guide/taxonomy/index"
   },
   "link.item.label.footer.links.visionEnrichment": {
-    "message": "Enriquecimento Visual",
+    "message": "Catálogo",
     "description": "The label of footer link with label=footer.links.visionEnrichment linking to /docs/user-guide/vision-enrichment/index"
   },
   "link.item.label.footer.links.vmBuilder": {
