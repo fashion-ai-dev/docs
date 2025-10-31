@@ -1,59 +1,83 @@
 {
-  "link.title.footer.sections.documentation": {
-    "message": "Documentation",
-    "description": "The title of the footer links column with title=footer.sections.documentation in the footer"
+  "link.title.footer.sections.userGuide": {
+    "message": "User Guide",
+    "description": "The title of the footer links column with title=footer.sections.userGuide in the footer"
   },
-  "link.title.footer.sections.integration": {
-    "message": "Integration",
-    "description": "The title of the footer links column with title=footer.sections.integration in the footer"
+  "link.title.footer.sections.developerGuide": {
+    "message": "Developer Guide",
+    "description": "The title of the footer links column with title=footer.sections.developerGuide in the footer"
+  },
+  "link.title.footer.sections.features": {
+    "message": "Features",
+    "description": "The title of the footer links column with title=footer.sections.features in the footer"
   },
   "link.title.footer.sections.platform": {
     "message": "Platform",
     "description": "The title of the footer links column with title=footer.sections.platform in the footer"
   },
-  "link.item.label.footer.links.gettingStarted": {
+  "link.item.label.footer.links.userGettingStarted": {
     "message": "Getting Started",
-    "description": "The label of footer link with label=footer.links.gettingStarted linking to /docs/getting-started"
+    "description": "The label of footer link with label=footer.links.userGettingStarted linking to /docs/user-guide/getting-started"
   },
-  "link.item.label.footer.links.apiEndpoints": {
-    "message": "API Endpoints",
-    "description": "The label of footer link with label=footer.links.apiEndpoints linking to /docs/api-endpoints"
+  "link.item.label.footer.links.integrations": {
+    "message": "Integrations",
+    "description": "The label of footer link with label=footer.links.integrations linking to /docs/user-guide/integrations/vtex"
+  },
+  "link.item.label.footer.links.recommendations": {
+    "message": "Recommendations",
+    "description": "The label of footer link with label=footer.links.recommendations linking to /docs/user-guide/recomendations/index"
+  },
+  "link.item.label.footer.links.profiling": {
+    "message": "Profiling",
+    "description": "The label of footer link with label=footer.links.profiling linking to /docs/user-guide/profiling"
+  },
+  "link.item.label.footer.links.behaviors": {
+    "message": "Behaviors",
+    "description": "The label of footer link with label=footer.links.behaviors linking to /docs/user-guide/behaviors/index"
+  },
+  "link.item.label.footer.links.devGettingStarted": {
+    "message": "Quick Start",
+    "description": "The label of footer link with label=footer.links.devGettingStarted linking to /docs/developer-guide/getting-started"
   },
   "link.item.label.footer.links.authentication": {
     "message": "Authentication",
-    "description": "The label of footer link with label=footer.links.authentication linking to /docs/authentication"
+    "description": "The label of footer link with label=footer.links.authentication linking to /docs/developer-guide/authentication"
+  },
+  "link.item.label.footer.links.apiEndpoints": {
+    "message": "API Endpoints",
+    "description": "The label of footer link with label=footer.links.apiEndpoints linking to /docs/developer-guide/recommendations-search/api-endpoints"
   },
   "link.item.label.footer.links.search": {
     "message": "Search API",
-    "description": "The label of footer link with label=footer.links.search linking to /docs/search/overview"
+    "description": "The label of footer link with label=footer.links.search linking to /docs/developer-guide/recommendations-search/search/overview"
   },
-  "link.item.label.footer.links.uiIntegration": {
-    "message": "UI Integration",
-    "description": "The label of footer link with label=footer.links.uiIntegration linking to /docs/ui-integration"
+  "link.item.label.footer.links.analytics": {
+    "message": "Analytics",
+    "description": "The label of footer link with label=footer.links.analytics linking to /docs/developer-guide/analytics/index"
   },
-  "link.item.label.footer.links.googleAnalytics": {
-    "message": "Google Analytics",
-    "description": "The label of footer link with label=footer.links.googleAnalytics linking to /docs/google-analytics"
+  "link.item.label.footer.links.seoContent": {
+    "message": "SEO Content",
+    "description": "The label of footer link with label=footer.links.seoContent linking to /docs/user-guide/seo-content/index"
   },
-  "link.item.label.footer.links.googleTagManager": {
-    "message": "Google Tag Manager",
-    "description": "The label of footer link with label=footer.links.googleTagManager linking to /docs/google-tag-manager"
+  "link.item.label.footer.links.taxonomy": {
+    "message": "Taxonomy",
+    "description": "The label of footer link with label=footer.links.taxonomy linking to /docs/user-guide/taxonomy/index"
   },
-  "link.item.label.footer.links.integrations": {
-    "message": "Platform Integrations",
-    "description": "The label of footer link with label=footer.links.integrations linking to /docs/developer-guide/integrations/shopify-integration"
+  "link.item.label.footer.links.visionEnrichment": {
+    "message": "Vision Enrichment",
+    "description": "The label of footer link with label=footer.links.visionEnrichment linking to /docs/user-guide/vision-enrichment/index"
+  },
+  "link.item.label.footer.links.vmBuilder": {
+    "message": "VM Builder",
+    "description": "The label of footer link with label=footer.links.vmBuilder linking to /docs/developer-guide/recommendations-search/vm-builder"
   },
   "link.item.label.footer.links.dashboard": {
-    "message": "Platform",
+    "message": "Access Platform",
     "description": "The label of footer link with label=footer.links.dashboard linking to https://app.generativecrm.com"
   },
   "link.item.label.footer.links.website": {
     "message": "Official Website",
     "description": "The label of footer link with label=footer.links.website linking to https://www.generativecrm.com"
-  },
-  "link.title.footer.sections.support": {
-    "message": "Support",
-    "description": "The title of the footer links column with title=footer.sections.support in the footer"
   },
   "link.item.label.footer.links.contact": {
     "message": "Contact Us",
