@@ -82,30 +82,6 @@ Crie as seguintes variáveis:
    - `value`: `{{value}}`
 6. **Acionamento**: acionador `fashionai_click`
 
-### GA4 - Visualização Shop The Look
-
-1. **Tags > Nova**
-2. **Tipo**: Google Analytics: Evento GA4
-3. **ID de Medição**: seu ID de Medição (G-XXXXXXX)
-4. **Nome do Evento**: `fashionai_view_shopthelook`
-5. **Parâmetros**:
-   - `event_category`: `{{event_category}}`
-   - `event_label`: `{{event_label}}`
-   - `value`: `{{value}}`
-6. **Acionamento**: acionador `fashionai_view_shopthelook`
-
-### GA4 - Clique Shop The Look
-
-1. **Tags > Nova**
-2. **Tipo**: Google Analytics: Evento GA4
-3. **ID de Medição**: seu ID de Medição (G-XXXXXXX)
-4. **Nome do Evento**: `fashionai_click_shopthelook`
-5. **Parâmetros**:
-   - `event_category`: `{{event_category}}`
-   - `event_label`: `{{event_label}}`
-   - `value`: `{{value}}`
-6. **Acionamento**: acionador `fashionai_click_shopthelook`
-
 ### GA4 - Adicionar ao Carrinho (Geral)
 
 1. **Tags > Nova**
@@ -118,31 +94,10 @@ Crie as seguintes variáveis:
    - `value`: `{{value}}`
 6. **Acionamento**: acionador `fashionai_addtocart`
 
-### GA4 - Adicionar ao Carrinho (Shop The Look)
-
-1. **Tags > Nova**
-2. **Tipo**: Google Analytics: Evento GA4
-3. **ID de Medição**: seu ID de Medição (G-XXXXXXX)
-4. **Nome do Evento**: `fashionai_addtocart_shopthelook`
-5. **Parâmetros**:
-   - `event_category`: `{{event_category}}`
-   - `event_label`: `{{event_label}}`
-   - `value`: `{{value}}`
-6. **Acionamento**: acionador `fashionai_addtocart_shopthelook`
-
-## Teste e Validação
+### Lembre de adicionar as tags de compre o look (shop the look)
 
 ### Testar com Modo de Visualização
 
 1. Clique em **Visualizar** no GTM
 2. Acesse o site, dispare eventos e verifique se as tags aparecem no Assistente de Tags
 3. Valide se os parâmetros foram enviados corretamente
-
-### Lista de Verificação de Validação
-
-- [ ] Variáveis criadas corretamente
-- [ ] Acionadores configurados para os eventos corretos
-- [ ] Tags GA4 com ID de Medição correto
-- [ ] Parâmetros mapeados para variáveis
-- [ ] Teste em modo de visualização executado com sucesso
-- [ ] Eventos aparecendo na Visualização de Debug do GA4

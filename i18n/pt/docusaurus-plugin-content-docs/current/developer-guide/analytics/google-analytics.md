@@ -62,41 +62,7 @@ window.dataLayer.push({
 });
 ```
 
-### Eventos Específicos do Shop The Look
-
-#### Visualização do Botão "Compre o Look"
-
-```javascript
-window.dataLayer = window.dataLayer || [];
-window.dataLayer.push({
-  event: 'fashionai_view_shopthelook',
-  event_category: 'engagement',
-  event_label: 'shopthelook_button_view',
-  value: 1
-});
-```
-
-### Clique no Botão "Compre o Look"
-
-```javascript
-window.dataLayer.push({
-  event: 'fashionai_click_shopthelook',
-  event_category: 'engagement',
-  event_label: 'shopthelook_button_click',
-  value: 1
-});
-```
-
-### Clique "Eu Quero" Dentro do Modal
-
-```javascript
-window.dataLayer.push({
-  event: 'fashionai_addtocart_shopthelook',
-  event_category: 'ecommerce',
-  event_label: 'add_to_cart_from_shopthelook',
-  value: 1
-});
-```
+### Lembre de adicionar os eventos específicos do Shop The Look
 
 ## Verificação de Eventos
 
