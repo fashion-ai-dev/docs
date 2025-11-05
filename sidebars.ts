@@ -88,6 +88,14 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'VM Builder',
+      items: [
+        'user-guide/vm-builder/index',
+        'user-guide/vm-builder/collections',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Vision Enrichment',
       items: [
         'user-guide/vision-enrichment/index',
