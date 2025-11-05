@@ -196,7 +196,7 @@ const config: Config = {
             },
             {
               label: 'footer.links.vmBuilder',
-              to: '/docs/developer-guide/recommendations-search/vm-builder',
+              to: '/docs/user-guide/vm-builder',
             },
           ],
         },

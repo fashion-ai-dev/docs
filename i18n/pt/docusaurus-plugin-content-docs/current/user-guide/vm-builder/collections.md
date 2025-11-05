@@ -24,13 +24,13 @@ Clique em **Coleções** no menu lateral.
 
 Crie uma coleção clicando no link indicado na imagem:
 
-![Criar Coleção](./img/tela1-vm-builder.png)
+![Criar Coleção](/img/tela1-vm-builder.png)
 
 ### 3. Abrir a Coleção
 
 Clique no botão de **ver slices** para começar a configurar sua coleção:
 
-![Ver Slices](./img/tela2-vm-builder.png)
+![Ver Slices](/img/tela2-vm-builder.png)
 
 ### 4. Configurar Informações da Coleção
 
@@ -57,7 +57,7 @@ Slices são diferentes versões da sua coleção. Você pode criar várias, mas 
 
 Crie sua primeira slice:
 
-![Criar Slice](./img/tela3-vm-builder.png)
+![Criar Slice](/img/tela3-vm-builder.png)
 
 ### 7. Adicionar Produtos
 
@@ -70,10 +70,10 @@ Selecione os que você quer adicionar.
 Arraste os produtos para definir em que ordem eles aparecerão no seu site.
 
 **Antes de ordenar:**
-![Arrastar Produtos - Estado Inicial](./img/tela4-vm-builder.png)
+![Arrastar Produtos - Estado Inicial](/img/tela4-vm-builder.png)
 
 **Depois de ordenar:**
-![Arrastar Produtos - Organizado](./img/tela5-vm-builder.png)
+![Arrastar Produtos - Organizado](/img/tela5-vm-builder.png)
 
 > **Dica**: Os produtos aparecerão no site exatamente na ordem que você definir aqui.
 

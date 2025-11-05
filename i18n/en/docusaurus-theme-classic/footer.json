@@ -69,7 +69,7 @@
   },
   "link.item.label.footer.links.vmBuilder": {
     "message": "VM Builder",
-    "description": "The label of footer link with label=footer.links.vmBuilder linking to /docs/developer-guide/recommendations-search/vm-builder"
+    "description": "The label of footer link with label=footer.links.vmBuilder linking to /docs/user-guide/vm-builder"
   },
   "link.item.label.footer.links.dashboard": {
     "message": "Access Platform",

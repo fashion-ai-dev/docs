@@ -4,32 +4,32 @@ sidebar_position: 1
 
 # VM Builder
 
-O VM Builder é a ferramenta que permite criar e gerenciar vitrines personalizadas de produtos para seu site.
+O VM Builder Ã© a ferramenta que permite criar e gerenciar vitrines personalizadas de produtos para seu site.
 
-## O que você pode fazer?
+## O que vocÃª pode fazer?
 
-Com o VM Builder você pode:
+Com o VM Builder vocÃª pode:
 
-- **Criar Coleções**: Monte grupos de produtos curados para destacar no site
-- **Organizar Produtos**: Defina a ordem exata que os produtos aparecerão
-- **Testar Versões**: Crie diferentes versões (slices) e alterne entre elas
-- **Publicar Rapidamente**: Ative e desative coleções com um clique
+- **Criar ColeÃ§Ãµes**: Monte grupos de produtos curados para destacar no site
+- **Organizar Produtos**: Defina a ordem exata que os produtos aparecerÃ£o
+- **Testar VersÃµes**: Crie diferentes versÃµes (slices) e alterne entre elas
+- **Publicar Rapidamente**: Ative e desative coleÃ§Ãµes com um clique
 
-## Como Começar
+## Como ComeÃ§ar
 
-Acesse o guia de [Gerenciamento de Coleções](./collections) para aprender a criar sua primeira coleção passo a passo.
+Acesse o guia de [Gerenciamento de ColeÃ§Ãµes](./collections) para aprender a criar sua primeira coleÃ§Ã£o passo a passo.
 
 ## Principais Recursos
 
-### Coleções Personalizadas
-Crie vitrines com os produtos que você escolher, organizados da forma que preferir.
+### ColeÃ§Ãµes Personalizadas
+Crie vitrines com os produtos que vocÃª escolher, organizados da forma que preferir.
 
-### Slices (Versões)
-Mantenha várias versões da mesma coleção e alterne entre elas sem recriar do zero.
+### Slices (VersÃµes)
+Mantenha vÃ¡rias versÃµes da mesma coleÃ§Ã£o e alterne entre elas sem recriar do zero.
 
-### Ativação Instantânea
-As mudanças aparecem no site em tempo real assim que você ativar uma slice.
+### AtivaÃ§Ã£o InstantÃ¢nea
+As mudanÃ§as aparecem no site em tempo real assim que vocÃª ativar uma slice.
 
 ---
 
-**Pronto para começar?** Veja o guia de [Como Criar e Gerenciar Coleções](./collections).
+**Pronto para comeÃ§ar?** Veja o guia de [Como Criar e Gerenciar ColeÃ§Ãµes](./collections).
