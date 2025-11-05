@@ -1,27 +1,31 @@
-# Analytics y Seguimiento
+# Analytics y Rastreo
 
-Configura el seguimiento y analytics para tu implementación de FashionAI para monitorear el rendimiento.
+Configure el rastreo y analytics para su implementación de FashionAI para monitorear el rendimiento.
 
 ## Soluciones de Analytics
 
 ### [Google Analytics](./google-analytics)
-Seguimiento de ecommerce mejorado con Google Analytics para análisis de rendimiento de recomendaciones.
+Rastreo de comercio electrónico mejorado con Google Analytics para análisis del rendimiento de recomendaciones.
 
 ### [Google Tag Manager](./google-tag-manager)
-Configura Google Tag Manager para seguimiento avanzado e integración con automatización de marketing.
+Configure Google Tag Manager para rastreo avanzado e integración con automatización de marketing.
 
-## Métricas Clave a Seguir
+### [Análisis de Segmentos de Sesión](./session-segments)
+Aprenda a crear segmentos de sesión para comparar métricas de usuarios con y sin Fashion.AI, incluyendo análisis de ARPU.
+
+## Métricas Principales para Rastrear
 
 - **Rendimiento de Recomendaciones**: Tasas de clic, tasas de conversión
 - **Comportamiento de Búsqueda**: Análisis de consultas, puntuación de relevancia de resultados
-- **Viaje del Usuario**: Análisis del embudo desde búsqueda hasta compra
-- **Rendimiento del Producto**: Artículos más recomendados y de mayor conversión
+- **Recorrido del Usuario**: Análisis del embudo de búsqueda hasta compra
+- **Rendimiento de Productos**: Artículos más recomendados y de mayor conversión
 
 ## Guía de Implementación
 
-1. **[Configurar Google Analytics](./google-analytics)** - Configura ecommerce mejorado
-2. **[Configurar Tag Manager](./google-tag-manager)** - Seguimiento avanzado de eventos
+1. **[Configurar Google Analytics](./google-analytics)** - Configure comercio electrónico mejorado
+2. **[Configurar Tag Manager](./google-tag-manager)** - Rastreo avanzado de eventos
+3. **[Crear Segmentos de Sesión](./session-segments)** - Análisis comparativo y ARPU
 
 ---
 
-**¿Listo para rastrear el rendimiento?** Comienza con [configuración de Google Analytics](./google-analytics).
+**¿Listo para rastrear el rendimiento?** Comience con [configuración de Google Analytics](./google-analytics).

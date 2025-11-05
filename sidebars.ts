@@ -164,6 +164,7 @@ const sidebars: SidebarsConfig = {
         'developer-guide/analytics/index',
         'developer-guide/analytics/google-analytics',
         'developer-guide/analytics/google-tag-manager',
+        'developer-guide/analytics/session-segments',
       ],
     },
   ],

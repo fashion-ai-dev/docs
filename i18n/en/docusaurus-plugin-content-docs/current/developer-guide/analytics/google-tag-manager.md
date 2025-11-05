@@ -24,15 +24,33 @@ Create the following variables:
 
 1. **Triggers > New**
 2. **Type**: Custom Event
-3. **Event Name**: `fashionai_view_shopthelook`
+3. **Event Name**: `fashionai_view`
 
 ### Trigger: Recommendation Click
 
 1. **Triggers > New**
 2. **Type**: Custom Event
+3. **Event Name**: `fashionai_click`
+
+### Trigger: Shop The Look View
+
+1. **Triggers > New**
+2. **Type**: Custom Event
+3. **Event Name**: `fashionai_view_shopthelook`
+
+### Trigger: Shop The Look Click
+
+1. **Triggers > New**
+2. **Type**: Custom Event
 3. **Event Name**: `fashionai_click_shopthelook`
 
-### Trigger: Add to Cart
+### Trigger: Add to Cart (General)
+
+1. **Triggers > New**
+2. **Type**: Custom Event
+3. **Event Name**: `fashionai_addtocart`
+
+### Trigger: Add to Cart (Shop The Look)
 
 1. **Triggers > New**
 2. **Type**: Custom Event
@@ -45,50 +63,41 @@ Create the following variables:
 1. **Tags > New**
 2. **Type**: Google Analytics: GA4 Event
 3. **Measurement ID**: your Measurement ID (G-XXXXXXX)
-4. **Event Name**: `fashionai_view_shopthelook`
+4. **Event Name**: `fashionai_view`
 5. **Parameters**:
    - `event_category`: `{{event_category}}`
    - `event_label`: `{{event_label}}`
    - `value`: `{{value}}`
-6. **Triggering**: trigger `fashionai_view_shopthelook`
+6. **Triggering**: trigger `fashionai_view`
 
 ### GA4 - Recommendation Click
 
 1. **Tags > New**
 2. **Type**: Google Analytics: GA4 Event
 3. **Measurement ID**: your Measurement ID (G-XXXXXXX)
-4. **Event Name**: `fashionai_click_shopthelook`
+4. **Event Name**: `fashionai_click`
 5. **Parameters**:
    - `event_category`: `{{event_category}}`
    - `event_label`: `{{event_label}}`
    - `value`: `{{value}}`
-6. **Triggering**: trigger `fashionai_click_shopthelook`
+6. **Triggering**: trigger `fashionai_click`
 
-### GA4 - Add to Cart
+### GA4 - Add to Cart (General)
 
 1. **Tags > New**
 2. **Type**: Google Analytics: GA4 Event
 3. **Measurement ID**: your Measurement ID (G-XXXXXXX)
-4. **Event Name**: `fashionai_addtocart_shopthelook`
+4. **Event Name**: `fashionai_addtocart`
 5. **Parameters**:
    - `event_category`: `{{event_category}}`
    - `event_label`: `{{event_label}}`
    - `value`: `{{value}}`
-6. **Triggering**: trigger `fashionai_addtocart_shopthelook`
+6. **Triggering**: trigger `fashionai_addtocart`
 
-## Testing and Validation
+### Remember to add the shop the look tags
 
 ### Test with Preview Mode
 
 1. Click **Preview** in GTM
 2. Access the website, trigger events and verify that tags appear in Tag Assistant
 3. Validate that parameters were sent correctly
-
-### Validation Checklist
-
-- [ ] Variables created correctly
-- [ ] Triggers configured for the correct events
-- [ ] GA4 tags with correct Measurement ID
-- [ ] Parameters mapped to variables
-- [ ] Preview mode test executed successfully
-- [ ] Events appearing in GA4 Debug View
