@@ -8,6 +8,16 @@ Esta seção descreve como configurar o rastreamento de eventos da Fashion.AI no
 
 ## Eventos Obrigatórios
 
+### Eventos Gerais de Recomendação
+
+| Evento              | Quando ocorre                                           |
+|---------------------|---------------------------------------------------------|
+| `fashionai_view`    | Quando uma recomendação da Fashion.AI é exibida         |
+| `fashionai_click`   | Quando o usuário clica em uma recomendação da Fashion.AI|
+| `fashionai_addtocart`| Quando um produto recomendado é adicionado ao carrinho |
+
+### Eventos Específicos do Shop The Look
+
 | Evento                            | Quando ocorre                                     |
 |-----------------------------------|---------------------------------------------------|
 | `fashionai_view_shopthelook`      | Quando o botão "compre o look" é exibido          |
@@ -16,7 +26,45 @@ Esta seção descreve como configurar o rastreamento de eventos da Fashion.AI no
 
 ## Implementação do DataLayer
 
-### Visualização do Botão "Compre o Look"
+### Eventos Gerais de Recomendação
+
+#### Visualização de Recomendação
+
+```javascript
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+  event: 'fashionai_view',
+  event_category: 'engagement',
+  event_label: 'recommendation_view',
+  value: 1
+});
+```
+
+#### Clique em Recomendação
+
+```javascript
+window.dataLayer.push({
+  event: 'fashionai_click',
+  event_category: 'engagement',
+  event_label: 'recommendation_click',
+  value: 1
+});
+```
+
+#### Adicionar ao Carrinho de Recomendação
+
+```javascript
+window.dataLayer.push({
+  event: 'fashionai_addtocart',
+  event_category: 'ecommerce',
+  event_label: 'add_to_cart_from_recommendation',
+  value: 1
+});
+```
+
+### Eventos Específicos do Shop The Look
+
+#### Visualização do Botão "Compre o Look"
 
 ```javascript
 window.dataLayer = window.dataLayer || [];

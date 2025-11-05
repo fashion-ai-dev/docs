@@ -24,15 +24,33 @@ Crie as seguintes variáveis:
 
 1. **Acionadores > Novo**
 2. **Tipo**: Evento Personalizado
-3. **Nome do Evento**: `fashionai_view_shopthelook`
+3. **Nome do Evento**: `fashionai_view`
 
 ### Acionador: Clique de Recomendação
 
 1. **Acionadores > Novo**
 2. **Tipo**: Evento Personalizado
+3. **Nome do Evento**: `fashionai_click`
+
+### Acionador: Visualização Shop The Look
+
+1. **Acionadores > Novo**
+2. **Tipo**: Evento Personalizado
+3. **Nome do Evento**: `fashionai_view_shopthelook`
+
+### Acionador: Clique Shop The Look
+
+1. **Acionadores > Novo**
+2. **Tipo**: Evento Personalizado
 3. **Nome do Evento**: `fashionai_click_shopthelook`
 
-### Acionador: Adicionar ao Carrinho
+### Acionador: Adicionar ao Carrinho (Geral)
+
+1. **Acionadores > Novo**
+2. **Tipo**: Evento Personalizado
+3. **Nome do Evento**: `fashionai_addtocart`
+
+### Acionador: Adicionar ao Carrinho (Shop The Look)
 
 1. **Acionadores > Novo**
 2. **Tipo**: Evento Personalizado
@@ -45,6 +63,30 @@ Crie as seguintes variáveis:
 1. **Tags > Nova**
 2. **Tipo**: Google Analytics: Evento GA4
 3. **ID de Medição**: seu ID de Medição (G-XXXXXXX)
+4. **Nome do Evento**: `fashionai_view`
+5. **Parâmetros**:
+   - `event_category`: `{{event_category}}`
+   - `event_label`: `{{event_label}}`
+   - `value`: `{{value}}`
+6. **Acionamento**: acionador `fashionai_view`
+
+### GA4 - Clique de Recomendação
+
+1. **Tags > Nova**
+2. **Tipo**: Google Analytics: Evento GA4
+3. **ID de Medição**: seu ID de Medição (G-XXXXXXX)
+4. **Nome do Evento**: `fashionai_click`
+5. **Parâmetros**:
+   - `event_category`: `{{event_category}}`
+   - `event_label`: `{{event_label}}`
+   - `value`: `{{value}}`
+6. **Acionamento**: acionador `fashionai_click`
+
+### GA4 - Visualização Shop The Look
+
+1. **Tags > Nova**
+2. **Tipo**: Google Analytics: Evento GA4
+3. **ID de Medição**: seu ID de Medição (G-XXXXXXX)
 4. **Nome do Evento**: `fashionai_view_shopthelook`
 5. **Parâmetros**:
    - `event_category`: `{{event_category}}`
@@ -52,7 +94,7 @@ Crie as seguintes variáveis:
    - `value`: `{{value}}`
 6. **Acionamento**: acionador `fashionai_view_shopthelook`
 
-### GA4 - Clique de Recomendação
+### GA4 - Clique Shop The Look
 
 1. **Tags > Nova**
 2. **Tipo**: Google Analytics: Evento GA4
@@ -64,7 +106,19 @@ Crie as seguintes variáveis:
    - `value`: `{{value}}`
 6. **Acionamento**: acionador `fashionai_click_shopthelook`
 
-### GA4 - Adicionar ao Carrinho
+### GA4 - Adicionar ao Carrinho (Geral)
+
+1. **Tags > Nova**
+2. **Tipo**: Google Analytics: Evento GA4
+3. **ID de Medição**: seu ID de Medição (G-XXXXXXX)
+4. **Nome do Evento**: `fashionai_addtocart`
+5. **Parâmetros**:
+   - `event_category`: `{{event_category}}`
+   - `event_label`: `{{event_label}}`
+   - `value`: `{{value}}`
+6. **Acionamento**: acionador `fashionai_addtocart`
+
+### GA4 - Adicionar ao Carrinho (Shop The Look)
 
 1. **Tags > Nova**
 2. **Tipo**: Google Analytics: Evento GA4
