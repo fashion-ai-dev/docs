@@ -2,13 +2,13 @@
 sidebar_position: 1
 ---
 
-# VM Builder
+# Coleções
 
-O VM Builder é a ferramenta que permite criar e gerenciar vitrines personalizadas de produtos para seu site.
+Coleções é a ferramenta que permite criar e gerenciar vitrines personalizadas de produtos para seu site.
 
 ## O que você pode fazer?
 
-Com o VM Builder você pode:
+Com Coleções você pode:
 
 - **Criar Coleções**: Monte grupos de produtos curados para destacar no site
 - **Organizar Produtos**: Defina a ordem exata que os produtos aparecerão

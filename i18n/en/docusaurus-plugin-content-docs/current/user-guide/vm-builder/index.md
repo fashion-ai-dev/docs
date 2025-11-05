@@ -2,13 +2,13 @@
 sidebar_position: 1
 ---
 
-# VM Builder
+# Collections
 
-VM Builder is the tool that allows you to create and manage custom product showcases for your website.
+Collections is the tool that allows you to create and manage custom product showcases for your website.
 
 ## What can you do?
 
-With VM Builder you can:
+With Collections you can:
 
 - **Create Collections**: Build curated product groups to highlight on your site
 - **Organize Products**: Define the exact order products will appear

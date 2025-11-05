@@ -68,7 +68,7 @@
     "description": "The label of footer link with label=footer.links.visionEnrichment linking to /docs/user-guide/vision-enrichment/index"
   },
   "link.item.label.footer.links.vmBuilder": {
-    "message": "VM Builder",
+    "message": "Coleções",
     "description": "The label of footer link with label=footer.links.vmBuilder linking to /docs/user-guide/vm-builder"
   },
   "link.item.label.footer.links.dashboard": {

@@ -88,7 +88,7 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'VM Builder',
+      label: 'Collections',
       items: [
         'user-guide/vm-builder/index',
         'user-guide/vm-builder/collections',
