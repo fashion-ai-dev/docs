@@ -194,6 +194,13 @@ Na seção **Dimensões**, adicione:
    - Formato: Percentual
    - **Importante**: Esta métrica mostra quantos usuários que viram as recomendações realmente clicaram
 
+5. **Adicionar Coluna Calculada para View Rate**
+   - Clique em **Métricas > Adicionar métrica calculada**
+   - Nome: `View Rate (%)`
+   - Fórmula: `Eventos fashionai_view / Sessões`
+   - Formato: Percentual
+   - **Importante**: Esta métrica mostra quantos % dos usuários rolam até ver as recomendações
+
 ## Interpretando os Resultados
 
 ### Análise 1: Comparação de Purchase
@@ -249,7 +256,9 @@ Compare o funil completo entre usuários COM e SEM Fashion.AI:
 
 ### Análise 4: Engajamento com Recomendações (View vs Click)
 
-Esta análise é **crucial** pois as recomendações geralmente ficam no final da página. É importante medir se os usuários estão realmente vendo e clicando nas recomendações.
+Esta análise é **crucial** pois as recomendações geralmente ficam no final da página.
+
+> **Importante**: O evento `fashionai_view` só é disparado quando as recomendações ficam **visíveis no viewport** (scroll tracking), não quando são apenas carregadas na página. Isso significa que esse evento já mede quantos usuários realmente viram as recomendações.
 
 #### Criar Análise de Engajamento
 
@@ -262,6 +271,7 @@ Esta análise é **crucial** pois as recomendações geralmente ficam no final d
      - Nome do evento
      - Origem da sessão
      - Tipo de dispositivo
+     - Página (URL da página)
 
    - Na seção **Métricas**, adicione:
      - Contagem de eventos
@@ -277,82 +287,120 @@ Esta análise é **crucial** pois as recomendações geralmente ficam no final d
 
 | Evento | Contagem | % do Total | Taxa de Conversão |
 |--------|----------|------------|-------------------|
-| fashionai_view | 50.000 | 100% | - |
+| fashionai_view | 50.000 | 100% (usuários que VIRAM) | - |
 | fashionai_click | 5.000 | 10% | **10% CTR** |
 | fashionai_addtocart | 1.500 | 3% | 30% dos cliques |
 
-**Análise dos Resultados:**
+**O que significa CTR (Click-Through Rate)**:
+```
+CTR = fashionai_click / fashionai_view × 100
+```
+
+Esta métrica mostra quantos usuários que **viram** as recomendações (scroll até elas) realmente clicaram.
+
+#### Análise dos Resultados por CTR
 
 **CTR Baixo (< 5%)**
-- ⚠️ **Problema**: Poucos usuários clicam mesmo vendo
+- ⚠️ **Problema**: Poucos usuários clicam mesmo vendo as recomendações
 - **Possíveis Causas**:
-  - Recomendações estão muito abaixo do scroll
-  - Design pouco atrativo
+  - Design pouco atrativo ou confuso
   - Produtos recomendados não são relevantes
-  - Loading muito lento
+  - CTA (Call to Action) não é claro
+  - Imagens de baixa qualidade
+  - Preços não competitivos
 - **Soluções**:
-  - Mova as recomendações mais para cima na página
   - Melhore o design/CTA das recomendações
-  - Teste diferentes posicionamentos A/B
-  - Adicione lazy loading otimizado
+  - Revise algoritmo de recomendação
+  - Adicione reviews/ratings nos produtos
+  - Teste A/B diferentes layouts
+  - Adicione badges ("Mais vendido", "Recomendado para você", etc)
 
 **CTR Médio (5-15%)**
 - ✅ **Bom**: Taxa de engajamento aceitável
 - **Oportunidades**:
   - Teste diferentes títulos e CTAs
-  - Experimente mostrar mais produtos
-  - Adicione social proof (mais vendidos, etc)
+  - Experimente mostrar mais/menos produtos
+  - Adicione social proof (mais vendidos, avaliações)
+  - Teste diferentes ordenações
 
 **CTR Alto (> 15%)**
-- 🎯 **Excelente**: Usuários estão engajados
-- **Mantenha**:
+- 🎯 **Excelente**: Usuários estão muito engajados
+- **Mantenha e Expanda**:
   - Continue monitorando
-  - Expanda para outras páginas
   - Documente as melhores práticas
+  - Replique o sucesso em outras páginas
+  - Considere aumentar o destaque das recomendações
 
-#### Análise por Posicionamento na Página
+#### Análise por Dimensões
 
-Para entender melhor o impacto da posição:
+**1. Por Tipo de Dispositivo**
 
-1. **Adicione eventos de scroll** (recomendado):
-```javascript
-// Disparar quando usuário rola até as recomendações
-window.dataLayer.push({
-  event: 'fashionai_recommendations_visible',
-  event_category: 'engagement',
-  event_label: 'recommendations_scrolled_into_view',
-  value: 1
-});
-```
+Compare CTR entre desktop e mobile:
 
-2. **Compare as métricas**:
-   - **Views**: Quantas vezes as recomendações foram carregadas
-   - **Visible**: Quantas vezes ficaram visíveis no viewport
-   - **Clicks**: Quantos cliques aconteceram
+| Dispositivo | Views | Clicks | CTR |
+|-------------|-------|--------|-----|
+| Desktop | 30.000 | 4.500 | 15% |
+| Mobile | 20.000 | 1.000 | 5% |
 
-3. **Calcule Taxa de Visibilidade**:
-   ```
-   Taxa de Visibilidade = fashionai_recommendations_visible / fashionai_view
-   ```
+**Insights**:
+- Mobile com CTR muito menor pode indicar problema de UX/design
+- Otimize layout mobile (botões maiores, menos produtos por linha)
 
-4. **Calcule CTR Real**:
-   ```
-   CTR Real = fashionai_click / fashionai_recommendations_visible
-   ```
+**2. Por Página**
+
+Compare CTR entre diferentes páginas:
+
+| Página | Views | Clicks | CTR |
+|--------|-------|--------|-----|
+| PDP (Página de Produto) | 35.000 | 5.250 | 15% |
+| Categoria | 10.000 | 500 | 5% |
+| Home | 5.000 | 250 | 5% |
+
+**Insights**:
+- PDP tem melhor CTR (usuário já está interessado em produtos)
+- Páginas de categoria/home precisam de otimização
+
+**3. Por Posição na Página**
+
+Se você tiver eventos com posição, compare:
+
+| Posição | Views | Clicks | CTR |
+|---------|-------|--------|-----|
+| Acima da dobra | 15.000 | 3.000 | 20% |
+| Meio da página | 20.000 | 2.000 | 10% |
+| Final da página | 15.000 | 750 | 5% |
+
+**Insights**:
+- Quanto mais acima, melhor o CTR
+- Considere mover recomendações para cima quando possível
 
 #### Exemplo de Análise Completa
 
-| Métrica | Valor | % |
-|---------|-------|---|
-| Sessões com Fashion.AI carregada | 10.000 | 100% |
-| Sessões onde ficou visível (scroll) | 6.000 | 60% |
-| Sessões com clique | 900 | 9% total / **15% dos visíveis** |
-| Sessões com add to cart | 270 | 2.7% total / **30% dos cliques** |
+| Métrica | Desktop | Mobile | Total |
+|---------|---------|--------|-------|
+| Sessões totais | 40.000 | 60.000 | 100.000 |
+| fashionai_view | 30.000 (75%) | 20.000 (33%) | 50.000 (50%) |
+| fashionai_click | 4.500 (15%) | 1.000 (5%) | 5.500 (11%) |
+| fashionai_addtocart | 1.350 (30% dos clicks) | 300 (30% dos clicks) | 1.650 (30%) |
 
 **Insights:**
-- 40% dos usuários não rolam até as recomendações
-- Dos que veem, 15% clicam (bom CTR)
-- Oportunidade: Mover recomendações para cima pode aumentar conversão em 40%
+- 50% dos usuários rolam até ver as recomendações
+- Desktop: 75% veem, 15% clicam → excelente
+- Mobile: 33% veem, 5% clicam → **precisa otimizar**
+- Taxa de add to cart após click é consistente (30%)
+
+**Ações Recomendadas:**
+1. **Prioridade ALTA**: Otimizar experiência mobile
+   - Mover recomendações mais para cima
+   - Melhorar layout mobile
+   - Testar sticky recommendations
+
+2. **Prioridade MÉDIA**: Aumentar visibilidade geral
+   - Adicionar âncora/link "Ver recomendações"
+   - Destacar seção com animação sutil
+
+3. **Prioridade BAIXA**: Melhorar CTR desktop
+   - Já está bom (15%), mas pode testar melhorias incrementais
 
 ## Dashboards e Relatórios
 
@@ -396,24 +444,28 @@ Com métricas de conversão em cada etapa para ambos os grupos.
 
 ### Dashboard 5: Engajamento e Visibilidade
 
+> **Lembre-se**: `fashionai_view` só dispara quando as recomendações ficam visíveis no viewport (scroll tracking).
+
 **Métricas Principais:**
-- fashionai_view (total de carregamentos)
-- fashionai_recommendations_visible (quantas ficaram visíveis)
-- fashionai_click (total de cliques)
-- **CTR**: fashionai_click / fashionai_view
-- **CTR Real**: fashionai_click / fashionai_recommendations_visible
-- **Taxa de Visibilidade**: fashionai_recommendations_visible / fashionai_view
+- **fashionai_view**: Usuários que viram as recomendações (scroll até viewport)
+- **fashionai_click**: Total de cliques nas recomendações
+- **fashionai_addtocart**: Add to cart a partir das recomendações
+- **CTR**: `fashionai_click / fashionai_view × 100`
+- **Conversion Rate**: `fashionai_addtocart / fashionai_click × 100`
+- **View Rate**: `fashionai_view / Sessões × 100` (quantos usuários rolam até as recomendações)
 
 **Dimensões para Análise:**
 - Tipo de dispositivo (mobile vs desktop)
 - Página (PDP, categoria, home, etc)
-- Posição na página
 - Origem do tráfego
+- País/Região
 
 **Gráficos Recomendados:**
-- Funil: Views → Visible → Clicks → Add to Cart
-- Linha temporal: CTR ao longo do tempo
-- Comparação: CTR por tipo de dispositivo
-- Heatmap: Taxa de visibilidade por página
+- **Funil de Conversão**: Sessões → Views (viram) → Clicks → Add to Cart → Purchase
+- **Linha temporal**: CTR e View Rate ao longo do tempo
+- **Comparação**: CTR por tipo de dispositivo
+- **Tabela**: CTR por página (identificar onde funciona melhor)
+- **Mapa de calor**: View Rate por página (quantos usuários chegam nas recomendações)
+- **Gráfico de barras**: Comparação de todas as métricas entre mobile e desktop
 
 **Dúvidas?** Consulte a documentação do [Google Analytics 4](./google-analytics) ou [Google Tag Manager](./google-tag-manager).
