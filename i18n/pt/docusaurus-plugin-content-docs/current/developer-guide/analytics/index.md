@@ -10,6 +10,9 @@ Rastreamento de ecommerce aprimorado com Google Analytics para análise de perfo
 ### [Google Tag Manager](./google-tag-manager)
 Configure o Google Tag Manager para rastreamento avançado e integração com automação de marketing.
 
+### [Análise de Segmentos de Sessão](./session-segments)
+Aprenda a criar segmentos de sessão para comparar métricas de usuários com e sem Fashion.AI, incluindo análise de ARPU.
+
 ## Métricas Principais para Rastrear
 
 - **Performance de Recomendações**: Taxas de clique, taxas de conversão
@@ -21,6 +24,7 @@ Configure o Google Tag Manager para rastreamento avançado e integração com au
 
 1. **[Configurar Google Analytics](./google-analytics)** - Configure ecommerce aprimorado
 2. **[Configurar Tag Manager](./google-tag-manager)** - Rastreamento avançado de eventos
+3. **[Criar Segmentos de Sessão](./session-segments)** - Análise comparativa e ARPU
 
 ---
 

@@ -88,6 +88,14 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: 'Collections',
+      items: [
+        'user-guide/vm-builder/index',
+        'user-guide/vm-builder/collections',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Vision Enrichment',
       items: [
         'user-guide/vision-enrichment/index',
@@ -164,6 +172,7 @@ const sidebars: SidebarsConfig = {
         'developer-guide/analytics/index',
         'developer-guide/analytics/google-analytics',
         'developer-guide/analytics/google-tag-manager',
+        'developer-guide/analytics/session-segments',
       ],
     },
   ],

@@ -10,6 +10,9 @@ Enhanced ecommerce tracking with Google Analytics for recommendation performance
 ### [Google Tag Manager](./google-tag-manager)
 Configure Google Tag Manager for advanced tracking and marketing automation integration.
 
+### [Session Segments Analysis](./session-segments)
+Learn how to create session segments to compare metrics between users with and without Fashion.AI, including ARPU analysis.
+
 ## Key Metrics to Track
 
 - **Recommendation Performance**: Click-through rates, conversion rates
@@ -21,6 +24,7 @@ Configure Google Tag Manager for advanced tracking and marketing automation inte
 
 1. **[Set up Google Analytics](./google-analytics)** - Configure enhanced ecommerce
 2. **[Configure Tag Manager](./google-tag-manager)** - Advanced event tracking
+3. **[Create Session Segments](./session-segments)** - Comparative analysis and ARPU
 
 ---
 

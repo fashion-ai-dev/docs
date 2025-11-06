@@ -130,40 +130,73 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'footer.sections.documentation',
+          title: 'footer.sections.userGuide',
           items: [
             {
-              label: 'footer.links.gettingStarted',
-              to: '/docs/developer-guide/getting-started',
+              label: 'footer.links.userGettingStarted',
+              to: '/docs/user-guide/getting-started',
             },
             {
-              label: 'footer.links.apiEndpoints',
-              to: '/docs/developer-guide/recommendations-search/api-endpoints',
+              label: 'footer.links.integrations',
+              to: '/docs/user-guide/integrations/vtex',
+            },
+            {
+              label: 'footer.links.recommendations',
+              to: '/docs/user-guide/recomendations',
+            },
+            {
+              label: 'footer.links.profiling',
+              to: '/docs/user-guide/profiling',
+            },
+            {
+              label: 'footer.links.behaviors',
+              to: '/docs/user-guide/behaviors',
+            },
+          ],
+        },
+        {
+          title: 'footer.sections.developerGuide',
+          items: [
+            {
+              label: 'footer.links.devGettingStarted',
+              to: '/docs/developer-guide/getting-started',
             },
             {
               label: 'footer.links.authentication',
               to: '/docs/developer-guide/authentication',
             },
             {
+              label: 'footer.links.apiEndpoints',
+              to: '/docs/developer-guide/recommendations-search/api-endpoints',
+            },
+            {
               label: 'footer.links.search',
               to: '/docs/developer-guide/recommendations-search/search/overview',
+            },
+            {
+              label: 'footer.links.analytics',
+              to: '/docs/developer-guide/analytics',
             },
           ],
         },
         {
-          title: 'footer.sections.integration',
+          title: 'footer.sections.features',
           items: [
             {
-              label: 'footer.links.uiIntegration',
-              to: '/docs/developer-guide/recommendations-search/ui-integration',
+              label: 'footer.links.seoContent',
+              to: '/docs/user-guide/seo-content',
             },
             {
-              label: 'footer.links.googleAnalytics',
-              to: '/docs/developer-guide/analytics/google-analytics',
+              label: 'footer.links.taxonomy',
+              to: '/docs/user-guide/taxonomy',
             },
             {
-              label: 'footer.links.integrations',
-              to: '/docs/developer-guide/initial-setup/integrations/shopify-integration',
+              label: 'footer.links.visionEnrichment',
+              to: '/docs/user-guide/vision-enrichment',
+            },
+            {
+              label: 'footer.links.vmBuilder',
+              to: '/docs/user-guide/vm-builder',
             },
           ],
         },
@@ -180,11 +213,6 @@ const config: Config = {
               href: 'https://www.generativecrm.com',
               rel: 'noopener noreferrer',
             },
-          ],
-        },
-        {
-          title: 'footer.sections.support',
-          items: [
             {
               label: 'footer.links.contact',
               href: 'mailto:support@generativecrm.com',

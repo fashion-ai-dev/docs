@@ -1,5 +1,5 @@
 ---
-sidebar_position: 5
+sidebar_position: 3
 ---
 
 # Google Analytics 4 Integration
@@ -7,6 +7,16 @@ sidebar_position: 5
 This section describes how to configure Fashion.AI event tracking in Google Analytics 4 for comprehensive analytics and conversion monitoring.
 
 ## Required Events
+
+### General Recommendation Events
+
+| Event                | When it occurs                                            |
+|----------------------|-----------------------------------------------------------|
+| `fashionai_view`     | When a Fashion.AI recommendation is displayed              |
+| `fashionai_click`    | When user clicks on a Fashion.AI recommendation            |
+| `fashionai_addtocart`| When a recommended product is added to cart               |
+
+### Shop The Look Specific Events
 
 | Event                             | When it occurs                                |
 |-----------------------------------|-----------------------------------------------|
@@ -16,39 +26,43 @@ This section describes how to configure Fashion.AI event tracking in Google Anal
 
 ## DataLayer Implementation
 
-### "Shop the Look" Button View
+### General Recommendation Events
+
+#### Recommendation View
 
 ```javascript
 window.dataLayer = window.dataLayer || [];
 window.dataLayer.push({
-  event: 'fashionai_view_shopthelook',
+  event: 'fashionai_view',
   event_category: 'engagement',
-  event_label: 'shopthelook_button_view',
+  event_label: 'recommendation_view',
   value: 1
 });
 ```
 
-### "Shop the Look" Button Click
+#### Recommendation Click
 
 ```javascript
 window.dataLayer.push({
-  event: 'fashionai_click_shopthelook',
+  event: 'fashionai_click',
   event_category: 'engagement',
-  event_label: 'shopthelook_button_click',
+  event_label: 'recommendation_click',
   value: 1
 });
 ```
 
-### "I Want It" Click Inside Modal
+#### Add to Cart from Recommendation
 
 ```javascript
 window.dataLayer.push({
-  event: 'fashionai_addtocart_shopthelook',
+  event: 'fashionai_addtocart',
   event_category: 'ecommerce',
-  event_label: 'add_to_cart_from_shopthelook',
+  event_label: 'add_to_cart_from_recommendation',
   value: 1
 });
 ```
+
+### Remember to add the Shop The Look specific events
 
 ## Event Verification
 
