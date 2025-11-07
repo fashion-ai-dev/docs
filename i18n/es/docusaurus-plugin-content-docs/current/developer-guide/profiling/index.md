@@ -2,114 +2,114 @@
 sidebar_position: 4
 ---
 
-# Customer Profiling API
+# API de perfiles de clientes
 
-Technical reference for Fashion.AI's Customer Profiling API. This API analyzes customer purchase and navigation behavior to generate detailed, actionable profiles with AI-driven insights for marketing, sales, and CRM personalization.
+Referencia técnica para la API de perfiles de clientes de Fashion.AI. Esta API analiza el comportamiento de compra y navegación de los clientes para generar perfiles detallados y prácticos con información basada en inteligencia artificial para marketing, ventas y personalización de CRM.
 
-## Overview
+## Descripción general
 
-The Fashion AI Profiling service automatically generates comprehensive customer profiles by analyzing:
+El servicio de perfiles de Fashion AI genera automáticamente perfiles completos de los clientes mediante el análisis de:
 
-- Purchase history
-- Navigation patterns
-- Product preferences
-- Behavioral insights
+- Historial de compras
+- Patrones de navegación
+- Preferencias de productos
+- Información sobre el comportamiento
 
-Each profile includes customer style preferences, occasion-based outfit suggestions, marketing guidance, content themes, and current purchase moment analysis.
+Cada perfil incluye las preferencias de estilo del cliente, sugerencias de atuendos para cada ocasión, orientación de marketing, temas de contenido y análisis del momento de compra actual.
 
-For business context and use cases, see the [User Guide: Profiling](../../user-guide/profiling).
+Para conocer el contexto empresarial y los casos de uso, consulte la [Guía del usuario: Perfiles](../../user-guide/profiling).
 
-## Quick Start
+## Inicio rápido
 
-Get your first customer profile in 3 steps:
+Obtenga su primer perfil de cliente en 3 pasos:
 
-**1. Get your API token**
+**1. Obtenga su token API**
 
-Visit https://app.generativecrm.com/settings?tab=app-tokens and generate your token.
+Visite https://app.generativecrm.com/settings?tab=app-tokens y genere su token.
 
-**2. Make your first request**
+**2. Realice su primera solicitud**
 
 ```bash
 curl -X GET \
   'https://catalog.api.fashionaiale.com/api/v1/crm/protected/profile/email/customer@example.com' \
   -H 'Content-Type: application/json' \
-  -H 'X-FashionAI-APP-Token: YOUR_TOKEN_HERE'
+  -H 'X-FashionAI-APP-Token: TU_TOKEN_AQUÍ'
 ```
 
-**3. Use the profile data**
+**3. Utilice los datos del perfil**
 
 ```javascript
-// Access key profile sections
+// Acceda a las secciones clave del perfil
 const { perfil_cliente, briefing_marketing, momento_compra_atual } = response.profile;
 
-// Get customer style
+// Obtenga el estilo del cliente
 console.log(perfil_cliente.estilo_geral);
 
-// Get marketing recommendations
+// Obtenga recomendaciones de marketing
 console.log(briefing_marketing.tom_de_voz);
 
-// Check for new behavior
+// Comprueba si hay un nuevo comportamiento
 if (momento_compra_atual.novo_comportamento) {
-  console.log('New opportunity:', momento_compra_atual.oportunidades);
+  console.log('Nueva oportunidad:', momento_compra_atual.oportunidades);
 }
 ```
 
-**Important:** Make API calls from your backend server to protect your token. See the [Security section](#security--cors) below.
+**Importante:** Realiza las llamadas a la API desde tu servidor backend para proteger tu token. Consulta la sección [Seguridad](#security--cors) más abajo.
 
-## Base Configuration
+## Configuración básica
 
-**Base URL:**
+**URL base:**
 ```
 https://catalog.api.fashionaiale.com/api/v1/crm
 ```
 
-**Required Headers:**
+**Encabezados necesarios:**
 ```http
 Content-Type: application/json
-X-FashionAI-APP-Token: <your_app_token>
+X-FashionAI-APP-Token: <su_token_de_aplicación>
 ```
 
-**Authentication:** All endpoints use the same authentication method as other Fashion.AI APIs. See [API Authentication](../authentication) for details.
+**Autenticación:** Todos los puntos finales utilizan el mismo método de autenticación que otras API de Fashion.AI. Consulte [Autenticación de API](../authentication) para obtener más detalles.
 
-## Security & CORS
+## Seguridad y CORS
 
-> **Important:** Direct browser requests are blocked to protect your authentication token.
+> **Importante:** Las solicitudes directas del navegador se bloquean para proteger su token de autenticación.
 
-The `X-FashionAI-APP-Token` must not be exposed in frontend code. If you attempt to call the API directly from the browser, you'll receive a CORS error.
+El `X-FashionAI-APP-Token` no debe exponerse en el código del frontend. Si intenta llamar a la API directamente desde el navegador, recibirá un error CORS.
 
-**Recommended:** Make all API calls from your backend server.
+**Recomendado:** Realice todas las llamadas a la API desde su servidor backend.
 
-**Need frontend access?** Contact support to request domain authorization:
+**¿Necesita acceso al frontend?** Póngase en contacto con el servicio de asistencia para solicitar la autorización del dominio:
 :mailbox: **support@generativecrm.com**
 
-## Use Cases
+## Casos de uso
 
-**Personalized Marketing**
-Segment customers by `briefing_marketing.tom_de_voz` and create targeted campaigns with appropriate tone and visual direction.
+**Marketing personalizado**
+Segmente a los clientes por `briefing_marketing.tom_de_voz` y cree campañas específicas con el tono y la dirección visual adecuados.
 
-**Product Recommendations**
-Use `ocasioes_relevantes` to suggest complete outfit combinations based on customer lifestyle.
+**Recomendaciones de productos**
+Utilice `ocasioes_relevantes` para sugerir combinaciones completas de atuendos basadas en el estilo de vida del cliente.
 
-**Content Creation**
-Leverage `ganchos_conteudo` to create blog posts, social media, and newsletters that resonate with your audience.
+**Creación de contenido**
+Aproveche `ganchos_conteudo` para crear entradas de blog, redes sociales y boletines informativos que resuenen en su público.
 
-**Behavior Change Detection**
-Monitor `momento_compra_atual.novo_comportamento` to identify customers exploring new styles and offer proactive consultations.
+**Detección de cambios de comportamiento**
+Supervise `momento_compra_atual.novo_comportamento` para identificar a los clientes que exploran nuevos estilos y ofrecerles consultas proactivas.
 
-**Sales Enablement**
-Provide sales teams with `perfil_cliente` data before VIP consultations for personalized service.
-
----
-
-## Next Steps
-
-- [API Endpoints](./endpoints) - Available endpoints and code examples
-- [Response Structure](./response-structure) - Detailed profile fields and error handling
-- [Authentication Guide](../authentication) - Setup and authentication details
+**Facilitación de ventas**
+Proporcione a los equipos de ventas los datos de `perfil_cliente` antes de las consultas VIP para ofrecer un servicio personalizado.
 
 ---
 
-## Support
+## Próximos pasos
 
-For technical or commercial questions:
+- [Puntos finales de la API](./endpoints) - Puntos finales disponibles y ejemplos de código
+- [Estructura de respuesta](./response-structure) - Campos de perfil detallados y gestión de errores
+- [Guía de autenticación](../authentication) - Detalles de configuración y autenticación
+
+---
+
+## Asistencia
+
+Para preguntas técnicas o comerciales:
 :mailbox: **support@generativecrm.com**

@@ -2,31 +2,31 @@
 sidebar_position: 2
 ---
 
-# Response Structure
+# Estrutura da Resposta
 
-All profiling endpoints return the same structure, providing comprehensive customer insights.
+Todos os endpoints de perfil retornam a mesma estrutura, fornecendo insights abrangentes sobre o cliente.
 
-## Top-Level Fields
+## Campos de Nível Superior
 
-| Field | Type | Description |
+| Campo | Tipo | Descrição |
 |-------|------|-------------|
-| `userProfileId` | string | Unique customer identifier |
-| `profile` | object | Complete customer profile (details below) |
+| `userProfileId` | string | Identificador único do cliente |
+| `profile` | object | Perfil completo do cliente (detalhes abaixo) |
 
-## Profile Object
+## Objeto Profile
 
-The `profile` object contains five main sections:
+O objeto `profile` contém cinco seções principais:
 
 ### perfil_cliente
 
-General customer description and style preferences.
+Descrição geral do cliente e preferências de estilo.
 
-| Field | Type | Description |
+| Campo | Tipo | Descrição |
 |-------|------|-------------|
-| `descricao_geral` | string | Customer lifestyle, values, and interests |
-| `estilo_geral` | string | Fashion style, color preferences, cuts, and aesthetics |
+| `descricao_geral` | string | Estilo de vida, valores e interesses do cliente |
+| `estilo_geral` | string | Estilo de moda, preferências de cores, cortes e estética |
 
-**Example:**
+**Exemplo:**
 ```json
 {
   "descricao_geral": "Homem de 30-40 anos, profissional que valoriza qualidade e atemporalidade",
@@ -36,15 +36,15 @@ General customer description and style preferences.
 
 ### ocasioes_relevantes
 
-Array of relevant occasions with outfit suggestions.
+Array de ocasiões relevantes com sugestões de looks.
 
-| Field | Type | Description |
+| Campo | Tipo | Descrição |
 |-------|------|-------------|
-| `ocasião` | string | Occasion name (work, party, casual, etc.) |
-| `persona_na_ocasião` | string | How customer presents themselves on this occasion |
-| `sugestao_look` | array | Complete outfit suggestion (list of items) |
+| `ocasião` | string | Nome da ocasião (trabalho, festa, casual, etc.) |
+| `persona_na_ocasião` | string | Como o cliente se apresenta nesta ocasião |
+| `sugestao_look` | array | Sugestão de look completo (lista de itens) |
 
-**Example:**
+**Exemplo:**
 ```json
 [
   {
@@ -61,15 +61,15 @@ Array of relevant occasions with outfit suggestions.
 
 ### briefing_marketing
 
-Marketing guidance for campaigns and communications.
+Orientações de marketing para campanhas e comunicações.
 
-| Field | Type | Description |
+| Campo | Tipo | Descrição |
 |-------|------|-------------|
-| `tom_de_voz` | array | Communication tone recommendations |
-| `direcao_visual` | array | Visual direction for campaigns |
-| `orientacao_campanhas` | array | Campaign positioning strategies |
+| `tom_de_voz` | array | Recomendações de tom de comunicação |
+| `direcao_visual` | array | Direção visual para campanhas |
+| `orientacao_campanhas` | array | Estratégias de posicionamento de campanhas |
 
-**Example:**
+**Exemplo:**
 ```json
 {
   "tom_de_voz": ["inspiracional", "autêntico", "sofisticado"],
@@ -84,9 +84,9 @@ Marketing guidance for campaigns and communications.
 
 ### ganchos_conteudo
 
-Array of content themes that resonate with the customer.
+Array de temas de conteúdo que ressoam com o cliente.
 
-**Example:**
+**Exemplo:**
 ```json
 [
   "Guarda-roupa cápsula masculino",
@@ -96,17 +96,17 @@ Array of content themes that resonate with the customer.
 
 ### momento_compra_atual
 
-Current purchase moment analysis and opportunities.
+Análise do momento atual de compra e oportunidades.
 
-| Field | Type | Description |
+| Campo | Tipo | Descrição |
 |-------|------|-------------|
-| `navegacoes` | array | Recent browsing/navigation patterns |
-| `resumo_momento` | string | Behavioral interpretation of current moment |
-| `relacao_com_historico` | string | How current behavior relates to purchase history |
-| `novo_comportamento` | boolean | Whether customer is showing new/different behavior |
-| `oportunidades` | array | Recommended actions based on current moment |
+| `navegacoes` | array | Padrões recentes de navegação/exploração |
+| `resumo_momento` | string | Interpretação comportamental do momento atual |
+| `relacao_com_historico` | string | Como o comportamento atual se relaciona com o histórico de compras |
+| `novo_comportamento` | boolean | Se o cliente está mostrando comportamento novo/diferente |
+| `oportunidades` | array | Ações recomendadas baseadas no momento atual |
 
-**Example:**
+**Exemplo:**
 ```json
 {
   "navegacoes": ["01/09: visualizou Short Azul Claro"],
@@ -120,8 +120,7 @@ Current purchase moment analysis and opportunities.
 }
 ```
 
-## Complete Response Example
-
+## Exemplo de Resposta Completa
 ```json
 {
   "userProfileId": "ddsd23223",
@@ -168,18 +167,17 @@ Current purchase moment analysis and opportunities.
 }
 ```
 
-## Error Handling
+## Tratamento de Erros
 
-| Status Code | Description | Solution |
-|-------------|-------------|----------|
-| `200` | Success | Profile returned successfully |
-| `401` | Unauthorized | Verify your APP token is correct |
-| `404` | Not Found | Profile doesn't exist for the provided identifier |
-| `429` | Too Many Requests | Implement rate limiting in your application |
-| `500` | Internal Server Error | Contact support |
+| Código de Status | Descrição | Solução |
+|------------------|-----------|----------|
+| `200` | Sucesso | Perfil retornado com sucesso |
+| `401` | Não Autorizado | Verifique se seu token APP está correto |
+| `404` | Não Encontrado | Perfil não existe para o identificador fornecido |
+| `429` | Muitas Requisições | Implemente limitação de taxa em sua aplicação |
+| `500` | Erro Interno do Servidor | Entre em contato com o suporte |
 
-### Error Response Example
-
+### Exemplo de Resposta de Erro
 ```json
 {
   "error": "Unauthorized",
@@ -187,61 +185,58 @@ Current purchase moment analysis and opportunities.
 }
 ```
 
-## Field Interpretation Guide
+## Guia de Interpretação dos Campos
 
-### Using novo_comportamento
+### Usando novo_comportamento
 
-The `novo_comportamento` flag indicates when a customer is exploring new styles or categories:
-
+A flag `novo_comportamento` indica quando um cliente está explorando novos estilos ou categorias:
 ```javascript
 if (profile.profile.momento_compra_atual.novo_comportamento) {
-  // Customer is showing new behavior - great opportunity!
+  // Cliente está mostrando novo comportamento - ótima oportunidade!
   const opportunities = profile.profile.momento_compra_atual.oportunidades;
 
-  // Example: Send personalized email with recommendations
+  // Exemplo: Enviar email personalizado com recomendações
   sendEmail({
     to: customerEmail,
-    subject: "We noticed you're exploring something new!",
+    subject: "Percebemos que você está explorando algo novo!",
     recommendations: opportunities
   });
 }
 ```
 
-### Marketing Segmentation
+### Segmentação de Marketing
 
-Use `briefing_marketing` to create targeted campaigns:
-
+Use `briefing_marketing` para criar campanhas segmentadas:
 ```javascript
 const { tom_de_voz, direcao_visual } = profile.profile.briefing_marketing;
 
-// Segment customers by tone preference
+// Segmentar clientes por preferência de tom
 if (tom_de_voz.includes("sofisticado")) {
-  // Use premium messaging
+  // Usar mensagens premium
 }
 
 if (direcao_visual.includes("Paleta neutra")) {
-  // Use minimalist visuals
+  // Usar visuais minimalistas
 }
 ```
 
-### Occasion-Based Recommendations
+### Recomendações Baseadas em Ocasiões
 
-Leverage `ocasioes_relevantes` for contextual product suggestions:
-
+Aproveite `ocasioes_relevantes` para sugestões contextuais de produtos:
 ```javascript
 const workOccasion = profile.profile.ocasioes_relevantes.find(
   occ => occ.ocasião.toLowerCase().includes("trabalho")
 );
 
 if (workOccasion) {
-  // Recommend products from work collection
+  // Recomendar produtos da coleção trabalho
   recommendProducts(workOccasion.sugestao_look);
 }
 ```
 
 ---
 
-## Support
+## Suporte
 
-For technical questions:
+Para questões técnicas:
 :mailbox: **support@generativecrm.com**

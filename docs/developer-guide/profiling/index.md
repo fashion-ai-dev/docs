@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Customer Profiling API
+# Profiles API
 
 Technical reference for Fashion.AI's Customer Profiling API. This API analyzes customer purchase and navigation behavior to generate detailed, actionable profiles with AI-driven insights for marketing, sales, and CRM personalization.
 
