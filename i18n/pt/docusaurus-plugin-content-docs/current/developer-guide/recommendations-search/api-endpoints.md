@@ -36,7 +36,7 @@ https://catalog.api.fashionaiale.com/api/v1/products/protected/recommendation
 
 ## Endpoints da API
 
-### Evento de visualização do produto
+### Evento de productView
 
 Quando um usuário clica em um produto, um evento de visualização do produto deve ser acionado para o Fashion.AI, mostrando ao usuário um conjunto de produtos semelhantes.
 Se o usuário estiver conectado, o Fashion mostra um conjunto específico de produtos com base em seu histórico.
@@ -67,7 +67,7 @@ Este evento é um forte sinal da intenção do usuário e ajuda a IA a mapear a 
 
 > ⚠️ **Observação 2**: esta resposta ficará vazia enquanto a IA não tiver dados suficientes sobre o usuário e/ou a sessão. Nesses casos, organize a loja virtual de acordo com a solução nativa da sua plataforma.
 
-### Evento de visualização de categoria
+### Evento de categoryView
 
 Quando um usuário visita uma página de categoria (por exemplo, “Calças”), um evento de visualização de categoria deve ser acionado para o Fashion.AI.
 Se o usuário estiver conectado, o Fashion exibe uma visualização de categoria específica com base em seu histórico.
@@ -98,7 +98,7 @@ Este evento é um forte sinal da intenção do usuário e ajuda a IA a mapear a 
 
 > ⚠️ **Observação 2**: esta resposta ficará vazia enquanto a IA não tiver dados suficientes sobre o usuário e/ou a sessão. Nesses casos, organize a loja de acordo com a solução nativa da sua plataforma.
 
-### Evento “Compre o look”
+### Evento shopTheLook
 
 Habilite o botão “Compre o look” para exibir, por meio de modal ou gaveta, produtos adicionais que compõem o look completo de uma peça principal.
 
