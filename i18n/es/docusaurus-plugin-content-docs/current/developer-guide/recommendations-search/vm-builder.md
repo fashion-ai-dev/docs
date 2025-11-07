@@ -3,7 +3,7 @@ sidebar_position: 5
 ---
 
 
-# Colecciones – Colecciones de Productos y Subconjuntos (Slices)
+# Colecciones de Productos y Subconjuntos (Slices)
 
 **Colecciones** te permite crear y organizar colecciones de productos usando **IA, hojas de cálculo o selección manual**.
 Cada colección puede contener subconjuntos llamados **slices**, que organizan productos según criterios definidos.
