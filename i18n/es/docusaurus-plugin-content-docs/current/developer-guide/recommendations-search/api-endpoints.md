@@ -4,11 +4,11 @@ sidebar_position: 2
 
 # Referencia de personalización
 
-Referencia técnica para los puntos finales de la API de personalización de Fashion.AI. Para obtener una descripción general de los tipos de recomendaciones y cómo funciona nuestra IA, consulte [Introducción a las recomendaciones](../../user-guide/getting-started).
+Referencia técnica para los endpoints de la API de personalización de Fashion.AI. Para obtener una descripción general de los tipos de recomendaciones y cómo funciona nuestra IA, consulte [Introducción a las recomendaciones](../../user-guide/getting-started).
 
 ## Configuración básica
 
-### Punto final básico
+### Endpoint básico
 ```
 https://catalog.api.fashionaiale.com/api/v1/products/protected/recommendation
 ```
@@ -34,7 +34,7 @@ https://catalog.api.fashionaiale.com/api/v1/products/protected/recommendation
 5. **Comportamiento del usuario**: cruza referencias de búsquedas, productos y compras anteriores de los usuarios que han iniciado sesión.
 6. **Predicción de intenciones**: relaciona productos de diferentes categorías basándose en el mapeo de estilos.
 
-## Puntos finales de la API
+## Endpoints de la API
 
 ### Evento de visualización de productos
 

@@ -69,7 +69,7 @@ Content-Type: application/json
 X-FashionAI-APP-Token: <su_token_de_aplicación>
 ```
 
-**Autenticación:** Todos los puntos finales utilizan el mismo método de autenticación que otras API de Fashion.AI. Consulte [Autenticación de API](../authentication) para obtener más detalles.
+**Autenticación:** Todos los endpoints utilizan el mismo método de autenticación que otras API de Fashion.AI. Consulte [Autenticación de API](../authentication) para obtener más detalles.
 
 ## Seguridad y CORS
 
@@ -103,7 +103,7 @@ Proporcione a los equipos de ventas los datos de `perfil_cliente` antes de las c
 
 ## Próximos pasos
 
-- [Puntos finales de la API](./endpoints) - Puntos finales disponibles y ejemplos de código
+- [Endpoints de la API](./endpoints) - Endpoints disponibles y ejemplos de código
 - [Estructura de respuesta](./response-structure) - Campos de perfil detallados y gestión de errores
 - [Guía de autenticación](../authentication) - Detalles de configuración y autenticación
 
