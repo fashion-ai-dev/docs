@@ -36,13 +36,44 @@ https://catalog.api.fashionaiale.com/api/v1/products/protected/recommendation
 
 ## API Endpoints
 
+### Product View Event
+
+When a user clicks on a product, a product view event should be triggered to Fashion.AI, showing to the user a set of similar products.
+If the user is logged in, fashion shows a specific set of products based on its history.
+This event is a strong signal of user intention and helps the AI map user intent, serving as the foundation for storefront organization, product recommendations, and CRM profile enrichment.
+
+#### Request Body
+
+```json
+{
+  "userId": 90,              // optional - user identifier if authenticated
+  "sessionId": "sess456",    // required
+  "eventType": "productView", // required
+  "data": {
+    "id": "id789"      // required - product ID
+  }
+}
+```
+
+#### Expected Response
+
+```json
+{
+  "products": ["product-id-1", "product-id-2", "product-id-3"]
+}
+```
+
+> ⚠️ **Note 1**: This response includes all similar products ranked by session and user relevance, which can be used for storefront organization.
+
+> ⚠️ **Note 2**: This response will be empty while the AI doesn't have sufficient data about the user and/or session. In these cases, organize the storefront according to your platform's native solution.
+
 ### Category View Event
 
 When a user visits a category page (e.g., "Pants"), a category view event should be triggered to Fashion.AI.
 If the user is logged in, fashion shows a specific category view based on its history.
 This event is a strong signal of user intention and helps the AI map user intent, serving as the foundation for storefront organization, product recommendations, and CRM profile enrichment.
 
-### Request Body
+#### Request Body
 
 ```json
 {
@@ -55,7 +86,7 @@ This event is a strong signal of user intention and helps the AI map user intent
 }
 ```
 
-### Expected Response
+#### Expected Response
 
 ```json
 {
@@ -67,11 +98,11 @@ This event is a strong signal of user intention and helps the AI map user intent
 
 > ⚠️ **Note 2**: This response will be empty while the AI doesn't have sufficient data about the user and/or session. In these cases, organize the storefront according to your platform's native solution.
 
-## Shop The Look Event
+### Shop The Look Event
 
 Enable the "shop the look" button to display, via modal or drawer, additional products that make up the complete look for a main piece.
 
-### Request Body
+#### Request Body
 
 ```json
 {
@@ -84,7 +115,7 @@ Enable the "shop the look" button to display, via modal or drawer, additional pr
 }
 ```
 
-### Expected Response
+#### Expected Response
 
 ```json
 {
