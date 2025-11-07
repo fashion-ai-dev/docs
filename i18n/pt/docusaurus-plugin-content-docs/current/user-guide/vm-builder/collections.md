@@ -4,110 +4,140 @@ sidebar_position: 2
 
 # Como Criar e Gerenciar Coleções
 
-Aprenda a criar coleções personalizadas de produtos para exibir no seu site de forma fácil e rápida.
+Aprenda a criar coleções personalizadas de produtos para exibir em seu site de forma fácil e rápida.
 
 ## O que são Coleções?
 
-Coleções são grupos de produtos que você escolhe para destacar no seu site. Por exemplo:
+Coleções são grupos de produtos que você escolhe para destacar em seu site. Por exemplo:
 - Lançamentos da semana
 - Produtos em promoção
 - Looks de verão
-- Bestsellers
+- Mais vendidos
 
 ## Passo a Passo
 
-### 1. Acessar Coleções
+### 1. Acesse Coleções
 
 Clique em **Coleções** no menu lateral.
 
-### 2. Criar uma Nova Coleção
+### 2. Crie uma Nova Coleção
 
-Crie uma coleção clicando no link indicado na imagem:
+Crie uma coleção clicando no link mostrado na imagem:
 
 ![Criar Coleção](/img/tela1-vm-builder.png)
 
-### 3. Abrir a Coleção
+### 3. Abra a Coleção
 
-Clique no botão de **ver slices** para começar a configurar sua coleção:
+Clique no botão **visualizar slices** para começar a configurar sua coleção:
 
-![Ver Slices](/img/tela2-vm-builder.png)
+![Visualizar Slices](/img/tela2-vm-builder.png)
 
-### 4. Configurar Informações da Coleção
+### 4. Configure as Informações da Coleção
 
 Você verá uma página dividida em duas partes:
 
-**Parte Superior**: Informações da coleção
+**Seção Superior**: Informações da coleção
 - Nome da coleção
 - Descrição
-- URL (endpoint) para usar essa coleção no site
-- Botão de gerar link (feed mobile para ver os produtos da coleção - slice ativa)
+- URL (endpoint) para usar esta coleção em seu site
+- Botão gerar link (feed mobile para visualizar produtos da coleção - slice ativo)
 
-**Parte Inferior**: Slices (versões da coleção)
+**Seção Inferior**: Slices (versões da coleção)
 
-### 5. Entendendo as Slices
+### 5. Entendendo os Slices
 
-Slices são diferentes versões da sua coleção. Você pode criar várias, mas apenas uma fica ativa por vez.
+Slices são diferentes versões da sua coleção. Você pode criar vários, mas apenas um fica ativo por vez.
 
 **Por que usar slices?**
 - Preparar uma nova versão sem afetar a que está no ar
-- Fazer testes A/B com diferentes produtos
+- Realizar testes A/B com diferentes produtos
 - Ter versões sazonais prontas para ativar
 
-### 6. Criar uma Slice
+### 6. Crie um Slice
 
-Crie sua primeira slice:
+Crie seu primeiro slice:
 
 ![Criar Slice](/img/tela3-vm-builder.png)
 
-### 7. Adicionar Produtos
+Ao criar um slice, você precisará configurar:
+
+- **Nome do slice**: Dê um nome descritivo (ex: "Casacos de Lã", "Produtos Promoção Verão")
+- **Tipo**: Escolha o tipo do slice:
+  - `MANUAL`: Você seleciona e organiza os produtos manualmente
+  - Outros tipos podem estar disponíveis em breve
+- **Data de início**: Quando o slice deve se tornar ativo
+- **Data de término**: Quando o slice deve expirar
+
+> **Dica**: Para um slice sem expiração, defina uma data de término distante (ex: vários anos no futuro).
+
+#### Indicadores de Status do Slice
+
+Os slices têm indicadores visuais de status baseados em suas datas:
+- 🟩 **Verde (Ativo)**: A data atual está entre a data de início e término
+- 🟨 **Amarelo (Agendado)**: A data de início ainda não chegou
+- 🟥 **Vermelho (Expirado)**: A data de término já passou
+
+### 7. Adicione Produtos
 
 Clique em **Selecionar Produtos** para escolher quais produtos farão parte da coleção.
 
-Selecione os que você quer adicionar.
+Selecione os que você deseja adicionar.
 
-### 8. Organizar a Ordem dos Produtos
+### 8. Organize a Ordem dos Produtos
 
-Arraste os produtos para definir em que ordem eles aparecerão no seu site.
+Arraste os produtos para definir a ordem em que aparecerão em seu site.
 
 **Antes de ordenar:**
 ![Arrastar Produtos - Estado Inicial](/img/tela4-vm-builder.png)
 
-**Depois de ordenar:**
+**Após ordenar:**
 ![Arrastar Produtos - Organizado](/img/tela5-vm-builder.png)
 
 > **Dica**: Os produtos aparecerão no site exatamente na ordem que você definir aqui.
+
+### 9. Limites de Produtos e Status Ativo
+
+**Limites Importantes:**
+- Cada slice pode conter **até 500 produtos no máximo**
+- Se precisar de mais produtos, considere criar múltiplas coleções
+
+**Status Ativo do Produto:**
+Cada produto em um slice tem um campo `active` que indica se o produto está atualmente disponível com base nos filtros aplicados ao slice. Isso é útil para:
+- Ocultar produtos fora de estoque
+- Aplicar filtros de disponibilidade
+- Gerenciar produtos sazonais
 
 ## Publicando sua Coleção
 
 Quando sua coleção estiver pronta:
 
 1. Revise se todos os produtos estão corretos
-2. Confira se a ordem está como você deseja
-3. Selecione o período em que essa slice deve estar ativa
+2. Verifique se a ordem está como você deseja
+3. Selecione o período em que este slice deve ficar ativo
 
-Pronto! Sua coleção já estará disponível no site.
+Pronto! Sua coleção estará disponível no site.
 
 ## Dicas Importantes
 
 ✅ **Dê nomes claros**: "Verão 2024", "Promoção Black Friday", etc.
 
-✅ **Crie slices extras**: Tenha sempre uma versão de backup pronta
+✅ **Crie slices extras**: Sempre tenha uma versão de backup pronta
 
-✅ **Apenas uma ativa**: Lembre-se que só uma slice fica ativa por vez
+✅ **Apenas um ativo**: Lembre-se que apenas um slice fica ativo por vez
 
-✅ **Teste antes**: Sempre revise antes de ativar uma nova slice
+✅ **Teste antes**: Sempre revise antes de ativar um novo slice
 
 ## Perguntas Frequentes
 
-**Posso ter várias coleções?**
-Sim! Crie quantas coleções precisar para diferentes seções do site.
+**Posso ter múltiplas coleções?**
+Sim! Crie quantas coleções precisar para diferentes seções do seu site.
 
-**Como sei qual slice está ativa?**
-A slice ativa terá um indicador visual na interface.
+**Como sei qual slice está ativo?**
+O slice ativo terá um indicador visual na interface.
 
 **Quanto tempo leva para atualizar no site?**
-As mudanças aparecem quase instantaneamente após ativar uma slice.
+As mudanças aparecem quase instantaneamente após ativar um slice.
 
 ---
 
-**Precisa de ajuda?** Entre em contato com nosso time de suporte.
+**Precisa de ajuda?** Entre em contato com nossa equipe de suporte.
