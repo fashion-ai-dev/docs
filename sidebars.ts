@@ -18,7 +18,6 @@ const sidebars: SidebarsConfig = {
     {
       type: 'category',
       label: 'Integrations',
-      key: 'platform-integrations',
       items: [
         'user-guide/integrations/vtex',
         'user-guide/integrations/shopify',

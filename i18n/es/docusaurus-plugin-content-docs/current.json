@@ -35,9 +35,13 @@
     "message": "Catálogo",
     "description": "The label for category Catálogo in sidebar userGuideSidebar"
   },
-  "sidebar.userGuideSidebar.category.plataform-integrations": {
+  "sidebar.userGuideSidebar.category.Integrations": {
     "message": "Integraciones",
     "description": "The label for category Integrations in sidebar userGuideSidebar"
+  },
+  "sidebar.userGuideSidebar.category.Collections": {
+    "message": "Colecciones",
+    "description": "The label for category Collections in sidebar userGuideSidebar"
   },
   "sidebar.developerGuideSidebar.category.Initial Setup": {
     "message": "Configuración Inicial",

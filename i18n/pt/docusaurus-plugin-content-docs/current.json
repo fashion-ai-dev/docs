@@ -31,9 +31,13 @@
     "message": "Minha IA de Estilo - Taxonomia",
     "description": "The label for category Taxonomy in sidebar userGuideSidebar"
   },
-  "sidebar.userGuideSidebar.category.plataform-integrations": {
+  "sidebar.userGuideSidebar.category.Integrations": {
     "message": "Integrações",
     "description": "The label for category Integrations in sidebar userGuideSidebar"
+  },
+  "sidebar.userGuideSidebar.category.Collections": {
+    "message": "Coleções",
+    "description": "The label for category Collections in sidebar userGuideSidebar"
   },
   "sidebar.userGuideSidebar.category.Vision Enrichment": {
     "message": "Catálogo",

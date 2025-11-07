@@ -33,14 +33,14 @@ The spreadsheet import method allows you to upload your product catalog using CS
 
 ## Required Fields
 
-- **Product Name**
-- **Category Id**
 - **Image URL** - Main product image
 - **Category** - Product category
 
 ## Optional Fields
 
 - Product ID
+- Category ID
+- Name
 - Description
 - Brand
 - Color
