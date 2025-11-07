@@ -132,5 +132,3 @@ Para proteger el token de autenticación (X-FashionAI-APP-Token), bloqueamos las
 Esta medida evita que el token quede expuesto en el código fuente del sitio web, lo que podría comprometer la seguridad de la API y permitir su uso no autorizado.
 
 Si su equipo sigue optando por realizar llamadas directamente desde la interfaz, solo tiene que solicitar la autorización del dominio al servicio técnico de FashionAI. :mailbox: **support@generativecrm.com**
-
-Traducción realizada con la versión gratuita del traductor DeepL.com
