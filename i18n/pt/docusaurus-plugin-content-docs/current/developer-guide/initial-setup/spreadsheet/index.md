@@ -33,14 +33,14 @@ O método de importação por planilha permite que você faça upload do seu cat
 
 ## Campos Obrigatórios
 
-- **Nome do Produto**
-- **ID da Categoria**
 - **URL da Imagem** - Imagem principal do produto
 - **Categoria** - Categoria do produto
 
 ## Campos Opcionais
 
 - ID do Produto
+- ID da Categoria
+- Nome
 - Descrição
 - Marca
 - Cor

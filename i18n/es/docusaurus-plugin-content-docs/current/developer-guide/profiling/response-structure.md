@@ -2,58 +2,58 @@
 sidebar_position: 2
 ---
 
-# Response Structure
+# Estructura de Respuesta
 
-All profiling endpoints return the same structure, providing comprehensive customer insights.
+Todos los endpoints de perfilado devuelven la misma estructura, proporcionando información completa sobre el cliente.
 
-## Top-Level Fields
+## Campos de Nivel Superior
 
-| Field | Type | Description |
+| Campo | Tipo | Descripción |
 |-------|------|-------------|
-| `userProfileId` | string | Unique customer identifier |
-| `profile` | object | Complete customer profile (details below) |
+| `userProfileId` | string | Identificador único del cliente |
+| `profile` | object | Perfil completo del cliente (detalles abajo) |
 
-## Profile Object
+## Objeto Profile
 
-The `profile` object contains five main sections:
+El objeto `profile` contiene cinco secciones principales:
 
 ### perfil_cliente
 
-General customer description and style preferences.
+Descripción general del cliente y preferencias de estilo.
 
-| Field | Type | Description |
+| Campo | Tipo | Descripción |
 |-------|------|-------------|
-| `descricao_geral` | string | Customer lifestyle, values, and interests |
-| `estilo_geral` | string | Fashion style, color preferences, cuts, and aesthetics |
+| `descricao_geral` | string | Estilo de vida, valores e intereses del cliente |
+| `estilo_geral` | string | Estilo de moda, preferencias de colores, cortes y estética |
 
-**Example:**
+**Ejemplo:**
 ```json
 {
-  "descricao_geral": "Homem de 30-40 anos, profissional que valoriza qualidade e atemporalidade",
-  "estilo_geral": "Casual-elegante minimalista, tons neutros, cortes regulares"
+  "descricao_geral": "Hombre de 30-40 años, profesional que valora calidad y atemporalidad",
+  "estilo_geral": "Casual-elegante minimalista, tonos neutros, cortes regulares"
 }
 ```
 
 ### ocasioes_relevantes
 
-Array of relevant occasions with outfit suggestions.
+Array de ocasiones relevantes con sugerencias de outfits.
 
-| Field | Type | Description |
+| Campo | Tipo | Descripción |
 |-------|------|-------------|
-| `ocasião` | string | Occasion name (work, party, casual, etc.) |
-| `persona_na_ocasião` | string | How customer presents themselves on this occasion |
-| `sugestao_look` | array | Complete outfit suggestion (list of items) |
+| `ocasião` | string | Nombre de la ocasión (trabajo, fiesta, casual, etc.) |
+| `persona_na_ocasião` | string | Cómo se presenta el cliente en esta ocasión |
+| `sugestao_look` | array | Sugerencia de outfit completo (lista de items) |
 
-**Example:**
+**Ejemplo:**
 ```json
 [
   {
-    "ocasião": "Trabalho business casual",
-    "persona_na_ocasião": "Profissional confiante e alinhado",
+    "ocasião": "Trabajo business casual",
+    "persona_na_ocasião": "Profesional confiado y alineado",
     "sugestao_look": [
-      "Camisa manga longa",
-      "Chino escura",
-      "Sapato casual"
+      "Camisa manga larga",
+      "Chino oscuro",
+      "Zapato casual"
     ]
   }
 ]
@@ -61,22 +61,22 @@ Array of relevant occasions with outfit suggestions.
 
 ### briefing_marketing
 
-Marketing guidance for campaigns and communications.
+Orientación de marketing para campañas y comunicaciones.
 
-| Field | Type | Description |
+| Campo | Tipo | Descripción |
 |-------|------|-------------|
-| `tom_de_voz` | array | Communication tone recommendations |
-| `direcao_visual` | array | Visual direction for campaigns |
-| `orientacao_campanhas` | array | Campaign positioning strategies |
+| `tom_de_voz` | array | Recomendaciones de tono de comunicación |
+| `direcao_visual` | array | Dirección visual para campañas |
+| `orientacao_campanhas` | array | Estrategias de posicionamiento de campañas |
 
-**Example:**
+**Ejemplo:**
 ```json
 {
-  "tom_de_voz": ["inspiracional", "autêntico", "sofisticado"],
-  "direcao_visual": ["Paleta neutra", "Cenários urbanos", "Luz natural"],
+  "tom_de_voz": ["inspiracional", "auténtico", "sofisticado"],
+  "direcao_visual": ["Paleta neutra", "Escenarios urbanos", "Luz natural"],
   "orientacao_campanhas": [
-    "Versatilidade",
-    "Qualidade premium",
+    "Versatilidad",
+    "Calidad premium",
     "Lifestyle urbano"
   ]
 }
@@ -84,102 +84,100 @@ Marketing guidance for campaigns and communications.
 
 ### ganchos_conteudo
 
-Array of content themes that resonate with the customer.
+Array de temas de contenido que resuenan con el cliente.
 
-**Example:**
+**Ejemplo:**
 ```json
 [
-  "Guarda-roupa cápsula masculino",
-  "Básicos premium que valem o investimento"
+  "Guardarropa cápsula masculino",
+  "Básicos premium que valen la inversión"
 ]
 ```
 
 ### momento_compra_atual
 
-Current purchase moment analysis and opportunities.
+Análisis del momento actual de compra y oportunidades.
 
-| Field | Type | Description |
+| Campo | Tipo | Descripción |
 |-------|------|-------------|
-| `navegacoes` | array | Recent browsing/navigation patterns |
-| `resumo_momento` | string | Behavioral interpretation of current moment |
-| `relacao_com_historico` | string | How current behavior relates to purchase history |
-| `novo_comportamento` | boolean | Whether customer is showing new/different behavior |
-| `oportunidades` | array | Recommended actions based on current moment |
+| `navegacoes` | array | Patrones recientes de navegación/exploración |
+| `resumo_momento` | string | Interpretación comportamental del momento actual |
+| `relacao_com_historico` | string | Cómo se relaciona el comportamiento actual con el historial de compras |
+| `novo_comportamento` | boolean | Si el cliente está mostrando comportamiento nuevo/diferente |
+| `oportunidades` | array | Acciones recomendadas basadas en el momento actual |
 
-**Example:**
+**Ejemplo:**
 ```json
 {
-  "navegacoes": ["01/09: visualizou Short Azul Claro"],
-  "resumo_momento": "Explorando peças de verão e lazer",
-  "relacao_com_historico": "Expande perfil para momentos de descontração",
+  "navegacoes": ["01/09: visualizó Short Azul Claro"],
+  "resumo_momento": "Explorando piezas de verano y ocio",
+  "relacao_com_historico": "Expande perfil para momentos de descontracción",
   "novo_comportamento": true,
   "oportunidades": [
-    "Curadoria looks verão",
-    "Bundle viagem"
+    "Curaduría looks verano",
+    "Bundle viaje"
   ]
 }
 ```
 
-## Complete Response Example
-
+## Ejemplo de Respuesta Completa
 ```json
 {
   "userProfileId": "ddsd23223",
   "profile": {
     "perfil_cliente": {
-      "descricao_geral": "Homem de 30-40 anos, profissional que valoriza qualidade e atemporalidade",
-      "estilo_geral": "Casual-elegante minimalista, tons neutros, cortes regulares"
+      "descricao_geral": "Hombre de 30-40 años, profesional que valora calidad y atemporalidad",
+      "estilo_geral": "Casual-elegante minimalista, tonos neutros, cortes regulares"
     },
     "ocasioes_relevantes": [
       {
-        "ocasião": "Trabalho business casual",
-        "persona_na_ocasião": "Profissional confiante e alinhado",
+        "ocasião": "Trabajo business casual",
+        "persona_na_ocasião": "Profesional confiado y alineado",
         "sugestao_look": [
-          "Camisa manga longa",
-          "Chino escura",
-          "Sapato casual"
+          "Camisa manga larga",
+          "Chino oscuro",
+          "Zapato casual"
         ]
       }
     ],
     "briefing_marketing": {
-      "tom_de_voz": ["inspiracional", "autêntico", "sofisticado"],
-      "direcao_visual": ["Paleta neutra", "Cenários urbanos", "Luz natural"],
+      "tom_de_voz": ["inspiracional", "auténtico", "sofisticado"],
+      "direcao_visual": ["Paleta neutra", "Escenarios urbanos", "Luz natural"],
       "orientacao_campanhas": [
-        "Versatilidade",
-        "Qualidade premium",
+        "Versatilidad",
+        "Calidad premium",
         "Lifestyle urbano"
       ]
     },
     "ganchos_conteudo": [
-      "Guarda-roupa cápsula masculino",
-      "Básicos premium que valem o investimento"
+      "Guardarropa cápsula masculino",
+      "Básicos premium que valen la inversión"
     ],
     "momento_compra_atual": {
-      "navegacoes": ["01/09: visualizou Short Azul Claro"],
-      "resumo_momento": "Explorando peças de verão e lazer",
-      "relacao_com_historico": "Expande perfil para momentos de descontração",
+      "navegacoes": ["01/09: visualizó Short Azul Claro"],
+      "resumo_momento": "Explorando piezas de verano y ocio",
+      "relacao_com_historico": "Expande perfil para momentos de descontracción",
       "novo_comportamento": true,
       "oportunidades": [
-        "Curadoria looks verão",
-        "Bundle viagem"
+        "Curaduría looks verano",
+        "Bundle viaje"
       ]
     }
   }
 }
 ```
 
-## Error Handling
+## Manejo de Errores
 
-| Status Code | Description | Solution |
-|-------------|-------------|----------|
-| `200` | Success | Profile returned successfully |
-| `401` | Unauthorized | Verify your APP token is correct |
-| `404` | Not Found | Profile doesn't exist for the provided identifier |
-| `429` | Too Many Requests | Implement rate limiting in your application |
-| `500` | Internal Server Error | Contact support |
+| Código de Estado | Descripción | Solución |
+|------------------|-------------|----------|
+| `200` | Éxito | Perfil devuelto exitosamente |
+| `401` | No Autorizado | Verifique que su token APP sea correcto |
+| `404` | No Encontrado | El perfil no existe para el identificador proporcionado |
+| `429` | Demasiadas Solicitudes | Implemente limitación de tasa en su aplicación |
+| `500` | Error Interno del Servidor | Contacte con soporte |
 
-### Error Response Example
-
+### Ejemplo de Respuesta de Error
 ```json
 {
   "error": "Unauthorized",
@@ -187,61 +185,58 @@ Current purchase moment analysis and opportunities.
 }
 ```
 
-## Field Interpretation Guide
+## Guía de Interpretación de Campos
 
-### Using novo_comportamento
+### Usando novo_comportamento
 
-The `novo_comportamento` flag indicates when a customer is exploring new styles or categories:
-
+La bandera `novo_comportamento` indica cuando un cliente está explorando nuevos estilos o categorías:
 ```javascript
 if (profile.profile.momento_compra_atual.novo_comportamento) {
-  // Customer is showing new behavior - great opportunity!
+  // ¡El cliente está mostrando nuevo comportamiento - gran oportunidad!
   const opportunities = profile.profile.momento_compra_atual.oportunidades;
 
-  // Example: Send personalized email with recommendations
+  // Ejemplo: Enviar email personalizado con recomendaciones
   sendEmail({
     to: customerEmail,
-    subject: "We noticed you're exploring something new!",
+    subject: "¡Notamos que estás explorando algo nuevo!",
     recommendations: opportunities
   });
 }
 ```
 
-### Marketing Segmentation
+### Segmentación de Marketing
 
-Use `briefing_marketing` to create targeted campaigns:
-
+Use `briefing_marketing` para crear campañas segmentadas:
 ```javascript
 const { tom_de_voz, direcao_visual } = profile.profile.briefing_marketing;
 
-// Segment customers by tone preference
+// Segmentar clientes por preferencia de tono
 if (tom_de_voz.includes("sofisticado")) {
-  // Use premium messaging
+  // Usar mensajes premium
 }
 
 if (direcao_visual.includes("Paleta neutra")) {
-  // Use minimalist visuals
+  // Usar visuales minimalistas
 }
 ```
 
-### Occasion-Based Recommendations
+### Recomendaciones Basadas en Ocasiones
 
-Leverage `ocasioes_relevantes` for contextual product suggestions:
-
+Aproveche `ocasioes_relevantes` para sugerencias contextuales de productos:
 ```javascript
 const workOccasion = profile.profile.ocasioes_relevantes.find(
-  occ => occ.ocasião.toLowerCase().includes("trabalho")
+  occ => occ.ocasião.toLowerCase().includes("trabajo")
 );
 
 if (workOccasion) {
-  // Recommend products from work collection
+  // Recomendar productos de la colección trabajo
   recommendProducts(workOccasion.sugestao_look);
 }
 ```
 
 ---
 
-## Support
+## Soporte
 
-For technical questions:
+Para preguntas técnicas:
 :mailbox: **support@generativecrm.com**

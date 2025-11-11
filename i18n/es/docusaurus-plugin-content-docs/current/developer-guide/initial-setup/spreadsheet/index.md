@@ -33,14 +33,14 @@ El método de importación por hoja de cálculo te permite subir tu catálogo de
 
 ## Campos Requeridos
 
-- **Nombre del Producto**
 - **Categoría** - Categoría del producto
-- **ID de Categoría**
 - **URL de Imagen** - Imagen principal del producto
 
 ## Campos Opcionales
 
 - ID del Producto
+- ID del Categoría
+- Nombre
 - Descripción
 - Marca
 - Color

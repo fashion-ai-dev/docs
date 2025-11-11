@@ -59,6 +59,24 @@ Create your first slice:
 
 ![Create Slice](/img/tela3-vm-builder.png)
 
+When creating a slice, you'll need to configure:
+
+- **Slice name**: Give it a descriptive name (e.g., "Wool Coats", "Summer Sale Products")
+- **Type**: Choose the slice type:
+  - `MANUAL`: You manually select and organize products
+  - Other types may be available soon
+- **Start date**: When the slice should become active
+- **End date**: When the slice should expire
+
+> **Tip**: For a slice without expiration, set a distant end date (e.g., several years in the future).
+
+#### Slice Status Indicators
+
+Slices have visual status indicators based on their dates:
+- 🟩 **Green (Active)**: The current date is between start and end date
+- 🟨 **Yellow (Scheduled)**: The start date hasn't arrived yet
+- 🟥 **Red (Expired)**: The end date has passed
+
 ### 7. Add Products
 
 Click **Select Products** to choose which products will be part of the collection.
@@ -76,6 +94,18 @@ Drag products to define the order they will appear on your website.
 ![Drag Products - Organized](/img/tela5-vm-builder.png)
 
 > **Tip**: Products will appear on the site in exactly the order you define here.
+
+### 9. Product Limits and Active Status
+
+**Important Limits:**
+- Each slice can contain **up to 500 products maximum**
+- If you need more products, consider creating multiple collections
+
+**Product Active Status:**
+Each product in a slice has an `active` field that indicates whether the product is currently available based on filters applied to the slice. This is useful for:
+- Hiding out-of-stock products
+- Applying availability filters
+- Managing seasonal products
 
 ## Publishing Your Collection
 

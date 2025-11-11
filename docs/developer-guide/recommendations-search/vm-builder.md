@@ -3,7 +3,7 @@ sidebar_position: 5
 ---
 
 
-# Collections – Product Collections and Subsets (Slices)
+# Product Collections and Subsets (Slices)
 
 **Collections** allows you to create and organize product collections using **AI, spreadsheets, or manual selection**.
 Each collection can contain subsets called **slices**, which organize products according to defined criteria.

@@ -2,102 +2,133 @@
 sidebar_position: 2
 ---
 
-# Referência de Personalização
+# Referência de personalização
 
-Referência técnica para os endpoints da API de Personalização do Fashion.AI. Para uma visão geral dos tipos de recomendações e como nossa IA funciona, consulte [Primeiros Passos com Recomendações](../../user-guide/getting-started).
+Referência técnica para os endpoints da API de personalização da Fashion.AI. Para obter uma visão geral dos tipos de recomendações e de como nossa IA funciona, consulte [Introdução às recomendações](../../user-guide/getting-started).
 
-## Configuração Base
+## Configuração básica
 
-### Endpoint Base
+### Endpoint básico
 ```
 https://catalog.api.fashionaiale.com/api/v1/products/protected/recommendation
 ```
 
-### Cabeçalhos Necessários
+### Cabeçalhos necessários
 ```json
 {
-  "Content-Type": "application/json",
-  "X-FashionAI-APP-Token": "<seu_token_de_app>"
+  “Content-Type”: “application/json”,
+  “X-FashionAI-APP-Token”: “<your_app_token>”
 }
 ```
 
 > Gere seu token em: https://app.generativecrm.com/settings?tab=app-tokens
 
-## Como Nossa IA Funciona
+## Como nossa IA funciona
 
-### Processo de Mapeamento de Intenção
+### Processo de mapeamento de intenções
 
-1. **Navegação de Produtos**: Rastreia produtos que os usuários navegaram durante a sessão
-2. **Elementos de Categoria**: Analisa elementos visuais como silhuetas, padrões e detalhes de estilo
-3. **Insights de Padrões**: Identifica texturas, tecidos e elementos estruturais
-4. **Intenção de Estilo**: Compreende ocasião, preferências de estilo e necessidades de versatilidade
-5. **Comportamento do Usuário**: Referências cruzadas de buscas, produtos e compras passadas para usuários conectados
-6. **Previsão de Intenção**: Relaciona produtos de diferentes categorias com base em mapeamento de estilos
+1. **Navegação pelo produto**: rastreia os produtos pelos quais os usuários navegaram durante a sessão
+2. **Elementos da categoria**: analisa elementos visuais como silhuetas, padrões e detalhes de estilo
+3. **Informações sobre padrões**: identifica texturas, tecidos e elementos estruturais
+4. **Intenção de estilo**: compreende a ocasião, as preferências de estilo e as necessidades de versatilidade
+5. **Comportamento do usuário**: cruza referências de pesquisas, produtos e compras anteriores para usuários conectados
+6. **Previsão de intenção**: relaciona produtos de diferentes categorias com base no mapeamento de estilo
 
-## Endpoints de API
+## Endpoints da API
 
-### Evento de Visualização de Categoria
+### Evento productView
 
-Quando um usuário visita uma página de categoria (ex., "Calças"), um evento de visualização de categoria deve ser acionado para o Fashion.AI.
-Se o usuário estiver conectado, o fashion mostra uma visualização de categoria específica baseada em seu histórico.
-Este evento é um sinal forte de intenção do usuário e ajuda a IA a mapear a intenção do usuário, servindo como base para organização da loja, recomendações de produtos e enriquecimento do perfil CRM.
+Quando um usuário clica em um produto, um evento de visualização do produto deve ser acionado para o Fashion.AI, mostrando ao usuário um conjunto de produtos semelhantes.
+Se o usuário estiver conectado, o Fashion mostra um conjunto específico de produtos com base em seu histórico.
+Este evento é um forte sinal da intenção do usuário e ajuda a IA a mapear a intenção do usuário, servindo como base para a organização da loja, recomendações de produtos e enriquecimento do perfil de CRM.
 
-### Corpo da Solicitação
+#### Corpo da solicitação
 
 ```json
 {
-  "userId": 90,              // opcional - identificador de usuário se autenticado
-  "sessionId": "sess456",    // obrigatório
-  "eventType": "categoryView", // obrigatório
-  "data": {
-    "id": "category789"      // obrigatório - ID da categoria
+  “userId”: 90,              // opcional - identificador do usuário, se autenticado
+  “sessionId”: “sess456”,    // obrigatório
+  “eventType”: “productView”, // obrigatório
+  “data”: {
+    “id”: “id789”      // obrigatório - ID do produto
   }
 }
 ```
 
-### Resposta Esperada
+#### Resposta esperada
 
 ```json
 {
-  "products": ["product-id-1", "product-id-2", "product-id-3"]
+  “products”: [“product-id-1”, “product-id-2”, “product-id-3”]
 }
 ```
 
-> ⚠️ **Nota 1**: Esta resposta inclui todos os produtos da categoria classificados por sessão e relevância do usuário, que podem ser usados para organização da loja.
+> ⚠️ **Observação 1**: esta resposta inclui todos os produtos semelhantes classificados por sessão e relevância do usuário, que podem ser usados para organizar a loja virtual.
 
-> ⚠️ **Nota 2**: Esta resposta estará vazia enquanto a IA não tiver dados suficientes sobre o usuário e/ou sessão. Nesses casos, organize a loja de acordo com a solução nativa da sua plataforma.
+> ⚠️ **Observação 2**: esta resposta ficará vazia enquanto a IA não tiver dados suficientes sobre o usuário e/ou a sessão. Nesses casos, organize a loja virtual de acordo com a solução nativa da sua plataforma.
 
-## Evento Shop The Look
+### Evento categoryView
 
-Habilite o botão "shop the look" para exibir, via modal ou drawer, produtos adicionais que compõem o look completo para uma peça principal.
+Quando um usuário visita uma página de categoria (por exemplo, “Calças”), um evento de visualização de categoria deve ser acionado para o Fashion.AI.
+Se o usuário estiver conectado, o Fashion exibe uma visualização de categoria específica com base em seu histórico.
+Este evento é um forte sinal da intenção do usuário e ajuda a IA a mapear a intenção do usuário, servindo como base para a organização da loja virtual, recomendações de produtos e enriquecimento do perfil de CRM.
 
-### Corpo da Solicitação
+#### Corpo da solicitação
 
 ```json
 {
-  "userId": 90,              // opcional - identificador de usuário se autenticado
-  "sessionId": "sess456",    // obrigatório
-  "eventType": "shopTheLook", // obrigatório
-  "data": {
-    "id": "product789"       // obrigatório - ID do produto
+  “userId”: 90,              // opcional - identificador do usuário, se autenticado
+  “sessionId”: “sess456”,    // obrigatório
+  “eventType”: “categoryView”, // obrigatório
+  “data”: {
+    “id”: “category789”      // obrigatório - ID da categoria
   }
 }
 ```
 
-### Resposta Esperada
+#### Resposta esperada
 
 ```json
 {
-  "products": ["product-id-1", "product-id-2", "product-id-3"]
+  “products”: [“product-id-1”, “product-id-2”, “product-id-3”]
 }
 ```
 
-> ⚠️ **Nota**: Embora a API filtre produtos sem estoque, a validação de estoque deve ser feita localmente antes de renderizar no frontend.
+> ⚠️ **Observação 1**: esta resposta inclui todos os produtos da categoria classificados por sessão e relevância do usuário, que podem ser usados para a organização da loja virtual.
+
+> ⚠️ **Observação 2**: esta resposta ficará vazia enquanto a IA não tiver dados suficientes sobre o usuário e/ou a sessão. Nesses casos, organize a loja de acordo com a solução nativa da sua plataforma.
+
+### Evento shopTheLook
+
+Habilite o botão “Compre o look” para exibir, por meio de modal ou gaveta, produtos adicionais que compõem o look completo de uma peça principal.
+
+#### Corpo da solicitação
+
+```json
+{
+  “userId”: 90,              // opcional - identificador do usuário, se autenticado
+  “sessionId”: “sess456”,    // obrigatório
+  “eventType”: “shopTheLook”, // obrigatório
+  “data”: {
+    “id”: “product789”       // obrigatório - ID do produto
+  }
+}
+```
+
+#### Resposta esperada
+
+```json
+{
+  “products”: [“product-id-1”, “product-id-2”, “product-id-3”]
+}
+```
+
+> ⚠️ **Observação**: embora a API filtre produtos fora de estoque, a validação do estoque deve ser feita localmente antes da renderização no front-end.
 
 ## Segurança e CORS
 
-Para proteger o token de autenticação (X-FashionAI-APP-Token), bloqueamos solicitações diretas do navegador. Se uma chamada de API for feita diretamente do frontend, o navegador bloqueará esta solicitação com um erro CORS.
+Para proteger o token de autenticação (X-FashionAI-APP-Token), bloqueamos solicitações diretas do navegador. Se uma chamada de API for feita diretamente do front-end, o navegador bloqueará essa solicitação com um erro CORS.
 
-Esta medida evita que o token seja exposto no código-fonte do site, o que poderia comprometer a segurança da API e permitir uso não autorizado.
+Essa medida evita que o token seja exposto no código-fonte do site, o que poderia comprometer a segurança da API e permitir o uso não autorizado.
 
-Se sua equipe ainda optar por fazer chamadas diretamente do frontend, simplesmente solicite autorização de domínio ao suporte técnico do FashionAI. :mailbox: **support@generativecrm.com**
+Se sua equipe ainda optar por fazer chamadas diretamente do front-end, basta solicitar a autorização de domínio ao suporte técnico da FashionAI. :mailbox: **support@generativecrm.com**

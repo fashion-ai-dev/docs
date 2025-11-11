@@ -2,36 +2,34 @@
 sidebar_position: 1
 ---
 
-# API Endpoints
+# Endpoints da API
 
-All profiling endpoints return the same profile structure. Choose the endpoint based on the customer identifier you have available.
+Todos os endpoints de perfil retornam a mesma estrutura. Escolha o endpoint baseado no identificador do cliente que você tem disponível.
 
-## Available Endpoints
+## Endpoints Disponíveis
 
-| Endpoint | Parameter | Description |
+| Endpoint | Parâmetro | Descrição |
 |----------|-----------|-------------|
-| `GET /protected/profile/user-profile-id/:userProfileId` | User Profile ID | Retrieve profile by Fashion AI identifier |
-| `GET /protected/profile/phone/:phone` | Phone | Retrieve profile by phone number |
-| `GET /protected/profile/email/:email` | Email | Retrieve profile by email address |
-| `GET /protected/profile/document/:document` | Document | Retrieve profile by document (CPF, ID, etc.) |
+| `GET /protected/profile/user-profile-id/:userProfileId` | ID do Perfil do Usuário | Recupera perfil pelo identificador Fashion AI |
+| `GET /protected/profile/phone/:phone` | Telefone | Recupera perfil por número de telefone |
+| `GET /protected/profile/email/:email` | Email | Recupera perfil por endereço de email |
+| `GET /protected/profile/document/:document` | Documento | Recupera perfil por documento (CPF, RG, etc.) |
 
-## Basic Example
-
+## Exemplo Básico
 ```bash
 curl -X GET \
-  'https://catalog.api.fashionaiale.com/api/v1/crm/protected/profile/email/customer@example.com' \
+  'https://catalog.api.fashionaiale.com/api/v1/crm/protected/profile/email/cliente@exemplo.com' \
   -H 'Content-Type: application/json' \
-  -H 'X-FashionAI-APP-Token: <your_app_token>'
+  -H 'X-FashionAI-APP-Token: <seu_token_app>'
 ```
 
-## Code Examples
+## Exemplos de Código
 
 ### JavaScript/Node.js
-
 ```javascript
-const getProfile = async (identifier, type = 'email') => {
+const obterPerfil = async (identificador, tipo = 'email') => {
   const response = await fetch(
-    `https://catalog.api.fashionaiale.com/api/v1/crm/protected/profile/${type}/${identifier}`,
+    `https://catalog.api.fashionaiale.com/api/v1/crm/protected/profile/${tipo}/${identificador}`,
     {
       method: 'GET',
       headers: {
@@ -42,22 +40,21 @@ const getProfile = async (identifier, type = 'email') => {
   );
 
   if (!response.ok) {
-    throw new Error(`HTTP error! status: ${response.status}`);
+    throw new Error(`Erro HTTP! status: ${response.status}`);
   }
 
   return await response.json();
 };
 
-// Usage examples
-const profileByEmail = await getProfile('customer@example.com', 'email');
-const profileByPhone = await getProfile('5511999998888', 'phone');
-const profileByDoc = await getProfile('12345678900', 'document');
+// Exemplos de uso
+const perfilPorEmail = await obterPerfil('cliente@exemplo.com', 'email');
+const perfilPorTelefone = await obterPerfil('5511999998888', 'phone');
+const perfilPorDoc = await obterPerfil('12345678900', 'document');
 ```
 
 ### TypeScript
-
 ```typescript
-interface CustomerProfile {
+interface PerfilCliente {
   userProfileId: string;
   profile: {
     perfil_cliente: {
@@ -85,12 +82,12 @@ interface CustomerProfile {
   };
 }
 
-async function getProfile(
-  identifier: string,
-  type: 'email' | 'phone' | 'document' | 'user-profile-id'
-): Promise<CustomerProfile> {
+async function obterPerfil(
+  identificador: string,
+  tipo: 'email' | 'phone' | 'document' | 'user-profile-id'
+): Promise<PerfilCliente> {
   const response = await fetch(
-    `https://catalog.api.fashionaiale.com/api/v1/crm/protected/profile/${type}/${identifier}`,
+    `https://catalog.api.fashionaiale.com/api/v1/crm/protected/profile/${tipo}/${identificador}`,
     {
       method: 'GET',
       headers: {
@@ -101,36 +98,35 @@ async function getProfile(
   );
 
   if (!response.ok) {
-    throw new Error(`Failed to fetch profile: ${response.statusText}`);
+    throw new Error(`Falha ao buscar perfil: ${response.statusText}`);
   }
 
   return await response.json();
 }
 
-// Usage
-const profile = await getProfile('customer@example.com', 'email');
+// Uso
+const perfil = await obterPerfil('cliente@exemplo.com', 'email');
 
-if (profile.profile.momento_compra_atual.novo_comportamento) {
-  console.log('New behavior detected!');
-  console.log('Opportunities:', profile.profile.momento_compra_atual.oportunidades);
+if (perfil.profile.momento_compra_atual.novo_comportamento) {
+  console.log('Novo comportamento detectado!');
+  console.log('Oportunidades:', perfil.profile.momento_compra_atual.oportunidades);
 }
 ```
 
 ### Python
-
 ```python
 import requests
 import os
 
-def get_profile(identifier, profile_type='email'):
+def obter_perfil(identificador, tipo_perfil='email'):
     """
-    Retrieve customer profile by identifier.
+    Recupera perfil do cliente por identificador.
 
     Args:
-        identifier: The customer identifier (email, phone, document, or userProfileId)
-        profile_type: Type of identifier ('email', 'phone', 'document', 'user-profile-id')
+        identificador: O identificador do cliente (email, telefone, documento ou userProfileId)
+        tipo_perfil: Tipo do identificador ('email', 'phone', 'document', 'user-profile-id')
     """
-    url = f"https://catalog.api.fashionaiale.com/api/v1/crm/protected/profile/{profile_type}/{identifier}"
+    url = f"https://catalog.api.fashionaiale.com/api/v1/crm/protected/profile/{tipo_perfil}/{identificador}"
     headers = {
         "Content-Type": "application/json",
         "X-FashionAI-APP-Token": os.getenv("FASHION_AI_TOKEN")
@@ -141,20 +137,19 @@ def get_profile(identifier, profile_type='email'):
 
     return response.json()
 
-# Usage examples
-profile = get_profile("customer@example.com", "email")
-profile = get_profile("5511999998888", "phone")
-profile = get_profile("12345678900", "document")
+# Exemplos de uso
+perfil = obter_perfil("cliente@exemplo.com", "email")
+perfil = obter_perfil("5511999998888", "phone")
+perfil = obter_perfil("12345678900", "document")
 
-# Access profile data
-marketing_brief = profile["profile"]["briefing_marketing"]
-print(f"Tone of voice: {marketing_brief['tom_de_voz']}")
+# Acessar dados do perfil
+briefing_marketing = perfil["profile"]["briefing_marketing"]
+print(f"Tom de voz: {briefing_marketing['tom_de_voz']}")
 ```
 
-## Example Response
+## Exemplo de Resposta
 
-All endpoints return the same structure:
-
+Todos os endpoints retornam a mesma estrutura:
 ```json
 {
   "userProfileId": "ddsd23223",
@@ -201,4 +196,4 @@ All endpoints return the same structure:
 }
 ```
 
-For detailed field descriptions, see [Response Structure](./response-structure).
+Para descrições detalhadas dos campos, veja [Estrutura da Resposta](./response-structure).

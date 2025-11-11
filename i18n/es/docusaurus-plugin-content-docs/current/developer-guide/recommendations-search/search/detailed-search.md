@@ -4,7 +4,7 @@
 
 #### Descripción general
 
-Punto final para la búsqueda semántica detallada de productos en Whatsapp con seguimiento de sesión y usuario. Este punto final utiliza un motor de búsqueda avanzado para encontrar productos relevantes y devuelve un máximo de 5 productos ordenados por relevancia.
+Endpoint para la búsqueda semántica detallada de productos en Whatsapp con seguimiento de sesión y usuario. Este endpoint utiliza un motor de búsqueda avanzado para encontrar productos relevantes y devuelve un máximo de 5 productos ordenados por relevancia.
 
 #### Detalles técnicos
 
