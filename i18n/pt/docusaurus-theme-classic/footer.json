@@ -28,7 +28,7 @@
     "description": "The label of footer link with label=footer.links.recommendations linking to /docs/user-guide/recomendations/index"
   },
   "link.item.label.footer.links.profiling": {
-    "message": "Perfilamento",
+    "message": "Perfil de Clientes",
     "description": "The label of footer link with label=footer.links.profiling linking to /docs/user-guide/profiling"
   },
   "link.item.label.footer.links.behaviors": {

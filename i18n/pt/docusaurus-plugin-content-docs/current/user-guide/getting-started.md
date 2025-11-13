@@ -50,14 +50,14 @@ Aumente sua visibilidade online com:
 
 ## Como Funciona
 
-1. **Connect** your existing catalog
-2. **Enrich** products with AI-powered descriptions and attributes
-3. **Optimize** for search engines and user experience
-4. **Analyze** performance and customer behavior
-5. **Scale** your fashion business with data-driven insights
+1. **Conecte** seu catálogo existente
+2. **Enriqueça** produtos com descrições e atributos gerados por IA
+3. **Otimize** para mecanismos de busca e experiência do usuário
+4. **Analise** desempenho e comportamento do cliente
+5. **Escale** seu negócio de moda com insights baseados em dados
 
 ## Usuários-Alvo
 
-- **Fashion Retailers** looking to improve catalog quality
-- **E-commerce Managers** wanting better search and recommendations
-- **Marketing Teams** focusing on SEO and content optimization
+- **Varejistas de Moda** buscando melhorar a qualidade do catálogo
+- **Gerentes de E-commerce** que desejam melhor busca e recomendações
+- **Equipes de Marketing** focadas em otimização de SEO e conteúdo
