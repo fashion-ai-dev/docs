@@ -24,7 +24,7 @@ Identifica y recomienda automáticamente productos adicionales que aparecen en l
 
 [Documentación técnica sobre Compra el Look →](../../developer-guide/recommendations-search/api-endpoints#evento-shopthelook)
 
-### 📋 Visual Merchandising
+### 📋 Vitrinas Personalizadas
 Reorganiza dinámicamente los listados de productos según lo que el usuario realmente está buscando. Crea exhibiciones de categorías personalizadas y de alto rendimiento que se sienten como una tienda personalizada.
 
 **Casos de Uso:**
@@ -32,7 +32,7 @@ Reorganiza dinámicamente los listados de productos según lo que el usuario rea
 - Diseños de página de inicio personalizados
 - Destacado de tendencias estacionales
 
-[Documentación técnica sobre Visual Merchandising →](../../developer-guide/recommendations-search/vm-builder)
+[Documentación técnica sobre Vitrinas Personalizadas →](../../developer-guide/recommendations-search/vm-builder)
 
 
 ## Próximos Pasos

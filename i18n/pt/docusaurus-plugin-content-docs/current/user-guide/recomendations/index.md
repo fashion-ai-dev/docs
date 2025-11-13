@@ -14,7 +14,7 @@ Entregue sugestões de produtos personalizadas baseadas no histórico de navega�
 
 [Documentação técnica sobre Produtos Similares →](../../developer-guide/recommendations-search/api-endpoints#evento-categoryview)
 
-### 👗 Monte o Look
+### 👗 Compre o Look
 Identifique e recomende automaticamente produtos adicionais apresentados na mesma imagem. Transforme cada look em um conjunto completo—exatamente como um personal stylist faria.
 
 **Casos de Uso:**
@@ -22,9 +22,9 @@ Identifique e recomende automaticamente produtos adicionais apresentados na mesm
 - Inspiração de estilo
 - Upselling de itens complementares
 
-[Documentação técnica sobre Monte o Look →](../../developer-guide/recommendations-search/api-endpoints#evento-shopthelook)
+[Documentação técnica sobre Compre o Look →](../../developer-guide/recommendations-search/api-endpoints#evento-shopthelook)
 
-### 📋 Visual Merchandising
+### 📋 Vitrines Personalizadas
 Reorganize listagens de produtos dinamicamente com base no que o usuário está realmente procurando. Crie exibições de categoria personalizadas e de alto desempenho que parecem uma vitrine personalizada.
 
 **Casos de Uso:**
@@ -32,7 +32,7 @@ Reorganize listagens de produtos dinamicamente com base no que o usuário está 
 - Layouts de página inicial personalizados
 - Destaque de tendências sazonais
 
-[Documentação técnica sobre Visual Merchandising →](../../developer-guide/recommendations-search/vm-builder)
+[Documentação técnica sobre Vitrines Personalizadas →](../../developer-guide/recommendations-search/vm-builder)
 
 
 ## Próximos Passos
