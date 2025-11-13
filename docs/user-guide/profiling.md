@@ -8,15 +8,15 @@
 
 ### Main benefits:
 
-✅ **Personalization at scale**: Create personalized campaigns for each customer profile automatically
+**Personalization at scale**: Create personalized campaigns for each customer profile automatically
 
-✅ **Behavioral insights**: Understand your customers' lifestyle, values, and aesthetic preferences
+**Behavioral insights**: Understand your customers' lifestyle, values, and aesthetic preferences
 
-✅ **Actionable suggestions**: Receive concrete recommendations for looks, communication tone, and campaign strategies
+**Actionable suggestions**: Receive concrete recommendations for looks, communication tone, and campaign strategies
 
-✅ **Opportunity detection**: Identify new behaviors and ideal moments for outreach
+**Opportunity detection**: Identify new behaviors and ideal moments for outreach
 
-✅ **Content creation**: Get clear direction to create relevant content for each customer
+**Content creation**: Get clear direction to create relevant content for each customer
 
 ## How does it work?
 

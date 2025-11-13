@@ -8,15 +8,15 @@ El **Fashion AI Profiling** es un servicio inteligente que analiza el comportami
 
 ### Principales beneficios:
 
-✅ **Personalización a escala**: Crea campañas personalizadas para cada perfil de cliente automáticamente
+**Personalización a escala**: Crea campañas personalizadas para cada perfil de cliente automáticamente
 
-✅ **Insights conductuales**: Comprende el estilo de vida, valores y preferencias estéticas de tus clientes
+**Insights conductuales**: Comprende el estilo de vida, valores y preferencias estéticas de tus clientes
 
-✅ **Sugerencias accionables**: Recibe recomendaciones concretas de looks, tono de comunicación y estrategias de campaña
+**Sugerencias accionables**: Recibe recomendaciones concretas de looks, tono de comunicación y estrategias de campaña
 
-✅ **Detección de oportunidades**: Identifica nuevos comportamientos y momentos ideales para el abordaje
+**Detección de oportunidades**: Identifica nuevos comportamientos y momentos ideales para el abordaje
 
-✅ **Creación de contenido**: Ten direccionamientos claros para crear contenido relevante para cada cliente
+**Creación de contenido**: Ten direccionamientos claros para crear contenido relevante para cada cliente
 
 ## ¿Cómo funciona?
 

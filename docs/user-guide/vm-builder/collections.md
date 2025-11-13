@@ -119,13 +119,13 @@ Done! Your collection will now be available on the website.
 
 ## Important Tips
 
-✅ **Give clear names**: "Summer 2024", "Black Friday Sale", etc.
+**Give clear names**: "Summer 2024", "Black Friday Sale", etc.
 
-✅ **Create extra slices**: Always have a backup version ready
+**Create extra slices**: Always have a backup version ready
 
-✅ **Only one active**: Remember that only one slice is active at a time
+**Only one active**: Remember that only one slice is active at a time
 
-✅ **Test first**: Always review before activating a new slice
+**Test first**: Always review before activating a new slice
 
 ## Frequently Asked Questions
 

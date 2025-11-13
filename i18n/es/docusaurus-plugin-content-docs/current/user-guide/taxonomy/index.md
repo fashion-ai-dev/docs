@@ -2,22 +2,22 @@
 
 Las taxonomías son estructuras de datos que definen cómo describir productos de manera estandarizada. Piénsalo como un "diccionario" que enseña al sistema a generar descripciones, contenido SEO, colores, tallas, etc. para productos de e-commerce.
 
-## 🏗️ Cómo Funciona
+## Cómo Funciona
 
-### 📋 Dos Tipos de Taxonomía
+### Dos Tipos de Taxonomía
 
 | Tipo | Descripción | Quién Lo Usa |
 |------|-------------|--------------|
-| **Taxonomía Global** | Estándar creado por administradores | ✅ Todos los clientes |
-| **Taxonomía Personalizada** | Versión personalizada por cliente | 👤 Cliente específico |
+| **Taxonomía Global** | Estándar creado por administradores | Todos los clientes |
+| **Taxonomía Personalizada** | Versión personalizada por cliente | Cliente específico |
 
-### 🔄 Flujo de Trabajo
+### Flujo de Trabajo
 
 1. **El administrador crea** taxonomía global
 2. **El sistema distribuye** a todos los clientes
 3. **El cliente puede personalizar** su versión
 
-## 🎛️ Categorías Automáticas
+## Categorías Automáticas
 
 Algunos grupos se aplican automáticamente a todas las categorías de productos:
 
@@ -26,7 +26,7 @@ Algunos grupos se aplican automáticamente a todas las categorías de productos:
 - 💰 **Apoyo de Ventas** - Argumentos y beneficios para ventas
 - 🔍 **Contenido SEO** - Contenido optimizado para motores de búsqueda
 
-💡 **Importante:** Cuando editas una propiedad de estos tipos, se copia automáticamente a todas las categorías existentes.
+**Importante:** Cuando editas una propiedad de estos tipos, se copia automáticamente a todas las categorías existentes.
 
 ### Consejos de Gestión de Versiones
 

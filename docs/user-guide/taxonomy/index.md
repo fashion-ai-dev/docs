@@ -2,22 +2,22 @@
 
 Taxonomies are data structures that define how to describe products in a standardized way. Think of it as a "dictionary" that teaches the system to generate descriptions, SEO content, colors, sizes, etc. for e-commerce products.
 
-## 🏗️ How It Works
+## How It Works
 
-### 📋 Two Types of Taxonomy
+### Two Types of Taxonomy
 
 | Type | Description | Who Uses |
 |------|-------------|----------|
-| **Global Taxonomy** | Standard created by administrators | ✅ All clients |
-| **Custom Taxonomy** | Version customized by client | 👤 Specific client |
+| **Global Taxonomy** | Standard created by administrators | All clients |
+| **Custom Taxonomy** | Version customized by client | Specific client |
 
-### 🔄 Workflow
+### Workflow
 
 1. **Administrator creates** global taxonomy
 2. **System distributes** to all clients
 3. **Client can customize** their version
 
-## 🎛️ Automatic Categories
+## Automatic Categories
 
 Some groups automatically apply to all product categories:
 
@@ -26,7 +26,7 @@ Some groups automatically apply to all product categories:
 - 💰 **Sales Support** - Arguments and benefits for sales
 - 🔍 **SEO Content** - Content optimized for search engines
 
-💡 **Important:** When you edit a property of these types, it's automatically copied to all existing categories.
+**Important:** When you edit a property of these types, it's automatically copied to all existing categories.
 
 ### Version Management Tips
 

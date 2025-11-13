@@ -119,13 +119,13 @@ Pronto! Sua coleção estará disponível no site.
 
 ## Dicas Importantes
 
-✅ **Dê nomes claros**: "Verão 2024", "Promoção Black Friday", etc.
+**Dê nomes claros**: "Verão 2024", "Promoção Black Friday", etc.
 
-✅ **Crie slices extras**: Sempre tenha uma versão de backup pronta
+**Crie slices extras**: Sempre tenha uma versão de backup pronta
 
-✅ **Apenas um ativo**: Lembre-se que apenas um slice fica ativo por vez
+**Apenas um ativo**: Lembre-se que apenas um slice fica ativo por vez
 
-✅ **Teste antes**: Sempre revise antes de ativar um novo slice
+**Teste antes**: Sempre revise antes de ativar um novo slice
 
 ## Perguntas Frequentes
 

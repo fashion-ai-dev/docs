@@ -119,13 +119,13 @@ Cuando tu colección esté lista:
 
 ## Consejos Importantes
 
-✅ **Da nombres claros**: "Verano 2024", "Oferta Black Friday", etc.
+**Da nombres claros**: "Verano 2024", "Oferta Black Friday", etc.
 
-✅ **Crea slices extras**: Siempre ten una versión de respaldo lista
+**Crea slices extras**: Siempre ten una versión de respaldo lista
 
-✅ **Solo uno activo**: Recuerda que solo un slice está activo a la vez
+**Solo uno activo**: Recuerda que solo un slice está activo a la vez
 
-✅ **Prueba primero**: Siempre revisa antes de activar un nuevo slice
+**Prueba primero**: Siempre revisa antes de activar un nuevo slice
 
 ## Preguntas Frecuentes
 
