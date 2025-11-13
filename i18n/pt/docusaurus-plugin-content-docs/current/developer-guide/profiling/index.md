@@ -54,7 +54,7 @@ if (momento_compra_atual.novo_comportamento) {
 }
 ```
 
-**Importante:** Faça chamadas de API a partir do seu servidor backend para proteger seu token. Consulte a seção [Segurança](#security--cors) abaixo.
+**Importante:** Faça chamadas de API a partir do seu servidor backend para proteger seu token. Consulte a seção [Segurança](#segurança-e-cors) abaixo.
 
 ## Configuração básica
 
