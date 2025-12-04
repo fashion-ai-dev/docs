@@ -55,7 +55,7 @@ On the collection page, there's an endpoint to query the products of the **activ
 
 ### Endpoint
 ```http
-GET https://catalog.api.fashionaiale.com/api/v1/merchandising-collections/protected/{id}
+GET https://catalog.api.fashionai.dev/api/v1/merchandising-collections/protected/{id}
 ```
 
 ### Headers

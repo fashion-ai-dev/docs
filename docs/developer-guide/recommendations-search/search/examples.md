@@ -6,7 +6,7 @@ Step-by-step implementation examples for the Product Search API using JavaScript
 
 ```javascript
 async function searchProducts(page, limit, query, token, userId, sessionId) {
-  const url = 'https://catalog.api.fashionaiale.com/api/v1/products/protected/search?page={page}&limit={limit}&query={query}';
+  const url = 'https://catalog.api.fashionai.dev/api/v1/products/protected/search?page={page}&limit={limit}&query={query}';
 
   try {
     const response = await fetch(url, {

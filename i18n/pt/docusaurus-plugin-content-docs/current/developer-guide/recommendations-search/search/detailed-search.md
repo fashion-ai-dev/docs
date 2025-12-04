@@ -61,7 +61,7 @@ X-FashionAI-APP-Token: {token}
 
 **Exemplo 1: Busca simples sem filtro de tamanho**
 ```bash
-curl -X POST 'https://catalog.api.fashionaiale.com/v1/products/protected/search/detailed?query=vestido+azul' \
+curl -X POST 'https://catalog.api.fashionai.dev/v1/products/protected/search/detailed?query=vestido+azul' \
   -H 'Content-Type: application/json' \
   -H 'X-FashionAI-APP-Token: seu-token-aqui' \
   -d '{
@@ -72,7 +72,7 @@ curl -X POST 'https://catalog.api.fashionaiale.com/v1/products/protected/search/
 
 **Exemplo 2: Busca com filtro de tamanho específico**
 ```bash
-curl -X POST 'https://catalog.api.fashionaiale.com/v1/products/protected/search/detailed?query=camisas+preta&size=42' \
+curl -X POST 'https://catalog.api.fashionai.dev/v1/products/protected/search/detailed?query=camisas+preta&size=42' \
   -H 'Content-Type: application/json' \
   -H 'X-FashionAI-APP-Token: seu-token-aqui' \
   -d '{
@@ -83,7 +83,7 @@ curl -X POST 'https://catalog.api.fashionaiale.com/v1/products/protected/search/
 
 **Exemplo 3: Busca anônima (sem userId)**
 ```bash
-curl -X POST 'https://catalog.api.fashionaiale.com/v1/products/protected/search/detailed?query=tênis+corrida' \
+curl -X POST 'https://catalog.api.fashionai.dev/v1/products/protected/search/detailed?query=tênis+corrida' \
   -H 'Content-Type: application/json' \
   -H 'X-FashionAI-APP-Token: seu-token-aqui' \
   -d '{

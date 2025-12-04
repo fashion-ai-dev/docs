@@ -18,7 +18,7 @@ Todos los endpoints de perfilado devuelven la misma estructura. Elija el endpoin
 ## Ejemplo Básico
 ```bash
 curl -X GET \
-  'https://catalog.api.fashionaiale.com/api/v1/crm/protected/profile/email/cliente@ejemplo.com' \
+  'https://catalog.api.fashionai.dev/api/v1/crm/protected/profile/email/cliente@ejemplo.com' \
   -H 'Content-Type: application/json' \
   -H 'X-FashionAI-APP-Token: <tu_token_app>'
 ```
@@ -29,7 +29,7 @@ curl -X GET \
 ```javascript
 const obtenerPerfil = async (identificador, tipo = 'email') => {
   const response = await fetch(
-    `https://catalog.api.fashionaiale.com/api/v1/crm/protected/profile/${tipo}/${identificador}`,
+    `https://catalog.api.fashionai.dev/api/v1/crm/protected/profile/${tipo}/${identificador}`,
     {
       method: 'GET',
       headers: {
@@ -87,7 +87,7 @@ async function obtenerPerfil(
   tipo: 'email' | 'phone' | 'document' | 'user-profile-id'
 ): Promise<PerfilCliente> {
   const response = await fetch(
-    `https://catalog.api.fashionaiale.com/api/v1/crm/protected/profile/${tipo}/${identificador}`,
+    `https://catalog.api.fashionai.dev/api/v1/crm/protected/profile/${tipo}/${identificador}`,
     {
       method: 'GET',
       headers: {
@@ -126,7 +126,7 @@ def obtener_perfil(identificador, tipo_perfil='email'):
         identificador: El identificador del cliente (email, teléfono, documento o userProfileId)
         tipo_perfil: Tipo de identificador ('email', 'phone', 'document', 'user-profile-id')
     """
-    url = f"https://catalog.api.fashionaiale.com/api/v1/crm/protected/profile/{tipo_perfil}/{identificador}"
+    url = f"https://catalog.api.fashionai.dev/api/v1/crm/protected/profile/{tipo_perfil}/{identificador}"
     headers = {
         "Content-Type": "application/json",
         "X-FashionAI-APP-Token": os.getenv("FASHION_AI_TOKEN")
