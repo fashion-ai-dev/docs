@@ -25,7 +25,7 @@ Todas las APIs usan **X-FashionAI-APP-Token** a través de encabezados personali
 
 ### Paso 1: Acceder al Panel de Control
 
-1. Inicia sesión en tu [Panel de Control de FashionAI](https://dashboard.fashionaiale.com)
+1. Inicia sesión en tu [Panel de Control de FashionAI](https://dashboard.fashionai.dev)
 2. Navega a **Configuración de API** en la barra lateral
 3. Haz clic en la sección **Tokens de API**
 

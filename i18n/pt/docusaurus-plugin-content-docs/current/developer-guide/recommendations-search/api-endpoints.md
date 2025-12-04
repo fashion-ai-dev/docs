@@ -10,7 +10,7 @@ Referência técnica para os endpoints da API de personalização da Fashion.AI.
 
 ### Endpoint básico
 ```
-https://catalog.api.fashionaiale.com/api/v1/products/protected/recommendation
+https://catalog.api.fashionai.dev/api/v1/products/protected/recommendation
 ```
 
 ### Cabeçalhos necessários

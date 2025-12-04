@@ -139,6 +139,6 @@ A busca é habilitada automaticamente para seu catálogo uma vez que você integ
 
 ## Recursos Relacionados
 
-- **[Produtos Similares](../#-produtos-similares)** - Recomendações automáticas de produtos
-- **[Visual Merchandising](../#-visual-merchandising)** - Organização dinâmica de categorias
+- **[Produtos Similares](../#produtos-similares)** - Recomendações automáticas de produtos
+- **[Visual Merchandising](../#visual-merchandising)** - Organização dinâmica de categorias
 - **[Como Nossa IA Funciona](../how-our-ai-works)** - Compreender a tecnologia por trás das recomendações

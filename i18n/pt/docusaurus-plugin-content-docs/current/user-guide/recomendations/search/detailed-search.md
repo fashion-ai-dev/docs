@@ -143,5 +143,5 @@ A Busca no WhatsApp funciona com:
 ## Recursos Relacionados
 
 - **[Busca Inteligente de Produtos](./smart-search)** - Busca para seu site
-- **[Produtos Similares](../#-produtos-similares)** - Recomende itens complementares em conversas
+- **[Produtos Similares](../#produtos-similares)** - Recomende itens complementares em conversas
 - **[Comportamentos](../../behaviors/)** - Direcione campanhas do WhatsApp por segmentos de clientes

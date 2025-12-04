@@ -55,7 +55,7 @@ En la página de la colección, hay un endpoint para consultar los productos del
 
 ### Endpoint
 ```http
-GET https://catalog.api.fashionaiale.com/api/v1/merchandising-collections/protected/{id}
+GET https://catalog.api.fashionai.dev/api/v1/merchandising-collections/protected/{id}
 ```
 
 ### Encabezados

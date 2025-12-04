@@ -4,7 +4,7 @@ Learn about Fashion.AI's intelligent system and how it enhances customer experie
 
 ## Recommendation Types
 
-### 🎯 Similar Products
+### Similar Products
 Deliver personalized product suggestions based on user navigation history. Powered by 4,500+ product attributes, this API helps increase conversion by showing items that match the shopper's style and intent.
 
 **Use Cases:**
@@ -14,7 +14,7 @@ Deliver personalized product suggestions based on user navigation history. Power
 
 [Technical documentation about Similar Products →](../../developer-guide/recommendations-search/api-endpoints#category-view-event)
 
-### 👗 Shop the Look
+### Shop the Look
 Automatically identify and recommend additional products featured in the same image. Turn every look into a complete outfit—just like a personal stylist would.
 
 **Use Cases:**
@@ -24,7 +24,7 @@ Automatically identify and recommend additional products featured in the same im
 
 [Technical documentation about Shop the Look →](../../developer-guide/recommendations-search/api-endpoints#shop-the-look-event)
 
-### 📋 Visual Merchandising
+### Visual Merchandising
 Reorganize product listings dynamically based on what the user is really looking for. Create high-performing, personalized category displays that feel like a custom storefront.
 
 **Use Cases:**

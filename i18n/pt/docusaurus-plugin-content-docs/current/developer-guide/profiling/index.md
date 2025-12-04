@@ -31,7 +31,7 @@ Acesse https://app.generativecrm.com/settings?tab=app-tokens e gere seu token.
 
 ```bash
 curl -X GET \
-  ‘https://catalog.api.fashionaiale.com/api/v1/crm/protected/profile/email/customer@example.com’ \
+  ‘https://catalog.api.fashionai.dev/api/v1/crm/protected/profile/email/customer@example.com’ \
   -H ‘Content-Type: application/json’ \
   -H ‘X-FashionAI-APP-Token: YOUR_TOKEN_HERE’
 ```
@@ -54,13 +54,13 @@ if (momento_compra_atual.novo_comportamento) {
 }
 ```
 
-**Importante:** Faça chamadas de API a partir do seu servidor backend para proteger seu token. Consulte a seção [Segurança](#security--cors) abaixo.
+**Importante:** Faça chamadas de API a partir do seu servidor backend para proteger seu token. Consulte a seção [Segurança](#segurança-e-cors) abaixo.
 
 ## Configuração básica
 
 **URL base:**
 ```
-https://catalog.api.fashionaiale.com/api/v1/crm
+https://catalog.api.fashionai.dev/api/v1/crm
 ```
 
 **Cabeçalhos necessários:**

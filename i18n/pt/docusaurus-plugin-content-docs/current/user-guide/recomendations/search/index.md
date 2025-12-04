@@ -40,6 +40,6 @@ Busca especializada projetada para comércio no WhatsApp, permitindo que cliente
 
 ## Recursos Relacionados
 
-- **[Produtos Similares](../#-produtos-similares)** - Complemente a busca com recomendações
+- **[Produtos Similares](../#produtos-similares)** - Complemente a busca com recomendações
 - **[Comportamentos](../../behaviors/)** - Direcione campanhas baseadas em padrões de busca
 - **[Como Nossa IA Funciona](../how-our-ai-works)** - Compreender a tecnologia

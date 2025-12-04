@@ -55,7 +55,7 @@ Na página da coleção, há um endpoint para consultar os produtos do **slice a
 
 ### Endpoint
 ```http
-GET https://catalog.api.fashionaiale.com/api/v1/merchandising-collections/protected/{id}
+GET https://catalog.api.fashionai.dev/api/v1/merchandising-collections/protected/{id}
 ```
 
 ### Cabeçalhos

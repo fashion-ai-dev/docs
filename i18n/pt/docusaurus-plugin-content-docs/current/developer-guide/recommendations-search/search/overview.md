@@ -16,7 +16,7 @@ A API de Busca fornece capacidades inteligentes de busca de produtos para seu ca
 
 ## Endpoint
 ```
-POST https://catalog.api.fashionaiale.com/api/v1/products/protected/search?page={page}&limit={limit}&query={query}
+POST https://catalog.api.fashionai.dev/api/v1/products/protected/search?page={page}&limit={limit}&query={query}
 ```
 
 ## Início Rápido

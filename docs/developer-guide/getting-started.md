@@ -11,7 +11,7 @@ Quick start guide for developers integrating FashionAI into their applications.
 ### 1. Authentication
 Get your API credentials and start making requests:
 - Generate API token in dashboard
-- Add to headers: { 'X-FashionAI-APP-Token': token }
+- Add token to headers
 - Test with sample API call
 
 [→ Full Authentication Guide](./authentication)

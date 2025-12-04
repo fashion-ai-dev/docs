@@ -4,7 +4,7 @@ Aprenda sobre o sistema inteligente da Fashion.AI e como ele aprimora a experiê
 
 ## Tipos de Recomendações
 
-### 🎯 Produtos Similares
+### Produtos Similares
 Entregue sugestões de produtos personalizadas baseadas no histórico de navegação do usuário. Alimentada por mais de 4.500 atributos de produtos, esta API ajuda a aumentar a conversão mostrando itens que correspondem ao estilo e intenção do comprador.
 
 **Casos de Uso:**
@@ -12,9 +12,9 @@ Entregue sugestões de produtos personalizadas baseadas no histórico de navega�
 - Aprimoramento de navegação por categorias
 - Oportunidades de venda cruzada
 
-[Documentação técnica sobre Produtos Similares →](../../developer-guide/recommendations-search/api-endpoints#evento-de-visualização-de-categoria)
+[Documentação técnica sobre Produtos Similares →](../../developer-guide/recommendations-search/api-endpoints#evento-categoryview)
 
-### 👗 Monte o Look
+### Monte o Look
 Identifique e recomende automaticamente produtos adicionais apresentados na mesma imagem. Transforme cada look em um conjunto completo—exatamente como um personal stylist faria.
 
 **Casos de Uso:**
@@ -22,9 +22,9 @@ Identifique e recomende automaticamente produtos adicionais apresentados na mesm
 - Inspiração de estilo
 - Upselling de itens complementares
 
-[Documentação técnica sobre Monte o Look →](../../developer-guide/recommendations-search/api-endpoints#evento-shop-the-look)
+[Documentação técnica sobre Monte o Look →](../../developer-guide/recommendations-search/api-endpoints#evento-shopthelook)
 
-### 📋 Visual Merchandising
+### Visual Merchandising
 Reorganize listagens de produtos dinamicamente com base no que o usuário está realmente procurando. Crie exibições de categoria personalizadas e de alto desempenho que parecem uma vitrine personalizada.
 
 **Casos de Uso:**

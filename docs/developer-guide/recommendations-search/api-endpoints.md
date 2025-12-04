@@ -10,7 +10,7 @@ Technical reference for Fashion.AI's Personalization API endpoints. For an overv
 
 ### Base Endpoint
 ```
-https://catalog.api.fashionaiale.com/api/v1/products/protected/recommendation
+https://catalog.api.fashionai.dev/api/v1/products/protected/recommendation
 ```
 
 ### Required Headers
