@@ -139,6 +139,6 @@ Search is automatically enabled for your catalog once you integrate Fashion.ai. 
 
 ## Related Features
 
-- **[Similar Products](../#-similar-products)** - Automated product recommendations
-- **[Visual Merchandising](../#-visual-merchandising)** - Dynamic category organization
+- **[Similar Products](../#similar-products)** - Automated product recommendations
+- **[Visual Merchandising](../#visual-merchandising)** - Dynamic category organization
 - **[How Our AI Works](../how-our-ai-works.md)** - Understanding the technology behind recommendations

@@ -11,6 +11,7 @@ Guia de início rápido para desenvolvedores integrando FashionAI em suas aplica
 ### 1. Autenticação
 Obtenha suas credenciais de API e comece a fazer requisições:
 - Gere um token API no painel
+- Adicione o token ao header
 - Teste com uma chamada de API de exemplo
 
 [→ Guia Completo de Autenticação](./authentication)
