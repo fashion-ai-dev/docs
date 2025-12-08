@@ -10,15 +10,6 @@
   color: var(--ifm-color-primary-light);
 }
 
-[data-theme='dark'] .homepage-button {
-  color: var(--ifm-color-primary-lightest);
-}
-
-[data-theme='dark'] .homepage-button:hover {
-  background: var(--ifm-color-primary-light);
-  color: var(--ifm-color-primary-darkest);
-}
-
 [data-theme='dark'] .homepage-card {
   background: var(--ifm-background-surface-color);
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3), 0 1px 3px rgba(0, 0, 0, 0.4);
