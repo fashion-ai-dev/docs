@@ -2,10 +2,6 @@
 
 Funcionalidade poderosa de busca para ajudar clientes a encontrar produtos de forma rápida e eficiente usando algoritmos avançados de busca com IA.
 
-## Visão Geral
-
-A API de Busca fornece capacidades inteligentes de busca de produtos que compreendem consultas em linguagem natural e retornam resultados relevantes baseados em atributos de produtos, descrições e intenção do usuário.
-
 ## Recursos Principais
 
 ### 🔍 Busca Inteligente

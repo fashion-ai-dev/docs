@@ -2,10 +2,6 @@
 
 Funcionalidad de búsqueda potente para ayudar a los clientes a encontrar productos rápida y eficientemente usando algoritmos avanzados de búsqueda con IA.
 
-## Descripción General
-
-La API de Búsqueda proporciona capacidades inteligentes de búsqueda de productos que comprenden consultas en lenguaje natural y retornan resultados relevantes basados en atributos de productos, descripciones e intención del usuario.
-
 ## Características Principales
 
 ### 🔍 Búsqueda Inteligente
