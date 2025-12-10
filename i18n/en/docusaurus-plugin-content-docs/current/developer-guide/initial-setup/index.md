@@ -4,9 +4,6 @@ Get started with FashionAI by setting up your integration and configuring your p
 
 ## Setup Options
 
-### [API Integration](./api)
-Set up direct API integration.
-
 ### [Platform Integrations](./integrations)
 Quick setup guides for popular e-commerce platforms like Shopify and VTEX.
 
@@ -19,10 +16,6 @@ Import your product catalog using spreadsheet templates for easy bulk uploads.
 2. **Configure Authentication** - Set up API credentials
 3. **Import Product Catalog** - Add your products to the system
 4. **Test Integration** - Verify everything works correctly
-
-## Quick Start
-
-New to FashionAI? Start with our [Platform Integrations](./integrations) for the fastest setup, or use [API Integration](./api) for custom implementations.
 
 ## Need Help?
 
