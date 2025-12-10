@@ -6,7 +6,7 @@ sidebar_position: 1
 
 Guia de início rápido para desenvolvedores integrando FashionAI em suas aplicações.
 
-## 🚀 Configuração Rápida (5 minutos)
+## 🚀 Configuração Rápida
 
 ### 1. Autenticação
 Obtenha suas credenciais de API e comece a fazer requisições:
