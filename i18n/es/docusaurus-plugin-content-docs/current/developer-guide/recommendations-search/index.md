@@ -2,21 +2,17 @@
 
 Implemente recomendaciones de productos impulsadas por IA y funcionalidad de búsqueda inteligente.
 
-## Visión General
-
-FashionAI proporciona capacidades avanzadas de recomendaciones y búsqueda impulsadas por inteligencia artificial y aprendizaje automático.
-
 ## Características
 
 ### Recomendaciones Inteligentes
-- Sugerencias de productos personalizadas
+- Categorías personalizadas
 - Recomendaciones de productos similares
 - Oportunidades de venta cruzada y venta adicional
 - Productos en tendencia
 
 ### Búsqueda Inteligente
 - Comprensión de consultas en lenguaje natural
-- Tolerancia a errores tipográficos y coincidencia difusa
+- Tolerancia a errores tipográficos
 - Reconocimiento de sinónimos
 - Filtrado por facetas
 
