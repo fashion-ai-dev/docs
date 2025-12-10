@@ -6,7 +6,7 @@ Funcionalidade poderosa de busca para ajudar clientes a encontrar produtos de fo
 
 ### 🔍 Busca Inteligente
 - Processamento de linguagem natural para melhor compreensão de consultas
-- Tolerância a erros de digitação e correspondência difusa
+- Tolerância a erros de digitação
 - Reconhecimento de sinônimos e expansão de consultas
 
 ## Começando

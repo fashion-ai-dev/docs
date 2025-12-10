@@ -6,7 +6,7 @@ Powerful search functionality to help customers find products quickly and effici
 
 ### 🔍 Smart Search
 - Natural language processing for better query understanding
-- Typo tolerance and fuzzy matching
+- Typo tolerance
 - Synonym recognition and query expansion
 
 ## Getting Started
