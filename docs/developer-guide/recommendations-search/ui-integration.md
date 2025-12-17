@@ -18,7 +18,7 @@ Visual suggestions for the "shop the look" component are available in our exampl
 - Displayed only when recommendations are available
 - Triggers the opening of related products modal/drawer
 
-### Related Products Modal
+### Related Products
 
 The modal should display:
 

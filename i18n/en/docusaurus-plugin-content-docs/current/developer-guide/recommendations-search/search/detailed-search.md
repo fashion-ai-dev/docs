@@ -1,17 +1,15 @@
 # Detailed Product Search
 
-### Detailed Search - WhatsApp
-
-#### Overview
+## Search for WhatsApp
 
 Endpoint for detailed semantic product search on WhatsApp with session and user tracking. This endpoint uses an advanced search engine to find relevant products and returns a maximum of 5 products sorted by relevance.
 
-#### Technical Details
+## Technical Details
 
 - **Route:** `POST /v1/products/protected/search/detailed`
 - **Authentication:** Requires authentication via token
 
-#### Request
+### Request
 
 **Query Parameters:**
 - `query` (string, required) - Search term to find products
@@ -33,7 +31,7 @@ X-FashionAI-APP-Token: {token}
 
 [How do I generate my token?](../../authentication)
 
-#### Response
+### Response
 
 **Success (200):**
 ```typescript
@@ -57,7 +55,7 @@ X-FashionAI-APP-Token: {token}
 - In case of error, returns an empty array: `{ products: [] }`
 - If the `size` parameter is specified, only products with the corresponding size will be returned
 
-#### Examples of Use
+### Examples of Use
 
 **Example 1: Simple search without size filter**
 ```bash
@@ -124,4 +122,4 @@ curl -X POST ‘https://catalog.api.fashionai.dev/v1/products/protected/search/d
 }
 ```
 
-### If you have any questions, please email our support team at :mailbox: **support@generativecrm.com**
+#### If you have any questions, please email our support team at :mailbox: **support@generativecrm.com**

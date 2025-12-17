@@ -2,21 +2,17 @@
 
 Implemente recomendações de produtos alimentadas por IA e funcionalidade de busca inteligente.
 
-## Visão Geral
-
-O FashionAI fornece capacidades avançadas de recomendações e busca alimentadas por inteligência artificial e aprendizado de máquina.
-
 ## Recursos
 
 ### Recomendações Inteligentes
-- Sugestões de produtos personalizadas
+- Categorias personalizadas
 - Recomendações de produtos similares
 - Oportunidades de venda cruzada e upsell
 - Produtos em alta
 
 ### Busca Inteligente
 - Compreensão de consultas em linguagem natural
-- Tolerância a erros de digitação e correspondência aproximada
+- Tolerância a erros de digitação
 - Reconhecimento de sinônimos
 - Filtragem por facetas
 

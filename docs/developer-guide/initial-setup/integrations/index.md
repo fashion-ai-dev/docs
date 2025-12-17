@@ -25,10 +25,6 @@ Select your e-commerce platform above to view detailed integration instructions.
 - Troubleshooting tips
 - Best practices
 
-## Custom Platforms
-
-If your platform isn't listed, you can use our [API Integration](../api) for custom implementations.
-
 ## Support
 
 Questions about platform integrations? Contact **support@generativecrm.com**

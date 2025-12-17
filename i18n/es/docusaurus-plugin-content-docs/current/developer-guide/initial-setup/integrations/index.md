@@ -25,10 +25,6 @@ Seleccione su plataforma de comercio electrónico arriba para ver instrucciones 
 - Consejos para solucionar problemas
 - Mejores prácticas
 
-## Plataformas Personalizadas
-
-Si su plataforma no está listada, puede usar nuestra [Integración de API](../api) para implementaciones personalizadas.
-
 ## Soporte
 
 ¿Preguntas sobre integraciones de plataforma? Contacte **support@generativecrm.com**

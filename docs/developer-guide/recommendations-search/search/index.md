@@ -2,15 +2,11 @@
 
 Powerful search functionality to help customers find products quickly and efficiently using advanced AI-powered search algorithms.
 
-## Overview
-
-The Search API provides intelligent product search capabilities that understand natural language queries and return relevant results based on product attributes, descriptions, and user intent.
-
 ## Key Features
 
 ### 🔍 Smart Search
 - Natural language processing for better query understanding
-- Typo tolerance and fuzzy matching
+- Typo tolerance
 - Synonym recognition and query expansion
 
 ## Getting Started

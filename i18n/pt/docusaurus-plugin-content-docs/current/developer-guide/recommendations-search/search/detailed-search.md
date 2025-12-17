@@ -1,17 +1,15 @@
 # Busca Detalhada de Produtos
 
-### Busca Detalhada - Whatsapp
-
-#### Visão Geral
+## Busca para Whatsapp
 
 Endpoint para busca semântica detalhada de produtos no whatsapp com rastreamento de sessão e usuário. Este endpoint utiliza um motor de busca avançado para encontrar produtos relevantes e retorna no máximo 5 produtos ordenados por relevância.
 
-#### Detalhes Técnicos
+### Detalhes Técnicos
 
 - **Rota:** `POST /v1/products/protected/search/detailed`
 - **Autenticação:** Requer autenticação via token
 
-#### Requisição
+### Requisição
 
 **Parâmetros de Query:**
 - `query` (string, obrigatório) - Termo de busca para encontrar produtos
@@ -33,7 +31,7 @@ X-FashionAI-APP-Token: {token}
 
 [Como gerar meu token?](../../authentication)
 
-#### Resposta
+### Resposta
 
 **Sucesso (200):**
 ```typescript
@@ -57,7 +55,7 @@ X-FashionAI-APP-Token: {token}
 - Em caso de erro, retorna um array vazio: `{ products: [] }`
 - Se o parâmetro `size` for informado, apenas produtos com o tamanho correspondente serão retornados
 
-#### Exemplos de Uso
+### Exemplos de Uso
 
 **Exemplo 1: Busca simples sem filtro de tamanho**
 ```bash
@@ -124,4 +122,4 @@ curl -X POST 'https://catalog.api.fashionai.dev/v1/products/protected/search/det
 }
 ```
 
-### Dúvidas, mande um e-mail para nosso suporte :mailbox: **support@generativecrm.com**
+#### Dúvidas, mande um e-mail para nosso suporte :mailbox: **support@generativecrm.com**

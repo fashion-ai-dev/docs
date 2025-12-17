@@ -6,7 +6,7 @@ sidebar_position: 1
 
 Quick start guide for developers integrating FashionAI into their applications.
 
-## 🚀 Quick Setup (5 minutes)
+## 🚀 Quick Setup
 
 ### 1. Authentication
 Get your API credentials and start making requests:
