@@ -13,12 +13,12 @@ The spreadsheet import method allows you to upload your product catalog using CS
 ## Getting Started
 
 1. **Download Template**
-   - Get the spreadsheet template from your FashionAI dashboard
-   - Review the required fields and format
+   - Get the spreadsheet template from your FashionAI dashboard by clicking Settings > Products Manager
+   - Review the required fields and format in "Spreadsheet Fields"
 
 2. **Prepare Your Data**
    - Fill in product information
-   - Include required fields (ID, name, price, etc.)
+   - Include required fields
    - Add optional attributes for better recommendations
 
 3. **Upload File**
@@ -28,25 +28,13 @@ The spreadsheet import method allows you to upload your product catalog using CS
 
 4. **Validate Import**
    - Review import summary
+   - Import result can be total error (error appears detailed in imports list), partial (with list of non-imported products and why) or total success (all products were imported)
    - Fix any errors
-   - Confirm import
+   - Re-import the spreadsheet, products that were already successful will only be updated, not duplicated
 
 ## Required Fields
 
-- **Image URL** - Main product image
-- **Category** - Product category
-
-## Optional Fields
-
-- Product ID
-- Category ID
-- Name
-- Description
-- Brand
-- Color
-- Size
-- Tags
-- Additional images
+Find the required fields for your company in Settings > Products Manager > Spreadsheet Fields
 
 ## Best Practices
 

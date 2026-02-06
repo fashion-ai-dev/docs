@@ -1,10 +1,10 @@
 # Importación por Hoja de Cálculo
 
-Importa tu catálogo de productos usando plantillas de hojas de cálculo para cargas masivas fáciles.
+Importa tu catálogo de productos usando plantillas de hojas de cálculo para cargas masivas facilitadas.
 
 ## Descripción General
 
-El método de importación por hoja de cálculo te permite subir tu catálogo de productos usando archivos CSV. Esto es ideal para:
+El método de importación por hoja de cálculo te permite subir tu catálogo de productos usando archivo CSV. Esto es ideal para:
 - Importaciones masivas iniciales de productos
 - Actualizaciones de catálogo de productos
 - Gestión de catálogo offline
@@ -13,12 +13,12 @@ El método de importación por hoja de cálculo te permite subir tu catálogo de
 ## Comenzando
 
 1. **Descargar Plantilla**
-   - Obtén la plantilla de hoja de cálculo desde tu panel de FashionAI
-   - Revisa los campos requeridos y el formato
+   - Obtén la plantilla de hoja de cálculo desde tu panel de FashionAI haciendo clic en Configuración > Gestor de Productos
+   - Revisa los campos requeridos y el formato en "Campos de la Hoja de Cálculo"
 
 2. **Preparar tus Datos**
    - Completa la información de los productos
-   - Incluye campos requeridos (ID, categoría, nombre, precio, etc.)
+   - Incluye campos requeridos
    - Agrega atributos opcionales para mejores recomendaciones
 
 3. **Subir Archivo**
@@ -28,24 +28,13 @@ El método de importación por hoja de cálculo te permite subir tu catálogo de
 
 4. **Validar Importación**
    - Revisa el resumen de importación
+   - El resultado de la importación puede ser error total (el error aparece detallado en la lista de importaciones), parcial (con la lista de productos no importados y el porqué) o éxito total (todos los productos fueron importados)
    - Corrige cualquier error
-   - Confirma la importación
+   - Reimporta la hoja de cálculo, los productos que ya estaban con éxito solo serán actualizados, no duplicados
 
 ## Campos Requeridos
 
-- **Categoría** - Categoría del producto
-- **URL de Imagen** - Imagen principal del producto
-
-## Campos Opcionales
-
-- ID del Producto
-- ID del Categoría
-- Nombre
-- Descripción
-- Marca
-- Color
-- Talla
-- Imágenes adicionales
+Encuentra los campos requeridos para tu empresa en Configuración > Gestor de Productos > Campos de la Hoja de Cálculo
 
 ## Mejores Prácticas
 
