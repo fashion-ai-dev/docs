@@ -63,6 +63,10 @@
     "message": "Hoja de Cálculo",
     "description": "The label for category Spreadsheet in sidebar developerGuideSidebar"
   },
+  "sidebar.developerGuideSidebar.category.Spreadsheet.imagesUpload": {
+    "message": "Carga de Imágenes",
+    "description": "The label for category Spreadsheet images upload in sidebar developerGuideSidebar"
+  },
   "sidebar.developerGuideSidebar.category.Recommendations & Search": {
     "message": "Recomendaciones y Búsqueda",
     "description": "The label for category Recommendations & Search in sidebar developerGuideSidebar"
