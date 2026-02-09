@@ -130,6 +130,7 @@ const sidebars: SidebarsConfig = {
           label: 'Spreadsheet',
           items: [
             'developer-guide/initial-setup/spreadsheet/index',
+            'developer-guide/initial-setup/spreadsheet/imagesUpload',
           ],
         },
       ],
