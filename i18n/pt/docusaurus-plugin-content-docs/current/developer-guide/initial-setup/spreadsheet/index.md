@@ -15,6 +15,7 @@ O método de importação por planilha permite que você faça upload do seu cat
 1. **Baixar Template**
    - Obtenha o template de planilha no seu painel FashionAI clicando em Configurações > Gerenciador de Produtos
    - Revise os campos obrigatórios e o formato em "Campos da Planilha"
+   - Se o formato da planilha da sua empresa informar que o campo image_1 não é obrigatório, aprenda como fazer upload das imagens em [Upload de Imagens](./imagesUpload)
 
 2. **Preparar seus Dados**
    - Preencha as informações dos produtos
@@ -28,7 +29,7 @@ O método de importação por planilha permite que você faça upload do seu cat
 
 4. **Validar Importação**
    - Revise o resumo da importação
-   - Resultado da importação pode ser erro total (o erro aparece detalhado na lista de importações), parcial (com a lista dos produtos não importados e o porquê) ou successo total (todos os produtos foram importados). 
+   - O resultado da importação pode ser: erro total (detalhado na lista de importações), parcial (com a lista dos produtos não importados e o motivo) ou sucesso total (todos os produtos foram importados)
    - Corrija quaisquer erros
    - Re-importe a planilha, os produtos que já estavam com sucesso apenas serão atualizados, não duplicados.
 

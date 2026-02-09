@@ -15,6 +15,7 @@ El método de importación por hoja de cálculo te permite subir tu catálogo de
 1. **Descargar Plantilla**
    - Obtén la plantilla de hoja de cálculo desde tu panel de FashionAI haciendo clic en Configuración > Gestor de Productos
    - Revisa los campos requeridos y el formato en "Campos de la Hoja de Cálculo"
+   - Si el formato de la hoja de cálculo de tu empresa indica que el campo image_1 no es obligatorio, aprende cómo cargar las imágenes en [Carga de Imágenes](./imagesUpload)
 
 2. **Preparar tus Datos**
    - Completa la información de los productos
