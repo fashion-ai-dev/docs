@@ -63,6 +63,10 @@
     "message": "Planilha",
     "description": "The label for category Spreadsheet in sidebar developerGuideSidebar"
   },
+  "sidebar.developerGuideSidebar.category.Spreadsheet.imagesUpload": {
+    "message": "Upload de Imagens",
+    "description": "The label for category Spreadsheet images upload in sidebar developerGuideSidebar"
+  },
   "sidebar.developerGuideSidebar.category.Recommendations & Search": {
     "message": "Recomendações e Busca",
     "description": "The label for category Recommendations & Search in sidebar developerGuideSidebar"
