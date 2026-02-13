@@ -35,6 +35,41 @@ Reorganize product listings dynamically based on what the user is really looking
 [Technical documentation about Visual Merchandising →](../../developer-guide/recommendations-search/vm-builder)
 
 
+## Customize Your Recommendations
+
+You can control which products the AI recommends by applying custom filters for each recommendation type: **Product**, **Category**, and **Shop the Look**.
+
+### How to Access
+
+1. In the sidebar menu, go to **Personalization**
+2. Under the **API Implementation Guide** section, click the **Recommendation filters** button
+
+![Personalization page with filters button](/img/tela1-recommendationFilter.png)
+
+3. The settings panel will open:
+
+![Recommendation settings panel](/img/tela2-recommendationFilter.png)
+
+### Available Filters
+
+| Filter | What it does |
+|--------|-------------|
+| **Broken Size Grid** | Prioritizes products that help balance your stock's size grid |
+| **Discount** | Choose between recommending all products, only discounted, or only full-price |
+| **Price Range** | Set a price range for recommended products — use a custom range, filter above R$ 10k, or include all |
+| **Low Stock** | Excludes products with stock below the defined limit from recommendations (when you click "Low Stock", a field will appear to select the number your company considers low stock - a 100% customized experience) |
+
+### Step by Step
+
+1. **Choose the type** — select the **Product**, **Category**, or **Shop the Look** tab
+2. **Adjust the filters** — enable or disable each filter according to your strategy
+3. **Save** — click **Save** to apply. Each type is saved separately
+4. **Repeat** — if you want different settings for another type, switch tabs and repeat the process
+
+> 💡 **Tip**: You can use different filters for each type. For example, prioritize broken size grid only for **Product** recommendations, and filter by discount only for **Shop the Look**.
+
+> ⚠️ To clear all filters for a type, click **Clear**.
+
 ## Next Steps
 
 🚀 **Ready to implement recommendations?** Choose your integration path:
