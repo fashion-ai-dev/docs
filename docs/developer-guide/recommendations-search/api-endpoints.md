@@ -139,7 +139,7 @@ The settings modal will appear with the available filters for each recommendatio
 
 ### Available Filters
 
-#### Broken Size Grid
+#### Full Size Run
 
 When enabled, the AI prioritizes products that complement the current stock size grid, recommending items that help balance size availability.
 

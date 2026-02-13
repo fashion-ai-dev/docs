@@ -54,7 +54,7 @@ You can control which products the AI recommends by applying custom filters for 
 
 | Filter | What it does |
 |--------|-------------|
-| **Broken Size Grid** | Prioritizes products that help balance your stock's size grid |
+| **Full Size Run** | Prioritizes products that help balance your stock's size grid |
 | **Discount** | Choose between recommending all products, only discounted, or only full-price |
 | **Price Range** | Set a price range for recommended products — use a custom range, filter above R$ 10k, or include all |
 | **Low Stock** | Excludes products with stock below the defined limit from recommendations (when you click "Low Stock", a field will appear to select the number your company considers low stock - a 100% customized experience) |
@@ -66,7 +66,7 @@ You can control which products the AI recommends by applying custom filters for 
 3. **Save** — click **Save** to apply. Each type is saved separately
 4. **Repeat** — if you want different settings for another type, switch tabs and repeat the process
 
-> 💡 **Tip**: You can use different filters for each type. For example, prioritize broken size grid only for **Product** recommendations, and filter by discount only for **Shop the Look**.
+> 💡 **Tip**: You can use different filters for each type. For example, prioritize full size run only for **Product** recommendations, and filter by discount only for **Shop the Look**.
 
 > ⚠️ To clear all filters for a type, click **Clear**.
 
