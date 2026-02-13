@@ -35,6 +35,41 @@ Reorganiza dinámicamente los listados de productos según lo que el usuario rea
 [Documentación técnica sobre Visual Merchandising →](../../developer-guide/recommendations-search/vm-builder)
 
 
+## Personalice sus Recomendaciones
+
+Puede controlar qué productos recomienda la IA aplicando filtros personalizados para cada tipo de recomendación: **Producto**, **Categoría** y **Comprar el Look**.
+
+### Cómo acceder
+
+1. En el menú lateral, acceda a **Personalización**
+2. En la sección **Guía para la Implementación de la API**, haga clic en el botón **Filtros de recomendación**
+
+![Página de Personalización con botón de filtros](/img/tela1-recommendationFilter.png)
+
+3. Se abrirá el panel de configuración:
+
+![Panel de configuración de recomendaciones](/img/tela2-recommendationFilter.png)
+
+### Filtros disponibles
+
+| Filtro | Qué hace |
+|--------|----------|
+| **Tallas descontinuadas** | Prioriza productos que ayudan a equilibrar la grilla de tallas de su stock |
+| **Descuento** | Elija entre recomendar todos los productos, solo con descuento o solo a precio completo |
+| **Rango de precios** | Defina un rango de precios para los productos recomendados — use un rango personalizado, filtre por encima de R$ 10 mil o incluya todos |
+| **Stock bajo** | Excluye de las recomendaciones productos con stock por debajo del límite definido (al hacer clic en "Stock Bajo" aparecerá un campo para seleccionar el número que su empresa considere stock bajo - experiencia 100% personalizada) |
+
+### Paso a paso
+
+1. **Elija el tipo** — seleccione la pestaña **Producto**, **Categoría** o **Comprar el Look**
+2. **Ajuste los filtros** — active o desactive cada filtro según su estrategia
+3. **Guarde** — haga clic en **Guardar** para aplicar. Cada tipo se guarda por separado
+4. **Repita** — si desea configuraciones diferentes para otro tipo, cambie de pestaña y repita el proceso
+
+> 💡 **Consejo**: Puede usar filtros diferentes para cada tipo. Por ejemplo, priorizar tallas descontinuadas solo en recomendaciones de **Producto**, y filtrar por descuento solo en **Comprar el Look**.
+
+> ⚠️ Para limpiar todos los filtros de un tipo, haga clic en **Limpiar**.
+
 ## Próximos Pasos
 
 🚀 **¿Listo para implementar recomendaciones?** Elige tu ruta de integración:

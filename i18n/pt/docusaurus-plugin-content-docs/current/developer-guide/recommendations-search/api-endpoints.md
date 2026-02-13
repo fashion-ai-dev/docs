@@ -125,6 +125,57 @@ Habilite o botão “Compre o look” para exibir, por meio de modal ou gaveta, 
 
 > ⚠️ **Observação**: embora a API filtre produtos fora de estoque, a validação do estoque deve ser feita localmente antes da renderização no front-end.
 
+## Configurações de Recomendação
+
+O painel de configurações permite definir filtros para cada tipo de recomendação individualmente. Acesse as configurações e selecione a aba correspondente ao tipo desejado: **Produto**, **Categoria** ou **Compre o Look**. Cada tipo deve ser salvo separadamente.
+
+Na página de **Personalização**, em **Guia para Implementação da API** clique no botão **Filtros de recomendação** para abrir o painel de configurações:
+
+![Página de Personalização com botão de filtros de recomendação](/img/tela1-recommendationFilter.png)
+
+O modal de configurações será exibido com os filtros disponíveis para cada tipo de recomendação:
+
+![Modal de configurações de recomendação](/img/tela2-recommendationFilter.png)
+
+### Filtros disponíveis
+
+#### Grade quebrada
+
+Quando ativado, a IA prioriza produtos que complementem a grade de tamanhos do estoque atual, recomendando itens que ajudem a equilibrar a disponibilidade de tamanhos.
+
+#### Desconto
+
+Filtra os produtos recomendados com base no status de desconto:
+
+| Opção | Descrição |
+|-------|-----------|
+| **Todos os produtos** | Recomenda produtos independentemente de estarem em promoção ou não |
+| **Apenas com desconto** | Recomenda somente produtos que possuem desconto ativo |
+| **Apenas sem desconto** | Recomenda somente produtos com preço cheio |
+
+#### Faixa de preço
+
+Define o intervalo de preço dos produtos recomendados. Há três modos disponíveis:
+
+| Modo | Descrição |
+|------|-----------|
+| **Faixa customizada** | Permite definir manualmente os valores mínimo e máximo através do controle deslizante |
+| **Acima de 10 mil** | Filtra apenas produtos com preço acima de R$ 10.000,00 |
+| **Todos os produtos** | Não aplica filtro de preço — recomenda produtos de qualquer valor |
+
+#### Estoque baixo
+
+Quando ativado, a IA não incluirá produtos com estoque baixo nas recomendações. Aparecerá o campo **Limite**, permitindo selecionar o número que a sua empresa considere estoque baixo (por exemplo, `10` significa que produtos com 10 ou menos unidades em estoque não serão recomendados).
+
+### Como salvar
+
+1. Selecione a aba do tipo de recomendação que deseja configurar (**Produto**, **Categoria** ou **Compre o Look**)
+2. Ajuste os filtros conforme desejado
+3. Clique em **Salvar** para aplicar as configurações daquele tipo
+4. Para redefinir os filtros, clique em **Limpar**
+
+> ⚠️ **Observação**: cada tipo de recomendação possui sua própria configuração. Alterações feitas em uma aba não afetam as demais. Certifique-se de salvar cada tipo individualmente.
+
 ## Segurança e CORS
 
 Para proteger o token de autenticação (X-FashionAI-APP-Token), bloqueamos solicitações diretas do navegador. Se uma chamada de API for feita diretamente do front-end, o navegador bloqueará essa solicitação com um erro CORS.

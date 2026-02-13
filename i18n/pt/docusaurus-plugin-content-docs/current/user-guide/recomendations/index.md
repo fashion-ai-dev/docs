@@ -35,6 +35,41 @@ Reorganize listagens de produtos dinamicamente com base no que o usuário está 
 [Documentação técnica sobre Visual Merchandising →](../../developer-guide/recommendations-search/vm-builder)
 
 
+## Personalize suas Recomendações
+
+Você pode controlar quais produtos a IA recomenda aplicando filtros personalizados para cada tipo de recomendação: **Produto**, **Categoria** e **Compre o Look**.
+
+### Como acessar
+
+1. No menu lateral, acesse **Personalização**
+2. Na seção **Guia para Implementação da API**, clique no botão **Filtros de recomendação**
+
+![Página de Personalização com botão de filtros](/img/tela1-recommendationFilter.png)
+
+3. O painel de configurações será aberto:
+
+![Painel de configurações de recomendação](/img/tela2-recommendationFilter.png)
+
+### Filtros disponíveis
+
+| Filtro | O que faz |
+|--------|-----------|
+| **Grade quebrada** | Prioriza produtos que ajudam a equilibrar a grade de tamanhos do seu estoque |
+| **Desconto** | Escolha entre recomendar todos os produtos, apenas com desconto ou apenas sem desconto |
+| **Faixa de preço** | Defina um intervalo de preço para os produtos recomendados — use a faixa customizada, filtre acima de R$ 10 mil ou inclua todos |
+| **Estoque baixo** | Exclui das recomendações produtos com estoque abaixo do limite definido (ao clicar em "Estoque Baixo" aparecerá um campo para selecionar o número que a sua empresa considere estoque baixo - experiência 100% personalizada)|
+
+### Passo a passo
+
+1. **Escolha o tipo** — selecione a aba **Produto**, **Categoria** ou **Compre o Look**
+2. **Ajuste os filtros** — ative ou desative cada filtro conforme sua estratégia
+3. **Salve** — clique em **Salvar** para aplicar. Cada tipo é salvo separadamente
+4. **Repita** — se quiser configurações diferentes para outro tipo, troque de aba e repita o processo
+
+> 💡 **Dica**: Você pode usar filtros diferentes para cada tipo. Por exemplo, priorizar grade quebrada apenas em recomendações de **Produto**, e filtrar por desconto apenas em **Compre o Look**.
+
+> ⚠️ Para limpar todos os filtros de um tipo, clique em **Limpar**.
+
 ## Próximos Passos
 
 🚀 **Pronto para implementar recomendações?** Escolha seu caminho de integração:
