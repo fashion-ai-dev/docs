@@ -17,19 +17,19 @@ const sidebars: SidebarsConfig = {
     'user-guide/getting-started',
     {
       type: 'category',
+      label: 'Import Products',
+      items: [
+        'user-guide/integrations/csv-imports/index',
+        'user-guide/integrations/csv-imports/products',
+        'user-guide/integrations/csv-imports/shop-the-look',
+      ],
+    },
+    {
+      type: 'category',
       label: 'Integrations',
       items: [
         'user-guide/integrations/vtex',
         'user-guide/integrations/shopify',
-        {
-          type: 'category',
-          label: 'CSV Imports',
-          items: [
-            'user-guide/integrations/csv-imports/index',
-            'user-guide/integrations/csv-imports/products',
-            'user-guide/integrations/csv-imports/shop-the-look',
-          ],
-        },
       ],
     },
     {
@@ -127,7 +127,7 @@ const sidebars: SidebarsConfig = {
         },
         {
           type: 'category',
-          label: 'Spreadsheet',
+          label: 'Import Products',
           items: [
             'developer-guide/initial-setup/spreadsheet/index',
             'developer-guide/initial-setup/spreadsheet/imagesUpload',

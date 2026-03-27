@@ -1,10 +1,10 @@
-# Importação por Planilha
+# Importação CSV
 
-Importe seu catálogo de produtos usando templates de planilhas para uploads em massa facilitados.
+Importe seu catálogo de produtos usando templates CSV para uploads em massa facilitados.
 
 ## Visão Geral
 
-O método de importação por planilha permite que você faça upload do seu catálogo de produtos usando arquivo CSV. Isso é ideal para:
+O método de importação CSV permite que você faça upload do seu catálogo de produtos usando arquivos CSV. Isso é ideal para:
 - Importações iniciais em massa de produtos
 - Atualizações de catálogo de produtos
 - Gerenciamento de catálogo offline
@@ -13,9 +13,9 @@ O método de importação por planilha permite que você faça upload do seu cat
 ## Começando
 
 1. **Baixar Template**
-   - Obtenha o template de planilha no seu painel FashionAI clicando em Configurações > Gerenciador de Produtos
-   - Revise os campos obrigatórios e o formato em "Campos da Planilha"
-   - Se o formato da planilha da sua empresa informar que o campo image_1 não é obrigatório, aprenda como fazer upload das imagens em [Upload de Imagens](./imagesUpload)
+   - Obtenha o template CSV no seu painel FashionAI clicando em Configurações > Gerenciador de Produtos
+   - Revise os campos obrigatórios e o formato em "Campos CSV"
+   - Se o formato CSV da sua empresa informar que o campo image_1 não é obrigatório, aprenda como fazer upload das imagens em [Upload de Imagens](./imagesUpload)
 
 2. **Preparar seus Dados**
    - Preencha as informações dos produtos
@@ -25,17 +25,17 @@ O método de importação por planilha permite que você faça upload do seu cat
 3. **Fazer Upload do Arquivo**
    - Faça login no seu painel
    - Navegue até Configurações > Gerenciador de Produtos
-   - Faça upload do seu arquivo de planilha
+   - Faça upload do seu arquivo CSV
 
 4. **Validar Importação**
    - Revise o resumo da importação
    - O resultado da importação pode ser: erro total (detalhado na lista de importações), parcial (com a lista dos produtos não importados e o motivo) ou sucesso total (todos os produtos foram importados)
    - Corrija quaisquer erros
-   - Re-importe a planilha, os produtos que já estavam com sucesso apenas serão atualizados, não duplicados.
+   - Reimporte o arquivo CSV, os produtos que já estavam com sucesso apenas serão atualizados, não duplicados.
 
 ## Campos Obrigatórios
 
-Encontre os campos obrigatórios para sua empresa em Configurações > Gerenciador de Produtos > Campos da Planilha
+Encontre os campos obrigatórios para sua empresa em Configurações > Gerenciador de Produtos > Campos CSV
 
 ## Melhores Práticas
 
@@ -54,4 +54,4 @@ Problemas comuns e soluções:
 
 ## Suporte
 
-Precisa de ajuda com importações de planilhas? Entre em contato: **support@generativecrm.com**
+Precisa de ajuda com importações CSV? Entre em contato: **support@generativecrm.com**

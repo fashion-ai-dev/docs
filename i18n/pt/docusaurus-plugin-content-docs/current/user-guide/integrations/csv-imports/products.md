@@ -1,216 +1,79 @@
-# Importação CSV de Produtos
+# Importacao de Catalogo de Produtos
 
-Importe seu catálogo completo de produtos usando um arquivo CSV simples.
+Importe ou atualize seu catalogo de produtos usando o template CSV do seu painel da FashionAI.
 
-## Visão Geral
+## Quando usar esta importacao
 
-A importação CSV de Produtos permite que você:
-- Adicione múltiplos produtos de uma vez
-- Atualize produtos existentes em massa
-- Importe informações completas de produtos
-- Configure seu catálogo inicial rapidamente
+Use a importacao de catalogo quando quiser:
 
-## Guia Passo a Passo
+- criar seu catalogo inicial
+- atualizar muitos produtos de uma vez
+- corrigir informacoes de produtos em massa
+- migrar produtos de outra plataforma
 
-### Passo 1: Baixe o Template
+O template e os campos disponiveis podem variar por cliente. Por isso, este guia foca no processo, e o template CSV baixado e a referencia principal.
 
-1. Faça login no seu painel FashionAI
-2. Vá para **Configurações** → **Gerenciador de Produtos**
-3. Clique em **Download Products Template**
-4. Salve o arquivo CSV no seu computador
+## Passo a passo
 
-### Passo 2: Prepare Seus Dados
+### 1. Baixe o template de produtos
 
-Abra o template CSV no seu aplicativo de planilha preferido (Excel, Google Sheets, etc.) e preencha as informações dos seus produtos.
+1. Entre na FashionAI
+2. Va em **Settings** -> **Products Manager**
+3. Baixe o template CSV para produtos
 
-## Formato CSV
+### 2. Preencha seu CSV
 
-### Colunas Obrigatórias
+Abra o arquivo na ferramenta que preferir e adicione os dados dos produtos.
 
-Estas colunas **devem** ser preenchidas para cada produto:
+Boas praticas:
 
-| Coluna | Descrição | Exemplo |
-|--------|-----------|---------|
-| **Product Name** | Nome de exibição do produto | "Cotton Blue T-Shirt" |
-| **Category ID** | Identificador único da categoria | "shirts-123" |
-| **Image URL** | Link da imagem principal do produto | "https://example.com/image.jpg" |
-| **Category** | Nome da categoria do produto | "T-Shirts" |
+- mantenha um produto por linha
+- preserve a estrutura original do template
+- use identificadores consistentes para os produtos
+- revise nomes, descricoes, categorias e imagens antes do envio
 
-### Colunas Opcionais
+Se tiver duvidas sobre algum campo, consulte **Campos CSV** no painel.
 
-Estas colunas ajudam a melhorar as recomendações e busca:
+### 3. Salve o arquivo em CSV
 
-| Coluna | Descrição | Exemplo |
-|--------|-----------|---------|
-| **Product ID** | Seu código interno do produto | "SKU-12345" |
-| **Description** | Detalhes do produto | "Camiseta de algodão confortável..." |
-| **Brand** | Marca do produto | "Nike" |
-| **Color** | Cor do produto | "Blue" |
-| **Size** | Tamanhos disponíveis | "M, L, XL" |
-| **Price** | Preço do produto | "29.99" |
-| **Tags** | Palavras-chave adicionais | "casual, summer, cotton" |
-| **Additional Images** | URLs de imagens extras | "https://example.com/img2.jpg" |
+Quando o arquivo estiver pronto, salve ou exporte em **CSV**.
 
-## Exemplo de CSV
+### 4. Envie o arquivo
 
-Veja como seu CSV deve se parecer:
+1. Volte para **Settings** -> **Products Manager**
+2. Faca upload do arquivo CSV
+3. Aguarde o processamento da FashionAI
 
-```csv
-Product Name,Product ID,Category ID,Category,Image URL,Brand,Color,Price,Description
-Cotton Blue T-Shirt,SKU-001,shirts-123,T-Shirts,https://example.com/tshirt.jpg,Nike,Blue,29.99,Comfortable cotton t-shirt for everyday wear
-Denim Jeans,SKU-002,pants-456,Jeans,https://example.com/jeans.jpg,Levi's,Blue,79.99,Classic fit denim jeans with stretch
-Summer Dress,SKU-003,dress-789,Dresses,https://example.com/dress.jpg,Zara,Floral,49.99,Light and breezy summer dress
-```
+### 5. Revise o resultado da importacao
 
-### Passo 3: Preencha Seus Produtos
+Depois do processamento, revise o resumo da importacao:
 
-Para cada produto, preencha todas as colunas obrigatórias e quaisquer colunas opcionais que se aplicam:
+- **Sucesso** significa que o arquivo foi importado corretamente
+- **Sucesso parcial** significa que algumas linhas foram importadas e outras precisam de ajuste
+- **Erro** significa que o arquivo precisa ser corrigido antes da importacao ser concluida
 
-**Dicas:**
-- Um produto por linha
-- Mantenha as descrições claras e concisas
-- Use URLs de imagens de alta qualidade
-- Seja consistente com os nomes das categorias
-- Inclua nomes de marcas quando disponível
+Se necessario, ajuste o arquivo CSV e envie novamente. Os itens importados com sucesso sao atualizados, nao duplicados.
 
-### Passo 4: Salve Seu Arquivo
+## O que normalmente causa problemas
 
-1. Clique em **Arquivo** → **Salvar Como**
-2. Escolha o formato **CSV (Delimitado por vírgula)**
-3. Nomeie seu arquivo (exemplo: "products-import-2024.csv")
-4. Salve em um local que você vai lembrar
+- usar um template antigo
+- alterar manualmente a estrutura do CSV
+- usar identificadores inconsistentes entre uploads
+- diferencas de formato em algumas linhas
+- salvar o arquivo em um formato diferente de CSV
 
-### Passo 5: Envie para o FashionAI
+## Primeira importacao recomendada
 
-1. Clique em **Escolher Arquivo** ou arraste e solte seu CSV
-2. Clique em **Upload**
-3. Aguarde o processamento ser concluído (geralmente 5-10 minutos)
+Se este for seu primeiro upload, comece com um lote pequeno. Assim fica mais facil validar se o template, o formato CSV dos campos e o comportamento da importacao estao corretos antes de enviar o catalogo inteiro.
 
-### Passo 6: Revise os Resultados da Importação
+## Depois da importacao
 
-Após o processamento, você verá um resumo:
+Quando seus produtos estiverem na FashionAI, voce pode seguir para:
 
-- **Importações bem-sucedidas**: Produtos adicionados/atualizados com sucesso
-- **Erros**: Produtos que não puderam ser importados
-- **Avisos**: Produtos importados com problemas menores
+- [Importacao de Shop The Look](./shop-the-look.md)
+- [Vision Enrichment](../../vision-enrichment/index.md)
+- [Recommendations](../../recomendations/index.md)
 
-## Entendendo as Mensagens de Status
+## Precisa de ajuda?
 
-### Processando ⏳
-Seu arquivo está sendo processado. Isso pode levar até 5 minutos dependendo do tamanho do arquivo. Você pode sair da página e voltar depois.
-
-### Processado
-Seus produtos foram enviados com sucesso para o Banco de Dados e nossa IA está lendo as imagens para gerar os dados (tags, descrição, atributos,...).
-
-### Concluído ✅
-Todos os produtos foram lidos com sucesso!
-
-### Erros ❌
-Alguns produtos não puderam ser importados. Verifique o relatório de erros para detalhes.
-
-## Erros Comuns e Soluções
-
-### Colunas Obrigatórias Ausentes
-
-**Mensagem de Erro:**
-```
-Missing required data
-```
-
-**Solução:**
-- Abra seu CSV e verifique os cabeçalhos das colunas
-- Certifique-se de que todas as colunas obrigatórias existem
-- Verifique se há erros de digitação nos nomes das colunas
-- Certifique-se de que as colunas não estão vazias
-
-### URLs de Imagem Inválidas
-
-**Mensagem de Erro:**
-```
-Invalid or inaccessible image URL
-```
-
-**Solução:**
-- Verifique se a URL da imagem está correta
-- Certifique-se de que as imagens são acessíveis publicamente (não atrás de login)
-- Verifique se as URLs começam com `http://` ou `https://`
-- Teste a URL em um navegador para confirmar que funciona
-
-### Formato de Arquivo Inválido
-
-**Mensagem de Erro:**
-```
-File format not supported
-```
-
-**Solução:**
-- Certifique-se de que o arquivo está salvo como formato CSV (não .xlsx ou .xls)
-- Tente salvar como "CSV UTF-8" se disponível
-- Remova qualquer formatação especial do Excel
-
-### Arquivo Muito Grande
-
-**Mensagem de Erro:**
-```
-File exceeds maximum size of 10MB
-```
-
-**Solução:**
-- Divida sua importação em vários arquivos menores
-- Remova colunas desnecessárias
-- Comprima imagens grandes antes de fazer upload
-
-## Melhores Práticas
-
-### URLs de Imagens
-- Use imagens de alta resolução (mínimo 800x800 pixels)
-- Certifique-se de que as imagens estão hospedadas em um servidor confiável
-- Use URLs diretas de imagem (terminando em .jpg, .png, etc.)
-- Teste as URLs antes de importar
-
-### Testes
-- Comece com um arquivo de teste pequeno (10-20 produtos)
-- Verifique se a importação foi bem-sucedida
-- Verifique se os produtos aparecem corretamente no painel
-- Depois importe o resto do seu catálogo
-
-## Atualizando Produtos Existentes
-
-Você pode usar o mesmo formato CSV para atualizar produtos:
-
-1. Inclua a coluna **Product ID** com IDs existentes
-2. Altere as informações que você deseja atualizar
-3. Faça upload do CSV
-4. Os produtos existentes serão atualizados com as novas informações
-
-## Importações Idempotentes
-
-Você pode fazer upload do mesmo CSV múltiplas vezes com segurança:
-- Produtos duplicados não serão criados
-- Produtos existentes serão atualizados
-- Novos produtos serão adicionados
-
-## Retenção de Arquivos
-
-Arquivos CSV enviados são mantidos por **7 dias** após o upload. Depois disso, você precisará fazer novo upload se quiser processá-los novamente.
-
-## Precisa de Ajuda?
-
-Se você encontrar problemas:
-- Revise as mensagens de erro cuidadosamente
-- Verifique a seção de erros comuns acima
-- Tente um arquivo de teste menor primeiro
-- Entre em contato com o suporte: support@generativecrm.com
-
-Inclua na sua solicitação de suporte:
-- Seu arquivo CSV (ou uma amostra)
-- A mensagem de erro que você recebeu
-- Número de produtos que você está tentando importar
-
-## Próximos Passos
-
-Depois de importar seus produtos:
-
-- [Configure relacionamentos Shop The Look](./shop-the-look.md)
-- [Habilite o Vision Enrichment](../../vision-enrichment/index.md)
-- [Configure Recomendações](../../recomendations/index.md)
+Se nao estiver claro por que o arquivo falhou, revise o resumo da importacao no painel e entre em contato com **support@generativecrm.com** com os detalhes do erro.

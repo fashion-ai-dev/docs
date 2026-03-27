@@ -1,112 +1,71 @@
-# Guía de Importación CSV
+# Guia de Importacion CSV
 
-Importe su catálogo de productos y relaciones de Shop The Look usando archivos CSV simples.
+Importa tu catalogo y tus archivos de relaciones usando la plantilla CSV disponible en tu panel de FashionAI.
 
-## ¿Qué es la Importación CSV?
+## Para que sirve esta pagina
 
-La importación CSV (Valores Separados por Comas) le permite cargar datos de forma masiva usando archivos de hojas de cálculo. Esto es perfecto para:
+Usa la importacion CSV cuando quieras:
 
-- **Configuración inicial del catálogo** - Importar todos los productos a la vez
-- **Actualizaciones masivas** - Actualizar muchos productos simultáneamente
-- **Gestión sin conexión** - Trabajar en su catálogo sin internet
-- **Migración** - Migrar desde otra plataforma
-- **Shop The Look** - Crear combinaciones de productos y conjuntos
+- cargar muchos elementos de una sola vez
+- actualizar informacion en bloque
+- preparar datos offline y subirlos despues
+- migrar datos desde otro sistema
 
-## Tipos de Importación Disponibles
+La estructura exacta del CSV puede variar segun el cliente, por eso siempre debes comenzar con la plantilla descargada desde tu panel.
 
-### Importación de Productos
-Cargue su catálogo completo de productos con todos los detalles como nombres, descripciones, imágenes, categorías y atributos.
+## Antes de cargar
 
-[Más información sobre Importación de Productos →](./products.md)
+1. Ve a **Settings** -> **Products Manager**
+2. Descarga la plantilla de la importacion que quieres hacer
+3. Completa tus datos directamente en esa plantilla
+4. Guarda el archivo en **CSV**
 
-### Importación de Shop The Look
-Cree combinaciones de productos y sugerencias de conjuntos vinculando productos que funcionen bien juntos.
+Si necesitas confirmar como completar un campo, revisa **Campos CSV** en la misma area del panel.
 
-[Más información sobre Importación de Shop The Look →](./shop-the-look.md)
+## Como funciona la importacion
 
-## Cómo Funciona la Importación CSV
+1. **Descarga la plantilla correcta**
+   Usa la plantilla que corresponda a tu objetivo: importacion de catalogo o importacion de Shop The Look.
 
-1. **Descargar Plantilla** - Obtenga la plantilla CSV correcta para su tipo de importación
-2. **Seleccionar el tipo correcto de CSV** - Puede seleccionar Producto para importar su catálogo o Shop The Look para importar sus productos relacionados
-3. **Cargar Archivo** - Cargue su CSV a través del panel de FashionAI
-4. **Procesamiento** - El sistema valida y procesa sus datos
-5. **Revisar** - Verifique los resultados y corrija cualquier error si es necesario
+2. **Prepara tu CSV**
+   Mantén la estructura original del archivo descargado y completa solo las filas que deseas importar.
 
-## Requisitos Generales
+3. **Carga el archivo en FashionAI**
+   Vuelve a **Settings** -> **Products Manager** y sube el archivo CSV.
 
-### Formato de Archivo
-- El archivo debe estar en **formato CSV** (extensión .csv)
-- Use **codificación UTF-8** para caracteres especiales
-- Tamaño máximo de archivo: **10 MB**
-- Filas máximas: **10,000 por archivo**
+4. **Revisa el resultado**
+   La importacion puede terminar con exito total, exito parcial o error. Revisa el resumen antes de continuar.
 
-### Calidad de Datos
-- Los campos requeridos deben estar completos
-- Los IDs de productos deben ser únicos
-- Las URLs deben ser válidas y accesibles
-- No debe haber filas vacías en medio de los datos
+5. **Corrige y vuelve a importar si hace falta**
+   Si algo falla, corrige el archivo CSV y subelo nuevamente. Los elementos que ya fueron importados con exito se actualizan, no se duplican.
 
-## Consejos para el Éxito
+## Elige tu tipo de importacion
 
-### Antes de Comenzar
-- Revise la plantilla cuidadosamente
-- Verifique todos los campos requeridos
-- Prepare las URLs de las imágenes con anticipación
-- Pruebe con un lote pequeño primero
+### Importacion de catalogo de productos
 
-### Durante la Carga
-- Use nombres claros y consistentes
-- Verifique dos veces los IDs de productos
-- Asegúrese de que las URLs de las imágenes sean accesibles públicamente
-- Guarde su trabajo con frecuencia
+Usa esta opcion para agregar o actualizar productos en tu catalogo.
 
-### Después de la Carga
-- Revise el resumen de importación
-- Verifique si hay errores o advertencias
-- Verifique que los productos aparezcan correctamente
-- Conserve su archivo CSV como respaldo
+[Abrir la guia de importacion de catalogo](./products.md)
 
-## Estado del Procesamiento
+### Importacion de Shop The Look
 
-Cuando cargue un CSV, verá uno de estos estados:
+Usa esta opcion para crear relaciones entre productos y combinaciones de looks.
 
-| Estado | Qué Significa |
-|--------|---------------|
-| ⏳ **Procesando** | El archivo se está procesando (puede tardar hasta 5 minutos) |
-| ✅ **Completado** | Importación completada exitosamente |
-| ⚠️ **Advertencia** | Importación completada con algunas advertencias |
-| ❌ **Error** | La importación falló - verifique los mensajes de error |
+[Abrir la guia de importacion de Shop The Look](./shop-the-look.md)
 
-## Mensajes de Error Comunes
+## Consejos para evitar la mayoria de los errores
 
-### Problemas de Formato de Archivo
-**Error:** `Invalid file format`
-**Solución:** Asegúrese de que su archivo esté guardado como CSV (no Excel .xlsx)
+- Empieza siempre con la plantilla mas reciente descargada del panel
+- No renombres ni reorganices la estructura del CSV, salvo que tu equipo te lo haya indicado
+- Mantén los identificadores de producto consistentes en futuras cargas
+- Si es tu primera importacion, prueba primero con un archivo pequeño
+- Revisa el resumen de la importacion antes de subir un lote grande
 
-### Columnas Requeridas Faltantes
-**Error:** `Missing required columns`
-**Solución:** Verifique que todas las columnas requeridas existan en su CSV
+## Necesitas ayuda?
 
-### Productos No Encontrados
-**Error:** `Products not found in catalog`
-**Solución:** Importe los productos antes de crear relaciones (para Shop The Look)
+Si el resultado de la importacion no es claro:
 
-### Formato de Datos Inválido
-**Error:** `Invalid data format in row X`
-**Solución:** Verifique la fila específica mencionada en busca de problemas de formato
-
-## ¿Necesita Ayuda?
-
-Si encuentra problemas con las importaciones CSV:
-
-- Consulte la guía de importación específica para su tipo
-- Revise el mensaje de error en busca de pistas
-- Intente cargar un archivo de prueba más pequeño
-- Contacte a soporte: support@generativecrm.com
-
-## Siguientes Pasos
-
-Elija el tipo de importación que desea realizar:
-
-- [Guía de Importación de Productos](./products.md)
-- [Guía de Importación de Shop The Look](./shop-the-look.md)
+- revisa el resumen de importacion en el panel
+- confirma que usaste la plantilla correcta
+- verifica el formato de los datos en las filas que fallaron
+- contacta a **support@generativecrm.com**

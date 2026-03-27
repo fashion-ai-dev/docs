@@ -1,112 +1,71 @@
 # CSV Import Guide
 
-Import your product catalog and Shop The Look relationships using simple CSV files.
+Import your catalog and relationship files using the CSV template available in your FashionAI dashboard.
 
-## What is CSV Import?
+## What this page is for
 
-CSV (Comma-Separated Values) import allows you to upload data in bulk using spreadsheet files. This is perfect for:
+Use CSV import when you want to:
 
-- **Initial catalog setup** - Import all products at once
-- **Bulk updates** - Update many products simultaneously
-- **Offline management** - Work on your catalog without internet
-- **Migration** - Moving from another platform
-- **Shop The Look** - Create product combinations and outfits
+- upload many items at once
+- update information in bulk
+- prepare data offline and upload it later
+- migrate data from another system
 
-## Available Import Types
+The exact CSV structure can vary by client, so always start from the template downloaded in your dashboard.
 
-### Products Import
-Upload your complete product catalog with all details like names, descriptions, images, categories, and attributes.
+## Before you upload
 
-[Learn more about Products Import →](./products.md)
+1. Go to **Settings** -> **Products Manager**
+2. Download the template for the import you want to run
+3. Fill in your data directly in that template
+4. Save the file as **CSV**
 
-### Shop The Look Import
-Create product combinations and outfit suggestions by linking products that work well together.
+If you need to confirm how a field should be filled, check **CSV Fields** in the same area of the dashboard.
 
-[Learn more about Shop The Look Import →](./shop-the-look.md)
+## How the import works
 
-## How CSV Import Works
+1. **Download the right template**
+   Use the template that matches your goal: catalog import or Shop The Look import.
 
-1. **Download Template** - Get the correct CSV template for your import type
-2. **Select the right type of CSV** - You can select Product to import your catalog or Shop The Look to import your relation products
-3. **Upload File** - Upload your CSV through the FashionAI dashboard
-4. **Processing** - The system validates and processes your data
-5. **Review** - Check the results and fix any errors if needed
+2. **Prepare your CSV**
+   Keep the original structure of the downloaded file and fill only the rows you want to import.
 
-## General Requirements
+3. **Upload in FashionAI**
+   Return to **Settings** -> **Products Manager** and upload the CSV file.
 
-### File Format
-- File must be in **CSV format** (.csv extension)
-- Use **UTF-8 encoding** for special characters
-- Maximum file size: **10 MB**
-- Maximum rows: **10,000 per file**
+4. **Review the result**
+   The import can finish as total success, partial success, or error. Review the summary before moving on.
 
-### Data Quality
-- Required fields must be filled
-- Product IDs must be unique
-- URLs must be valid and accessible
-- No empty rows in the middle of data
+5. **Fix and re-import if needed**
+   If something fails, correct the CSV file and upload it again. Items that were already imported successfully are updated, not duplicated.
 
-## Tips for Success
+## Choose your import type
 
-### Before You Start
-- Review the template carefully
-- Check all required fields
-- Prepare image URLs in advance
-- Test with a small batch first
+### Product catalog import
 
-### During Upload
-- Use clear, consistent naming
-- Double-check product IDs
-- Ensure image URLs are publicly accessible
-- Save your work frequently
+Use this option to add or update products in your catalog.
 
-### After Upload
-- Review the import summary
-- Check for any errors or warnings
-- Verify products appear correctly
-- Keep your CSV file as a backup
+[Open the product catalog import guide](./products.md)
 
-## Processing Status
+### Shop The Look import
 
-When you upload a CSV, you'll see one of these statuses:
+Use this option to create product relationships and outfit combinations.
 
-| Status | What It Means |
-|--------|---------------|
-| ⏳ **Processing** | File is being processed (may take up to 5 minutes) |
-| ✅ **Done** | Import completed successfully |
-| ⚠️ **Warning** | Import completed with some warnings |
-| ❌ **Error** | Import failed - check error messages |
+[Open the Shop The Look import guide](./shop-the-look.md)
 
-## Common Error Messages
+## Tips that prevent most errors
 
-### File Format Issues
-**Error:** `Invalid file format`
-**Solution:** Ensure your file is saved as CSV (not Excel .xlsx)
+- Always start from the latest template downloaded from the dashboard
+- Do not rename or reorganize the template structure unless your team instructed you to
+- Keep product identifiers consistent across future uploads
+- Test with a small file first if this is your first import
+- Review the import summary before uploading a larger batch
 
-### Missing Required Columns
-**Error:** `Missing required columns`
-**Solution:** Check that all required columns exist in your CSV
+## Need help?
 
-### Products Not Found
-**Error:** `Products not found in catalog`
-**Solution:** Import products before creating relationships (for Shop The Look)
+If the import result is not clear:
 
-### Invalid Data Format
-**Error:** `Invalid data format in row X`
-**Solution:** Check the specific row mentioned for formatting issues
-
-## Need Help?
-
-If you encounter issues with CSV imports:
-
-- Check the specific import guide for your type
-- Review the error message for clues
-- Try uploading a smaller test file
-- Contact support: support@generativecrm.com
-
-## Next Steps
-
-Choose the type of import you want to perform:
-
-- [Products Import Guide](./products.md)
-- [Shop The Look Import Guide](./shop-the-look.md)
+- check the import summary in the dashboard
+- confirm you used the correct template
+- verify the data format in the rows that failed
+- contact support at **support@generativecrm.com**
