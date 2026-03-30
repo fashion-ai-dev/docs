@@ -32,7 +32,7 @@ Best practices:
 - use consistent product identifiers
 - review names, descriptions, categories, and images before upload
 
-If you have questions about a field, check **CSV Fields** in the dashboard.
+If you have questions about a field, check **Spreadsheet Fields** in the dashboard.
 
 ### 3. Save the file as CSV
 
@@ -61,6 +61,11 @@ If needed, adjust the CSV file and upload it again. Successful items are updated
 - inconsistent product identifiers across uploads
 - formatting differences in some rows
 - file saved in a format other than CSV
+- encoding problems after exporting the file
+
+## Encoding tip
+
+If accented characters or special symbols look wrong in your file, upload the data to Google Sheets and download the CSV from there before importing. This often resolves encoding issues.
 
 ## Recommended first import
 
@@ -70,9 +75,10 @@ If this is your first upload, start with a small batch. This makes it easier to 
 
 Once your products are in FashionAI, you can continue with:
 
+- [Product image upload](./images-upload.md)
 - [Shop The Look import](./shop-the-look.md)
-- [Vision Enrichment](../../vision-enrichment/index.md)
-- [Recommendations](../../recomendations/index.md)
+- [Vision Enrichment](../vision-enrichment/index.md)
+- [Recommendations](../recomendations/index.md)
 
 ## Need help?
 

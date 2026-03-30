@@ -14,7 +14,7 @@ O método de importação CSV permite que você faça upload do seu catálogo de
 
 1. **Baixar Template**
    - Obtenha o template CSV no seu painel FashionAI clicando em Configurações > Gerenciador de Produtos
-   - Revise os campos obrigatórios e o formato em "Campos CSV"
+   - Revise os campos obrigatórios e o formato em "Campos da Planilha"
    - Se o formato CSV da sua empresa informar que o campo image_1 não é obrigatório, aprenda como fazer upload das imagens em [Upload de Imagens](./imagesUpload)
 
 2. **Preparar seus Dados**
@@ -35,7 +35,7 @@ O método de importação CSV permite que você faça upload do seu catálogo de
 
 ## Campos Obrigatórios
 
-Encontre os campos obrigatórios para sua empresa em Configurações > Gerenciador de Produtos > Campos CSV
+Encontre os campos obrigatórios para sua empresa em Configurações > Gerenciador de Produtos > Campos da Planilha
 
 ## Melhores Práticas
 

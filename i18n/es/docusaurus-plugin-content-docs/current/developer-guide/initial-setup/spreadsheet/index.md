@@ -14,7 +14,7 @@ El método de importación CSV te permite subir tu catálogo de productos usando
 
 1. **Descargar Plantilla**
    - Obtén la plantilla CSV desde tu panel de FashionAI haciendo clic en Configuración > Gestor de Productos
-   - Revisa los campos requeridos y el formato en "Campos CSV"
+   - Revisa los campos requeridos y el formato en "Campos de la Hoja de Cálculo"
    - Si el formato CSV de tu empresa indica que el campo image_1 no es obligatorio, aprende cómo cargar las imágenes en [Carga de Imágenes](./imagesUpload)
 
 2. **Preparar tus Datos**
@@ -35,7 +35,7 @@ El método de importación CSV te permite subir tu catálogo de productos usando
 
 ## Campos Requeridos
 
-Encuentra los campos requeridos para tu empresa en Configuración > Gestor de Productos > Campos CSV
+Encuentra los campos requeridos para tu empresa en Configuración > Gestor de Productos > Campos de la Hoja de Cálculo
 
 ## Mejores Prácticas
 

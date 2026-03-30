@@ -15,13 +15,15 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 const sidebars: SidebarsConfig = {
   userGuideSidebar: [
     'user-guide/getting-started',
+    'user-guide/import-products/index',
     {
       type: 'category',
-      label: 'Import Products',
+      label: 'CSV Imports',
       items: [
-        'user-guide/integrations/csv-imports/index',
-        'user-guide/integrations/csv-imports/products',
-        'user-guide/integrations/csv-imports/shop-the-look',
+        'user-guide/csv-imports/index',
+        'user-guide/csv-imports/products',
+        'user-guide/csv-imports/images-upload',
+        'user-guide/csv-imports/shop-the-look',
       ],
     },
     {
@@ -49,7 +51,30 @@ const sidebars: SidebarsConfig = {
         },
       ],
     },
-    'user-guide/profiling',
+    {
+      type: 'category',
+      label: 'Catalog',
+      items: [
+        'user-guide/vision-enrichment/index',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Style AI',
+      items: [
+        'user-guide/taxonomy/index',
+        'user-guide/taxonomy/versions',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'SEO Content',
+      items: [
+        'user-guide/seo-content/index',
+        'user-guide/seo-content/syncing',
+        'user-guide/seo-content/translating',
+      ],
+    },
     {
       type: 'category',
       label: 'Behaviors',
@@ -70,36 +95,13 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
-      label: 'SEO Content',
-      items: [
-        'user-guide/seo-content/index',
-        'user-guide/seo-content/syncing',
-        'user-guide/seo-content/translating',
-      ],
-    },
-    {
-      type: 'category',
-      label: 'Taxonomy',
-      items: [
-        'user-guide/taxonomy/index',
-        'user-guide/taxonomy/versions',
-      ],
-    },
-    {
-      type: 'category',
       label: 'Collections',
       items: [
         'user-guide/vm-builder/index',
         'user-guide/vm-builder/collections',
       ],
     },
-    {
-      type: 'category',
-      label: 'Vision Enrichment',
-      items: [
-        'user-guide/vision-enrichment/index',
-      ],
-    },
+    'user-guide/profiling',
   ],
 
   developerGuideSidebar: [

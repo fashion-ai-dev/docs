@@ -14,7 +14,7 @@ The CSV import method allows you to upload your product catalog using CSV files.
 
 1. **Download Template**
    - Get the CSV template from your FashionAI dashboard by clicking Settings > Products Manager
-   - Review the required fields and format in "CSV Fields"
+   - Review the required fields and format in "Spreadsheet Fields"
    - If your company's CSV format indicates that the image_1 field is not required, learn how to upload images in [Image Upload](./imagesUpload)
 
 2. **Prepare Your Data**
@@ -35,7 +35,7 @@ The CSV import method allows you to upload your product catalog using CSV files.
 
 ## Required Fields
 
-Find the required fields for your company in Settings > Products Manager > CSV Fields
+Find the required fields for your company in Settings > Products Manager > Spreadsheet Fields
 
 ## Best Practices
 

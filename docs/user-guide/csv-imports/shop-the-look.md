@@ -66,6 +66,11 @@ If a product reference is invalid or missing from the catalog, fix the CSV file 
 - using the wrong template
 - changing the CSV structure manually
 - file saved in a format other than CSV
+- encoding problems after exporting the file
+
+## Encoding tip
+
+If accented characters or special symbols look wrong in your file, upload the data to Google Sheets and download the CSV from there before importing. This often resolves encoding issues.
 
 ## Tips for better results
 
@@ -78,9 +83,5 @@ If a product reference is invalid or missing from the catalog, fix the CSV file 
 After your relationships are active, you can:
 
 - review them in your catalog experience
-- monitor engagement in [Behaviors](../../behaviors/index.md)
-- improve the experience with [Recommendations](../../recomendations/index.md)
-
-## Need help?
-
-If the import fails, review the import summary and contact **support@generativecrm.com** with the error details.
+- monitor engagement in [Behaviors](../behaviors/index.md)
+- improve the experience with [Recommendations](../recomendations/index.md)
