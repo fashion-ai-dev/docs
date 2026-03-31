@@ -125,6 +125,57 @@ Habilite el botón «Comprar el look» para mostrar, a través de un modal o un 
 
 > ⚠️ **Nota**: Aunque la API filtra los productos agotados, la validación del stock debe realizarse localmente antes de renderizar en el frontend.
 
+## Configuración de Recomendaciones
+
+El panel de configuración permite definir filtros para cada tipo de recomendación de forma individual. Acceda a la configuración y seleccione la pestaña correspondiente al tipo deseado: **Producto**, **Categoría** o **Comprar el Look**. Cada tipo debe guardarse por separado.
+
+En la página de **Personalización**, en **Guía para la Implementación de la API**, haga clic en el botón **Filtros de recomendación** para abrir el panel de configuración:
+
+![Página de Personalización con botón de filtros de recomendación](/img/tela1-recommendationFilter.png)
+
+El modal de configuración se mostrará con los filtros disponibles para cada tipo de recomendación:
+
+![Modal de configuración de recomendaciones](/img/tela2-recommendationFilter.png)
+
+### Filtros disponibles
+
+#### Tallas descontinuadas
+
+Cuando está activado, la IA prioriza productos que complementen la grilla de tallas del stock actual, recomendando artículos que ayuden a equilibrar la disponibilidad de tallas.
+
+#### Descuento
+
+Filtra los productos recomendados según el estado de descuento:
+
+| Opción | Descripción |
+|--------|-------------|
+| **Todos los productos** | Recomienda productos independientemente de si están en oferta o no |
+| **Solo con descuento** | Recomienda únicamente productos que tienen un descuento activo |
+| **Solo sin descuento** | Recomienda únicamente productos a precio completo |
+
+#### Rango de precios
+
+Define el rango de precios de los productos recomendados. Hay tres modos disponibles:
+
+| Modo | Descripción |
+|------|-------------|
+| **Rango personalizado** | Permite definir manualmente los valores mínimo y máximo mediante el control deslizante |
+| **Más de 10 mil** | Filtra únicamente productos con precio superior a R$ 10.000,00 |
+| **Todos los productos** | No aplica filtro de precio — recomienda productos de cualquier valor |
+
+#### Stock bajo
+
+Cuando está activado, la IA no incluirá productos con stock bajo en las recomendaciones. Aparecerá el campo **Límite**, que permite seleccionar el número que su empresa considere stock bajo (por ejemplo, `10` significa que los productos con 10 o menos unidades en stock no serán recomendados).
+
+### Cómo guardar
+
+1. Seleccione la pestaña del tipo de recomendación que desea configurar (**Producto**, **Categoría** o **Comprar el Look**)
+2. Ajuste los filtros según lo deseado
+3. Haga clic en **Guardar** para aplicar la configuración de ese tipo
+4. Para restablecer los filtros, haga clic en **Limpiar**
+
+> ⚠️ **Nota**: Cada tipo de recomendación tiene su propia configuración. Los cambios realizados en una pestaña no afectan a las demás. Asegúrese de guardar cada tipo individualmente.
+
 ## Seguridad y CORS
 
 Para proteger el token de autenticación (X-FashionAI-APP-Token), bloqueamos las solicitudes directas del navegador. Si se realiza una llamada a la API directamente desde el frontend, el navegador bloqueará esta solicitud con un error CORS.

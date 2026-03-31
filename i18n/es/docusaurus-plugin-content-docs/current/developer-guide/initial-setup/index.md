@@ -7,8 +7,8 @@ Comience con FashionAI configurando su integración y configurando su catálogo 
 ### [Integraciones de Plataforma](./integrations)
 Guías de configuración rápida para plataformas de comercio electrónico populares como Shopify y VTEX.
 
-### [Importación de Hoja de Cálculo](./spreadsheet)
-Importe su catálogo de productos usando plantillas de hojas de cálculo para cargas masivas fáciles.
+### [Importación CSV](./spreadsheet)
+Importe su catálogo de productos usando plantillas CSV para cargas masivas fáciles.
 
 ## Proceso de Configuración
 

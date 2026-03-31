@@ -5,7 +5,7 @@ sidebar_position: 5
 
 # Product Collections and Subsets (Slices)
 
-**Collections** allows you to create and organize product collections using **AI, spreadsheets, or manual selection**.
+**Collections** allows you to create and organize product collections using **AI, CSV files, or manual selection**.
 Each collection can contain subsets called **slices**, which organize products according to defined criteria.
 
 ## 1. Creating a Collection
@@ -34,16 +34,16 @@ The collection will be listed on the main screen, showing:
 > For a slice without expiration, use a **distant end date**.
 
 ### Slice status (based on dates)
-- 🟩 **Green – Active** (between start and end date).
-- 🟨 **Yellow – Scheduled** (hasn't started yet).
-- 🟥 **Red – Expired** (end date has passed).
+- ðŸŸ© **Green â€“ Active** (between start and end date).
+- ðŸŸ¨ **Yellow â€“ Scheduled** (hasn't started yet).
+- ðŸŸ¥ **Red â€“ Expired** (end date has passed).
 
 ## 3. Product Management in Slice
 
 Within each slice you can:
-- ➕ **Add products**
-- ➖ **Remove products**
-- 🔀 **Reposition products** (define the order/`position`)
+- âž• **Add products**
+- âž– **Remove products**
+- ðŸ”€ **Reposition products** (define the order/`position`)
 
 **Limit:** each slice can contain **up to 500 products**.
 
@@ -100,12 +100,11 @@ X-FashionAI-APP-Token: <app-token>
 
 ## 6. Restrictions
 
-- ✅ Maximum of **500 products per slice**.
-- ✅ A slice can be created **without expiration** (by setting a distant end date).
-- ❌ No active slice → **the API doesn't return products** (HTTP 404).
+- âœ… Maximum of **500 products per slice**.
+- âœ… A slice can be created **without expiration** (by setting a distant end date).
+- âŒ No active slice â†’ **the API doesn't return products** (HTTP 404).
 
 ## 7. Best Practice Notes
 
 - Name collections and slices clearly to facilitate maintenance.
 - Avoid keeping more than one slice active at the same time, to reduce ambiguities.  
-

@@ -7,8 +7,8 @@ Get started with FashionAI by setting up your integration and configuring your p
 ### [Platform Integrations](./integrations)
 Quick setup guides for popular e-commerce platforms like Shopify and VTEX.
 
-### [Spreadsheet Import](./spreadsheet)
-Import your product catalog using spreadsheet templates for easy bulk uploads.
+### [CSV Import](./spreadsheet)
+Import your product catalog using CSV templates for easy bulk uploads.
 
 ## Setup Process
 

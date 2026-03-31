@@ -1,10 +1,10 @@
-# Importación por Hoja de Cálculo
+# Importación CSV
 
-Importa tu catálogo de productos usando plantillas de hojas de cálculo para cargas masivas facilitadas.
+Importa tu catálogo de productos usando plantillas CSV para cargas masivas facilitadas.
 
 ## Descripción General
 
-El método de importación por hoja de cálculo te permite subir tu catálogo de productos usando archivo CSV. Esto es ideal para:
+El método de importación CSV te permite subir tu catálogo de productos usando archivos CSV. Esto es ideal para:
 - Importaciones masivas iniciales de productos
 - Actualizaciones de catálogo de productos
 - Gestión de catálogo offline
@@ -13,9 +13,9 @@ El método de importación por hoja de cálculo te permite subir tu catálogo de
 ## Comenzando
 
 1. **Descargar Plantilla**
-   - Obtén la plantilla de hoja de cálculo desde tu panel de FashionAI haciendo clic en Configuración > Gestor de Productos
+   - Obtén la plantilla CSV desde tu panel de FashionAI haciendo clic en Configuración > Gestor de Productos
    - Revisa los campos requeridos y el formato en "Campos de la Hoja de Cálculo"
-   - Si el formato de la hoja de cálculo de tu empresa indica que el campo image_1 no es obligatorio, aprende cómo cargar las imágenes en [Carga de Imágenes](./imagesUpload)
+   - Si el formato CSV de tu empresa indica que el campo image_1 no es obligatorio, aprende cómo cargar las imágenes en [Carga de Imágenes](./imagesUpload)
 
 2. **Preparar tus Datos**
    - Completa la información de los productos
@@ -25,13 +25,13 @@ El método de importación por hoja de cálculo te permite subir tu catálogo de
 3. **Subir Archivo**
    - Inicia sesión en tu panel
    - Navega a Configuración > Gestor de Productos
-   - Sube tu archivo de hoja de cálculo
+   - Sube tu archivo CSV
 
 4. **Validar Importación**
    - Revisa el resumen de importación
    - El resultado de la importación puede ser error total (el error aparece detallado en la lista de importaciones), parcial (con la lista de productos no importados y el porqué) o éxito total (todos los productos fueron importados)
    - Corrige cualquier error
-   - Reimporta la hoja de cálculo, los productos que ya estaban con éxito solo serán actualizados, no duplicados
+   - Reimporta el archivo CSV, los productos que ya estaban con éxito solo serán actualizados, no duplicados
 
 ## Campos Requeridos
 
@@ -54,4 +54,4 @@ Problemas comunes y soluciones:
 
 ## Soporte
 
-¿Necesitas ayuda con las importaciones de hojas de cálculo? Contacta **support@generativecrm.com**
+¿Necesitas ayuda con las importaciones CSV? Contacta **support@generativecrm.com**

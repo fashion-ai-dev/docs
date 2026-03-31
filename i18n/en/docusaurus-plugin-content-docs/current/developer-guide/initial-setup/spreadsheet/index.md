@@ -1,10 +1,10 @@
-# Spreadsheet Import
+# CSV Import
 
-Import your product catalog using spreadsheet templates for easy bulk uploads.
+Import your product catalog using CSV templates for easy bulk uploads.
 
 ## Overview
 
-The spreadsheet import method allows you to upload your product catalog using CSV file. This is ideal for:
+The CSV import method allows you to upload your product catalog using CSV files. This is ideal for:
 - Initial bulk product imports
 - Product catalog updates
 - Offline catalog management
@@ -13,9 +13,9 @@ The spreadsheet import method allows you to upload your product catalog using CS
 ## Getting Started
 
 1. **Download Template**
-   - Get the spreadsheet template from your FashionAI dashboard by clicking Settings > Products Manager
+   - Get the CSV template from your FashionAI dashboard by clicking Settings > Products Manager
    - Review the required fields and format in "Spreadsheet Fields"
-   - If your company's spreadsheet format indicates that the image_1 field is not required, learn how to upload images in [Image Upload](./imagesUpload)
+   - If your company's CSV format indicates that the image_1 field is not required, learn how to upload images in [Image Upload](./imagesUpload)
 
 2. **Prepare Your Data**
    - Fill in product information
@@ -25,13 +25,13 @@ The spreadsheet import method allows you to upload your product catalog using CS
 3. **Upload File**
    - Log in to your dashboard
    - Navigate to Settings > Products Manager
-   - Upload your spreadsheet file
+   - Upload your CSV file
 
 4. **Validate Import**
    - Review import summary
    - Import result can be total error (error appears detailed in imports list), partial (with list of non-imported products and why) or total success (all products were imported)
    - Fix any errors
-   - Re-import the spreadsheet, products that were already successful will only be updated, not duplicated
+   - Re-import the CSV file, products that were already successful will only be updated, not duplicated
 
 ## Required Fields
 
@@ -54,4 +54,4 @@ Common issues and solutions:
 
 ## Support
 
-Need help with spreadsheet imports? Contact **support@generativecrm.com**
+Need help with CSV imports? Contact **support@generativecrm.com**

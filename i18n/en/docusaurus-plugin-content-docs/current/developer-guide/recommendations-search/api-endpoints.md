@@ -125,6 +125,57 @@ Enable the "shop the look" button to display, via modal or drawer, additional pr
 
 > ⚠️ **Note**: Although the API filters out-of-stock products, stock validation should be done locally before rendering in the frontend.
 
+## Recommendation Settings
+
+The settings panel allows you to define filters for each recommendation type individually. Access the settings and select the tab for the desired type: **Product**, **Category**, or **Shop the Look**. Each type must be saved separately.
+
+On the **Personalization** page, under **API Implementation Guide**, click the **Recommendation filters** button to open the settings panel:
+
+![Personalization page with recommendation filters button](/img/tela1-recommendationFilter.png)
+
+The settings modal will appear with the available filters for each recommendation type:
+
+![Recommendation settings modal](/img/tela2-recommendationFilter.png)
+
+### Available Filters
+
+#### Full Size Run
+
+When enabled, the AI prioritizes products that complement the current stock size grid, recommending items that help balance size availability.
+
+#### Discount
+
+Filters recommended products based on discount status:
+
+| Option | Description |
+|--------|-------------|
+| **All products** | Recommends products regardless of whether they are on sale or not |
+| **Only with discount** | Recommends only products that have an active discount |
+| **Only without discount** | Recommends only full-price products |
+
+#### Price Range
+
+Defines the price range of recommended products. Three modes are available:
+
+| Mode | Description |
+|------|-------------|
+| **Custom range** | Allows you to manually set the minimum and maximum values using the slider |
+| **Above 10 thousand** | Filters only products priced above R$ 10,000.00 |
+| **All products** | No price filter applied — recommends products at any price |
+
+#### Low Stock
+
+When enabled, the AI will not include low-stock products in recommendations. The **Limit** field will appear, allowing you to select the number your company considers low stock (for example, `10` means products with 10 or fewer units in stock will not be recommended).
+
+### How to Save
+
+1. Select the tab for the recommendation type you want to configure (**Product**, **Category**, or **Shop the Look**)
+2. Adjust the filters as desired
+3. Click **Save** to apply the settings for that type
+4. To reset the filters, click **Clear**
+
+> ⚠️ **Note**: Each recommendation type has its own configuration. Changes made in one tab do not affect the others. Make sure to save each type individually.
+
 ## Security and CORS
 
 To protect the authentication token (X-FashionAI-APP-Token), we block direct browser requests. If an API call is made directly from the frontend, the browser will block this request with a CORS error.
