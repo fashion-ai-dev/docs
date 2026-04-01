@@ -97,10 +97,10 @@ Se houver muitos tickets na lista, use os filtros para encontrar mais rápido o 
 
 Filtros disponíveis:
 
-- status
-- prioridade
-- assunto
-- descrição
+- Todos
+- Abertos
+- Em atendimento
+- Finalizados
 
 ## Como funciona a paginação
 
