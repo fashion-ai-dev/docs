@@ -17,12 +17,19 @@ Exemplos comuns:
 - problema em sincronização ou processamento
 - solicitação que precisa de contexto, prints ou histórico
 
+:::tip Resumo rápido
+- Use tickets para falar com o suporte e acompanhar o andamento de chamados.
+- Você pode filtrar, responder e acompanhar SLA por prioridade.
+:::
+
 ## Como a tela está organizada
 
 Ao entrar na tela, você verá a página dividida em duas áreas principais:
 
-- lado esquerdo: lista de tickets, filtros e paginação
-- lado direito: conversa do ticket selecionado, detalhes e campo para responder
+| Área | Descrição |
+| --- | --- |
+| lado esquerdo | lista de tickets, filtros e paginação |
+| lado direito | conversa do ticket selecionado, detalhes e campo para responder |
 
 No topo da tela, também existe o botão `Atualizar` para recarregar as informações.
 
@@ -50,8 +57,10 @@ Para criar um ticket:
 
 ### O que é obrigatório
 
-- `Assunto` é obrigatório
-- você precisa enviar pelo menos uma `mensagem` ou uma `imagem`
+| Campo | Regra |
+| --- | --- |
+| `Assunto` | é obrigatório |
+| `mensagem` ou `imagem` | você precisa enviar pelo menos uma opção |
 
 Isso significa que não é necessário preencher texto e imagem ao mesmo tempo, mas um dos dois precisa existir.
 
@@ -63,9 +72,11 @@ Isso significa que não é necessário preencher texto e imagem ao mesmo tempo, 
 
 ### Regras para imagens
 
-- até 3 imagens por envio
-- formatos aceitos: `JPG`, `PNG` e `WEBP`
-- tamanho máximo por arquivo: `2MB`
+| Regra | Valor |
+| --- | --- |
+| limite por envio | até 3 imagens |
+| formatos aceitos | `JPG`, `PNG` e `WEBP` |
+| tamanho máximo por arquivo | `2MB` |
 
 ## Como responder um ticket
 
@@ -78,16 +89,20 @@ Para continuar uma conversa em um ticket:
 
 ## Regras importantes ao responder
 
+:::note
 - não é permitido enviar resposta vazia
 - tickets com status `finalized` não aceitam novas mensagens
+:::
 
 ## Como acompanhar o status do ticket
 
 Cada ticket pode estar em um destes status:
 
-- `open`: ticket aberto
-- `atendimento`: ticket em tratamento pelo suporte
-- `finalized`: ticket encerrado
+| Status | Significado |
+| --- | --- |
+| `open` | ticket aberto |
+| `atendimento` | ticket em tratamento pelo suporte |
+| `finalized` | ticket encerrado |
 
 No ticket selecionado, você consegue ver as informações principais da solicitação, como assunto, data de criação, prioridade atual e histórico da conversa.
 
@@ -104,8 +119,10 @@ Filtros disponíveis:
 
 ## Como funciona a paginação
 
-- cada página mostra até 20 tickets
-- use `Anterior` e `Próxima` para navegar entre as páginas
+| Item | Detalhe |
+| --- | --- |
+| quantidade por página | cada página mostra até 20 tickets |
+| navegação | use `Anterior` e `Próxima` para navegar entre as páginas |
 
 ## Mensagens e anexos
 
@@ -121,9 +138,11 @@ Os anexos aparecem no histórico da conversa como botões. Ao clicar, o arquivo 
 
 Os tickets seguem o SLA abaixo:
 
-- `Crítica`: até 4 horas úteis
-- `Alta`: até 12 horas úteis
-- `Baixa`: até 24 horas úteis
+| Prioridade | SLA |
+| --- | --- |
+| `Crítica` | até 4 horas úteis |
+| `Alta` | até 12 horas úteis |
+| `Baixa` | até 24 horas úteis |
 
 ## Erros mais comuns
 
@@ -147,8 +166,9 @@ A imagem enviada ultrapassa o limite de `2MB`.
 
 Para agilizar o atendimento:
 
+:::tip
 - use um assunto direto, como `Erro ao subir csv na plataforma`
 - explique o que aconteceu, quando aconteceu e se possível a mensagem de erro que apareceu.
 - adicione prints claros e atualizados quando isso ajudar no entendimento
 - escolha a prioridade correta para evitar atrasos ou escalonamentos desnecessários
-
+:::
