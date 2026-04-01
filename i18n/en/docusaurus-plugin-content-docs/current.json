@@ -10,5 +10,9 @@
   "sidebar.developerGuideSidebar.category.Import Products.imagesUpload": {
     "message": "Image Upload",
     "description": "The label for category Import Products images upload in sidebar developerGuideSidebar"
+  },
+  "sidebar.userGuideSidebar.category.CSV Imports": {
+    "message": "CSV Imports",
+    "description": "The label for category CSV Imports in sidebar userGuideSidebar"
   }
 }

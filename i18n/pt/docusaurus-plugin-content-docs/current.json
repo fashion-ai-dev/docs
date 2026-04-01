@@ -19,6 +19,10 @@
     "message": "Importar Produtos",
     "description": "The label for category Import Products in sidebar userGuideSidebar"
   },
+  "sidebar.userGuideSidebar.category.CSV Imports": {
+    "message": "Importações CSV",
+    "description": "The label for category CSV Imports in sidebar userGuideSidebar"
+  },
   "sidebar.userGuideSidebar.category.behaviors-integrations": {
     "message": "Integrações",
     "description": "The label for category Integrations in sidebar userGuideSidebar"

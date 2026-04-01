@@ -34,6 +34,7 @@ const sidebars: SidebarsConfig = {
         'user-guide/integrations/shopify',
       ],
     },
+    'user-guide/tickets',
     {
       type: 'category',
       label: 'Recommendations',
