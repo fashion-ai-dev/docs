@@ -6,6 +6,10 @@ sidebar_position: 5
 
 Use the tickets area to talk to support, follow replies, and organize requests by priority and status.
 
+![Tickets screen](/img/tickets.png)
+
+To open this area, just click the support icon in the bottom-right corner of the platform.
+
 ## When to use tickets
 
 Open a ticket when you need help with a platform operation, want to report a bug, or need to follow up on a request with the support team.
