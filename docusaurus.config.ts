@@ -117,13 +117,6 @@ const config: Config = {
           type: 'search',
           position: 'right',
         },
-        {
-          href: 'https://github.com/fashion-ai-dev/docs',
-          className: 'header-github-link',
-          'aria-label': 'GitHub repository',
-          position: 'right',
-          rel: 'noopener noreferrer',
-        },
       ],
     },
     footer: {
