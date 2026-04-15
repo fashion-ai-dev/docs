@@ -86,5 +86,9 @@
   "sidebar.developerGuideSidebar.category.Customization Reference": {
     "message": "Referência de Personalização",
     "description": "The label for category Customization Reference in sidebar developerGuideSidebar"
+  },
+  "sidebar.developerGuideSidebar.similar-products": {
+    "message": "Produtos Similares",
+    "description": "The label for the Similar Products endpoint page in sidebar developerGuideSidebar"
   }
 }

@@ -178,6 +178,7 @@ const sidebars: SidebarsConfig = {
         'developer-guide/analytics/session-segments',
       ],
     },
+    'developer-guide/similar-products',
   ],
 };
 
