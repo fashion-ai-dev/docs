@@ -6,6 +6,10 @@ sidebar_position: 5
 
 Use a área de tickets para falar com o suporte, acompanhar respostas e organizar chamados por prioridade e status.
 
+![Tela de tickets](/img/tickets.png)
+
+Para abrir essa área, é só clicar no ícone de suporte no canto inferior direito da plataforma.
+
 ## Quando usar tickets
 
 Abra um ticket quando precisar de ajuda com alguma operação da plataforma, reportar um erro ou acompanhar uma solicitação com o time de suporte.
