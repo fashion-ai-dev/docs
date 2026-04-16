@@ -28,6 +28,12 @@ https://catalog.api.fashionai.dev/api/v1/products/protected/similar
 | `accept` | `application/json` | Sets the expected format of the response |
 | `X-FashionAI-APP-Token` | `{token}` | Application authentication token |
 
+### Query Parameters
+
+| Parameter | Type | Required | Description |
+|-----------|------|----------|-----------|
+| `limit` | `integer` | No | Maximum number of products returned. Minimum: `1` |
+
 ## Request Body
 
 ### Structure
@@ -78,7 +84,7 @@ https://catalog.api.fashionai.dev/api/v1/products/protected/similar
 
 ```bash
 curl -X 'POST' \
-  'https://catalog.api.fashionai.dev/api/v1/products/protected/similar' \
+  'https://catalog.api.fashionai.dev/api/v1/products/protected/similar?limit=10' \
   -H 'accept: application/json' \
   -H 'X-FashionAI-APP-Token: YOUR_TOKEN_HERE' \
   -H 'Content-Type: application/json' \
