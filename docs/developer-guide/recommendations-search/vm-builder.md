@@ -34,16 +34,16 @@ The collection will be listed on the main screen, showing:
 > For a slice without expiration, use a **distant end date**.
 
 ### Slice status (based on dates)
-- ðŸŸ© **Green â€“ Active** (between start and end date).
-- ðŸŸ¨ **Yellow â€“ Scheduled** (hasn't started yet).
-- ðŸŸ¥ **Red â€“ Expired** (end date has passed).
+- 🟩 **Green – Active** (between start and end date).
+- 🟨 **Yellow – Scheduled** (hasn't started yet).
+- 🟥 **Red – Expired** (end date has passed).
 
 ## 3. Product Management in Slice
 
 Within each slice you can:
-- âž• **Add products**
-- âž– **Remove products**
-- ðŸ”€ **Reposition products** (define the order/`position`)
+- ➕ **Add products**
+- ➖ **Remove products**
+- 🔀 **Reposition products** (define the order/`position`)
 
 **Limit:** each slice can contain **up to 500 products**.
 
@@ -100,9 +100,9 @@ X-FashionAI-APP-Token: <app-token>
 
 ## 6. Restrictions
 
-- âœ… Maximum of **500 products per slice**.
-- âœ… A slice can be created **without expiration** (by setting a distant end date).
-- âŒ No active slice â†’ **the API doesn't return products** (HTTP 404).
+- ✅ Maximum of **500 products per slice**.
+- ✅ A slice can be created **without expiration** (by setting a distant end date).
+- ❌ No active slice → **the API doesn't return products** (HTTP 404).
 
 ## 7. Best Practice Notes
 
