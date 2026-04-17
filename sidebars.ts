@@ -179,6 +179,7 @@ const sidebars: SidebarsConfig = {
       ],
     },
     'developer-guide/similar-products',
+    'developer-guide/sales-ranking',
   ],
 };
 
