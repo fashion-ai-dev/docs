@@ -125,6 +125,33 @@ Habilite o botão “Compre o look” para exibir, por meio de modal ou gaveta, 
 
 > ⚠️ **Observação**: embora a API filtre produtos fora de estoque, a validação do estoque deve ser feita localmente antes da renderização no front-end.
 
+### Evento customShelf
+
+Retorna uma lista de produtos personalizada com base no comportamento de navegação do usuário durante a sessão. Use este evento para popular prateleiras customizadas sem vincular a recomendação a um produto ou categoria específica.
+
+#### Corpo da solicitação
+
+```json
+{
+  "userId": 90,              // opcional - identificador do usuário, se autenticado
+  "sessionId": "sess456",    // obrigatório
+  "eventType": "customShelf", // obrigatório
+  "data": {
+    "id": ""                 // obrigatório - enviar como string vazia
+  }
+}
+```
+
+#### Resposta esperada
+
+```json
+{
+  "products": ["product-id-1", "product-id-2", "product-id-3"]
+}
+```
+
+> ⚠️ **Observação**: a resposta será vazia enquanto a IA não tiver dados suficientes sobre o usuário e/ou sessão. Nestes casos, organize a vitrine conforme a solução nativa da sua plataforma.
+
 ## Configurações de Recomendação
 
 O painel de configurações permite definir filtros para cada tipo de recomendação individualmente. Acesse as configurações e selecione a aba correspondente ao tipo desejado: **Produto**, **Categoria** ou **Compre o Look**. Cada tipo deve ser salvo separadamente.

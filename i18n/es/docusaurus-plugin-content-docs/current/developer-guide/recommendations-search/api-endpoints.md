@@ -125,6 +125,33 @@ Habilite el botón «Comprar el look» para mostrar, a través de un modal o un 
 
 > ⚠️ **Nota**: Aunque la API filtra los productos agotados, la validación del stock debe realizarse localmente antes de renderizar en el frontend.
 
+### Evento customShelf
+
+Devuelve una lista de productos personalizada basada en el comportamiento de navegación del usuario durante la sesión. Use este evento para poblar estantes personalizados sin vincular la recomendación a un producto o categoría específica.
+
+#### Cuerpo de la solicitud
+
+```json
+{
+  "userId": 90,              // opcional: identificador de usuario si está autenticado
+  "sessionId": "sess456",    // obligatorio
+  "eventType": "customShelf", // obligatorio
+  "data": {
+    "id": ""                 // obligatorio: enviar como cadena vacía
+  }
+}
+```
+
+#### Respuesta esperada
+
+```json
+{
+  "products": ["product-id-1", "product-id-2", "product-id-3"]
+}
+```
+
+> ⚠️ **Nota**: La respuesta estará vacía mientras la IA no tenga datos suficientes sobre el usuario y/o la sesión. En estos casos, organice la tienda según la solución nativa de su plataforma.
+
 ## Configuración de Recomendaciones
 
 El panel de configuración permite definir filtros para cada tipo de recomendación de forma individual. Acceda a la configuración y seleccione la pestaña correspondiente al tipo deseado: **Producto**, **Categoría** o **Comprar el Look**. Cada tipo debe guardarse por separado.

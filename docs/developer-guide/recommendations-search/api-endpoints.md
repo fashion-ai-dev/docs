@@ -125,6 +125,33 @@ Enable the "shop the look" button to display, via modal or drawer, additional pr
 
 > ⚠️ **Note**: Although the API filters out-of-stock products, stock validation should be done locally before rendering in the frontend.
 
+### Custom Shelf Event
+
+Returns a personalized product list based on the user's browsing behavior during the session. Use this event to populate custom shelves without tying the recommendation to a specific product or category.
+
+#### Request Body
+
+```json
+{
+  "userId": 90,              // optional - user identifier if authenticated
+  "sessionId": "sess456",    // required
+  "eventType": "customShelf", // required
+  "data": {
+    "id": ""                 // required - send as empty string
+  }
+}
+```
+
+#### Expected Response
+
+```json
+{
+  "products": ["product-id-1", "product-id-2", "product-id-3"]
+}
+```
+
+> ⚠️ **Note**: This response will be empty while the AI doesn't have sufficient data about the user and/or session. In these cases, organize the storefront according to your platform's native solution.
+
 ## Recommendation Settings
 
 The settings panel allows you to define filters for each recommendation type individually. Access the settings and select the tab for the desired type: **Product**, **Category**, or **Shop the Look**. Each type must be saved separately.
