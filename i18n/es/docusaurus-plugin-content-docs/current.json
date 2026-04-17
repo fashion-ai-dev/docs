@@ -90,5 +90,9 @@
   "sidebar.developerGuideSidebar.similar-products": {
     "message": "Productos Similares",
     "description": "The label for the Similar Products endpoint page in sidebar developerGuideSidebar"
+  },
+  "sidebar.developerGuideSidebar.sales-ranking": {
+    "message": "Más Vendidos",
+    "description": "The label for the Sales Ranking endpoint page in sidebar developerGuideSidebar"
   }
 }
