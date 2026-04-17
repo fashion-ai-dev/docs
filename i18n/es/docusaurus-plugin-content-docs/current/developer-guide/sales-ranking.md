@@ -32,7 +32,7 @@ https://catalog.api.fashionai.dev/api/v1/products/protected/sales-ranking
 |-----------|------|-------------|-----------|
 | `categoryId` | `string` | No | ID de categoría para filtrar el ranking. Si se omite, devuelve el ranking global |
 
-## Respuesta
+## Respuesta (200)
 
 ### Estructura
 
