@@ -46,7 +46,7 @@ This event is a strong signal of user intention and helps the AI map user intent
 
 ```json
 {
-  "userId": 90,              // optional - user identifier if authenticated
+  "userId": "90",            // optional - user identifier if authenticated
   "sessionId": "sess456",    // required
   "eventType": "productView", // required
   "data": {
@@ -77,7 +77,7 @@ This event is a strong signal of user intention and helps the AI map user intent
 
 ```json
 {
-  "userId": 90,              // optional - user identifier if authenticated
+  "userId": "90",            // optional - user identifier if authenticated
   "sessionId": "sess456",    // required
   "eventType": "categoryView", // required
   "data": {
@@ -106,7 +106,7 @@ Enable the "shop the look" button to display, via modal or drawer, additional pr
 
 ```json
 {
-  "userId": 90,              // optional - user identifier if authenticated
+  "userId": "90",            // optional - user identifier if authenticated
   "sessionId": "sess456",    // required
   "eventType": "shopTheLook", // required
   "data": {
@@ -133,7 +133,7 @@ Returns a personalized product list based on the user's browsing behavior during
 
 ```json
 {
-  "userId": 90,              // optional - user identifier if authenticated
+  "userId": "90",            // optional - user identifier if authenticated
   "sessionId": "sess456",    // required
   "eventType": "customShelf", // required
   "data": {

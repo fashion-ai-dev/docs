@@ -46,7 +46,7 @@ Este evento es una señal clara de la intención del usuario y ayuda a la IA a m
 
 ```json
 {
-  "userId": 90,              // opcional: identificador de usuario si está autenticado
+  "userId": "90",            // opcional: identificador de usuario si está autenticado
   "sessionId": "sess456",    // obligatorio
   "eventType": "productView", // obligatorio
   "data": {
@@ -77,7 +77,7 @@ Este evento es una señal clara de la intención del usuario y ayuda a la IA a m
 
 ```json
 {
-  "userId": 90,              // opcional: identificador de usuario si está autenticado
+  "userId": "90",            // opcional: identificador de usuario si está autenticado
   "sessionId": "sess456",    // obligatorio
   "eventType": "categoryView", // obligatorio
   "data": {
@@ -106,7 +106,7 @@ Habilite el botón «Comprar el look» para mostrar, a través de un modal o un 
 
 ```json
 {
-  "userId": 90,              // opcional: identificador de usuario si está autenticado
+  "userId": "90",            // opcional: identificador de usuario si está autenticado
   "sessionId": "sess456",    // obligatorio
   "eventType": "shopTheLook", // obligatorio
   "data": {
@@ -133,7 +133,7 @@ Devuelve una lista de productos personalizada basada en el comportamiento de nav
 
 ```json
 {
-  "userId": 90,              // opcional: identificador de usuario si está autenticado
+  "userId": "90",            // opcional: identificador de usuario si está autenticado
   "sessionId": "sess456",    // obligatorio
   "eventType": "customShelf", // obligatorio
   "data": {
