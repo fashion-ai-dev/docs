@@ -85,7 +85,6 @@ curl -X 'GET' \
 |--------|-----------|
 | `200` | Éxito. Devuelve el ranking de más vendidos |
 | `401` | No autorizado. Token inválido o expirado |
-| `403` | Prohibido. Permisos insuficientes |
 | `500` | Error interno del servidor |
 
 ## Notas Importantes

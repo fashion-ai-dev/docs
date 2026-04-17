@@ -85,7 +85,6 @@ curl -X 'GET' \
 |--------|-----------|
 | `200` | Success. Returns the sales ranking |
 | `401` | Unauthorized. Invalid or expired token |
-| `403` | Forbidden. Insufficient permissions |
 | `500` | Internal server error |
 
 ## Important Notes
